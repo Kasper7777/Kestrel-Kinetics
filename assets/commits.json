@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-06-20T12:44:01.961Z",
-  "commitCount": 1182,
+  "generatedAt": "2026-06-20T14:29:10.345Z",
+  "commitCount": 1185,
   "commits": [
+    {
+      "shortSha": "dd98a83",
+      "message": "feat: Add audio handling for dog NPC actions including bite and movement sounds",
+      "author": "Kasper",
+      "date": "2026-06-20T13:48:06Z"
+    },
+    {
+      "shortSha": "a5daca4",
+      "message": "refactor: Remove Continuous Collision Detection from DiskMesh and clean up logging",
+      "author": "Kasper",
+      "date": "2026-06-20T13:23:45Z"
+    },
+    {
+      "shortSha": "1dd08b4",
+      "message": "feat: Update persistent rank system to align thresholds and caching behavior",
+      "author": "Kasper",
+      "date": "2026-06-19T23:01:56Z"
+    },
     {
       "shortSha": "91700dd",
       "message": "feat: Refactor persistent rank handling to improve clarity and efficiency",
