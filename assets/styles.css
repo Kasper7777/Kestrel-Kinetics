@@ -105,6 +105,7 @@ img {
 
 .brand-name {
   display: block;
+  max-width: 24rem;
   color: var(--text);
   font-weight: 900;
   line-height: 1.05;
@@ -238,9 +239,13 @@ p {
 
 h1 {
   margin-bottom: 1rem;
-  font-size: clamp(3.7rem, 12vw, 9.6rem);
-  line-height: 0.82;
+  font-size: clamp(3.2rem, 10vw, 8.8rem);
+  line-height: 0.86;
   text-transform: uppercase;
+}
+
+.studio-hero h1 {
+  max-width: 12ch;
 }
 
 h2 {
@@ -667,7 +672,7 @@ dd {
   }
 
   .brand-name {
-    max-width: 12rem;
+    max-width: 16rem;
   }
 
   .hero {
