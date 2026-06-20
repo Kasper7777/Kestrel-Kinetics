@@ -5,10 +5,9 @@ const commitStatus = document.querySelector("[data-commit-status]");
 const commitList = document.querySelector("[data-commit-list]");
 const commitFeedPath = document.body?.dataset.commitFeed || "assets/commits.json";
 const commitRefreshInterval = 5 * 60 * 1000;
-const galleryGrid = document.querySelector("[data-gallery-grid]");
 const galleryStatus = document.querySelector("[data-gallery-status]");
 const galleryFeedPath = document.body?.dataset.galleryFeed;
-const gallerySlots = [...document.querySelectorAll("[data-gallery-slot]")];
+const galleryBlocks = [...document.querySelectorAll("[data-gallery-block]")];
 
 const syncHeader = () => {
   header?.classList.toggle("is-scrolled", window.scrollY > 12);
@@ -80,39 +79,28 @@ const normaliseGallerySrc = (image) => {
 
 const isCoverImage = (image) => /(^|\/)title\.[a-z0-9]+$/i.test(image?.src || "");
 
-const createGalleryItem = (image, index) => {
-  const figure = document.createElement("figure");
+const createMagazineImage = (image, index) => {
   const img = document.createElement("img");
-  const caption = document.createElement("figcaption");
-  const tileClass = index % 7 === 0 ? "is-large" : index % 5 === 0 ? "is-wide" : "";
+  const classes = ["magazine-image"];
 
-  figure.className = ["gallery-item", tileClass].filter(Boolean).join(" ");
-  img.src = normaliseGallerySrc(image);
-  img.alt = image.alt || image.title || "Cyber Bully: 502 Bad Gateway development image";
-  img.loading = "lazy";
-  caption.textContent = image.title || "Cyber Bully: 502 Bad Gateway";
-
-  figure.append(img, caption);
-  return figure;
-};
-
-const fillGallerySlot = (slot, image) => {
-  slot.replaceChildren();
-
-  if (!image) {
-    slot.hidden = true;
-    return;
+  if (index % 2 === 1) {
+    classes.push("is-right");
+  }
+  if (index === 0) {
+    classes.push("is-featured");
   }
 
-  const img = document.createElement("img");
-  const caption = document.createElement("figcaption");
-
-  slot.hidden = false;
+  img.className = classes.join(" ");
   img.src = normaliseGallerySrc(image);
   img.alt = image.alt || image.title || "Cyber Bully: 502 Bad Gateway development image";
   img.loading = "lazy";
-  caption.textContent = image.title || "Cyber Bully: 502 Bad Gateway";
-  slot.append(img, caption);
+  return img;
+};
+
+const clearGalleryBlocks = () => {
+  galleryBlocks.forEach((block) => {
+    block.querySelectorAll(".magazine-image").forEach((img) => img.remove());
+  });
 };
 
 const renderGallery = (feed) => {
@@ -120,32 +108,28 @@ const renderGallery = (feed) => {
   const editorialImages = images.filter((image) => !isCoverImage(image));
   const displayImages = editorialImages.length ? editorialImages : images;
 
+  clearGalleryBlocks();
+
   if (!displayImages.length) {
     galleryStatus.textContent = "Add images to assets/images/cyber-bully/gallery and push them to publish a gallery.";
     galleryStatus.hidden = false;
-    gallerySlots.forEach((slot) => fillGallerySlot(slot));
-    galleryGrid?.replaceChildren();
-    if (galleryGrid) {
-      galleryGrid.hidden = true;
-    }
     return;
   }
 
   galleryStatus.textContent = "";
   galleryStatus.hidden = true;
-  gallerySlots.forEach((slot, index) => fillGallerySlot(slot, displayImages[index]));
 
-  if (!galleryGrid) {
-    return;
-  }
-
-  const remainingImages = displayImages.slice(gallerySlots.length);
-  galleryGrid.hidden = !remainingImages.length;
-  galleryGrid.replaceChildren(...remainingImages.map(createGalleryItem));
+  displayImages.forEach((image, index) => {
+    const block = galleryBlocks[index % galleryBlocks.length];
+    if (!block) {
+      return;
+    }
+    block.prepend(createMagazineImage(image, index));
+  });
 };
 
 const loadGallery = async () => {
-  if ((!galleryGrid && !gallerySlots.length) || !galleryStatus || !galleryFeedPath) {
+  if (!galleryBlocks.length || !galleryStatus || !galleryFeedPath) {
     return;
   }
 
@@ -159,11 +143,7 @@ const loadGallery = async () => {
   } catch (error) {
     galleryStatus.textContent = "The image gallery could not be loaded right now.";
     galleryStatus.hidden = false;
-    gallerySlots.forEach((slot) => fillGallerySlot(slot));
-    galleryGrid?.replaceChildren();
-    if (galleryGrid) {
-      galleryGrid.hidden = true;
-    }
+    clearGalleryBlocks();
     console.error(error);
   }
 };
