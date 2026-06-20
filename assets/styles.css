@@ -414,6 +414,11 @@ p {
   font-size: 1.05rem;
 }
 
+.project-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
 .project-panel {
   display: grid;
   grid-template-columns: minmax(18rem, 1fr) minmax(16rem, 0.7fr);
@@ -430,8 +435,19 @@ p {
   box-shadow: 0 24px 70px rgba(54, 217, 255, 0.12);
 }
 
+.project-panel-placeholder {
+  opacity: 0.72;
+}
+
 .project-media {
   min-height: 20rem;
+}
+
+.project-media-placeholder {
+  display: block;
+  background:
+    repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.04) 0 2px, transparent 2px 14px),
+    var(--panel);
 }
 
 .project-media img {
