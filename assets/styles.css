@@ -215,7 +215,7 @@ p {
 }
 
 .hero-actions,
-.update-panel {
+.development-summary {
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
@@ -404,27 +404,84 @@ dd {
   color: var(--text);
 }
 
-.updates {
+.development {
   display: grid;
   grid-template-columns: minmax(0, 0.75fr) minmax(18rem, 1fr);
   gap: clamp(2rem, 6vw, 5rem);
   align-items: start;
 }
 
-.updates .section-heading {
+.development .section-heading {
   display: block;
   margin-bottom: 0;
 }
 
-.update-panel {
-  align-items: flex-start;
-  flex-direction: column;
+.development-panel {
   border-left: 3px solid var(--cyan);
   padding-left: 1rem;
 }
 
-.update-panel p {
+.development-summary {
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 1.25rem;
+}
+
+.development-summary p {
   margin-bottom: 0.4rem;
+}
+
+.commit-status {
+  margin-bottom: 1rem;
+  color: var(--green);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.commit-list {
+  display: grid;
+  gap: 0.75rem;
+  max-height: 42rem;
+  margin: 0;
+  overflow: auto;
+  padding: 0 0.4rem 0 0;
+  list-style: none;
+}
+
+.commit-item {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.9rem;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.014)),
+    rgba(8, 18, 28, 0.68);
+}
+
+.commit-item a {
+  display: inline-block;
+  margin-bottom: 0.45rem;
+  color: var(--text);
+  font-weight: 900;
+  line-height: 1.35;
+}
+
+.commit-item a:hover,
+.commit-item a:focus-visible {
+  color: var(--cyan);
+}
+
+.commit-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.7rem;
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+.commit-sha {
+  color: var(--pink);
+  font-family: ui-monospace, "Cascadia Code", "Consolas", monospace;
+  font-weight: 900;
 }
 
 .site-footer {
@@ -476,7 +533,7 @@ dd {
   .intro,
   .section-heading,
   .press-band,
-  .updates,
+  .development,
   .systems-list article {
     grid-template-columns: 1fr;
   }
@@ -500,7 +557,7 @@ dd {
   }
 
   .hero-actions .button,
-  .update-panel .button {
+  .development-summary .button {
     width: 100%;
   }
 

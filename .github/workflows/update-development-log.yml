@@ -1,0 +1,42 @@
+name: Update development log
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out website
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch Cyber Bully commits
+        env:
+          SOURCE_REPO: Kasper7777/Cyber_Bully_502_Bad_Gateway
+          CYBER_BULLY_SOURCE_TOKEN: ${{ secrets.CYBER_BULLY_SOURCE_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node .github/scripts/fetch-commits.mjs
+
+      - name: Commit refreshed log
+        run: |
+          if git diff --quiet -- assets/commits.json; then
+            echo "Development log already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/commits.json
+          git commit -m "Update development log"
+          git push

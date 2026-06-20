@@ -25,7 +25,7 @@
         <a href="#game">Game</a>
         <a href="#systems">Systems</a>
         <a href="#press">Press Kit</a>
-        <a href="#updates">Updates</a>
+        <a href="#development">Development</a>
       </nav>
     </header>
 
@@ -39,7 +39,7 @@
           <p class="hero-copy">A high-voltage cyberpunk showdown where the school hallway is a network, the rumors have teeth, and confidence is your best exploit.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#press">Open press kit</a>
-            <a class="button button-secondary" href="#updates">Follow development</a>
+            <a class="button button-secondary" href="#development">Follow development</a>
           </div>
         </div>
         <aside class="status-panel" aria-label="Game status">
@@ -121,14 +121,18 @@
         </dl>
       </section>
 
-      <section class="section updates" id="updates">
+      <section class="section development" id="development">
         <div class="section-heading">
-          <p class="eyebrow">Development feed</p>
-          <h2>Signal acquired.</h2>
+          <p class="eyebrow">Development log</p>
+          <h2>Every commit, dated and linked.</h2>
         </div>
-        <div class="update-panel">
-          <p>Follow Kestrel Kinetics for new screenshots, playable milestones, and release details as Cyber Bully moves through development.</p>
-          <a class="button button-primary" href="#top">Back to top</a>
+        <div class="development-panel">
+          <div class="development-summary">
+            <p data-commit-summary>Loading commit history from the Cyber Bully source repository.</p>
+            <a class="button button-primary" href="https://github.com/Kasper7777/Cyber_Bully_502_Bad_Gateway" target="_blank" rel="noopener">Open source repo</a>
+          </div>
+          <p class="commit-status" data-commit-status>Syncing development log...</p>
+          <ol class="commit-list" data-commit-list aria-live="polite"></ol>
         </div>
       </section>
     </main>
