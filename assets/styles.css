@@ -457,17 +457,12 @@ dd {
     rgba(8, 18, 28, 0.68);
 }
 
-.commit-item a {
+.commit-title {
   display: inline-block;
   margin-bottom: 0.45rem;
   color: var(--text);
   font-weight: 900;
   line-height: 1.35;
-}
-
-.commit-item a:hover,
-.commit-item a:focus-visible {
-  color: var(--cyan);
 }
 
 .commit-meta {

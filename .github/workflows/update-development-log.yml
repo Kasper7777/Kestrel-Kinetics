@@ -23,7 +23,7 @@ jobs:
 
       - name: Fetch Cyber Bully commits
         env:
-          SOURCE_REPO: Kasper7777/Cyber_Bully_502_Bad_Gateway
+          SOURCE_REPO: ${{ secrets.CYBER_BULLY_SOURCE_REPO }}
           CYBER_BULLY_SOURCE_TOKEN: ${{ secrets.CYBER_BULLY_SOURCE_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
         run: node .github/scripts/fetch-commits.mjs

@@ -1,6 +1,6 @@
 import { mkdir, writeFile } from "node:fs/promises";
 
-const sourceRepo = process.env.SOURCE_REPO || "Kasper7777/Cyber_Bully_502_Bad_Gateway";
+const sourceRepo = process.env.SOURCE_REPO || process.env.CYBER_BULLY_SOURCE_REPO;
 const token = process.env.CYBER_BULLY_SOURCE_TOKEN || process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
 const apiBase = "https://api.github.com";
 const headers = {
@@ -11,6 +11,10 @@ const headers = {
 
 if (token) {
   headers.Authorization = `Bearer ${token}`;
+}
+
+if (!sourceRepo) {
+  throw new Error("Set SOURCE_REPO or CYBER_BULLY_SOURCE_REPO before refreshing the development log.");
 }
 
 const request = async (url) => {
@@ -56,20 +60,26 @@ const fetchPages = async (path, params = {}) => {
   return items;
 };
 
+const cleanMessage = (message) => {
+  const firstLine = message.split("\n")[0];
+  const escapedRepo = sourceRepo.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+  return firstLine
+    .replace(new RegExp(`https://github\\.com/${escapedRepo}`, "gi"), "private source")
+    .replace(new RegExp(escapedRepo, "gi"), "private source")
+    .replace(/https:\/\/github\.com\/[^\s]+/gi, "private source");
+};
+
 const repo = await request(`${apiBase}/repos/${sourceRepo}`).then((response) => response.data);
 const branch = repo.default_branch;
 const commits = await fetchPages(`/repos/${sourceRepo}/commits`, { sha: branch });
 const feed = {
-  repo: sourceRepo,
-  repoUrl: repo.html_url,
-  branch,
   generatedAt: new Date().toISOString(),
   commitCount: commits.length,
   commits: commits.map((commit) => ({
     sha: commit.sha,
     shortSha: commit.sha.slice(0, 7),
-    url: commit.html_url,
-    message: commit.commit.message.split("\n")[0],
+    message: cleanMessage(commit.commit.message),
     author: commit.commit.author?.name || commit.author?.login || "Unknown",
     date: commit.commit.author?.date || commit.commit.committer?.date,
   })),

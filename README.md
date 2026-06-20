@@ -20,6 +20,6 @@ GitHub will publish the site at the Pages URL shown in that settings screen.
 
 ## Automatic Development Log
 
-The website reads `assets/commits.json` to show the Cyber Bully development history. The GitHub Action in `.github/workflows/update-development-log.yml` refreshes that file hourly and can also be run manually.
+The website reads `assets/commits.json` to show the Cyber Bully development history without linking to the private source repository. The GitHub Action in `.github/workflows/update-development-log.yml` refreshes that file hourly and can also be run manually.
 
-Because `Kasper7777/Cyber_Bully_502_Bad_Gateway` is private, add a repository secret named `CYBER_BULLY_SOURCE_TOKEN` with read-only Contents access to that source repository. If the source repository is made public, the workflow can refresh without the extra secret.
+Because the source repository is private, add repository secrets named `CYBER_BULLY_SOURCE_REPO` and `CYBER_BULLY_SOURCE_TOKEN`. The token only needs read-only Contents access to the source repository.

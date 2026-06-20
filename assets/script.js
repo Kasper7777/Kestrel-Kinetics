@@ -18,24 +18,22 @@ const renderCommitFeed = (feed) => {
   const commits = Array.isArray(feed.commits) ? feed.commits : [];
   const refreshed = feed.generatedAt ? formatDate(feed.generatedAt) : "recently";
 
-  commitSummary.textContent = `${commits.length} commits tracked from ${feed.repo}. Last refreshed ${refreshed}.`;
+  commitSummary.textContent = `${commits.length} development commits tracked. Last refreshed ${refreshed}.`;
   commitStatus.textContent = commits.length
-    ? `Showing commits from ${feed.branch || "the source repository"}.`
+    ? "Showing the latest generated commit log."
     : "No commits found yet.";
   commitList.replaceChildren(
     ...commits.map((commit) => {
       const item = document.createElement("li");
-      const link = document.createElement("a");
+      const title = document.createElement("span");
       const meta = document.createElement("div");
       const date = document.createElement("span");
       const author = document.createElement("span");
       const sha = document.createElement("span");
 
       item.className = "commit-item";
-      link.href = commit.url;
-      link.target = "_blank";
-      link.rel = "noopener";
-      link.textContent = commit.message || "Untitled commit";
+      title.className = "commit-title";
+      title.textContent = commit.message || "Untitled commit";
       meta.className = "commit-meta";
       date.textContent = commit.date ? formatDate(commit.date) : "Unknown date";
       author.textContent = commit.author ? `by ${commit.author}` : "unknown author";
@@ -43,7 +41,7 @@ const renderCommitFeed = (feed) => {
       sha.textContent = commit.shortSha || commit.sha?.slice(0, 7) || "";
 
       meta.append(date, author, sha);
-      item.append(link, meta);
+      item.append(title, meta);
       return item;
     })
   );
@@ -63,7 +61,7 @@ const loadCommitFeed = async () => {
     renderCommitFeed(await response.json());
   } catch (error) {
     commitSummary.textContent = "The development log could not be loaded right now.";
-    commitStatus.textContent = "Check the source repository for the latest commits.";
+    commitStatus.textContent = "Try refreshing this page later.";
     commitList.replaceChildren();
     console.error(error);
   }
