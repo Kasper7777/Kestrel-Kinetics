@@ -8,6 +8,14 @@ const commitRefreshInterval = 5 * 60 * 1000;
 const galleryStatus = document.querySelector("[data-gallery-status]");
 const galleryFeedPath = document.body?.dataset.galleryFeed;
 const galleryBlocks = [...document.querySelectorAll("[data-gallery-block]")];
+const galleryCarousel = document.querySelector("[data-gallery-carousel]");
+const galleryCarouselImage = document.querySelector("[data-gallery-carousel-image]");
+const galleryCarouselCount = document.querySelector("[data-gallery-carousel-count]");
+const galleryPrevButton = document.querySelector("[data-gallery-prev]");
+const galleryNextButton = document.querySelector("[data-gallery-next]");
+const magazineImageCount = 5;
+let carouselImages = [];
+let carouselIndex = 0;
 
 const syncHeader = () => {
   header?.classList.toggle("is-scrolled", window.scrollY > 12);
@@ -79,6 +87,15 @@ const normaliseGallerySrc = (image) => {
 
 const isCoverImage = (image) => /(^|\/)title\.[a-z0-9]+$/i.test(image?.src || "");
 
+const shuffle = (list) => {
+  const copy = [...list];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+};
+
 const createMagazineImage = (image, index) => {
   const img = document.createElement("img");
   const classes = ["magazine-image"];
@@ -103,6 +120,27 @@ const clearGalleryBlocks = () => {
   });
 };
 
+const renderCarouselImage = () => {
+  if (!galleryCarouselImage || !carouselImages.length) {
+    return;
+  }
+
+  const image = carouselImages[carouselIndex];
+  galleryCarouselImage.src = normaliseGallerySrc(image);
+  galleryCarouselImage.alt = image.alt || image.title || "Cyber Bully: 502 Bad Gateway screenshot";
+  if (galleryCarouselCount) {
+    galleryCarouselCount.textContent = `${carouselIndex + 1} / ${carouselImages.length}`;
+  }
+};
+
+const stepCarousel = (direction) => {
+  if (!carouselImages.length) {
+    return;
+  }
+  carouselIndex = (carouselIndex + direction + carouselImages.length) % carouselImages.length;
+  renderCarouselImage();
+};
+
 const renderGallery = (feed) => {
   const images = Array.isArray(feed.images) ? feed.images : [];
   const editorialImages = images.filter((image) => !isCoverImage(image));
@@ -113,19 +151,30 @@ const renderGallery = (feed) => {
   if (!displayImages.length) {
     galleryStatus.textContent = "Add images to assets/images/cyber-bully/gallery and push them to publish a gallery.";
     galleryStatus.hidden = false;
+    if (galleryCarousel) {
+      galleryCarousel.hidden = true;
+    }
     return;
   }
 
   galleryStatus.textContent = "";
   galleryStatus.hidden = true;
 
-  displayImages.forEach((image, index) => {
+  const featuredImages = shuffle(displayImages).slice(0, magazineImageCount);
+  featuredImages.forEach((image, index) => {
     const block = galleryBlocks[index % galleryBlocks.length];
     if (!block) {
       return;
     }
     block.prepend(createMagazineImage(image, index));
   });
+
+  carouselImages = displayImages;
+  carouselIndex = 0;
+  if (galleryCarousel) {
+    galleryCarousel.hidden = false;
+  }
+  renderCarouselImage();
 };
 
 const loadGallery = async () => {
@@ -152,6 +201,8 @@ year.textContent = new Date().getFullYear();
 syncHeader();
 loadCommitFeed();
 loadGallery();
+galleryPrevButton?.addEventListener("click", () => stepCarousel(-1));
+galleryNextButton?.addEventListener("click", () => stepCarousel(1));
 if (commitList) {
   window.setInterval(() => {
     if (document.visibilityState !== "hidden") {
