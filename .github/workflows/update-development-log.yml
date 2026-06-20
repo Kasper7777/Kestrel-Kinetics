@@ -32,6 +32,7 @@ jobs:
           CYBER_BULLY_SOURCE_TOKEN: ${{ secrets.CYBER_BULLY_SOURCE_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
           OUTPUT_PATH: assets/commits.json
+          FEED_LABEL: Cyber Bully
         run: node .github/scripts/fetch-commits.mjs
 
       - name: Fetch Manic Monday's commits
@@ -40,6 +41,7 @@ jobs:
           SOURCE_TOKEN: ${{ secrets.MANIC_MONDAYS_SOURCE_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
           OUTPUT_PATH: assets/commits-manic-mondays.json
+          FEED_LABEL: Manic Monday's
         run: node .github/scripts/fetch-commits.mjs
 
       - name: Build Cyber Bully gallery
