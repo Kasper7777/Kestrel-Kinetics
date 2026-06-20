@@ -7,12 +7,14 @@
     <meta property="og:title" content="Manic Monday's | Kestrel Kinetics">
     <meta property="og:description" content="An upcoming game from Kestrel Kinetics Research & Technology. Details coming soon.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="../assets/images/manic-mondays/EdSplashV4.bmp">
     <meta name="theme-color" content="#071018">
     <title>Manic Monday's | Kestrel Kinetics</title>
     <link rel="icon" href="../assets/icons/kestrel.ico">
+    <link rel="preload" href="../assets/images/manic-mondays/EdSplashV4.bmp" as="image">
     <link rel="stylesheet" href="../assets/styles.css">
   </head>
-  <body>
+  <body data-commit-feed="../assets/commits-manic-mondays.json">
     <header class="site-header" data-header>
       <a class="brand" href="../" aria-label="Kestrel Kinetics home">
         <span class="brand-logo-frame">
@@ -26,11 +28,13 @@
         <a href="../">Studio</a>
         <a href="../cyber-bully/">Cyber Bully</a>
         <a href="./">Manic Monday's</a>
+        <a href="#development">Development</a>
       </nav>
     </header>
 
     <main id="top">
       <section class="hero game-hero" aria-label="Manic Monday's promotion">
+        <img class="hero-image" src="../assets/images/manic-mondays/EdSplashV4.bmp" alt="Manic Monday's concept splash art.">
         <div class="hero-shade" aria-hidden="true"></div>
         <div class="hero-content">
           <p class="eyebrow">A game by Kestrel Kinetics</p>
@@ -55,7 +59,21 @@
           <h2>More to come.</h2>
         </div>
         <div class="intro-copy">
-          <p>We're not ready to share details on Manic Monday's yet. Check back soon, or follow Cyber Bully's development log for studio updates in the meantime.</p>
+          <p>We're not ready to share details on Manic Monday's yet. Check back soon, or follow the development log below for studio updates in the meantime.</p>
+        </div>
+      </section>
+
+      <section class="section development" id="development">
+        <div class="section-heading">
+          <p class="eyebrow">Development log</p>
+          <h2>Progress, without the noise.</h2>
+        </div>
+        <div class="development-panel">
+          <div class="development-summary">
+            <p data-commit-summary>Loading the Manic Monday's development history.</p>
+          </div>
+          <p class="commit-status" data-commit-status>Syncing development log...</p>
+          <ol class="commit-list" data-commit-list aria-live="polite"></ol>
         </div>
       </section>
     </main>

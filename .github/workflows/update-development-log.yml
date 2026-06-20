@@ -31,6 +31,15 @@ jobs:
           SOURCE_REPO: ${{ secrets.CYBER_BULLY_SOURCE_REPO }}
           CYBER_BULLY_SOURCE_TOKEN: ${{ secrets.CYBER_BULLY_SOURCE_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
+          OUTPUT_PATH: assets/commits.json
+        run: node .github/scripts/fetch-commits.mjs
+
+      - name: Fetch Manic Monday's commits
+        env:
+          SOURCE_REPO: ${{ secrets.MANIC_MONDAYS_SOURCE_REPO }}
+          SOURCE_TOKEN: ${{ secrets.MANIC_MONDAYS_SOURCE_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+          OUTPUT_PATH: assets/commits-manic-mondays.json
         run: node .github/scripts/fetch-commits.mjs
 
       - name: Build Cyber Bully gallery
@@ -38,13 +47,13 @@ jobs:
 
       - name: Commit refreshed site data
         run: |
-          if git diff --quiet -- assets/commits.json assets/gallery.json; then
+          if git diff --quiet -- assets/commits.json assets/commits-manic-mondays.json assets/gallery.json; then
             echo "Site data already up to date."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/commits.json assets/gallery.json
+          git add assets/commits.json assets/commits-manic-mondays.json assets/gallery.json
           git commit -m "Update site data"
           git push
