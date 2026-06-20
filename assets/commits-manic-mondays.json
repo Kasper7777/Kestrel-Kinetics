@@ -1,5 +1,1542 @@
 {
-  "generatedAt": null,
-  "commitCount": 0,
-  "commits": []
+  "generatedAt": "2026-06-20T21:32:19.312Z",
+  "commitCount": 256,
+  "commits": [
+    {
+      "shortSha": "f445f98",
+      "message": "buckinghamshire",
+      "author": "Kasper",
+      "date": "2025-04-06T18:53:33Z"
+    },
+    {
+      "shortSha": "a55dcb1",
+      "message": "pref fixed",
+      "author": "Safa Tharib",
+      "date": "2025-04-05T22:46:54Z"
+    },
+    {
+      "shortSha": "4618967",
+      "message": "dd",
+      "author": "Safa Tharib",
+      "date": "2025-04-05T00:02:18Z"
+    },
+    {
+      "shortSha": "fa022ab",
+      "message": "new node for level actors",
+      "author": "Safa Tharib",
+      "date": "2025-04-04T23:23:38Z"
+    },
+    {
+      "shortSha": "9cb7fd4",
+      "message": "ggg",
+      "author": "Safa Tharib",
+      "date": "2025-04-04T00:18:59Z"
+    },
+    {
+      "shortSha": "917404c",
+      "message": "kkk",
+      "author": "Safa Tharib",
+      "date": "2025-04-02T23:44:01Z"
+    },
+    {
+      "shortSha": "d4544dd",
+      "message": "backup",
+      "author": "Safa Tharib",
+      "date": "2025-04-02T20:48:07Z"
+    },
+    {
+      "shortSha": "6496e3c",
+      "message": "timetable",
+      "author": "Safa Tharib",
+      "date": "2025-04-01T23:22:59Z"
+    },
+    {
+      "shortSha": "03503dd",
+      "message": "service",
+      "author": "Safa Tharib",
+      "date": "2025-04-01T21:59:30Z"
+    },
+    {
+      "shortSha": "9c71b2e",
+      "message": "needs",
+      "author": "Safa Tharib",
+      "date": "2025-03-31T23:42:01Z"
+    },
+    {
+      "shortSha": "525aa08",
+      "message": "uodate",
+      "author": "Safa Tharib",
+      "date": "2025-03-31T21:55:12Z"
+    },
+    {
+      "shortSha": "42574d0",
+      "message": "update",
+      "author": "Safa Tharib",
+      "date": "2025-03-31T00:47:20Z"
+    },
+    {
+      "shortSha": "865eea9",
+      "message": "needs",
+      "author": "Safa Tharib",
+      "date": "2025-03-31T00:24:29Z"
+    },
+    {
+      "shortSha": "afa204e",
+      "message": "needs",
+      "author": "Safa Tharib",
+      "date": "2025-03-30T22:03:14Z"
+    },
+    {
+      "shortSha": "df6ab04",
+      "message": "needs",
+      "author": "Safa Tharib",
+      "date": "2025-03-30T20:49:15Z"
+    },
+    {
+      "shortSha": "a4171e1",
+      "message": "clothes",
+      "author": "Safa Tharib",
+      "date": "2025-03-30T00:04:16Z"
+    },
+    {
+      "shortSha": "1ef6784",
+      "message": "bath",
+      "author": "Safa Tharib",
+      "date": "2025-03-29T00:50:43Z"
+    },
+    {
+      "shortSha": "473020f",
+      "message": "Update Cards 1.pptx",
+      "author": "Safa Tharib",
+      "date": "2025-03-28T16:20:01Z"
+    },
+    {
+      "shortSha": "6b0923c",
+      "message": "drag and drop to character and mw",
+      "author": "Safa Tharib",
+      "date": "2025-03-28T16:19:36Z"
+    },
+    {
+      "shortSha": "4989304",
+      "message": "Update Cards 1.pptx",
+      "author": "Safa Tharib",
+      "date": "2025-03-28T00:19:06Z"
+    },
+    {
+      "shortSha": "467165d",
+      "message": "locker",
+      "author": "Safa Tharib",
+      "date": "2025-03-28T00:15:43Z"
+    },
+    {
+      "shortSha": "767d3eb",
+      "message": "lockers",
+      "author": "Safa Tharib",
+      "date": "2025-03-27T18:08:34Z"
+    },
+    {
+      "shortSha": "3d757c4",
+      "message": "ui",
+      "author": "Safa Tharib",
+      "date": "2025-03-27T01:36:03Z"
+    },
+    {
+      "shortSha": "181c690",
+      "message": "ui sliding",
+      "author": "Safa Tharib",
+      "date": "2025-03-26T14:27:54Z"
+    },
+    {
+      "shortSha": "18cdced",
+      "message": "Update Cards 1.pptx",
+      "author": "Safa Tharib",
+      "date": "2025-03-26T01:00:21Z"
+    },
+    {
+      "shortSha": "2b0a12c",
+      "message": "event clock",
+      "author": "Safa Tharib",
+      "date": "2025-03-26T00:46:22Z"
+    },
+    {
+      "shortSha": "7e1f23d",
+      "message": "clock",
+      "author": "Safa Tharib",
+      "date": "2025-03-25T22:44:27Z"
+    },
+    {
+      "shortSha": "9e6baef",
+      "message": "gate",
+      "author": "Safa Tharib",
+      "date": "2025-03-25T14:38:06Z"
+    },
+    {
+      "shortSha": "2a3b554",
+      "message": "crash fix",
+      "author": "Safa Tharib",
+      "date": "2025-03-25T12:49:26Z"
+    },
+    {
+      "shortSha": "a5576ed",
+      "message": "hard crashes",
+      "author": "Safa Tharib",
+      "date": "2025-03-25T00:18:36Z"
+    },
+    {
+      "shortSha": "a825f9b",
+      "message": "fixed ai",
+      "author": "Safa Tharib",
+      "date": "2025-03-24T23:42:35Z"
+    },
+    {
+      "shortSha": "e1dc9fe",
+      "message": "ai fix",
+      "author": "Safa Tharib",
+      "date": "2025-03-24T21:32:29Z"
+    },
+    {
+      "shortSha": "ae725cb",
+      "message": "ai interact",
+      "author": "Safa Tharib",
+      "date": "2025-03-24T17:48:33Z"
+    },
+    {
+      "shortSha": "2f77dc9",
+      "message": "manic interact started but it sucks right now",
+      "author": "Safa Tharib",
+      "date": "2025-03-24T01:21:40Z"
+    },
+    {
+      "shortSha": "a34da14",
+      "message": "manic ai",
+      "author": "Safa Tharib",
+      "date": "2025-03-23T22:16:55Z"
+    },
+    {
+      "shortSha": "1aeeffc",
+      "message": "manic ai update",
+      "author": "Safa Tharib",
+      "date": "2025-03-23T16:45:55Z"
+    },
+    {
+      "shortSha": "69e84f4",
+      "message": "ai update",
+      "author": "Safa Tharib",
+      "date": "2025-03-23T00:27:56Z"
+    },
+    {
+      "shortSha": "834c124",
+      "message": "manic ai",
+      "author": "Safa Tharib",
+      "date": "2025-03-22T18:00:05Z"
+    },
+    {
+      "shortSha": "f959b87",
+      "message": "manicai",
+      "author": "Safa Tharib",
+      "date": "2025-03-22T00:22:06Z"
+    },
+    {
+      "shortSha": "643ca42",
+      "message": "tt",
+      "author": "Safa Tharib",
+      "date": "2025-03-19T14:45:38Z"
+    },
+    {
+      "shortSha": "6cbc624",
+      "message": "newClassActor",
+      "author": "Safa Tharib",
+      "date": "2025-03-18T23:58:02Z"
+    },
+    {
+      "shortSha": "afea3e1",
+      "message": "rrrr",
+      "author": "Safa Tharib",
+      "date": "2025-03-17T23:15:10Z"
+    },
+    {
+      "shortSha": "a406107",
+      "message": "ingredients",
+      "author": "Safa Tharib",
+      "date": "2025-03-17T16:46:18Z"
+    },
+    {
+      "shortSha": "930b586",
+      "message": "back to square on with Kraft sort of",
+      "author": "Safa Tharib",
+      "date": "2025-03-17T01:26:17Z"
+    },
+    {
+      "shortSha": "0ca53ac",
+      "message": "gggg",
+      "author": "Safa Tharib",
+      "date": "2025-03-17T00:43:15Z"
+    },
+    {
+      "shortSha": "c4a4ca3",
+      "message": "set",
+      "author": "Safa Tharib",
+      "date": "2025-03-15T22:26:31Z"
+    },
+    {
+      "shortSha": "4892b1e",
+      "message": "deck tweaks",
+      "author": "Safa Tharib",
+      "date": "2025-03-15T22:15:35Z"
+    },
+    {
+      "shortSha": "1e960a1",
+      "message": "cards",
+      "author": "Safa Tharib",
+      "date": "2025-03-15T20:52:31Z"
+    },
+    {
+      "shortSha": "d43909e",
+      "message": "log",
+      "author": "Kasper",
+      "date": "2025-03-15T01:47:01Z"
+    },
+    {
+      "shortSha": "1eddcca",
+      "message": "hhhh",
+      "author": "Kasper",
+      "date": "2025-03-15T01:33:42Z"
+    },
+    {
+      "shortSha": "e138139",
+      "message": "boom",
+      "author": "Kasper",
+      "date": "2025-03-14T19:52:52Z"
+    },
+    {
+      "shortSha": "0329d8b",
+      "message": "Update HARDKNOX.umap",
+      "author": "Kasper",
+      "date": "2025-03-13T01:40:59Z"
+    },
+    {
+      "shortSha": "d944b0c",
+      "message": "game mechs of kardz",
+      "author": "Kasper",
+      "date": "2025-03-13T01:08:08Z"
+    },
+    {
+      "shortSha": "c4b0079",
+      "message": "out of bounds",
+      "author": "Kasper",
+      "date": "2025-03-12T03:55:21Z"
+    },
+    {
+      "shortSha": "8f8eaf1",
+      "message": "built",
+      "author": "Kasper",
+      "date": "2025-03-11T00:44:19Z"
+    },
+    {
+      "shortSha": "b2f983b",
+      "message": "fix",
+      "author": "Kasper",
+      "date": "2025-03-11T00:34:36Z"
+    },
+    {
+      "shortSha": "1e3788c",
+      "message": "npc refill cards",
+      "author": "Kasper",
+      "date": "2025-03-10T21:55:01Z"
+    },
+    {
+      "shortSha": "9c942f1",
+      "message": "fixes",
+      "author": "Kasper",
+      "date": "2025-03-10T01:08:07Z"
+    },
+    {
+      "shortSha": "69aa58f",
+      "message": "needs to talk fixed",
+      "author": "Kasper",
+      "date": "2025-03-10T00:35:02Z"
+    },
+    {
+      "shortSha": "d649cef",
+      "message": "talking improved",
+      "author": "Kasper",
+      "date": "2025-03-09T21:30:52Z"
+    },
+    {
+      "shortSha": "1606072",
+      "message": "debris",
+      "author": "Kasper",
+      "date": "2025-03-09T14:56:46Z"
+    },
+    {
+      "shortSha": "ff1b6a3",
+      "message": "posters",
+      "author": "Kasper",
+      "date": "2025-03-09T14:14:32Z"
+    },
+    {
+      "shortSha": "bc71e53",
+      "message": "kontrols",
+      "author": "Kasper",
+      "date": "2025-03-09T03:17:59Z"
+    },
+    {
+      "shortSha": "7de183a",
+      "message": "fixes",
+      "author": "Kasper",
+      "date": "2025-03-08T20:29:17Z"
+    },
+    {
+      "shortSha": "96fff20",
+      "message": "build working no mouse in game",
+      "author": "Kasper",
+      "date": "2025-03-08T18:30:36Z"
+    },
+    {
+      "shortSha": "6d03814",
+      "message": "fix",
+      "author": "Kasper",
+      "date": "2025-03-08T17:42:30Z"
+    },
+    {
+      "shortSha": "5f5faf1",
+      "message": "fixing the look",
+      "author": "Kasper",
+      "date": "2025-03-08T16:34:05Z"
+    },
+    {
+      "shortSha": "729b315",
+      "message": "testbuild",
+      "author": "Kasper",
+      "date": "2025-03-08T13:27:30Z"
+    },
+    {
+      "shortSha": "3f15071",
+      "message": "dialog working again",
+      "author": "Kasper",
+      "date": "2025-03-08T03:05:50Z"
+    },
+    {
+      "shortSha": "7c93592",
+      "message": "semi disabled hud for rework",
+      "author": "Kasper",
+      "date": "2025-03-08T01:51:24Z"
+    },
+    {
+      "shortSha": "3907e4a",
+      "message": "adjusted lightinh",
+      "author": "Kasper",
+      "date": "2025-03-08T00:53:36Z"
+    },
+    {
+      "shortSha": "2ef9cc9",
+      "message": "ai kardz",
+      "author": "Kasper",
+      "date": "2025-03-08T00:34:59Z"
+    },
+    {
+      "shortSha": "6933b2b",
+      "message": "new kardz",
+      "author": "Kasper",
+      "date": "2025-03-07T20:25:26Z"
+    },
+    {
+      "shortSha": "acd5c17",
+      "message": "up",
+      "author": "Kasper",
+      "date": "2025-03-06T21:27:49Z"
+    },
+    {
+      "shortSha": "d06150f",
+      "message": "kard game getting better",
+      "author": "Kasper",
+      "date": "2025-03-06T18:40:30Z"
+    },
+    {
+      "shortSha": "dd0b310",
+      "message": "destruction",
+      "author": "Kasper",
+      "date": "2025-03-06T16:36:44Z"
+    },
+    {
+      "shortSha": "b68ca12",
+      "message": "update",
+      "author": "Kasper",
+      "date": "2025-03-06T01:45:19Z"
+    },
+    {
+      "shortSha": "3411c7b",
+      "message": "battle",
+      "author": "Kasper",
+      "date": "2025-03-05T22:10:47Z"
+    },
+    {
+      "shortSha": "6d18cd4",
+      "message": "sds",
+      "author": "Kasper",
+      "date": "2025-03-05T01:47:28Z"
+    },
+    {
+      "shortSha": "1f6d379",
+      "message": "foll",
+      "author": "Kasper",
+      "date": "2025-03-04T20:51:22Z"
+    },
+    {
+      "shortSha": "98a9f6d",
+      "message": "hhhh",
+      "author": "Kasper",
+      "date": "2025-03-04T00:05:42Z"
+    },
+    {
+      "shortSha": "20543fe",
+      "message": "ddd",
+      "author": "Kasper",
+      "date": "2025-03-02T22:00:32Z"
+    },
+    {
+      "shortSha": "7a77f9a",
+      "message": "bet items",
+      "author": "Kasper",
+      "date": "2025-03-02T21:19:16Z"
+    },
+    {
+      "shortSha": "d3944aa",
+      "message": "jin",
+      "author": "Safa Tharib",
+      "date": "2025-03-02T00:27:37Z"
+    },
+    {
+      "shortSha": "1ef3663",
+      "message": "fixed kardz",
+      "author": "Safa Tharib",
+      "date": "2025-03-02T00:05:23Z"
+    },
+    {
+      "shortSha": "5a34a77",
+      "message": "fixed error",
+      "author": "Safa Tharib",
+      "date": "2025-03-01T22:11:11Z"
+    },
+    {
+      "shortSha": "8fed99a",
+      "message": "aaa",
+      "author": "Kasper",
+      "date": "2025-03-01T04:55:10Z"
+    },
+    {
+      "shortSha": "0f68c37",
+      "message": "ddd",
+      "author": "Kasper",
+      "date": "2025-03-01T04:36:02Z"
+    },
+    {
+      "shortSha": "4023200",
+      "message": "kardz",
+      "author": "Kasper",
+      "date": "2025-03-01T04:22:46Z"
+    },
+    {
+      "shortSha": "7d496d8",
+      "message": "omg",
+      "author": "Kasper",
+      "date": "2025-03-01T01:25:48Z"
+    },
+    {
+      "shortSha": "f1ab517",
+      "message": "new gamemode and dragable cards",
+      "author": "Kasper",
+      "date": "2025-02-28T00:24:53Z"
+    },
+    {
+      "shortSha": "504e357",
+      "message": "trying to click a 3d object",
+      "author": "Kasper",
+      "date": "2025-02-27T23:46:37Z"
+    },
+    {
+      "shortSha": "2abd837",
+      "message": "built",
+      "author": "Kasper",
+      "date": "2025-02-27T22:16:04Z"
+    },
+    {
+      "shortSha": "1ad13ff",
+      "message": "kardz",
+      "author": "Kasper",
+      "date": "2025-02-27T21:46:25Z"
+    },
+    {
+      "shortSha": "b3c9217",
+      "message": "3D battle object",
+      "author": "Kasper",
+      "date": "2025-02-27T19:36:45Z"
+    },
+    {
+      "shortSha": "eb32262",
+      "message": "kardz only",
+      "author": "Kasper",
+      "date": "2025-02-27T17:23:15Z"
+    },
+    {
+      "shortSha": "1e7b457",
+      "message": "ddd",
+      "author": "Kasper",
+      "date": "2025-02-27T16:51:37Z"
+    },
+    {
+      "shortSha": "ebe31d5",
+      "message": "update",
+      "author": "Kasper",
+      "date": "2025-02-27T16:51:04Z"
+    },
+    {
+      "shortSha": "a826581",
+      "message": "drag and drop",
+      "author": "Kasper",
+      "date": "2025-02-27T00:10:17Z"
+    },
+    {
+      "shortSha": "f767707",
+      "message": "dragged",
+      "author": "Kasper",
+      "date": "2025-02-26T02:05:52Z"
+    },
+    {
+      "shortSha": "6550dd0",
+      "message": "ddd",
+      "author": "Kasper",
+      "date": "2025-02-26T00:23:34Z"
+    },
+    {
+      "shortSha": "52dd5e1",
+      "message": "ba",
+      "author": "Kasper",
+      "date": "2025-02-24T23:14:42Z"
+    },
+    {
+      "shortSha": "48890d3",
+      "message": "battle",
+      "author": "Kasper",
+      "date": "2025-02-24T21:39:14Z"
+    },
+    {
+      "shortSha": "e53f8eb",
+      "message": "frog",
+      "author": "Kasper",
+      "date": "2025-02-23T22:46:55Z"
+    },
+    {
+      "shortSha": "8554c13",
+      "message": "hh",
+      "author": "Kasper",
+      "date": "2025-02-23T20:53:41Z"
+    },
+    {
+      "shortSha": "44cfcbc",
+      "message": "jj",
+      "author": "Kasper",
+      "date": "2025-02-23T17:06:52Z"
+    },
+    {
+      "shortSha": "cfc38c1",
+      "message": "tring to add drag and drop back and adding kardz to main data set",
+      "author": "Kasper",
+      "date": "2025-02-23T16:30:57Z"
+    },
+    {
+      "shortSha": "3bc9979",
+      "message": "kard mat",
+      "author": "Kasper",
+      "date": "2025-02-23T00:35:34Z"
+    },
+    {
+      "shortSha": "8bdc09d",
+      "message": "player vs player",
+      "author": "Kasper",
+      "date": "2025-02-22T23:25:06Z"
+    },
+    {
+      "shortSha": "586aa53",
+      "message": "elem",
+      "author": "Kasper",
+      "date": "2025-02-22T20:40:53Z"
+    },
+    {
+      "shortSha": "06fae76",
+      "message": "kard",
+      "author": "Kasper",
+      "date": "2025-02-22T18:15:00Z"
+    },
+    {
+      "shortSha": "4a680ca",
+      "message": "tt",
+      "author": "Kasper",
+      "date": "2025-02-21T23:44:37Z"
+    },
+    {
+      "shortSha": "35b59b5",
+      "message": "kardz",
+      "author": "Kasper",
+      "date": "2025-02-21T23:33:04Z"
+    },
+    {
+      "shortSha": "1969995",
+      "message": "fuck",
+      "author": "Kasper",
+      "date": "2025-02-21T21:18:49Z"
+    },
+    {
+      "shortSha": "fdbd084",
+      "message": "clone",
+      "author": "Kasper",
+      "date": "2025-02-21T19:29:49Z"
+    },
+    {
+      "shortSha": "2ee5634",
+      "message": "postVideonewmusic",
+      "author": "Kasper",
+      "date": "2024-06-07T03:37:59Z"
+    },
+    {
+      "shortSha": "1979bea",
+      "message": "new objects",
+      "author": "Safa Tharib",
+      "date": "2024-06-04T18:10:12Z"
+    },
+    {
+      "shortSha": "2bff44e",
+      "message": "update",
+      "author": "Safa Tharib",
+      "date": "2024-06-04T16:59:38Z"
+    },
+    {
+      "shortSha": "4b162c7",
+      "message": "fixed character movment",
+      "author": "Safa Tharib",
+      "date": "2024-05-23T13:20:22Z"
+    },
+    {
+      "shortSha": "2a2ce31",
+      "message": "kop",
+      "author": "Kasper",
+      "date": "2024-05-13T22:21:44Z"
+    },
+    {
+      "shortSha": "c2fbb97",
+      "message": "Setting Adjust",
+      "author": "Kasper",
+      "date": "2024-05-13T20:41:45Z"
+    },
+    {
+      "shortSha": "c5f627c",
+      "message": "mmm",
+      "author": "Kasper",
+      "date": "2024-05-07T19:47:29Z"
+    },
+    {
+      "shortSha": "7a12c50",
+      "message": "clouds",
+      "author": "Kasper",
+      "date": "2024-05-07T19:17:07Z"
+    },
+    {
+      "shortSha": "ccc2dcb",
+      "message": "vomit",
+      "author": "Kasper",
+      "date": "2024-05-03T00:24:19Z"
+    },
+    {
+      "shortSha": "a42bedc",
+      "message": "adjusted",
+      "author": "Kasper",
+      "date": "2024-05-02T00:09:24Z"
+    },
+    {
+      "shortSha": "7620e8e",
+      "message": "sound",
+      "author": "Kasper",
+      "date": "2024-05-01T23:56:47Z"
+    },
+    {
+      "shortSha": "64f0709",
+      "message": "sound",
+      "author": "Kasper",
+      "date": "2024-05-01T02:08:23Z"
+    },
+    {
+      "shortSha": "6d99525",
+      "message": "demo",
+      "author": "Kasper",
+      "date": "2024-04-30T17:33:58Z"
+    },
+    {
+      "shortSha": "79cbaee",
+      "message": "working radio",
+      "author": "Kasper",
+      "date": "2024-04-28T00:28:03Z"
+    },
+    {
+      "shortSha": "8edfa2b",
+      "message": "robin",
+      "author": "Kasper",
+      "date": "2024-04-25T19:02:38Z"
+    },
+    {
+      "shortSha": "6d05e73",
+      "message": "durian",
+      "author": "Kasper",
+      "date": "2024-04-25T00:11:11Z"
+    },
+    {
+      "shortSha": "b10c0d8",
+      "message": "mOVING FROM ROOM TO ROOM",
+      "author": "Kasper",
+      "date": "2024-04-24T22:58:46Z"
+    },
+    {
+      "shortSha": "daccdef",
+      "message": "added drainpipes",
+      "author": "Kasper",
+      "date": "2024-04-23T00:24:46Z"
+    },
+    {
+      "shortSha": "39ee735",
+      "message": "Wee",
+      "author": "Kasper",
+      "date": "2024-04-19T02:56:57Z"
+    },
+    {
+      "shortSha": "1693c38",
+      "message": "V-0.5.9.7 Demo",
+      "author": "Kasper",
+      "date": "2024-04-19T02:33:44Z"
+    },
+    {
+      "shortSha": "cede967",
+      "message": "time and needs adjust",
+      "author": "Kasper",
+      "date": "2024-04-18T03:55:22Z"
+    },
+    {
+      "shortSha": "22d1287",
+      "message": "light",
+      "author": "Kasper",
+      "date": "2024-04-18T03:22:25Z"
+    },
+    {
+      "shortSha": "9cdefcb",
+      "message": "more details",
+      "author": "Kasper",
+      "date": "2024-04-18T00:43:52Z"
+    },
+    {
+      "shortSha": "625f38e",
+      "message": "be",
+      "author": "Kasper",
+      "date": "2024-04-17T03:35:01Z"
+    },
+    {
+      "shortSha": "de44db2",
+      "message": "fixed building and court",
+      "author": "Kasper",
+      "date": "2024-04-16T23:53:04Z"
+    },
+    {
+      "shortSha": "8f1dbdf",
+      "message": "smart stuff?",
+      "author": "Kasper",
+      "date": "2024-04-15T20:57:52Z"
+    },
+    {
+      "shortSha": "f6e08e3",
+      "message": "trying smart object",
+      "author": "Kasper",
+      "date": "2024-04-15T07:24:14Z"
+    },
+    {
+      "shortSha": "b717d9d",
+      "message": "animation",
+      "author": "Kasper",
+      "date": "2024-04-15T05:06:19Z"
+    },
+    {
+      "shortSha": "a2b16f8",
+      "message": "V-0.5.9.3 (WithModel)",
+      "author": "Kasper",
+      "date": "2024-04-14T03:03:27Z"
+    },
+    {
+      "shortSha": "6225d54",
+      "message": "head turn",
+      "author": "Kasper",
+      "date": "2024-04-14T00:33:26Z"
+    },
+    {
+      "shortSha": "03df3d3",
+      "message": "working again",
+      "author": "Kasper",
+      "date": "2024-04-13T23:36:21Z"
+    },
+    {
+      "shortSha": "3f9cd87",
+      "message": "update",
+      "author": "Kasper",
+      "date": "2024-04-13T12:42:48Z"
+    },
+    {
+      "shortSha": "4236284",
+      "message": "cars and walls",
+      "author": "Kasper",
+      "date": "2024-04-13T12:42:21Z"
+    },
+    {
+      "shortSha": "c34d3a5",
+      "message": "Control Rig",
+      "author": "Kasper",
+      "date": "2024-04-12T23:59:37Z"
+    },
+    {
+      "shortSha": "106b0f2",
+      "message": "nav",
+      "author": "Kasper",
+      "date": "2024-04-12T14:54:46Z"
+    },
+    {
+      "shortSha": "870a143",
+      "message": "uuuuuuuu",
+      "author": "Safa Tharib",
+      "date": "2024-04-05T23:27:24Z"
+    },
+    {
+      "shortSha": "3a7917d",
+      "message": "fixes and shit like that",
+      "author": "Safa Tharib",
+      "date": "2024-04-05T00:17:21Z"
+    },
+    {
+      "shortSha": "4ccf6a5",
+      "message": "build 0.5.9.1 i think",
+      "author": "Safa Tharib",
+      "date": "2024-04-04T23:42:08Z"
+    },
+    {
+      "shortSha": "18633c2",
+      "message": "small fix",
+      "author": "Safa Tharib",
+      "date": "2024-04-04T22:46:16Z"
+    },
+    {
+      "shortSha": "e9df7d5",
+      "message": "excel out",
+      "author": "Safa Tharib",
+      "date": "2024-04-04T22:41:39Z"
+    },
+    {
+      "shortSha": "76f1524",
+      "message": "update",
+      "author": "Safa Tharib",
+      "date": "2024-04-03T22:43:37Z"
+    },
+    {
+      "shortSha": "fd695a5",
+      "message": "sitting but table gets in the way",
+      "author": "Safa Tharib",
+      "date": "2024-04-02T22:52:51Z"
+    },
+    {
+      "shortSha": "55ef93e",
+      "message": "Ok",
+      "author": "Safa Tharib",
+      "date": "2024-04-02T17:46:00Z"
+    },
+    {
+      "shortSha": "e354966",
+      "message": "they finally go places",
+      "author": "Safa Tharib",
+      "date": "2024-04-02T17:24:00Z"
+    },
+    {
+      "shortSha": "86efded",
+      "message": "NeMethod",
+      "author": "Safa Tharib",
+      "date": "2024-04-02T16:07:51Z"
+    },
+    {
+      "shortSha": "ec7d3a5",
+      "message": "sitting working",
+      "author": "Safa Tharib",
+      "date": "2024-04-01T01:15:34Z"
+    },
+    {
+      "shortSha": "c5c5999",
+      "message": "sit2",
+      "author": "Safa Tharib",
+      "date": "2024-03-31T01:53:30Z"
+    },
+    {
+      "shortSha": "e70bca2",
+      "message": "Sitting NPCs",
+      "author": "Safa Tharib",
+      "date": "2024-03-30T23:26:32Z"
+    },
+    {
+      "shortSha": "fc51109",
+      "message": "minor adjustments",
+      "author": "Safa Tharib",
+      "date": "2024-03-29T03:16:25Z"
+    },
+    {
+      "shortSha": "c8a304e",
+      "message": "test",
+      "author": "Safa Tharib",
+      "date": "2024-03-29T03:08:22Z"
+    },
+    {
+      "shortSha": "3028fc0",
+      "message": "whay",
+      "author": "Safa Tharib",
+      "date": "2024-03-29T03:07:13Z"
+    },
+    {
+      "shortSha": "f564bc5",
+      "message": "npcs chat back and forth",
+      "author": "Safa Tharib",
+      "date": "2024-03-29T02:10:30Z"
+    },
+    {
+      "shortSha": "47faadb",
+      "message": "Barns First",
+      "author": "Safa Tharib",
+      "date": "2024-03-28T23:57:41Z"
+    },
+    {
+      "shortSha": "ae1301d",
+      "message": "buildnew",
+      "author": "Kasper",
+      "date": "2024-03-28T17:45:27Z"
+    },
+    {
+      "shortSha": "e9710f1",
+      "message": "New voice test",
+      "author": "Kasper",
+      "date": "2024-03-28T17:23:22Z"
+    },
+    {
+      "shortSha": "271a16d",
+      "message": "merge",
+      "author": "Kasper",
+      "date": "2024-03-28T07:07:14Z"
+    },
+    {
+      "shortSha": "0a35b4e",
+      "message": "added tts offline",
+      "author": "Kasper",
+      "date": "2024-03-28T00:26:21Z"
+    },
+    {
+      "shortSha": "5672b14",
+      "message": "NPCs Go2Classrooms",
+      "author": "Kasper",
+      "date": "2024-03-28T00:11:44Z"
+    },
+    {
+      "shortSha": "eedc18d",
+      "message": "fixed cursor issue in menus",
+      "author": "Kasper",
+      "date": "2024-03-27T19:51:32Z"
+    },
+    {
+      "shortSha": "4c0f864",
+      "message": "0.5.5",
+      "author": "Kasper",
+      "date": "2024-03-27T01:37:02Z"
+    },
+    {
+      "shortSha": "fd34749",
+      "message": "LowSpecSettings",
+      "author": "Kasper",
+      "date": "2024-03-27T01:20:23Z"
+    },
+    {
+      "shortSha": "250815c",
+      "message": "update",
+      "author": "Kasper",
+      "date": "2024-03-26T04:15:39Z"
+    },
+    {
+      "shortSha": "20a8be5",
+      "message": "Added feedback form",
+      "author": "Kasper",
+      "date": "2024-03-26T02:15:09Z"
+    },
+    {
+      "shortSha": "a542747",
+      "message": "grass and quests",
+      "author": "Kasper",
+      "date": "2024-03-25T22:02:10Z"
+    },
+    {
+      "shortSha": "0342a9d",
+      "message": "settings",
+      "author": "Kasper",
+      "date": "2024-03-25T05:22:09Z"
+    },
+    {
+      "shortSha": "a9ac423",
+      "message": "again",
+      "author": "Kasper",
+      "date": "2024-03-25T03:55:45Z"
+    },
+    {
+      "shortSha": "8170f9c",
+      "message": "0.5",
+      "author": "Kasper",
+      "date": "2024-03-25T03:50:18Z"
+    },
+    {
+      "shortSha": "bc4e005",
+      "message": "HUD improvements typing glitch fixed",
+      "author": "Kasper",
+      "date": "2024-03-25T01:47:18Z"
+    },
+    {
+      "shortSha": "2b5a885",
+      "message": "0.5 alpha",
+      "author": "Kasper",
+      "date": "2024-03-24T23:21:20Z"
+    },
+    {
+      "shortSha": "7176c8f",
+      "message": "async issue solved",
+      "author": "Kasper",
+      "date": "2024-03-24T22:38:55Z"
+    },
+    {
+      "shortSha": "3720117",
+      "message": "Update 0.4.1",
+      "author": "Kasper",
+      "date": "2024-03-22T18:05:06Z"
+    },
+    {
+      "shortSha": "5ef5572",
+      "message": "Build V0.4",
+      "author": "Kasper",
+      "date": "2024-03-22T16:57:07Z"
+    },
+    {
+      "shortSha": "8a4ac17",
+      "message": "Minor fix Build still fails",
+      "author": "Kasper",
+      "date": "2024-03-22T13:35:59Z"
+    },
+    {
+      "shortSha": "e57155e",
+      "message": "Build Fails",
+      "author": "Kasper",
+      "date": "2024-03-22T13:33:21Z"
+    },
+    {
+      "shortSha": "213c5fc",
+      "message": "HUD improve",
+      "author": "Kasper",
+      "date": "2024-03-22T07:06:49Z"
+    },
+    {
+      "shortSha": "5662141",
+      "message": "Crashy but ok",
+      "author": "Kasper",
+      "date": "2024-03-22T04:44:19Z"
+    },
+    {
+      "shortSha": "1ad91be",
+      "message": "works now",
+      "author": "Kasper",
+      "date": "2024-03-22T04:35:06Z"
+    },
+    {
+      "shortSha": "e8f9fb3",
+      "message": "Working Kinda",
+      "author": "Kasper",
+      "date": "2024-03-22T00:43:27Z"
+    },
+    {
+      "shortSha": "64858db",
+      "message": "Semi functional",
+      "author": "Kasper",
+      "date": "2024-03-21T09:08:06Z"
+    },
+    {
+      "shortSha": "094a089",
+      "message": "New Dialog system",
+      "author": "Kasper",
+      "date": "2024-03-20T23:22:50Z"
+    },
+    {
+      "shortSha": "82df58d",
+      "message": "NPC 2 NPC talk",
+      "author": "Kasper",
+      "date": "2024-03-16T04:33:45Z"
+    },
+    {
+      "shortSha": "838e191",
+      "message": "Loading feature",
+      "author": "Kasper",
+      "date": "2024-03-15T23:22:36Z"
+    },
+    {
+      "shortSha": "61c5e35",
+      "message": "I tried to do something",
+      "author": "Kasper",
+      "date": "2024-03-14T05:31:46Z"
+    },
+    {
+      "shortSha": "659effd",
+      "message": "Ai increased",
+      "author": "Kasper",
+      "date": "2024-03-14T01:29:06Z"
+    },
+    {
+      "shortSha": "226c699",
+      "message": "Splash",
+      "author": "Kasper",
+      "date": "2024-03-13T05:14:12Z"
+    },
+    {
+      "shortSha": "e612377",
+      "message": "v0.2",
+      "author": "Kasper",
+      "date": "2024-03-13T04:05:06Z"
+    },
+    {
+      "shortSha": "e86d27d",
+      "message": "update",
+      "author": "Kasper",
+      "date": "2024-03-12T00:41:26Z"
+    },
+    {
+      "shortSha": "6bf5951",
+      "message": "Walls",
+      "author": "Kasper",
+      "date": "2024-03-11T21:28:53Z"
+    },
+    {
+      "shortSha": "9547e38",
+      "message": "layout",
+      "author": "Kasper",
+      "date": "2024-03-11T01:00:35Z"
+    },
+    {
+      "shortSha": "03438d4",
+      "message": "More user friendly",
+      "author": "Kasper",
+      "date": "2024-03-10T16:09:54Z"
+    },
+    {
+      "shortSha": "486dda4",
+      "message": "User Model",
+      "author": "Kasper",
+      "date": "2024-03-10T15:15:24Z"
+    },
+    {
+      "shortSha": "dbd1c24",
+      "message": "build",
+      "author": "Kasper",
+      "date": "2024-03-10T02:43:40Z"
+    },
+    {
+      "shortSha": "1411785",
+      "message": "Sitting",
+      "author": "Kasper",
+      "date": "2024-03-04T23:30:36Z"
+    },
+    {
+      "shortSha": "207c635",
+      "message": "ext",
+      "author": "Kasper",
+      "date": "2024-03-04T19:19:23Z"
+    },
+    {
+      "shortSha": "9a8f81c",
+      "message": "Kosma",
+      "author": "Kasper",
+      "date": "2024-02-28T23:08:06Z"
+    },
+    {
+      "shortSha": "9487f40",
+      "message": "Timetables2",
+      "author": "Kasper",
+      "date": "2024-02-28T01:19:37Z"
+    },
+    {
+      "shortSha": "70262fd",
+      "message": "timetables",
+      "author": "Kasper",
+      "date": "2024-02-27T23:30:39Z"
+    },
+    {
+      "shortSha": "9f10c1e",
+      "message": "Routines Part 1",
+      "author": "Kasper",
+      "date": "2024-02-27T19:44:02Z"
+    },
+    {
+      "shortSha": "1352a32",
+      "message": "NPC can use bathroom",
+      "author": "Kasper",
+      "date": "2024-02-24T02:07:23Z"
+    },
+    {
+      "shortSha": "0f2c22e",
+      "message": "menu",
+      "author": "Kasper",
+      "date": "2024-02-23T19:32:08Z"
+    },
+    {
+      "shortSha": "9938651",
+      "message": "Item Pickup",
+      "author": "Kasper",
+      "date": "2024-02-22T23:52:06Z"
+    },
+    {
+      "shortSha": "b302118",
+      "message": "clean",
+      "author": "Kasper",
+      "date": "2024-02-22T19:10:28Z"
+    },
+    {
+      "shortSha": "c09d928",
+      "message": "yo",
+      "author": "Kasper",
+      "date": "2024-02-22T00:57:00Z"
+    },
+    {
+      "shortSha": "db5d337",
+      "message": "cleaner",
+      "author": "Kasper",
+      "date": "2024-02-22T00:12:30Z"
+    },
+    {
+      "shortSha": "2eddb87",
+      "message": "clean up",
+      "author": "Kasper",
+      "date": "2024-02-21T23:45:48Z"
+    },
+    {
+      "shortSha": "6d0d278",
+      "message": "cooking fixing errors",
+      "author": "Kasper",
+      "date": "2024-02-21T22:48:04Z"
+    },
+    {
+      "shortSha": "034f171",
+      "message": "Stable Fix",
+      "author": "Kasper",
+      "date": "2024-02-19T22:39:00Z"
+    },
+    {
+      "shortSha": "3f87330",
+      "message": "sunday",
+      "author": "Kasper",
+      "date": "2024-02-19T00:06:02Z"
+    },
+    {
+      "shortSha": "d82a376",
+      "message": "Text to Audio (temp version)",
+      "author": "Kasper",
+      "date": "2024-02-18T03:03:40Z"
+    },
+    {
+      "shortSha": "6b17e60",
+      "message": "fooked Update",
+      "author": "Kasper",
+      "date": "2024-02-18T01:19:42Z"
+    },
+    {
+      "shortSha": "bc40d7b",
+      "message": "Major changes",
+      "author": "Kasper",
+      "date": "2024-02-17T18:17:04Z"
+    },
+    {
+      "shortSha": "64e5a3c",
+      "message": "few more tweaks.",
+      "author": "Kasper",
+      "date": "2024-02-16T03:14:06Z"
+    },
+    {
+      "shortSha": "b7ffe83",
+      "message": "Speed fixes",
+      "author": "Kasper",
+      "date": "2024-02-16T02:45:07Z"
+    },
+    {
+      "shortSha": "1b46215",
+      "message": "Tweaks and improvements",
+      "author": "Kasper",
+      "date": "2024-02-16T01:25:31Z"
+    },
+    {
+      "shortSha": "3520824",
+      "message": "Added basic chat",
+      "author": "Kasper",
+      "date": "2024-02-15T22:37:26Z"
+    },
+    {
+      "shortSha": "5cb36e7",
+      "message": "Repairs",
+      "author": "Kasper",
+      "date": "2024-02-09T19:27:56Z"
+    },
+    {
+      "shortSha": "44c6392",
+      "message": "cleaner text system",
+      "author": "Kasper",
+      "date": "2024-02-08T01:35:48Z"
+    },
+    {
+      "shortSha": "09c8395",
+      "message": "Typing for chat",
+      "author": "Kasper",
+      "date": "2024-02-07T23:50:40Z"
+    },
+    {
+      "shortSha": "f4ba196",
+      "message": "More Speech",
+      "author": "Kasper",
+      "date": "2024-02-07T21:32:25Z"
+    },
+    {
+      "shortSha": "d68dcb2",
+      "message": "speech bubbles",
+      "author": "Kasper",
+      "date": "2024-02-07T19:50:48Z"
+    },
+    {
+      "shortSha": "c61cef6",
+      "message": "Added AI Items and cleanup",
+      "author": "Kasper",
+      "date": "2024-02-07T16:36:19Z"
+    },
+    {
+      "shortSha": "649c453",
+      "message": "Cool updates",
+      "author": "Kasper",
+      "date": "2024-02-07T12:47:16Z"
+    },
+    {
+      "shortSha": "102d779",
+      "message": "cleaned some code",
+      "author": "Kasper",
+      "date": "2024-02-07T01:23:20Z"
+    },
+    {
+      "shortSha": "3013ee9",
+      "message": "camera turn and Kosma's assets",
+      "author": "Kasper",
+      "date": "2024-02-07T01:18:07Z"
+    },
+    {
+      "shortSha": "c7bd8a0",
+      "message": "Phil Update Rooms",
+      "author": "Kasper",
+      "date": "2024-02-07T00:27:47Z"
+    },
+    {
+      "shortSha": "f05494e",
+      "message": "Dirty push",
+      "author": "Kasper",
+      "date": "2024-02-06T22:51:07Z"
+    },
+    {
+      "shortSha": "fc57ab8",
+      "message": "Tweaks",
+      "author": "Kasper",
+      "date": "2024-02-05T19:14:51Z"
+    },
+    {
+      "shortSha": "1fdd529",
+      "message": "cleanup",
+      "author": "Kasper",
+      "date": "2024-02-01T13:39:34Z"
+    },
+    {
+      "shortSha": "0a47005",
+      "message": "added character",
+      "author": "Kasper",
+      "date": "2024-02-01T10:01:53Z"
+    },
+    {
+      "shortSha": "998ecf1",
+      "message": "school template",
+      "author": "Kasper",
+      "date": "2024-01-31T21:57:27Z"
+    },
+    {
+      "shortSha": "407ae53",
+      "message": "basic main menu",
+      "author": "Kasper",
+      "date": "2024-01-30T22:43:19Z"
+    },
+    {
+      "shortSha": "a52b9cd",
+      "message": "adjustments to camera and test level",
+      "author": "Kasper",
+      "date": "2024-01-25T22:10:45Z"
+    },
+    {
+      "shortSha": "6a37724",
+      "message": "fixed errors",
+      "author": "Kasper",
+      "date": "2024-01-25T21:49:03Z"
+    },
+    {
+      "shortSha": "231eb86",
+      "message": "Drag and Drop Stuff added",
+      "author": "Kasper",
+      "date": "2024-01-25T21:40:13Z"
+    },
+    {
+      "shortSha": "1cc4f24",
+      "message": "Ground",
+      "author": "Kasper",
+      "date": "2024-01-25T19:19:42Z"
+    },
+    {
+      "shortSha": "1b94bbb",
+      "message": "Imported level ground for testing",
+      "author": "Kasper",
+      "date": "2024-01-25T19:11:25Z"
+    },
+    {
+      "shortSha": "c2fa692",
+      "message": "Adjust",
+      "author": "Kasper",
+      "date": "2024-01-25T16:23:05Z"
+    },
+    {
+      "shortSha": "26f9484",
+      "message": "Datatable added from old version",
+      "author": "Kasper",
+      "date": "2024-01-24T23:18:44Z"
+    },
+    {
+      "shortSha": "9446835",
+      "message": "Bringing in some older elements",
+      "author": "Kasper",
+      "date": "2024-01-21T18:50:19Z"
+    },
+    {
+      "shortSha": "6329928",
+      "message": "TemplateCreated",
+      "author": "Kasper",
+      "date": "2024-01-18T15:32:09Z"
+    },
+    {
+      "shortSha": "7563221",
+      "message": "Initial commit",
+      "author": "Kasper",
+      "date": "2024-01-18T14:56:16Z"
+    }
+  ]
 }

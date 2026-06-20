@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-06-20T18:44:49.231Z",
-  "commitCount": 1185,
+  "generatedAt": "2026-06-20T21:32:18.041Z",
+  "commitCount": 1186,
   "commits": [
+    {
+      "shortSha": "eac8b28",
+      "message": "feat: Implement grenade weapon and projectile classes with throwing mechanics",
+      "author": "Kasper",
+      "date": "2026-06-20T19:51:53Z"
+    },
     {
       "shortSha": "dd98a83",
       "message": "feat: Add audio handling for dog NPC actions including bite and movement sounds",
