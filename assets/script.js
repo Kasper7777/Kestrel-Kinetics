@@ -4,6 +4,7 @@ const commitSummary = document.querySelector("[data-commit-summary]");
 const commitStatus = document.querySelector("[data-commit-status]");
 const commitList = document.querySelector("[data-commit-list]");
 const commitFeedPath = document.body?.dataset.commitFeed || "assets/commits.json";
+const commitRefreshInterval = 5 * 60 * 1000;
 
 const syncHeader = () => {
   header?.classList.toggle("is-scrolled", window.scrollY > 12);
@@ -71,4 +72,17 @@ const loadCommitFeed = async () => {
 year.textContent = new Date().getFullYear();
 syncHeader();
 loadCommitFeed();
+if (commitList) {
+  window.setInterval(() => {
+    if (document.visibilityState !== "hidden") {
+      loadCommitFeed();
+    }
+  }, commitRefreshInterval);
+
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") {
+      loadCommitFeed();
+    }
+  });
+}
 window.addEventListener("scroll", syncHeader, { passive: true });
