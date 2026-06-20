@@ -77,7 +77,6 @@ const feed = {
   generatedAt: new Date().toISOString(),
   commitCount: commits.length,
   commits: commits.map((commit) => ({
-    sha: commit.sha,
     shortSha: commit.sha.slice(0, 7),
     message: cleanMessage(commit.commit.message),
     author: commit.commit.author?.name || commit.author?.login || "Unknown",

@@ -3,6 +3,7 @@ const year = document.querySelector("[data-year]");
 const commitSummary = document.querySelector("[data-commit-summary]");
 const commitStatus = document.querySelector("[data-commit-status]");
 const commitList = document.querySelector("[data-commit-list]");
+const commitFeedPath = document.body?.dataset.commitFeed || "assets/commits.json";
 
 const syncHeader = () => {
   header?.classList.toggle("is-scrolled", window.scrollY > 12);
@@ -38,7 +39,7 @@ const renderCommitFeed = (feed) => {
       date.textContent = commit.date ? formatDate(commit.date) : "Unknown date";
       author.textContent = commit.author ? `by ${commit.author}` : "unknown author";
       sha.className = "commit-sha";
-      sha.textContent = commit.shortSha || commit.sha?.slice(0, 7) || "";
+      sha.textContent = commit.shortSha || "";
 
       meta.append(date, author, sha);
       item.append(title, meta);
@@ -53,7 +54,7 @@ const loadCommitFeed = async () => {
   }
 
   try {
-    const response = await fetch("assets/commits.json", { cache: "no-store" });
+    const response = await fetch(commitFeedPath, { cache: "no-store" });
     if (!response.ok) {
       throw new Error(`Commit feed returned ${response.status}`);
     }
