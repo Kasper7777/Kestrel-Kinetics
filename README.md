@@ -36,7 +36,7 @@ Because the source repositories are private, add repository secrets for each fee
 - `MANIC_MONDAYS_SOURCE_REPO` and `MANIC_MONDAYS_SOURCE_TOKEN` write `assets/commits-manic-mondays.json`.
 
 The token only needs read-only Contents access to its source repository.
-For Manic Monday's, the workflow also accepts the singular fallback names `MANIC_MONDAY_SOURCE_REPO` and `MANIC_MONDAY_SOURCE_TOKEN`.
+For Manic Monday's, the workflow also accepts the singular fallback names `MANIC_MONDAY_SOURCE_REPO` and `MANIC_MONDAY_SOURCE_TOKEN`. If no Manic Monday's token is configured, it falls back to `CYBER_BULLY_SOURCE_TOKEN`.
 
 ## Cyber Bully Gallery
 
