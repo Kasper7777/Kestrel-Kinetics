@@ -35,6 +35,23 @@ jobs:
           FEED_LABEL: Cyber Bully
         run: node .github/scripts/fetch-commits.mjs
 
+      - name: Check Manic Monday's source configuration
+        env:
+          SOURCE_REPO: ${{ secrets.MANIC_MONDAYS_SOURCE_REPO || secrets.MANIC_MONDAY_SOURCE_REPO }}
+          SOURCE_TOKEN: ${{ secrets.MANIC_MONDAYS_SOURCE_TOKEN || secrets.MANIC_MONDAY_SOURCE_TOKEN || secrets.CYBER_BULLY_SOURCE_TOKEN }}
+        run: |
+          if [ -z "$SOURCE_REPO" ]; then
+            echo "::error::Set MANIC_MONDAYS_SOURCE_REPO or MANIC_MONDAY_SOURCE_REPO."
+            exit 1
+          fi
+
+          if [ -z "$SOURCE_TOKEN" ]; then
+            echo "::error::Set MANIC_MONDAYS_SOURCE_TOKEN, MANIC_MONDAY_SOURCE_TOKEN, or a reusable CYBER_BULLY_SOURCE_TOKEN with access to the Manic Monday's source repo."
+            exit 1
+          fi
+
+          echo "Manic Monday's source repo and token secrets are configured."
+
       - name: Fetch Manic Monday's commits
         env:
           SOURCE_REPO: ${{ secrets.MANIC_MONDAYS_SOURCE_REPO || secrets.MANIC_MONDAY_SOURCE_REPO }}
