@@ -37,8 +37,8 @@ jobs:
 
       - name: Fetch Manic Monday's commits
         env:
-          SOURCE_REPO: ${{ secrets.MANIC_MONDAYS_SOURCE_REPO }}
-          SOURCE_TOKEN: ${{ secrets.MANIC_MONDAYS_SOURCE_TOKEN }}
+          SOURCE_REPO: ${{ secrets.MANIC_MONDAYS_SOURCE_REPO || secrets.MANIC_MONDAY_SOURCE_REPO }}
+          SOURCE_TOKEN: ${{ secrets.MANIC_MONDAYS_SOURCE_TOKEN || secrets.MANIC_MONDAY_SOURCE_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
           OUTPUT_PATH: assets/commits-manic-mondays.json
           FEED_LABEL: Manic Monday's
