@@ -100,20 +100,13 @@ img {
   letter-spacing: 0.08em;
 }
 
-.brand-name,
-.brand-subtitle {
+.brand-name {
   display: block;
   line-height: 1.05;
 }
 
 .brand-name {
   font-weight: 900;
-}
-
-.brand-subtitle {
-  margin-top: 0.15rem;
-  color: var(--muted);
-  font-size: 0.78rem;
 }
 
 .site-nav {
@@ -502,10 +495,6 @@ dd {
 }
 
 @media (max-width: 560px) {
-  .brand-subtitle {
-    max-width: 14rem;
-  }
-
   .hero {
     min-height: 820px;
   }

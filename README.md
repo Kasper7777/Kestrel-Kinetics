@@ -1,4 +1,4 @@
-# Kestrel Kinetics Research & Technology
+# Kestrel Kinetics
 
 Static GitHub Pages site for **Cyber Bully**.
 
