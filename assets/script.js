@@ -5,6 +5,9 @@ const commitStatus = document.querySelector("[data-commit-status]");
 const commitList = document.querySelector("[data-commit-list]");
 const commitFeedPath = document.body?.dataset.commitFeed || "assets/commits.json";
 const commitRefreshInterval = 5 * 60 * 1000;
+const galleryGrid = document.querySelector("[data-gallery-grid]");
+const galleryStatus = document.querySelector("[data-gallery-status]");
+const galleryFeedPath = document.body?.dataset.galleryFeed;
 
 const syncHeader = () => {
   header?.classList.toggle("is-scrolled", window.scrollY > 12);
@@ -69,9 +72,61 @@ const loadCommitFeed = async () => {
   }
 };
 
+const renderGallery = (feed) => {
+  const images = Array.isArray(feed.images) ? feed.images : [];
+
+  if (!images.length) {
+    galleryStatus.textContent = "Add images to assets/images/cyber-bully/gallery and push them to publish a gallery.";
+    galleryGrid.replaceChildren();
+    galleryGrid.hidden = true;
+    return;
+  }
+
+  galleryStatus.textContent = `${images.length} image${images.length === 1 ? "" : "s"} placed automatically.`;
+  galleryGrid.hidden = false;
+  galleryGrid.replaceChildren(
+    ...images.map((image, index) => {
+      const figure = document.createElement("figure");
+      const img = document.createElement("img");
+      const caption = document.createElement("figcaption");
+      const tileClass = index % 7 === 0 ? "is-large" : index % 5 === 0 ? "is-wide" : "";
+
+      figure.className = ["gallery-item", tileClass].filter(Boolean).join(" ");
+      img.src = image.src.startsWith("../") ? image.src : `../${image.src}`;
+      img.alt = image.alt || image.title || "Cyber Bully development image";
+      img.loading = "lazy";
+      caption.textContent = image.title || "Cyber Bully";
+
+      figure.append(img, caption);
+      return figure;
+    })
+  );
+};
+
+const loadGallery = async () => {
+  if (!galleryGrid || !galleryStatus || !galleryFeedPath) {
+    return;
+  }
+
+  try {
+    const response = await fetch(galleryFeedPath, { cache: "no-store" });
+    if (!response.ok) {
+      throw new Error(`Gallery feed returned ${response.status}`);
+    }
+
+    renderGallery(await response.json());
+  } catch (error) {
+    galleryStatus.textContent = "The image gallery could not be loaded right now.";
+    galleryGrid.replaceChildren();
+    galleryGrid.hidden = true;
+    console.error(error);
+  }
+};
+
 year.textContent = new Date().getFullYear();
 syncHeader();
 loadCommitFeed();
+loadGallery();
 if (commitList) {
   window.setInterval(() => {
     if (document.visibilityState !== "hidden") {

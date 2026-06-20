@@ -1,9 +1,14 @@
-name: Update development log
+name: Update site data
 
 on:
   workflow_dispatch:
   schedule:
     - cron: "17 * * * *"
+  push:
+    paths:
+      - "assets/images/cyber-bully/gallery/**"
+      - ".github/scripts/build-gallery-manifest.mjs"
+      - ".github/workflows/update-development-log.yml"
 
 permissions:
   contents: write
@@ -28,15 +33,18 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: node .github/scripts/fetch-commits.mjs
 
-      - name: Commit refreshed log
+      - name: Build Cyber Bully gallery
+        run: node .github/scripts/build-gallery-manifest.mjs
+
+      - name: Commit refreshed site data
         run: |
-          if git diff --quiet -- assets/commits.json; then
-            echo "Development log already up to date."
+          if git diff --quiet -- assets/commits.json assets/gallery.json; then
+            echo "Site data already up to date."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/commits.json
-          git commit -m "Update development log"
+          git add assets/commits.json assets/gallery.json
+          git commit -m "Update site data"
           git push
