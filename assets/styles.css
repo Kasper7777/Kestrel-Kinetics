@@ -323,6 +323,22 @@ p {
   color: var(--text);
 }
 
+.button-steam {
+  border-color: rgba(125, 255, 178, 0.58);
+  background: rgba(4, 7, 11, 0.68);
+  color: var(--green);
+}
+
+.button-disabled {
+  cursor: not-allowed;
+  opacity: 0.72;
+}
+
+.button-disabled:hover,
+.button-disabled:focus-visible {
+  transform: none;
+}
+
 .status-panel {
   position: absolute;
   left: clamp(1rem, 6vw, 5rem);
