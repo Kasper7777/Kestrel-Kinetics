@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat)",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless=new --disable-gpu --screenshot=\"j:/CBWebSite/_verify_900.png\" --window-size=1440,900 \"http://localhost:8420/\")"
+    ]
+  }
+}

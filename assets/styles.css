@@ -126,6 +126,36 @@ img {
   transition: color 160ms ease, opacity 160ms ease;
 }
 
+.social-link {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 50%;
+  background: rgba(54, 217, 255, 0.12);
+  opacity: 0.9;
+  transition: transform 160ms ease, background 160ms ease, opacity 160ms ease;
+}
+
+.social-link svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  fill: currentColor;
+}
+
+.social-link:hover,
+.social-link:focus-visible {
+  transform: translateY(-2px);
+  background: rgba(54, 217, 255, 0.24);
+  opacity: 1;
+}
+
+.site-footer .social-link {
+  color: var(--muted);
+}
+
 .site-nav a:hover,
 .site-nav a:focus-visible,
 .site-footer a:hover,
@@ -146,10 +176,12 @@ img {
 }
 
 .studio-hero {
-  display: grid;
-  grid-template-columns: minmax(16rem, 0.78fr) minmax(18rem, 1fr);
-  gap: clamp(2rem, 7vw, 6rem);
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  gap: clamp(1.5rem, 5vw, 2.75rem);
+  text-align: center;
 }
 
 .studio-hero::after {
@@ -165,27 +197,61 @@ img {
 }
 
 .studio-logo-stage {
+  position: relative;
   display: grid;
   place-items: center;
-  min-height: 26rem;
-  border: 1px solid var(--line);
-  border-radius: 8px;
+  width: min(20rem, 70vw);
+  height: min(20rem, 70vw);
+  border-radius: 50%;
   background:
-    radial-gradient(circle at 50% 48%, rgba(54, 217, 255, 0.22), transparent 38%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.018)),
+    radial-gradient(circle at 50% 45%, rgba(54, 217, 255, 0.26), transparent 60%),
     rgba(4, 7, 11, 0.64);
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.32);
+  animation: logo-float 7s ease-in-out infinite;
+}
+
+.studio-logo-ring {
+  position: absolute;
+  inset: -1px;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, var(--cyan), var(--pink), var(--green), var(--cyan));
+  -webkit-mask: radial-gradient(closest-side, transparent calc(100% - 2px), #000 calc(100% - 2px));
+  mask: radial-gradient(closest-side, transparent calc(100% - 2px), #000 calc(100% - 2px));
+  animation: logo-spin 12s linear infinite;
 }
 
 .studio-logo-stage img {
-  width: min(70%, 22rem);
-  max-height: 18rem;
+  width: 60%;
+  max-height: 60%;
   object-fit: contain;
-  filter: drop-shadow(0 0 32px rgba(54, 217, 255, 0.28));
+  filter: drop-shadow(0 0 36px rgba(54, 217, 255, 0.4));
+}
+
+@keyframes logo-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes logo-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.6rem);
+  }
 }
 
 .studio-hero-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: min(44rem, 100%);
+}
+
+.studio-hero-copy .hero-actions {
+  justify-content: center;
 }
 
 .hero {
@@ -245,7 +311,8 @@ h1 {
 }
 
 .studio-hero h1 {
-  max-width: 12ch;
+  max-width: 18ch;
+  margin-inline: auto;
 }
 
 .studio-title span:first-child,
@@ -835,7 +902,6 @@ dd {
     padding-bottom: 0.1rem;
   }
 
-  .studio-hero,
   .split,
   .section-heading,
   .press-band,
@@ -858,7 +924,8 @@ dd {
   }
 
   .studio-logo-stage {
-    min-height: 20rem;
+    width: min(15rem, 70vw);
+    height: min(15rem, 70vw);
   }
 
   .hero {
