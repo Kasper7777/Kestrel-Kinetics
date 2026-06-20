@@ -111,16 +111,6 @@ img {
   line-height: 1.05;
 }
 
-.brand-subtitle {
-  display: block;
-  margin-top: 0.14rem;
-  color: var(--muted);
-  font-size: 0.66rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
 .site-nav {
   display: flex;
   align-items: center;
@@ -270,14 +260,6 @@ h1 {
   font-weight: 900;
   letter-spacing: 0.18em;
   line-height: 1.15;
-}
-
-.name-lockup-inline span {
-  color: var(--muted);
-  font-size: 0.66em;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
 }
 
 h2 {

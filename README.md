@@ -1,14 +1,14 @@
-# Kestrel Kinetics Research & Technology
+# Kestrel Kinetics
 
-Static GitHub Pages site for **Kestrel Kinetics Research & Technology**, with a separate page for **Cyber Bully**.
+Static GitHub Pages site for **Kestrel Kinetics**, with a separate page for **Cyber Bully**.
 
 ## Files
 
-- `index.html` - Kestrel Kinetics Research & Technology studio homepage.
+- `index.html` - Kestrel Kinetics studio homepage.
 - `cyber-bully/index.html` - Cyber Bully game page.
 - `assets/styles.css` - responsive site styling.
 - `assets/script.js` - small header/year enhancement.
-- `assets/images/studio/kestrel-logo.png` - Kestrel Kinetics Research & Technology logo.
+- `assets/images/studio/kestrel-logo.png` - Kestrel Kinetics logo.
 - `assets/images/game/cyber-bully-hero.png` - generated hero artwork for the game page.
 - `assets/icons/kestrel.ico` - site favicon.
 
