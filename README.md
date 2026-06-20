@@ -1,11 +1,11 @@
 # Kestrel Kinetics
 
-Static GitHub Pages site for **Kestrel Kinetics**, with a separate page for **Cyber Bully**.
+Static GitHub Pages site for **Kestrel Kinetics Research & Technology**, with a separate page for **Cyber Bully: 502 Bad Gateway**.
 
 ## Files
 
 - `index.html` - Kestrel Kinetics studio homepage.
-- `cyber-bully/index.html` - Cyber Bully game page.
+- `cyber-bully/index.html` - Cyber Bully: 502 Bad Gateway game page.
 - `assets/styles.css` - responsive site styling.
 - `assets/script.js` - small header/year enhancement.
 - `assets/images/studio/kestrel-logo.png` - Kestrel Kinetics logo.
@@ -31,4 +31,4 @@ Because the source repository is private, add repository secrets named `CYBER_BU
 
 ## Cyber Bully Gallery
 
-Add images to `assets/images/cyber-bully/gallery/` and push them to GitHub. The workflow rebuilds `assets/gallery.json`, and the Cyber Bully page places the images automatically in a responsive visual grid.
+Add images to `assets/images/cyber-bully/gallery/` and push them to GitHub. The workflow rebuilds `assets/gallery.json`, and the Cyber Bully page places the images automatically into the magazine-style visual section.

@@ -8,6 +8,7 @@ const commitRefreshInterval = 5 * 60 * 1000;
 const galleryGrid = document.querySelector("[data-gallery-grid]");
 const galleryStatus = document.querySelector("[data-gallery-status]");
 const galleryFeedPath = document.body?.dataset.galleryFeed;
+const gallerySlots = [...document.querySelectorAll("[data-gallery-slot]")];
 
 const syncHeader = () => {
   header?.classList.toggle("is-scrolled", window.scrollY > 12);
@@ -72,41 +73,79 @@ const loadCommitFeed = async () => {
   }
 };
 
+const normaliseGallerySrc = (image) => {
+  const source = image?.src || "";
+  return source.startsWith("../") ? source : `../${source}`;
+};
+
+const isCoverImage = (image) => /(^|\/)title\.[a-z0-9]+$/i.test(image?.src || "");
+
+const createGalleryItem = (image, index) => {
+  const figure = document.createElement("figure");
+  const img = document.createElement("img");
+  const caption = document.createElement("figcaption");
+  const tileClass = index % 7 === 0 ? "is-large" : index % 5 === 0 ? "is-wide" : "";
+
+  figure.className = ["gallery-item", tileClass].filter(Boolean).join(" ");
+  img.src = normaliseGallerySrc(image);
+  img.alt = image.alt || image.title || "Cyber Bully: 502 Bad Gateway development image";
+  img.loading = "lazy";
+  caption.textContent = image.title || "Cyber Bully: 502 Bad Gateway";
+
+  figure.append(img, caption);
+  return figure;
+};
+
+const fillGallerySlot = (slot, image) => {
+  slot.replaceChildren();
+
+  if (!image) {
+    slot.hidden = true;
+    return;
+  }
+
+  const img = document.createElement("img");
+  const caption = document.createElement("figcaption");
+
+  slot.hidden = false;
+  img.src = normaliseGallerySrc(image);
+  img.alt = image.alt || image.title || "Cyber Bully: 502 Bad Gateway development image";
+  img.loading = "lazy";
+  caption.textContent = image.title || "Cyber Bully: 502 Bad Gateway";
+  slot.append(img, caption);
+};
+
 const renderGallery = (feed) => {
   const images = Array.isArray(feed.images) ? feed.images : [];
+  const editorialImages = images.filter((image) => !isCoverImage(image));
+  const displayImages = editorialImages.length ? editorialImages : images;
 
-  if (!images.length) {
+  if (!displayImages.length) {
     galleryStatus.textContent = "Add images to assets/images/cyber-bully/gallery and push them to publish a gallery.";
     galleryStatus.hidden = false;
-    galleryGrid.replaceChildren();
-    galleryGrid.hidden = true;
+    gallerySlots.forEach((slot) => fillGallerySlot(slot));
+    galleryGrid?.replaceChildren();
+    if (galleryGrid) {
+      galleryGrid.hidden = true;
+    }
     return;
   }
 
   galleryStatus.textContent = "";
   galleryStatus.hidden = true;
-  galleryGrid.hidden = false;
-  galleryGrid.replaceChildren(
-    ...images.map((image, index) => {
-      const figure = document.createElement("figure");
-      const img = document.createElement("img");
-      const caption = document.createElement("figcaption");
-      const tileClass = index % 7 === 0 ? "is-large" : index % 5 === 0 ? "is-wide" : "";
+  gallerySlots.forEach((slot, index) => fillGallerySlot(slot, displayImages[index]));
 
-      figure.className = ["gallery-item", tileClass].filter(Boolean).join(" ");
-      img.src = image.src.startsWith("../") ? image.src : `../${image.src}`;
-      img.alt = image.alt || image.title || "Cyber Bully development image";
-      img.loading = "lazy";
-      caption.textContent = image.title || "Cyber Bully";
+  if (!galleryGrid) {
+    return;
+  }
 
-      figure.append(img, caption);
-      return figure;
-    })
-  );
+  const remainingImages = displayImages.slice(gallerySlots.length);
+  galleryGrid.hidden = !remainingImages.length;
+  galleryGrid.replaceChildren(...remainingImages.map(createGalleryItem));
 };
 
 const loadGallery = async () => {
-  if (!galleryGrid || !galleryStatus || !galleryFeedPath) {
+  if ((!galleryGrid && !gallerySlots.length) || !galleryStatus || !galleryFeedPath) {
     return;
   }
 
@@ -120,8 +159,11 @@ const loadGallery = async () => {
   } catch (error) {
     galleryStatus.textContent = "The image gallery could not be loaded right now.";
     galleryStatus.hidden = false;
-    galleryGrid.replaceChildren();
-    galleryGrid.hidden = true;
+    gallerySlots.forEach((slot) => fillGallerySlot(slot));
+    galleryGrid?.replaceChildren();
+    if (galleryGrid) {
+      galleryGrid.hidden = true;
+    }
     console.error(error);
   }
 };

@@ -249,6 +249,7 @@ h1 {
 }
 
 .studio-title span:first-child,
+.game-title span:first-child,
 .title-subtitle {
   display: block;
 }
@@ -392,6 +393,14 @@ p {
   font-size: 1.1rem;
 }
 
+.intro-copy p {
+  font-size: 1.1rem;
+}
+
+.intro-copy p:last-child {
+  margin-bottom: 0;
+}
+
 .project-section {
   border-top: 1px solid var(--line);
 }
@@ -499,7 +508,7 @@ p {
   border-top: 1px solid var(--line);
 }
 
-.gallery-section {
+.magazine-section {
   border-top: 1px solid var(--line);
 }
 
@@ -509,6 +518,115 @@ p {
   color: var(--green);
   font-size: 0.9rem;
   font-weight: 800;
+}
+
+.magazine-layout {
+  display: grid;
+  gap: clamp(1.25rem, 3vw, 2.2rem);
+}
+
+.magazine-story {
+  display: grid;
+  grid-template-columns: minmax(0, 0.98fr) minmax(18rem, 0.74fr);
+  gap: clamp(1.4rem, 5vw, 4rem);
+  align-items: center;
+  border-top: 1px solid rgba(135, 227, 255, 0.16);
+  padding: clamp(1.5rem, 5vw, 3.5rem) 0;
+}
+
+.magazine-story:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.magazine-story.is-featured {
+  grid-template-columns: minmax(0, 1.15fr) minmax(18rem, 0.76fr);
+}
+
+.magazine-story.is-reversed {
+  grid-template-columns: minmax(18rem, 0.74fr) minmax(0, 0.98fr);
+}
+
+.magazine-story.is-reversed .magazine-image {
+  order: 2;
+}
+
+.magazine-image {
+  position: relative;
+  min-height: clamp(19rem, 42vw, 34rem);
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid rgba(135, 227, 255, 0.24);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(54, 217, 255, 0.12), rgba(255, 79, 216, 0.08)),
+    var(--panel-solid);
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.24);
+}
+
+.magazine-story:not(.is-featured) .magazine-image {
+  min-height: clamp(16rem, 32vw, 25rem);
+}
+
+.magazine-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.01);
+  transition: transform 260ms ease, filter 260ms ease;
+}
+
+.magazine-image::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background:
+    linear-gradient(180deg, transparent 48%, rgba(4, 7, 11, 0.72)),
+    linear-gradient(90deg, rgba(54, 217, 255, 0.12), transparent 42%);
+  pointer-events: none;
+}
+
+.magazine-image:hover img {
+  filter: saturate(1.08) contrast(1.06);
+  transform: scale(1.04);
+}
+
+.magazine-image figcaption {
+  position: absolute;
+  left: 0.85rem;
+  right: 0.85rem;
+  bottom: 0.85rem;
+  z-index: 1;
+  color: var(--text);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.86);
+}
+
+.magazine-copy {
+  max-width: 34rem;
+}
+
+.magazine-copy .card-number {
+  margin-bottom: 1.2rem;
+}
+
+.magazine-copy h3 {
+  max-width: 13ch;
+  font-size: clamp(1.8rem, 4vw, 3.5rem);
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+
+.magazine-copy p {
+  margin-bottom: 0;
+  font-size: clamp(1rem, 1.8vw, 1.16rem);
+}
+
+.gallery-grid-extra {
+  margin-top: clamp(1rem, 3vw, 2rem);
 }
 
 .gallery-grid {
@@ -733,8 +851,23 @@ dd {
   .press-band,
   .development,
   .systems-list article,
+  .magazine-story,
+  .magazine-story.is-featured,
+  .magazine-story.is-reversed,
   .project-panel {
     grid-template-columns: 1fr;
+  }
+
+  .magazine-story.is-reversed .magazine-image {
+    order: 0;
+  }
+
+  .magazine-copy {
+    max-width: none;
+  }
+
+  .magazine-copy h3 {
+    max-width: 18ch;
   }
 
   .studio-hero {
