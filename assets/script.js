@@ -77,12 +77,14 @@ const renderGallery = (feed) => {
 
   if (!images.length) {
     galleryStatus.textContent = "Add images to assets/images/cyber-bully/gallery and push them to publish a gallery.";
+    galleryStatus.hidden = false;
     galleryGrid.replaceChildren();
     galleryGrid.hidden = true;
     return;
   }
 
-  galleryStatus.textContent = `${images.length} image${images.length === 1 ? "" : "s"} placed automatically.`;
+  galleryStatus.textContent = "";
+  galleryStatus.hidden = true;
   galleryGrid.hidden = false;
   galleryGrid.replaceChildren(
     ...images.map((image, index) => {
@@ -117,6 +119,7 @@ const loadGallery = async () => {
     renderGallery(await response.json());
   } catch (error) {
     galleryStatus.textContent = "The image gallery could not be loaded right now.";
+    galleryStatus.hidden = false;
     galleryGrid.replaceChildren();
     galleryGrid.hidden = true;
     console.error(error);

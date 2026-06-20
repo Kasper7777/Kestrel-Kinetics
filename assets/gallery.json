@@ -1,11 +1,21 @@
 {
-  "generatedAt": "2026-06-20T12:39:04.015Z",
-  "imageCount": 2,
+  "generatedAt": "2026-06-20T12:41:49.741Z",
+  "imageCount": 4,
   "images": [
     {
-      "src": "assets/images/cyber-bully/gallery/cyber-bully-key-art.png",
-      "alt": "Cyber Bully Cyber Bully Key Art",
-      "title": "Cyber Bully Key Art"
+      "src": "assets/images/cyber-bully/gallery/Screenshot 2025-06-29 171221.png",
+      "alt": "Cyber Bully Screenshot 2025 06 29 171221",
+      "title": "Screenshot 2025 06 29 171221"
+    },
+    {
+      "src": "assets/images/cyber-bully/gallery/Screenshot 2026-06-20 132444.png",
+      "alt": "Cyber Bully Screenshot 2026 06 20 132444",
+      "title": "Screenshot 2026 06 20 132444"
+    },
+    {
+      "src": "assets/images/cyber-bully/gallery/Screenshot 2026-06-20 133702.png",
+      "alt": "Cyber Bully Screenshot 2026 06 20 133702",
+      "title": "Screenshot 2026 06 20 133702"
     },
     {
       "src": "assets/images/cyber-bully/gallery/title.png",
