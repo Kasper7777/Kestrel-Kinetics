@@ -384,6 +384,11 @@ p {
   margin-bottom: 1.5rem;
 }
 
+.section-heading > p:last-child {
+  margin-bottom: 0;
+  font-size: 1.05rem;
+}
+
 .project-panel {
   display: grid;
   grid-template-columns: minmax(18rem, 1fr) minmax(16rem, 0.7fr);
@@ -444,7 +449,8 @@ p {
 }
 
 .feature-card,
-.systems-list article {
+.systems-list article,
+.lore-list article {
   border: 1px solid var(--line);
   border-radius: 8px;
   background:
@@ -472,6 +478,36 @@ p {
 
 .systems {
   border-top: 1px solid var(--line);
+}
+
+.lore {
+  border-top: 1px solid var(--line);
+}
+
+.lore .section-heading {
+  align-items: start;
+}
+
+.lore-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.lore-list article {
+  padding: clamp(1rem, 3vw, 1.5rem);
+}
+
+.lore-list time {
+  display: block;
+  margin-bottom: 0.8rem;
+  color: var(--green);
+  font-family: ui-monospace, "Cascadia Code", "Consolas", monospace;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+.lore-list p:last-child {
+  margin-bottom: 0;
 }
 
 .systems-list {
