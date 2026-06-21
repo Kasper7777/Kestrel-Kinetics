@@ -1,4 +1,4 @@
-const REQUIRED_ENV = ["RESEND_API_KEY", "CONTACT_TO_EMAIL", "CONTACT_FROM_EMAIL"];
+const REQUIRED_ENV = ["DISCORD_WEBHOOK_URL"];
 const JSON_HEADERS = {
   "Cache-Control": "no-store",
   "Content-Type": "application/json; charset=utf-8",
@@ -59,55 +59,46 @@ const cleanMessage = (value) =>
 const isValidEmail = (value) =>
   value.length <= 254 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
 
-const escapeHtml = (value) =>
-  String(value)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#39;");
+const buildDiscordPayload = ({ name, email, message }) => ({
+  username: "Kestrel Contact",
+  content: "New website contact message",
+  allowed_mentions: {
+    parse: [],
+  },
+  embeds: [
+    {
+      title: "Website contact form",
+      color: 3594751,
+      fields: [
+        {
+          name: "Name",
+          value: name,
+          inline: true,
+        },
+        {
+          name: "Reply email",
+          value: email,
+          inline: true,
+        },
+      ],
+      description: message,
+      timestamp: new Date().toISOString(),
+    },
+  ],
+});
 
-const buildMessage = ({ name, email, message }) => {
-  const text = [
-    "New website contact message",
-    "",
-    `Name: ${name}`,
-    `Reply-To: ${email}`,
-    "",
-    message,
-  ].join("\n");
-
-  const html = `
-    <h2>New website contact message</h2>
-    <p><strong>Name:</strong> ${escapeHtml(name)}</p>
-    <p><strong>Reply-To:</strong> ${escapeHtml(email)}</p>
-    <p>${escapeHtml(message).replace(/\n/g, "<br>")}</p>
-  `;
-
-  return { text, html };
-};
-
-const sendEmail = async ({ name, email, message }) => {
-  const { text, html } = buildMessage({ name, email, message });
-  const response = await fetch("https://api.resend.com/emails", {
+const sendDiscordMessage = async ({ name, email, message }) => {
+  const response = await fetch(process.env.DISCORD_WEBHOOK_URL, {
     method: "POST",
     headers: {
-      Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({
-      from: process.env.CONTACT_FROM_EMAIL,
-      to: [process.env.CONTACT_TO_EMAIL],
-      reply_to: email,
-      subject: `Website contact from ${name}`,
-      text,
-      html,
-    }),
+    body: JSON.stringify(buildDiscordPayload({ name, email, message })),
   });
 
   if (!response.ok) {
     const details = await response.text().catch(() => "");
-    console.error("Contact email provider failed", response.status, details.slice(0, 500));
+    console.error("Contact Discord webhook failed", response.status, details.slice(0, 500));
     return false;
   }
 
@@ -155,7 +146,7 @@ const createContactResponse = async ({ method, headers, body }) => {
     return json(500, { message: "The contact form is not configured yet." });
   }
 
-  const sent = await sendEmail({ name, email, message });
+  const sent = await sendDiscordMessage({ name, email, message });
   if (!sent) {
     return json(502, { message: "The message could not be sent right now." });
   }

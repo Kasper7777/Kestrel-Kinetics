@@ -18,7 +18,7 @@ Static site for **Kestrel Kinetics Research & Technology**, with separate pages 
 - `assets/icons/kestrel.ico` - site favicon.
 - `api/contact.js` - Vercel serverless contact endpoint.
 - `netlify/functions/contact.js` - Netlify serverless contact endpoint.
-- `server/contact-handler.js` - shared private email sending logic.
+- `server/contact-handler.js` - shared private Discord webhook sending logic.
 
 ## Publish on GitHub Pages
 
@@ -31,17 +31,15 @@ GitHub will publish the site at the Pages URL shown in that settings screen.
 
 ## Private Contact Form
 
-The contact form posts to `/api/contact`. The public HTML and JavaScript do not contain the destination email address.
+The contact form posts to `/api/contact`. The public HTML and JavaScript do not contain the private Discord webhook URL.
 
-To actually send email, deploy the site somewhere that can run the included serverless endpoint, such as Netlify or Vercel. GitHub Pages alone cannot send private email because it only serves static files.
+To actually send messages into Discord, deploy the site somewhere that can run the included serverless endpoint, such as Netlify or Vercel. GitHub Pages alone cannot keep a webhook URL private because it only serves static files.
 
-Set these private environment variables in the deployment provider:
+Set this private environment variable in the deployment provider:
 
-- `RESEND_API_KEY` - email provider API key.
-- `CONTACT_TO_EMAIL` - private inbox that receives form messages.
-- `CONTACT_FROM_EMAIL` - verified sender address used by the email provider.
+- `DISCORD_WEBHOOK_URL` - Discord channel webhook URL that receives form messages.
 
-Do not add real values for these variables to the repository. A local `.env` file is ignored by git, and `.env.example` only contains blank placeholders.
+Do not add the real webhook URL to the repository. A local `.env` file is ignored by git, and `.env.example` only contains a blank placeholder.
 
 ## Automatic Development Logs
 
