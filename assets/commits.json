@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-06-21T17:19:01.470Z",
-  "commitCount": 1195,
+  "generatedAt": "2026-06-21T17:51:20.560Z",
+  "commitCount": 1196,
   "commits": [
+    {
+      "shortSha": "ea7a978",
+      "message": "feat: Refactor grenade weapon and projectile classes for improved explosion handling and logging",
+      "author": "Kasper",
+      "date": "2026-06-21T17:36:44Z"
+    },
     {
       "shortSha": "dbccfde",
       "message": "feat: Enhance grenade mechanics with throw indicator and fuse time customization",
