@@ -829,6 +829,7 @@ p {
   padding: 0.85rem 0.95rem;
   background: rgba(4, 7, 11, 0.58);
   color: var(--text);
+  color-scheme: dark;
   font: inherit;
 }
 
@@ -842,6 +843,7 @@ p {
 
 .contact-form select {
   appearance: none;
+  background-color: rgba(4, 7, 11, 0.76);
   background-image:
     linear-gradient(45deg, transparent 50%, var(--cyan) 50%),
     linear-gradient(135deg, var(--cyan) 50%, transparent 50%);
@@ -850,6 +852,11 @@ p {
     calc(100% - 0.8rem) 50%;
   background-repeat: no-repeat;
   background-size: 0.35rem 0.35rem;
+}
+
+.contact-form option {
+  background: var(--panel-solid);
+  color: var(--text);
 }
 
 .contact-form textarea {
