@@ -30,6 +30,7 @@
         <a href="./">Studio</a>
         <a href="cyber-bully/">Cyber Bully</a>
         <a href="manic-mondays/">Manic Monday's</a>
+        <a href="milenko-sketch/">Milenko Sketch</a>
         <a href="#games">Games</a>
         <a href="#contact">Contact</a>
         <a class="social-link" href="https://www.youtube.com/channel/UCz3y3QE94tcpIeu4bHGpVcw" target="_blank" rel="noopener" aria-label="Kestrel Kinetics on YouTube">
@@ -54,6 +55,7 @@
           <div class="hero-actions">
             <a class="button button-primary" href="cyber-bully/">Explore Cyber Bully</a>
             <a class="button button-primary" href="manic-mondays/">Explore Manic Monday's</a>
+            <a class="button button-secondary" href="milenko-sketch/">Explore Milenko Sketch</a>
             <a class="button button-secondary" href="#games">View our games</a>
           </div>
         </div>
@@ -91,7 +93,17 @@
             <span class="project-copy">
               <span class="project-kicker">Announced</span>
               <strong>Manic Monday's</strong>
-              <span>Details coming soon.</span>
+              <span>A school life simulation built from routines, card-based interaction and emergent behaviour.</span>
+            </span>
+          </a>
+          <a class="project-panel" href="milenko-sketch/">
+            <span class="project-media">
+              <img src="assets/images/milenko-sketch/hero.png" alt="Milenko Sketch app mockup showing a transparent desktop drawing overlay with animation and palette tools.">
+            </span>
+            <span class="project-copy">
+              <span class="project-kicker">Desktop app</span>
+              <strong>Milenko Sketch</strong>
+              <span>A lightweight sketching and annotation app for drawing directly over your desktop.</span>
             </span>
           </a>
         </div>
@@ -118,11 +130,27 @@
       <section class="press-band contact-band" id="contact">
         <div>
           <p class="eyebrow">Contact</p>
-          <h2>Studio hub</h2>
-          <p>Send studio enquiries, collaboration notes or press questions through the form. Replies go to the address you provide.</p>
+          <h2>Studio hub &amp; support</h2>
+          <p>Send studio enquiries, collaboration notes, press questions or support requests through the form. Replies go to the address you provide.</p>
         </div>
         <div class="contact-panel">
           <form class="contact-form" action="/api/contact" method="post" data-contact-form>
+            <label class="form-field">
+              <span>Enquiry type</span>
+              <select name="type" required>
+                <option value="General enquiry">General enquiry</option>
+                <option value="Support">Support</option>
+                <option value="Press or collaboration">Press or collaboration</option>
+              </select>
+            </label>
+            <label class="form-field">
+              <span>Software or project</span>
+              <select name="project" required>
+                <option value="Milenko Sketch">Milenko Sketch</option>
+                <option value="Cyber Bully">Cyber Bully</option>
+                <option value="Manic Monday's">Manic Monday's</option>
+              </select>
+            </label>
             <label class="form-field">
               <span>Name</span>
               <input type="text" name="name" autocomplete="name" maxlength="80" required>
@@ -154,6 +182,14 @@
               <dd><a href="cyber-bully/">Cyber Bully: 502 Bad Gateway</a> &amp; <a href="manic-mondays/">Manic Monday's</a></dd>
             </div>
             <div>
+              <dt>App</dt>
+              <dd><a href="milenko-sketch/">Milenko Sketch</a></dd>
+            </div>
+            <div>
+              <dt>Support</dt>
+              <dd>Use the form and select the relevant software or project.</dd>
+            </div>
+            <div>
               <dt>Studio Type</dt>
               <dd>Independent</dd>
             </div>
@@ -168,7 +204,7 @@
 
     <footer class="site-footer">
       <span>&copy; <span data-year>2026</span> Kestrel Kinetics Research &amp; Technology.</span>
-      <span><a href="cyber-bully/">Cyber Bully</a> and <a href="manic-mondays/">Manic Monday's</a> are in development.</span>
+      <span><a href="cyber-bully/">Cyber Bully</a>, <a href="manic-mondays/">Manic Monday's</a> and <a href="milenko-sketch/">Milenko Sketch</a>.</span>
       <a class="social-link" href="https://www.youtube.com/channel/UCz3y3QE94tcpIeu4bHGpVcw" target="_blank" rel="noopener" aria-label="Kestrel Kinetics on YouTube">
         <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.4 3.5 12 3.5 12 3.5s-7.4 0-9.4.6A3 3 0 0 0 .5 6.2 31.6 31.6 0 0 0 0 12a31.6 31.6 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c2 .6 9.4.6 9.4.6s7.4 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.6 31.6 0 0 0 24 12a31.6 31.6 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6Z"/></svg>
       </a>

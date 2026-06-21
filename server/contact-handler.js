@@ -1,4 +1,6 @@
 const REQUIRED_ENV = ["DISCORD_WEBHOOK_URL"];
+const ENQUIRY_TYPES = ["General enquiry", "Support", "Press or collaboration"];
+const PROJECTS = ["Milenko Sketch", "Cyber Bully", "Manic Monday's"];
 const JSON_HEADERS = {
   "Cache-Control": "no-store",
   "Content-Type": "application/json; charset=utf-8",
@@ -56,12 +58,17 @@ const cleanMessage = (value) =>
     .trim()
     .slice(0, 3000);
 
+const cleanChoice = (value, options, fallback) => {
+  const choice = cleanLine(value, 80);
+  return options.includes(choice) ? choice : fallback;
+};
+
 const isValidEmail = (value) =>
   value.length <= 254 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
 
-const buildDiscordPayload = ({ name, email, message }) => ({
+const buildDiscordPayload = ({ type, project, name, email, message }) => ({
   username: "Kestrel Contact",
-  content: "New website contact message",
+  content: `New ${type.toLowerCase()} message for ${project}`,
   allowed_mentions: {
     parse: [],
   },
@@ -70,6 +77,16 @@ const buildDiscordPayload = ({ name, email, message }) => ({
       title: "Website contact form",
       color: 3594751,
       fields: [
+        {
+          name: "Enquiry type",
+          value: type,
+          inline: true,
+        },
+        {
+          name: "Project",
+          value: project,
+          inline: true,
+        },
         {
           name: "Name",
           value: name,
@@ -87,13 +104,13 @@ const buildDiscordPayload = ({ name, email, message }) => ({
   ],
 });
 
-const sendDiscordMessage = async ({ name, email, message }) => {
+const sendDiscordMessage = async ({ type, project, name, email, message }) => {
   const response = await fetch(process.env.DISCORD_WEBHOOK_URL, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify(buildDiscordPayload({ name, email, message })),
+    body: JSON.stringify(buildDiscordPayload({ type, project, name, email, message })),
   });
 
   if (!response.ok) {
@@ -135,6 +152,8 @@ const createContactResponse = async ({ method, headers, body }) => {
   const name = cleanLine(payload.name, 80);
   const email = cleanLine(payload.email, 254).toLowerCase();
   const message = cleanMessage(payload.message);
+  const type = cleanChoice(payload.type, ENQUIRY_TYPES, ENQUIRY_TYPES[0]);
+  const project = cleanChoice(payload.project, PROJECTS, PROJECTS[0]);
 
   if (!name || !isValidEmail(email) || !message) {
     return json(400, { message: "Please add your name, email and message." });
@@ -146,7 +165,7 @@ const createContactResponse = async ({ method, headers, body }) => {
     return json(500, { message: "The contact form is not configured yet." });
   }
 
-  const sent = await sendDiscordMessage({ name, email, message });
+  const sent = await sendDiscordMessage({ type, project, name, email, message });
   if (!sent) {
     return json(502, { message: "The message could not be sent right now." });
   }
