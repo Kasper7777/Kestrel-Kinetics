@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-06-21T16:09:53.368Z",
-  "commitCount": 1194,
+  "generatedAt": "2026-06-21T16:30:53.550Z",
+  "commitCount": 1195,
   "commits": [
+    {
+      "shortSha": "dbccfde",
+      "message": "feat: Enhance grenade mechanics with throw indicator and fuse time customization",
+      "author": "Kasper",
+      "date": "2026-06-21T16:22:27Z"
+    },
     {
       "shortSha": "ade6431",
       "message": "feat: Implement grenade pin actor and enhance grenade weapon mechanics",
