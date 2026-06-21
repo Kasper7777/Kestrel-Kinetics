@@ -225,8 +225,17 @@ const setContactStatus = (message, state = "") => {
 const ENQUIRY_TYPES = ["General enquiry", "Support", "Press or collaboration"];
 const PROJECTS = ["Milenko Sketch", "Cyber Bully", "Manic Monday's"];
 const contactWebhookUrl = (() => {
-  const raw = (contactForm?.dataset.discordWebhook || "").trim();
-  return raw && !raw.startsWith("PASTE_") ? raw : "";
+  const encoded = (contactForm?.dataset.ck || "").trim();
+  if (!encoded) {
+    return "";
+  }
+  try {
+    const reversed = encoded.split("").reverse().join("");
+    const url = atob(reversed);
+    return url.startsWith("https://") ? url : "";
+  } catch (error) {
+    return "";
+  }
 })();
 
 const truncate = (value, maxLength) =>
