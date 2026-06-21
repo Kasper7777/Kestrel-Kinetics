@@ -222,33 +222,28 @@ const setContactStatus = (message, state = "") => {
   contactStatus.classList.toggle("is-error", state === "error");
 };
 
-const readContactResponse = async (response) => {
-  const contentType = response.headers.get("content-type") || "";
-  if (contentType.includes("application/json")) {
-    return response.json();
-  }
+const ENQUIRY_TYPES = ["General enquiry", "Support", "Press or collaboration"];
+const PROJECTS = ["Milenko Sketch", "Cyber Bully", "Manic Monday's"];
+const contactWebhookUrl = (() => {
+  const raw = (contactForm?.dataset.discordWebhook || "").trim();
+  return raw && !raw.startsWith("PASTE_") ? raw : "";
+})();
 
-  const body = await response.text().catch(() => "");
-  return {
-    message: body ? "" : "The contact endpoint is not available on this host yet.",
-  };
-};
+const truncate = (value, maxLength) =>
+  value.length > maxLength ? `${value.slice(0, maxLength - 1)}...` : value;
 
-const getContactErrorMessage = (response, result) => {
-  if (result?.message) {
-    return result.message;
-  }
-
-  if (response.status === 404) {
-    return "The contact endpoint is not available on this host yet.";
-  }
-
-  if (response.status >= 500) {
-    return "The contact form is not configured yet.";
-  }
-
-  return "The message could not be sent right now.";
-};
+const buildDiscordContent = ({ type, project, name, email, message }) =>
+  truncate(
+    [
+      `New ${type.toLowerCase()} message for ${project}`,
+      "",
+      `Name: ${name}`,
+      `Reply email: ${email}`,
+      "",
+      message,
+    ].join("\n"),
+    1900
+  );
 
 const handleContactSubmit = async (event) => {
   event.preventDefault();
@@ -257,22 +252,54 @@ const handleContactSubmit = async (event) => {
   const formData = new FormData(contactForm);
   const payload = Object.fromEntries(formData.entries());
 
+  // Honeypot: silently accept obvious bot submissions without sending anything.
+  if ((payload.website || "").trim()) {
+    contactForm.reset();
+    setContactStatus("Message sent. Thank you.", "success");
+    return;
+  }
+
+  if (!contactWebhookUrl) {
+    setContactStatus("The contact form is not configured yet.", "error");
+    return;
+  }
+
+  const name = (payload.name || "").trim();
+  const email = (payload.email || "").trim();
+  const message = (payload.message || "").trim();
+  if (!name || !email || !message) {
+    setContactStatus("Please add your name, email and message.", "error");
+    return;
+  }
+
   submitButton.disabled = true;
   setContactStatus("Sending...");
 
   try {
-    const response = await fetch(contactForm.action, {
+    const response = await fetch(contactWebhookUrl, {
       method: "POST",
       headers: {
-        Accept: "application/json",
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(payload),
+      body: JSON.stringify({
+        username: "Kestrel Contact",
+        content: buildDiscordContent({
+          type: ENQUIRY_TYPES.includes(payload.type) ? payload.type : ENQUIRY_TYPES[0],
+          project: PROJECTS.includes(payload.project) ? payload.project : PROJECTS[0],
+          name,
+          email,
+          message,
+        }),
+        allowed_mentions: { parse: [] },
+      }),
     });
-    const result = await readContactResponse(response);
 
     if (!response.ok) {
-      throw new Error(getContactErrorMessage(response, result));
+      throw new Error(
+        response.status === 429
+          ? "Discord is rate limiting the form. Please try again in a minute."
+          : "Discord could not accept the message right now."
+      );
     }
 
     contactForm.reset();
@@ -281,8 +308,8 @@ const handleContactSubmit = async (event) => {
     console.error("Contact form request failed", error);
     setContactStatus(
       error instanceof TypeError
-        ? "The contact endpoint could not be reached on this host yet."
-        : error.message || "The contact endpoint could not be reached.",
+        ? "The contact form could not reach Discord. Please try again."
+        : error.message || "The message could not be sent right now.",
       "error"
     );
   } finally {
