@@ -34,12 +34,27 @@ body {
 }
 
 body.studio-page {
+  background: var(--bg-deep);
+}
+
+body.studio-page::before {
+  z-index: 0;
+  opacity: 1;
   background:
-    linear-gradient(180deg, rgba(4, 7, 11, 0.76), rgba(4, 7, 11, 0.9)),
-    radial-gradient(circle at 20% 0%, rgba(54, 217, 255, 0.16), transparent 32rem),
-    radial-gradient(circle at 88% 24%, rgba(255, 79, 216, 0.14), transparent 28rem),
-    url("images/studio/background.png") center / cover fixed no-repeat,
-    var(--bg-deep);
+    linear-gradient(180deg, rgba(4, 7, 11, 0.42), rgba(4, 7, 11, 0.82)),
+    radial-gradient(circle at 20% 0%, rgba(54, 217, 255, 0.12), transparent 32rem),
+    radial-gradient(circle at 88% 24%, rgba(255, 79, 216, 0.12), transparent 28rem),
+    url("images/studio/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto, auto, auto, cover;
+  mask-image: none;
+}
+
+body.studio-page main,
+body.studio-page .site-footer {
+  position: relative;
+  z-index: 1;
 }
 
 body::before {
