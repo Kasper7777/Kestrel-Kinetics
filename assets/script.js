@@ -13,7 +13,7 @@ const galleryCarouselImage = document.querySelector("[data-gallery-carousel-imag
 const galleryCarouselCount = document.querySelector("[data-gallery-carousel-count]");
 const galleryPrevButton = document.querySelector("[data-gallery-prev]");
 const galleryNextButton = document.querySelector("[data-gallery-next]");
-const magazineImageCount = 5;
+const magazineImageCount = 7;
 let carouselImages = [];
 let carouselIndex = 0;
 
@@ -166,7 +166,13 @@ const renderGallery = (feed) => {
     if (!block) {
       return;
     }
-    block.prepend(createMagazineImage(image, index));
+    const heading = block.querySelector("h3");
+    const img = createMagazineImage(image, index);
+    if (heading) {
+      heading.insertAdjacentElement("afterend", img);
+    } else {
+      block.prepend(img);
+    }
   });
 
   carouselImages = displayImages;
