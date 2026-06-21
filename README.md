@@ -1,20 +1,23 @@
 # Kestrel Kinetics
 
-Static site for **Kestrel Kinetics Research & Technology**, with separate pages for **Cyber Bully: 502 Bad Gateway** and **Manic Monday's**.
+Static site for **Kestrel Kinetics Research & Technology**, with separate pages for **Cyber Bully: 502 Bad Gateway**, **Manic Monday's** and **Milenko Sketch**.
 
 ## Files
 
 - `index.html` - Kestrel Kinetics studio homepage.
 - `cyber-bully/index.html` - Cyber Bully: 502 Bad Gateway game page.
 - `manic-mondays/index.html` - Manic Monday's game page.
+- `milenko-sketch/index.html` - Milenko Sketch app page.
 - `assets/styles.css` - responsive site styling.
 - `assets/script.js` - small header/year enhancement.
 - `assets/images/studio/kestrel-logo.png` - Kestrel Kinetics logo.
 - `assets/images/cyber-bully/gallery/` - drop Cyber Bully screenshots or promo images here.
 - `assets/images/manic-mondays/` - Manic Monday's art and screenshots.
+- `assets/images/milenko-sketch/` - Milenko Sketch hero and screenshots.
 - `assets/gallery.json` - generated gallery manifest used by the Cyber Bully page.
 - `assets/commits.json` - generated Cyber Bully development log feed.
 - `assets/commits-manic-mondays.json` - generated Manic Monday's development log feed.
+- `assets/gallery-milenko-sketch.json` - generated Milenko Sketch gallery manifest.
 - `assets/icons/kestrel.ico` - site favicon.
 - `api/contact.js` - Vercel serverless contact endpoint.
 - `netlify/functions/contact.js` - Netlify serverless contact endpoint.
@@ -31,7 +34,7 @@ GitHub will publish the site at the Pages URL shown in that settings screen.
 
 ## Private Contact Form
 
-The contact form posts to `/api/contact`. The public HTML and JavaScript do not contain the private Discord webhook URL.
+The contact and support form posts to `/api/contact`. The public HTML and JavaScript do not contain the private Discord webhook URL. Form messages include the enquiry type and selected software/project.
 
 To actually send messages into Discord, deploy the site somewhere that can run the included serverless endpoint, such as Netlify or Vercel. GitHub Pages alone cannot keep a webhook URL private because it only serves static files.
 
@@ -57,3 +60,7 @@ Source repo secrets can use either `owner/repo` or a GitHub clone URL.
 ## Cyber Bully Gallery
 
 Add images to `assets/images/cyber-bully/gallery/` and push them to GitHub. The workflow rebuilds `assets/gallery.json`, and the Cyber Bully page places the images automatically into the magazine-style visual section.
+
+## Milenko Sketch Gallery
+
+Replace `assets/images/milenko-sketch/hero.png` when you have final page art. Add screenshots or promo images to `assets/images/milenko-sketch/gallery/` and push them to GitHub. The workflow rebuilds `assets/gallery-milenko-sketch.json`, and the Milenko Sketch page places the images automatically into the magazine-style visual section.

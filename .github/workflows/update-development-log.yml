@@ -8,6 +8,7 @@ on:
     paths:
       - "assets/images/cyber-bully/gallery/**"
       - "assets/images/manic-mondays/gallery/**"
+      - "assets/images/milenko-sketch/gallery/**"
       - ".github/scripts/build-gallery-manifest.mjs"
       - ".github/workflows/update-development-log.yml"
 
@@ -76,15 +77,22 @@ jobs:
           ALT_PREFIX: Manic Monday's
         run: node .github/scripts/build-gallery-manifest.mjs
 
+      - name: Build Milenko Sketch gallery
+        env:
+          GALLERY_DIR: assets/images/milenko-sketch/gallery
+          OUTPUT_FILE: assets/gallery-milenko-sketch.json
+          ALT_PREFIX: Milenko Sketch
+        run: node .github/scripts/build-gallery-manifest.mjs
+
       - name: Commit refreshed site data
         run: |
-          if git diff --quiet -- assets/commits.json assets/commits-manic-mondays.json assets/gallery.json assets/gallery-manic-mondays.json; then
+          if git diff --quiet -- assets/commits.json assets/commits-manic-mondays.json assets/gallery.json assets/gallery-manic-mondays.json assets/gallery-milenko-sketch.json; then
             echo "Site data already up to date."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/commits.json assets/commits-manic-mondays.json assets/gallery.json assets/gallery-manic-mondays.json
+          git add assets/commits.json assets/commits-manic-mondays.json assets/gallery.json assets/gallery-manic-mondays.json assets/gallery-milenko-sketch.json
           git commit -m "Update site data"
           git push
