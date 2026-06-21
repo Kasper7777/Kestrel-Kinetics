@@ -44,6 +44,8 @@ Set this private environment variable in the deployment provider:
 
 Do not add the real webhook URL to the repository. A local `.env` file is ignored by git, and `.env.example` only contains a blank placeholder.
 
+To test a deployment, open `/api/contact` on the live site. It should return JSON with `webhookConfigured: true`. If it returns `false`, set `DISCORD_WEBHOOK_URL` in the deployment provider and redeploy. If `/api/contact` does not load at all, the site is being served as static files only and the contact form cannot send private Discord messages.
+
 ## Automatic Development Logs
 
 The game pages read generated JSON feeds to show development history without linking to the private source repositories. The GitHub Action in `.github/workflows/update-development-log.yml` refreshes these files hourly and can also be run manually.

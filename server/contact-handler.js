@@ -69,6 +69,30 @@ const isValidEmail = (value) =>
 const truncate = (value, maxLength) =>
   value.length > maxLength ? `${value.slice(0, maxLength - 1)}...` : value;
 
+const getDiscordWebhookUrl = () => {
+  const value = String(process.env.DISCORD_WEBHOOK_URL || "")
+    .trim()
+    .replace(/^<(.+)>$/, "$1")
+    .replace(/^["'](.+)["']$/, "$1")
+    .trim();
+
+  if (!value) {
+    return "";
+  }
+
+  try {
+    const url = new URL(value);
+    const isDiscordWebhook =
+      url.protocol === "https:" &&
+      (url.hostname === "discord.com" || url.hostname === "discordapp.com") &&
+      url.pathname.startsWith("/api/webhooks/");
+
+    return isDiscordWebhook ? url.toString() : "";
+  } catch (error) {
+    return "";
+  }
+};
+
 const buildDiscordPayload = ({ type, project, name, email, message }) => ({
   username: "Kestrel Contact",
   content: truncate(
@@ -105,9 +129,17 @@ const getDiscordErrorMessage = (status) => {
 
 const sendDiscordMessage = async ({ type, project, name, email, message }) => {
   let response;
+  const webhookUrl = getDiscordWebhookUrl();
+
+  if (!webhookUrl) {
+    return {
+      ok: false,
+      message: "The Discord webhook URL is missing or not a valid webhook URL.",
+    };
+  }
 
   try {
-    response = await fetch(process.env.DISCORD_WEBHOOK_URL.trim(), {
+    response = await fetch(webhookUrl, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -137,6 +169,15 @@ const sendDiscordMessage = async ({ type, project, name, email, message }) => {
 };
 
 const createContactResponse = async ({ method, headers, body }) => {
+  if (method === "GET") {
+    return json(200, {
+      ok: true,
+      endpoint: "contact",
+      webhookConfigured: Boolean(getDiscordWebhookUrl()),
+      message: "Contact endpoint is running.",
+    });
+  }
+
   if (method === "OPTIONS") {
     return {
       statusCode: 204,
