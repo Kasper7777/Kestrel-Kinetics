@@ -1,8 +1,9 @@
 import { readdir, writeFile } from "node:fs/promises";
 import { basename, extname, join } from "node:path";
 
-const galleryDir = "assets/images/cyber-bully/gallery";
-const outputFile = "assets/gallery.json";
+const galleryDir = process.env.GALLERY_DIR || "assets/images/cyber-bully/gallery";
+const outputFile = process.env.OUTPUT_FILE || "assets/gallery.json";
+const altPrefix = process.env.ALT_PREFIX || "Cyber Bully";
 const imageExtensions = new Set([".gif", ".jpeg", ".jpg", ".png", ".webp"]);
 
 const toTitle = (fileName) =>
@@ -17,7 +18,7 @@ const images = entries
   .filter((entry) => entry.isFile() && imageExtensions.has(extname(entry.name).toLowerCase()))
   .map((entry) => ({
     src: `${galleryDir}/${entry.name}`.replaceAll("\\", "/"),
-    alt: `Cyber Bully ${toTitle(entry.name)}`,
+    alt: `${altPrefix} ${toTitle(entry.name)}`,
     title: toTitle(entry.name),
   }))
   .sort((left, right) => left.src.localeCompare(right.src, undefined, { numeric: true }));
