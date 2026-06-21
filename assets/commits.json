@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-06-21T12:56:16.940Z",
-  "commitCount": 1187,
+  "generatedAt": "2026-06-21T13:17:52.112Z",
+  "commitCount": 1188,
   "commits": [
+    {
+      "shortSha": "14534c7",
+      "message": "feat: Add HeldItemDisplay plugin for 3D preview of held items",
+      "author": "Kasper",
+      "date": "2026-06-21T13:08:12Z"
+    },
     {
       "shortSha": "3ab170f",
       "message": "Refactor code structure for improved readability and maintainability",
