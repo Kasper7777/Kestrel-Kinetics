@@ -222,6 +222,34 @@ const setContactStatus = (message, state = "") => {
   contactStatus.classList.toggle("is-error", state === "error");
 };
 
+const readContactResponse = async (response) => {
+  const contentType = response.headers.get("content-type") || "";
+  if (contentType.includes("application/json")) {
+    return response.json();
+  }
+
+  const body = await response.text().catch(() => "");
+  return {
+    message: body ? "" : "The contact endpoint is not available on this host yet.",
+  };
+};
+
+const getContactErrorMessage = (response, result) => {
+  if (result?.message) {
+    return result.message;
+  }
+
+  if (response.status === 404) {
+    return "The contact endpoint is not available on this host yet.";
+  }
+
+  if (response.status >= 500) {
+    return "The contact form is not configured yet.";
+  }
+
+  return "The message could not be sent right now.";
+};
+
 const handleContactSubmit = async (event) => {
   event.preventDefault();
 
@@ -241,16 +269,22 @@ const handleContactSubmit = async (event) => {
       },
       body: JSON.stringify(payload),
     });
-    const result = await response.json().catch(() => ({}));
+    const result = await readContactResponse(response);
 
     if (!response.ok) {
-      throw new Error(result.message || "The message could not be sent.");
+      throw new Error(getContactErrorMessage(response, result));
     }
 
     contactForm.reset();
     setContactStatus("Message sent. Thank you.", "success");
   } catch (error) {
-    setContactStatus(error.message || "The message could not be sent.", "error");
+    console.error("Contact form request failed", error);
+    setContactStatus(
+      error instanceof TypeError
+        ? "The contact endpoint could not be reached on this host yet."
+        : error.message || "The contact endpoint could not be reached.",
+      "error"
+    );
   } finally {
     submitButton.disabled = false;
   }
