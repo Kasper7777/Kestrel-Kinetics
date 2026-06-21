@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-06-21T17:51:20.560Z",
-  "commitCount": 1196,
+  "generatedAt": "2026-06-21T20:01:27.725Z",
+  "commitCount": 1199,
   "commits": [
+    {
+      "shortSha": "3949651",
+      "message": "feat: Add Crouch Animation Setup documentation for player AnimBP integration",
+      "author": "Kasper",
+      "date": "2026-06-21T19:35:45Z"
+    },
+    {
+      "shortSha": "be2d918",
+      "message": "feat: Implement crouching mechanics with input bindings and movement adjustments",
+      "author": "Kasper",
+      "date": "2026-06-21T19:35:36Z"
+    },
+    {
+      "shortSha": "b5907e5",
+      "message": "feat: Add new animation assets for crouching and walking mechanics",
+      "author": "Kasper",
+      "date": "2026-06-21T19:22:39Z"
+    },
     {
       "shortSha": "ea7a978",
       "message": "feat: Refactor grenade weapon and projectile classes for improved explosion handling and logging",
