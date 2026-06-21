@@ -13,6 +13,8 @@ const galleryCarouselImage = document.querySelector("[data-gallery-carousel-imag
 const galleryCarouselCount = document.querySelector("[data-gallery-carousel-count]");
 const galleryPrevButton = document.querySelector("[data-gallery-prev]");
 const galleryNextButton = document.querySelector("[data-gallery-next]");
+const contactForm = document.querySelector("[data-contact-form]");
+const contactStatus = document.querySelector("[data-contact-status]");
 const gameName = document.body?.dataset.gameName || "Cyber Bully: 502 Bad Gateway";
 let carouselImages = [];
 let carouselIndex = 0;
@@ -210,12 +212,57 @@ const loadGallery = async () => {
   }
 };
 
+const setContactStatus = (message, state = "") => {
+  if (!contactStatus) {
+    return;
+  }
+
+  contactStatus.textContent = message;
+  contactStatus.classList.toggle("is-success", state === "success");
+  contactStatus.classList.toggle("is-error", state === "error");
+};
+
+const handleContactSubmit = async (event) => {
+  event.preventDefault();
+
+  const submitButton = contactForm.querySelector('button[type="submit"]');
+  const formData = new FormData(contactForm);
+  const payload = Object.fromEntries(formData.entries());
+
+  submitButton.disabled = true;
+  setContactStatus("Sending...");
+
+  try {
+    const response = await fetch(contactForm.action, {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    });
+    const result = await response.json().catch(() => ({}));
+
+    if (!response.ok) {
+      throw new Error(result.message || "The message could not be sent.");
+    }
+
+    contactForm.reset();
+    setContactStatus("Message sent. Thank you.", "success");
+  } catch (error) {
+    setContactStatus(error.message || "The message could not be sent.", "error");
+  } finally {
+    submitButton.disabled = false;
+  }
+};
+
 year.textContent = new Date().getFullYear();
 syncHeader();
 loadCommitFeed();
 loadGallery();
 galleryPrevButton?.addEventListener("click", () => stepCarousel(-1));
 galleryNextButton?.addEventListener("click", () => stepCarousel(1));
+contactForm?.addEventListener("submit", handleContactSubmit);
 if (commitList) {
   window.setInterval(() => {
     if (document.visibilityState !== "hidden") {

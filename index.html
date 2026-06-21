@@ -114,29 +114,54 @@
         </article>
       </section>
 
-      <section class="press-band" id="contact">
+      <section class="press-band contact-band" id="contact">
         <div>
           <p class="eyebrow">Contact</p>
           <h2>Studio hub</h2>
+          <p>Send studio enquiries, collaboration notes or press questions through the form. Replies go to the address you provide.</p>
         </div>
-        <dl class="facts">
-          <div>
-            <dt>Studio</dt>
-            <dd>Kestrel Kinetics Research &amp; Technology</dd>
-          </div>
-          <div>
-            <dt>Games</dt>
-            <dd><a href="cyber-bully/">Cyber Bully: 502 Bad Gateway</a> &amp; <a href="manic-mondays/">Manic Monday's</a></dd>
-          </div>
-          <div>
-            <dt>Studio Type</dt>
-            <dd>Independent</dd>
-          </div>
-          <div>
-            <dt>YouTube</dt>
-            <dd><a href="https://www.youtube.com/channel/UCz3y3QE94tcpIeu4bHGpVcw" target="_blank" rel="noopener">Kestrel Kinetics</a></dd>
-          </div>
-        </dl>
+        <div class="contact-panel">
+          <form class="contact-form" action="/api/contact" method="post" data-contact-form>
+            <label class="form-field">
+              <span>Name</span>
+              <input type="text" name="name" autocomplete="name" maxlength="80" required>
+            </label>
+            <label class="form-field">
+              <span>Your email</span>
+              <input type="email" name="email" autocomplete="email" maxlength="254" required>
+            </label>
+            <label class="form-field">
+              <span>Message</span>
+              <textarea name="message" rows="6" maxlength="3000" required></textarea>
+            </label>
+            <label class="contact-honeypot" aria-hidden="true">
+              <span>Website</span>
+              <input type="text" name="website" tabindex="-1" autocomplete="off">
+            </label>
+            <div class="contact-actions">
+              <button class="button button-primary" type="submit">Send message</button>
+              <p class="contact-status" data-contact-status role="status" aria-live="polite"></p>
+            </div>
+          </form>
+          <dl class="facts">
+            <div>
+              <dt>Studio</dt>
+              <dd>Kestrel Kinetics Research &amp; Technology</dd>
+            </div>
+            <div>
+              <dt>Games</dt>
+              <dd><a href="cyber-bully/">Cyber Bully: 502 Bad Gateway</a> &amp; <a href="manic-mondays/">Manic Monday's</a></dd>
+            </div>
+            <div>
+              <dt>Studio Type</dt>
+              <dd>Independent</dd>
+            </div>
+            <div>
+              <dt>YouTube</dt>
+              <dd><a href="https://www.youtube.com/channel/UCz3y3QE94tcpIeu4bHGpVcw" target="_blank" rel="noopener">Kestrel Kinetics</a></dd>
+            </div>
+          </dl>
+        </div>
       </section>
     </main>
 

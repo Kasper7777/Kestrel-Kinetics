@@ -1,6 +1,6 @@
 # Kestrel Kinetics
 
-Static GitHub Pages site for **Kestrel Kinetics Research & Technology**, with separate pages for **Cyber Bully: 502 Bad Gateway** and **Manic Monday's**.
+Static site for **Kestrel Kinetics Research & Technology**, with separate pages for **Cyber Bully: 502 Bad Gateway** and **Manic Monday's**.
 
 ## Files
 
@@ -16,6 +16,9 @@ Static GitHub Pages site for **Kestrel Kinetics Research & Technology**, with se
 - `assets/commits.json` - generated Cyber Bully development log feed.
 - `assets/commits-manic-mondays.json` - generated Manic Monday's development log feed.
 - `assets/icons/kestrel.ico` - site favicon.
+- `api/contact.js` - Vercel serverless contact endpoint.
+- `netlify/functions/contact.js` - Netlify serverless contact endpoint.
+- `server/contact-handler.js` - shared private email sending logic.
 
 ## Publish on GitHub Pages
 
@@ -25,6 +28,20 @@ Static GitHub Pages site for **Kestrel Kinetics Research & Technology**, with se
 4. Select your main branch and the repository root, then save.
 
 GitHub will publish the site at the Pages URL shown in that settings screen.
+
+## Private Contact Form
+
+The contact form posts to `/api/contact`. The public HTML and JavaScript do not contain the destination email address.
+
+To actually send email, deploy the site somewhere that can run the included serverless endpoint, such as Netlify or Vercel. GitHub Pages alone cannot send private email because it only serves static files.
+
+Set these private environment variables in the deployment provider:
+
+- `RESEND_API_KEY` - email provider API key.
+- `CONTACT_TO_EMAIL` - private inbox that receives form messages.
+- `CONTACT_FROM_EMAIL` - verified sender address used by the email provider.
+
+Do not add real values for these variables to the repository. A local `.env` file is ignored by git, and `.env.example` only contains blank placeholders.
 
 ## Automatic Development Logs
 
