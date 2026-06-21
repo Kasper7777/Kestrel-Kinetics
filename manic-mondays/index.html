@@ -3,16 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Manic Monday's is an upcoming game from Kestrel Kinetics. Details coming soon.">
+    <meta name="description" content="Manic Monday is a school life simulation built from card-based interaction, autonomous character routines, and emergent social behaviour.">
     <meta property="og:title" content="Manic Monday's | Kestrel Kinetics">
-    <meta property="og:description" content="An upcoming game from Kestrel Kinetics Research & Technology. Details coming soon.">
+    <meta property="og:description" content="A school life simulation set inside a struggling educational institution, where staff, students, and everyday systems are constantly competing for attention.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="../assets/images/manic-mondays/EdSplashV4.bmp">
     <meta name="theme-color" content="#071018">
     <title>Manic Monday's | Kestrel Kinetics</title>
     <link rel="icon" href="../assets/icons/kestrel.ico">
+    <link rel="preload" href="../assets/images/manic-mondays/EdSplashV4.bmp" as="image">
     <link rel="stylesheet" href="../assets/styles.css">
   </head>
-  <body>
+  <body data-commit-feed="../assets/commits-manic-mondays.json" data-gallery-feed="../assets/gallery-manic-mondays.json" data-game-name="Manic Monday">
     <header class="site-header" data-header>
       <a class="brand" href="../" aria-label="Kestrel Kinetics home">
         <span class="brand-logo-frame">
@@ -26,20 +28,26 @@
         <a href="../">Studio</a>
         <a href="../cyber-bully/">Cyber Bully</a>
         <a href="./">Manic Monday's</a>
+        <a href="#visuals">Visuals</a>
+        <a href="#press">Press Kit</a>
+        <a href="#development">Development</a>
       </nav>
     </header>
 
     <main id="top">
       <section class="hero game-hero" aria-label="Manic Monday's promotion">
+        <img class="hero-image" src="../assets/images/manic-mondays/EdSplashV4.bmp" alt="Manic Monday's concept splash art.">
         <div class="hero-shade" aria-hidden="true"></div>
         <div class="hero-content">
           <p class="eyebrow">A game by Kestrel Kinetics</p>
           <h1 class="game-title">
             <span>Manic Monday's</span>
           </h1>
-          <p class="hero-copy">This page is a placeholder. Details, art, and a release window for Manic Monday's are coming soon.</p>
+          <p class="hero-copy">A school life simulation set inside a struggling educational institution, where staff, students, and everyday systems are constantly competing for attention.</p>
           <div class="hero-actions">
-            <a class="button button-secondary" href="../">Back to studio</a>
+            <span class="button button-steam button-disabled" aria-disabled="true">Wishlist on Steam - Coming Soon</span>
+            <a class="button button-primary" href="#press">Press kit</a>
+            <a class="button button-secondary" href="#development">Development log</a>
           </div>
         </div>
         <aside class="status-panel" aria-label="Game status">
@@ -52,10 +60,145 @@
       <section class="section split" id="game">
         <div>
           <p class="eyebrow">The game</p>
-          <h2>More to come.</h2>
+          <h2>Survive another Manic Monday.</h2>
         </div>
         <div class="intro-copy">
-          <p>We're not ready to share details on Manic Monday's yet. Check back soon, or follow Cyber Bully's development log for studio updates in the meantime.</p>
+          <p>Manic Monday is a school life simulation set inside a struggling educational institution where staff, students and everyday systems are constantly competing for attention.</p>
+          <p>The game combines life simulation, card-based interaction, character needs and emergent social behaviour. Rather than following a single fixed storyline, players experience a changing school environment shaped by routines, relationships, personal decisions and the actions of the people around them.</p>
+        </div>
+      </section>
+
+      <section class="section magazine-section" id="visuals">
+        <div class="section-heading">
+          <p class="eyebrow">Visuals</p>
+          <h2>The Systems Behind the School.</h2>
+        </div>
+        <p class="gallery-note" data-gallery-status hidden>Loading image feed...</p>
+        <div class="magazine-layout" data-gallery-flow>
+          <div class="magazine-copy" data-gallery-block="0">
+            <span class="card-number">01</span>
+            <h3>A Living School Environment</h3>
+            <p>The school operates according to its own daily schedule.</p>
+            <p>Students and staff move between classrooms, social areas and other facilities as the day progresses. Characters attend lessons, take breaks, search for food, socialise and respond to their individual needs.</p>
+            <p>The environment continues to function around the player, creating the impression of a school that exists independently rather than waiting for the player to trigger every event.</p>
+          </div>
+          <div class="magazine-copy" data-gallery-block="1">
+            <span class="card-number">02</span>
+            <h3>Characters with Daily Routines</h3>
+            <p>Each character follows their own schedule and navigates the school according to their responsibilities, needs and current situation.</p>
+            <p>Characters can attend classes, find places to sit, move towards social groups or change their behaviour when their needs become more important. These routines help produce natural patterns of movement throughout the school day.</p>
+            <p>Repeated behaviour can also create recognisable habits, such as characters returning to preferred seats or gathering in familiar areas during breaks.</p>
+          </div>
+          <div class="magazine-copy" data-gallery-block="2">
+            <span class="card-number">03</span>
+            <h3>Needs That Influence Behaviour</h3>
+            <p>Characters manage needs such as hunger, boredom and social interaction.</p>
+            <p>These needs affect where characters go, what actions they perform and how they respond to the world around them. As needs change throughout the day, characters may abandon one activity and seek out another.</p>
+            <p>This creates behaviour that emerges from the game's systems rather than relying entirely on scripted sequences.</p>
+          </div>
+          <div class="magazine-copy" data-gallery-block="3">
+            <span class="card-number">04</span>
+            <h3>Emergent Social Behaviour</h3>
+            <p>Characters can gather, separate and form temporary social groups as they move through the school.</p>
+            <p>During busy periods, such as lunch or lesson changes, the interaction between routines and individual needs can produce crowding, clustering and unexpected encounters.</p>
+            <p>These behaviours are not simply decorative. They influence how the school feels, how characters move and how the player experiences different areas throughout the day.</p>
+          </div>
+          <div class="magazine-copy" data-gallery-block="4">
+            <span class="card-number">05</span>
+            <h3>Card-Based Interaction</h3>
+            <p>The card system gives the player a structured way to interact with characters, situations and events.</p>
+            <p>Cards can represent choices, actions, responses or opportunities available during play. The cards presented to the player may depend on the current character, location or situation.</p>
+            <p>This allows complex interactions to be communicated through a clear visual system while still giving the player meaningful decisions.</p>
+          </div>
+          <div class="magazine-copy" data-gallery-block="5">
+            <span class="card-number">06</span>
+            <h3>Player-Like Character Actions</h3>
+            <p>Characters are able to perform many of the same types of actions available to the player.</p>
+            <p>They can navigate the environment, use interactive objects and respond to situations through shared gameplay systems. This helps ensure that characters feel like active participants in the school rather than simple background figures.</p>
+            <p>Using consistent interaction rules also allows the player and other characters to affect the same environment in comparable ways.</p>
+          </div>
+          <div class="magazine-copy" data-gallery-block="6">
+            <span class="card-number">07</span>
+            <h3>Every Character Has Their Own Experience</h3>
+            <p>Each character has their own role, routine and personal circumstances within the school.</p>
+            <p>Their individual experiences can be revealed through interaction, observation and events that take place during the school day. Some stories may be immediately visible, while others emerge gradually through repeated encounters.</p>
+            <p>The intention is to present characters as individuals with their own priorities rather than interchangeable students or staff members.</p>
+          </div>
+          <div class="magazine-copy" data-gallery-block="7">
+            <span class="card-number">08</span>
+            <h3>A School Shaped by Its Systems</h3>
+            <p>Manic Monday is designed around interconnected simulation systems.</p>
+            <p>Time, routines, navigation, needs, interaction and social behaviour operate together to shape what happens during each school day. A change in one system can influence several others, producing situations that were not individually scripted.</p>
+            <p>This creates a school environment that remains structured while still allowing unpredictable moments to occur.</p>
+          </div>
+          <div class="magazine-copy" data-gallery-block="8">
+            <span class="card-number">09</span>
+            <h3>A Different Day Each Time</h3>
+            <p>Although the school follows an established timetable, each day can develop differently.</p>
+            <p>Character movement, changing needs, player decisions and social interactions can alter which situations occur and how they unfold. The same location or period of the day may produce different encounters during separate playthroughs.</p>
+            <p>The result is a game built around repeatable daily structure without requiring every day to feel identical.</p>
+          </div>
+          <div class="magazine-copy" data-gallery-block="9">
+            <span class="card-number">10</span>
+            <h3>Research-Informed Development</h3>
+            <p>Manic Monday is developed through an academic research-informed design process.</p>
+            <p>Its features, including character routines, simulated needs, social behaviour, card-based interaction and shared character action systems, are implemented as both gameplay mechanics and subjects for formal investigation.</p>
+            <p>The design and development of these systems contribute to ongoing and future academic publications examining simulation, autonomous character behaviour, interaction design, player experience and emergent gameplay.</p>
+            <p>This allows Manic Monday to function as both an entertainment experience and a practical research platform for exploring how complex character systems can create believable and meaningful virtual environments.</p>
+          </div>
+        </div>
+
+        <div class="screenshot-gallery" data-gallery-carousel hidden>
+          <p class="screenshot-gallery-label">Browse all screenshots</p>
+          <div class="screenshot-gallery-viewport">
+            <img class="screenshot-gallery-image" data-gallery-carousel-image alt="">
+            <button class="screenshot-gallery-arrow screenshot-gallery-prev" type="button" data-gallery-prev aria-label="Previous screenshot">&#8249;</button>
+            <button class="screenshot-gallery-arrow screenshot-gallery-next" type="button" data-gallery-next aria-label="Next screenshot">&#8250;</button>
+          </div>
+          <p class="screenshot-gallery-count" data-gallery-carousel-count></p>
+        </div>
+      </section>
+
+      <section class="press-band" id="press">
+        <div>
+          <p class="eyebrow">Press kit</p>
+          <h2>Quick facts</h2>
+        </div>
+        <dl class="facts">
+          <div>
+            <dt>Game</dt>
+            <dd>Manic Monday's</dd>
+          </div>
+          <div>
+            <dt>Studio</dt>
+            <dd><a href="../">Kestrel Kinetics Research &amp; Technology</a></dd>
+          </div>
+          <div>
+            <dt>Genre</dt>
+            <dd>School life simulation</dd>
+          </div>
+          <div>
+            <dt>Steam</dt>
+            <dd>Wishlist page coming soon</dd>
+          </div>
+          <div>
+            <dt>Status</dt>
+            <dd>Announced</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="section development" id="development">
+        <div class="section-heading">
+          <p class="eyebrow">Development log</p>
+          <h2>Progress, without the noise.</h2>
+        </div>
+        <div class="development-panel">
+          <div class="development-summary">
+            <p data-commit-summary>Loading the Manic Monday's development history.</p>
+          </div>
+          <p class="commit-status" data-commit-status>Syncing development log...</p>
+          <ol class="commit-list" data-commit-list aria-live="polite"></ol>
         </div>
       </section>
     </main>

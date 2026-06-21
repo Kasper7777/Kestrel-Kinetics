@@ -13,7 +13,7 @@ const galleryCarouselImage = document.querySelector("[data-gallery-carousel-imag
 const galleryCarouselCount = document.querySelector("[data-gallery-carousel-count]");
 const galleryPrevButton = document.querySelector("[data-gallery-prev]");
 const galleryNextButton = document.querySelector("[data-gallery-next]");
-const magazineImageCount = 5;
+const gameName = document.body?.dataset.gameName || "Cyber Bully: 502 Bad Gateway";
 let carouselImages = [];
 let carouselIndex = 0;
 
@@ -109,7 +109,7 @@ const createMagazineImage = (image, index) => {
 
   img.className = classes.join(" ");
   img.src = normaliseGallerySrc(image);
-  img.alt = image.alt || image.title || "Cyber Bully: 502 Bad Gateway development image";
+  img.alt = image.alt || image.title || `${gameName} development image`;
   img.loading = "lazy";
   return img;
 };
@@ -127,7 +127,7 @@ const renderCarouselImage = () => {
 
   const image = carouselImages[carouselIndex];
   galleryCarouselImage.src = normaliseGallerySrc(image);
-  galleryCarouselImage.alt = image.alt || image.title || "Cyber Bully: 502 Bad Gateway screenshot";
+  galleryCarouselImage.alt = image.alt || image.title || `${gameName} screenshot`;
   if (galleryCarouselCount) {
     galleryCarouselCount.textContent = `${carouselIndex + 1} / ${carouselImages.length}`;
   }
@@ -149,7 +149,7 @@ const renderGallery = (feed) => {
   clearGalleryBlocks();
 
   if (!displayImages.length) {
-    galleryStatus.textContent = "Add images to assets/images/cyber-bully/gallery and push them to publish a gallery.";
+    galleryStatus.textContent = `Add images to the ${gameName} gallery folder and push them to publish a gallery.`;
     galleryStatus.hidden = false;
     if (galleryCarousel) {
       galleryCarousel.hidden = true;
@@ -160,13 +160,20 @@ const renderGallery = (feed) => {
   galleryStatus.textContent = "";
   galleryStatus.hidden = true;
 
+  const magazineImageCount = galleryBlocks.length || 7;
   const featuredImages = shuffle(displayImages).slice(0, magazineImageCount);
   featuredImages.forEach((image, index) => {
     const block = galleryBlocks[index % galleryBlocks.length];
     if (!block) {
       return;
     }
-    block.prepend(createMagazineImage(image, index));
+    const heading = block.querySelector("h3");
+    const img = createMagazineImage(image, index);
+    if (heading) {
+      heading.insertAdjacentElement("afterend", img);
+    } else {
+      block.prepend(img);
+    }
   });
 
   carouselImages = displayImages;

@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - "assets/images/cyber-bully/gallery/**"
+      - "assets/images/manic-mondays/gallery/**"
       - ".github/scripts/build-gallery-manifest.mjs"
       - ".github/workflows/update-development-log.yml"
 
@@ -31,20 +32,59 @@ jobs:
           SOURCE_REPO: ${{ secrets.CYBER_BULLY_SOURCE_REPO }}
           CYBER_BULLY_SOURCE_TOKEN: ${{ secrets.CYBER_BULLY_SOURCE_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
+          OUTPUT_PATH: assets/commits.json
+          FEED_LABEL: Cyber Bully
+        run: node .github/scripts/fetch-commits.mjs
+
+      - name: Check Manic Monday's source configuration
+        env:
+          SOURCE_REPO: ${{ secrets.MANIC_MONDAYS_SOURCE_REPO || secrets.MANIC_MONDAY_SOURCE_REPO }}
+          SOURCE_TOKEN: ${{ secrets.MANIC_MONDAYS_SOURCE_TOKEN || secrets.MANIC_MONDAY_SOURCE_TOKEN || secrets.CYBER_BULLY_SOURCE_TOKEN }}
+        run: |
+          if [ -z "$SOURCE_REPO" ]; then
+            echo "::error::Set MANIC_MONDAYS_SOURCE_REPO or MANIC_MONDAY_SOURCE_REPO."
+            exit 1
+          fi
+
+          if [ -z "$SOURCE_TOKEN" ]; then
+            echo "::error::Set MANIC_MONDAYS_SOURCE_TOKEN, MANIC_MONDAY_SOURCE_TOKEN, or a reusable CYBER_BULLY_SOURCE_TOKEN with access to the Manic Monday's source repo."
+            exit 1
+          fi
+
+          echo "Manic Monday's source repo and token secrets are configured."
+
+      - name: Fetch Manic Monday's commits
+        env:
+          SOURCE_REPO: ${{ secrets.MANIC_MONDAYS_SOURCE_REPO || secrets.MANIC_MONDAY_SOURCE_REPO }}
+          SOURCE_TOKEN: ${{ secrets.MANIC_MONDAYS_SOURCE_TOKEN || secrets.MANIC_MONDAY_SOURCE_TOKEN || secrets.CYBER_BULLY_SOURCE_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+          OUTPUT_PATH: assets/commits-manic-mondays.json
+          FEED_LABEL: Manic Monday's
         run: node .github/scripts/fetch-commits.mjs
 
       - name: Build Cyber Bully gallery
+        env:
+          GALLERY_DIR: assets/images/cyber-bully/gallery
+          OUTPUT_FILE: assets/gallery.json
+          ALT_PREFIX: Cyber Bully
+        run: node .github/scripts/build-gallery-manifest.mjs
+
+      - name: Build Manic Monday's gallery
+        env:
+          GALLERY_DIR: assets/images/manic-mondays/gallery
+          OUTPUT_FILE: assets/gallery-manic-mondays.json
+          ALT_PREFIX: Manic Monday's
         run: node .github/scripts/build-gallery-manifest.mjs
 
       - name: Commit refreshed site data
         run: |
-          if git diff --quiet -- assets/commits.json assets/gallery.json; then
+          if git diff --quiet -- assets/commits.json assets/commits-manic-mondays.json assets/gallery.json assets/gallery-manic-mondays.json; then
             echo "Site data already up to date."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/commits.json assets/gallery.json
+          git add assets/commits.json assets/commits-manic-mondays.json assets/gallery.json assets/gallery-manic-mondays.json
           git commit -m "Update site data"
           git push

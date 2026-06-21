@@ -1,7 +1,9 @@
 import { mkdir, writeFile } from "node:fs/promises";
 
-const sourceRepo = process.env.SOURCE_REPO || process.env.CYBER_BULLY_SOURCE_REPO;
-const token = process.env.CYBER_BULLY_SOURCE_TOKEN || process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
+const sourceRepoInput = process.env.SOURCE_REPO || process.env.CYBER_BULLY_SOURCE_REPO;
+const token = process.env.SOURCE_TOKEN || process.env.CYBER_BULLY_SOURCE_TOKEN || process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
+const outputPath = process.env.OUTPUT_PATH || "assets/commits.json";
+const feedLabel = process.env.FEED_LABEL || "development";
 const apiBase = "https://api.github.com";
 const headers = {
   Accept: "application/vnd.github+json",
@@ -13,8 +15,25 @@ if (token) {
   headers.Authorization = `Bearer ${token}`;
 }
 
+const normaliseRepo = (value) => {
+  if (!value) {
+    return "";
+  }
+
+  const repo = value
+    .trim()
+    .replace(/^https:\/\/github\.com\//i, "")
+    .replace(/^git@github\.com:/i, "")
+    .replace(/\.git$/i, "")
+    .replace(/^\/+|\/+$/g, "");
+
+  return repo;
+};
+
+const sourceRepo = normaliseRepo(sourceRepoInput);
+
 if (!sourceRepo) {
-  throw new Error("Set SOURCE_REPO or CYBER_BULLY_SOURCE_REPO before refreshing the development log.");
+  throw new Error(`Set SOURCE_REPO before refreshing the ${feedLabel} development log.`);
 }
 
 const request = async (url) => {
@@ -85,4 +104,5 @@ const feed = {
 };
 
 await mkdir("assets", { recursive: true });
-await writeFile("assets/commits.json", `${JSON.stringify(feed, null, 2)}\n`);
+await writeFile(outputPath, `${JSON.stringify(feed, null, 2)}\n`);
+console.log(`Wrote ${commits.length} ${feedLabel} commits to ${outputPath}.`);
