@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-06-21T13:17:52.112Z",
-  "commitCount": 1188,
+  "generatedAt": "2026-06-21T16:09:53.368Z",
+  "commitCount": 1194,
   "commits": [
+    {
+      "shortSha": "ade6431",
+      "message": "feat: Implement grenade pin actor and enhance grenade weapon mechanics",
+      "author": "Kasper",
+      "date": "2026-06-21T15:58:52Z"
+    },
+    {
+      "shortSha": "397c3fb",
+      "message": "feat: Enhance HeldItemDisplay functionality with view overrides and update character preview logic",
+      "author": "Kasper",
+      "date": "2026-06-21T14:56:07Z"
+    },
+    {
+      "shortSha": "b80466c",
+      "message": "feat: Add per-item preview settings and enhance held item display functionality",
+      "author": "Kasper",
+      "date": "2026-06-21T14:34:18Z"
+    },
+    {
+      "shortSha": "84caaeb",
+      "message": "feat: Enhance Held Item Display functionality and UI integration",
+      "author": "Kasper",
+      "date": "2026-06-21T14:10:20Z"
+    },
+    {
+      "shortSha": "519f0b6",
+      "message": "feat: Update work item duration and enhance lighting settings for item preview in HeldItemDisplay",
+      "author": "Kasper",
+      "date": "2026-06-21T13:47:25Z"
+    },
+    {
+      "shortSha": "25b1812",
+      "message": "feat: Enhance HeldItemDisplay plugin with 3D preview functionality and documentation",
+      "author": "Kasper",
+      "date": "2026-06-21T13:37:51Z"
+    },
     {
       "shortSha": "14534c7",
       "message": "feat: Add HeldItemDisplay plugin for 3D preview of held items",
