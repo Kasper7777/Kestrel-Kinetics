@@ -531,7 +531,8 @@ p {
 }
 
 .project-media {
-  min-height: 20rem;
+  height: clamp(16rem, 32vw, 22rem);
+  min-height: 0;
 }
 
 .project-media-placeholder {
