@@ -1,5 +1,116 @@
 {
-  "generatedAt": "2026-06-21T16:09:54.768Z",
-  "imageCount": 0,
-  "images": []
+  "generatedAt": "2026-06-21T16:38:47.376Z",
+  "imageCount": 22,
+  "images": [
+    {
+      "src": "assets/images/manic-mondays/gallery/Obs_to_chair.png",
+      "alt": "Manic Monday's Obs To Chair",
+      "title": "Obs To Chair"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2024-06-24 211044.png",
+      "alt": "Manic Monday's Screenshot 2024 06 24 211044",
+      "title": "Screenshot 2024 06 24 211044"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2024-06-24 211224.png",
+      "alt": "Manic Monday's Screenshot 2024 06 24 211224",
+      "title": "Screenshot 2024 06 24 211224"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2024-06-24 211409.png",
+      "alt": "Manic Monday's Screenshot 2024 06 24 211409",
+      "title": "Screenshot 2024 06 24 211409"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2024-06-24 211841.png",
+      "alt": "Manic Monday's Screenshot 2024 06 24 211841",
+      "title": "Screenshot 2024 06 24 211841"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2024-06-24 212049.png",
+      "alt": "Manic Monday's Screenshot 2024 06 24 212049",
+      "title": "Screenshot 2024 06 24 212049"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2024-06-24 212101.png",
+      "alt": "Manic Monday's Screenshot 2024 06 24 212101",
+      "title": "Screenshot 2024 06 24 212101"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2024-06-24 213752.png",
+      "alt": "Manic Monday's Screenshot 2024 06 24 213752",
+      "title": "Screenshot 2024 06 24 213752"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2024-06-24 213832.png",
+      "alt": "Manic Monday's Screenshot 2024 06 24 213832",
+      "title": "Screenshot 2024 06 24 213832"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2024-06-24 220531.png",
+      "alt": "Manic Monday's Screenshot 2024 06 24 220531",
+      "title": "Screenshot 2024 06 24 220531"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2024-06-24 220628.png",
+      "alt": "Manic Monday's Screenshot 2024 06 24 220628",
+      "title": "Screenshot 2024 06 24 220628"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2024-06-24 220803.png",
+      "alt": "Manic Monday's Screenshot 2024 06 24 220803",
+      "title": "Screenshot 2024 06 24 220803"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2024-06-24 220947.png",
+      "alt": "Manic Monday's Screenshot 2024 06 24 220947",
+      "title": "Screenshot 2024 06 24 220947"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2024-06-24 221449.png",
+      "alt": "Manic Monday's Screenshot 2024 06 24 221449",
+      "title": "Screenshot 2024 06 24 221449"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2025-02-21 214702.png",
+      "alt": "Manic Monday's Screenshot 2025 02 21 214702",
+      "title": "Screenshot 2025 02 21 214702"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2025-02-21 214819.png",
+      "alt": "Manic Monday's Screenshot 2025 02 21 214819",
+      "title": "Screenshot 2025 02 21 214819"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2025-02-23 222826.png",
+      "alt": "Manic Monday's Screenshot 2025 02 23 222826",
+      "title": "Screenshot 2025 02 23 222826"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2025-03-04 202548.png",
+      "alt": "Manic Monday's Screenshot 2025 03 04 202548",
+      "title": "Screenshot 2025 03 04 202548"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2025-03-06 202210.png",
+      "alt": "Manic Monday's Screenshot 2025 03 06 202210",
+      "title": "Screenshot 2025 03 06 202210"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2025-03-09 030610.png",
+      "alt": "Manic Monday's Screenshot 2025 03 09 030610",
+      "title": "Screenshot 2025 03 09 030610"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2025-03-12 033344.png",
+      "alt": "Manic Monday's Screenshot 2025 03 12 033344",
+      "title": "Screenshot 2025 03 12 033344"
+    },
+    {
+      "src": "assets/images/manic-mondays/gallery/Screenshot 2025-03-13 012344.png",
+      "alt": "Manic Monday's Screenshot 2025 03 13 012344",
+      "title": "Screenshot 2025 03 13 012344"
+    }
+  ]
 }

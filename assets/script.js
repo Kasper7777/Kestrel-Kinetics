@@ -160,10 +160,16 @@ const renderGallery = (feed) => {
   galleryStatus.textContent = "";
   galleryStatus.hidden = true;
 
-  const magazineImageCount = galleryBlocks.length || 7;
+  const requestedCount = Number(document.body?.dataset.galleryCount);
+  const magazineImageCount = Math.min(
+    Number.isFinite(requestedCount) && requestedCount > 0 ? requestedCount : galleryBlocks.length,
+    galleryBlocks.length,
+    displayImages.length
+  );
   const featuredImages = shuffle(displayImages).slice(0, magazineImageCount);
+  const targetBlocks = shuffle(galleryBlocks).slice(0, magazineImageCount);
   featuredImages.forEach((image, index) => {
-    const block = galleryBlocks[index % galleryBlocks.length];
+    const block = targetBlocks[index];
     if (!block) {
       return;
     }
