@@ -66,60 +66,74 @@ const cleanChoice = (value, options, fallback) => {
 const isValidEmail = (value) =>
   value.length <= 254 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
 
+const truncate = (value, maxLength) =>
+  value.length > maxLength ? `${value.slice(0, maxLength - 1)}...` : value;
+
 const buildDiscordPayload = ({ type, project, name, email, message }) => ({
   username: "Kestrel Contact",
-  content: `New ${type.toLowerCase()} message for ${project}`,
+  content: truncate(
+    [
+      `New ${type.toLowerCase()} message for ${project}`,
+      "",
+      `Name: ${name}`,
+      `Reply email: ${email}`,
+      "",
+      message,
+    ].join("\n"),
+    1900
+  ),
   allowed_mentions: {
     parse: [],
   },
-  embeds: [
-    {
-      title: "Website contact form",
-      color: 3594751,
-      fields: [
-        {
-          name: "Enquiry type",
-          value: type,
-          inline: true,
-        },
-        {
-          name: "Project",
-          value: project,
-          inline: true,
-        },
-        {
-          name: "Name",
-          value: name,
-          inline: true,
-        },
-        {
-          name: "Reply email",
-          value: email,
-          inline: true,
-        },
-      ],
-      description: message,
-      timestamp: new Date().toISOString(),
-    },
-  ],
 });
 
+const getDiscordErrorMessage = (status) => {
+  if (status === 401 || status === 404) {
+    return "The Discord webhook URL is invalid or has been revoked.";
+  }
+
+  if (status === 400) {
+    return "Discord rejected the contact message format.";
+  }
+
+  if (status === 429) {
+    return "Discord is rate limiting the contact form. Please try again in a minute.";
+  }
+
+  return "Discord could not accept the message right now.";
+};
+
 const sendDiscordMessage = async ({ type, project, name, email, message }) => {
-  const response = await fetch(process.env.DISCORD_WEBHOOK_URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(buildDiscordPayload({ type, project, name, email, message })),
-  });
+  let response;
+
+  try {
+    response = await fetch(process.env.DISCORD_WEBHOOK_URL.trim(), {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(buildDiscordPayload({ type, project, name, email, message })),
+    });
+  } catch (error) {
+    console.error("Contact Discord webhook request failed", error);
+    return {
+      ok: false,
+      message: "The Discord webhook URL could not be reached.",
+    };
+  }
 
   if (!response.ok) {
     const details = await response.text().catch(() => "");
     console.error("Contact Discord webhook failed", response.status, details.slice(0, 500));
-    return false;
+    return {
+      ok: false,
+      message: getDiscordErrorMessage(response.status),
+    };
   }
 
-  return true;
+  return {
+    ok: true,
+  };
 };
 
 const createContactResponse = async ({ method, headers, body }) => {
@@ -166,8 +180,8 @@ const createContactResponse = async ({ method, headers, body }) => {
   }
 
   const sent = await sendDiscordMessage({ type, project, name, email, message });
-  if (!sent) {
-    return json(502, { message: "The message could not be sent right now." });
+  if (!sent.ok) {
+    return json(502, { message: sent.message });
   }
 
   return json(200, { message: "Message sent. Thank you." });
