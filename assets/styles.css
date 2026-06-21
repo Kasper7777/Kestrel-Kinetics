@@ -33,6 +33,15 @@ body {
   color: var(--text);
 }
 
+body.studio-page {
+  background:
+    linear-gradient(180deg, rgba(4, 7, 11, 0.76), rgba(4, 7, 11, 0.9)),
+    radial-gradient(circle at 20% 0%, rgba(54, 217, 255, 0.16), transparent 32rem),
+    radial-gradient(circle at 88% 24%, rgba(255, 79, 216, 0.14), transparent 28rem),
+    url("images/studio/background.png") center / cover fixed no-repeat,
+    var(--bg-deep);
+}
+
 body::before {
   position: fixed;
   inset: 0;
