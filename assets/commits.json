@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-06-21T21:41:34.032Z",
-  "commitCount": 1199,
+  "generatedAt": "2026-06-21T23:44:11.904Z",
+  "commitCount": 1204,
   "commits": [
+    {
+      "shortSha": "e03a53b",
+      "message": "feat: Implement save-point disk feature for respawning at stored grid cell",
+      "author": "Kasper",
+      "date": "2026-06-21T23:03:19Z"
+    },
+    {
+      "shortSha": "228acab",
+      "message": "feat: Refine conversation partner search logic to respect designer-configured parameters",
+      "author": "Kasper",
+      "date": "2026-06-21T22:01:04Z"
+    },
+    {
+      "shortSha": "5e62524",
+      "message": "feat: Update enemy assets and workspace configuration for improved gameplay integration",
+      "author": "Kasper",
+      "date": "2026-06-21T21:48:50Z"
+    },
+    {
+      "shortSha": "9d23f72",
+      "message": "feat: Implement fallback behavior for disarmed hostiles to randomly surrender or flee",
+      "author": "Kasper",
+      "date": "2026-06-21T21:41:42Z"
+    },
+    {
+      "shortSha": "40328f4",
+      "message": "feat: Implement physical weapon attachment system with pickup and compatibility checks",
+      "author": "Kasper",
+      "date": "2026-06-21T21:14:30Z"
+    },
     {
       "shortSha": "3949651",
       "message": "feat: Add Crouch Animation Setup documentation for player AnimBP integration",
