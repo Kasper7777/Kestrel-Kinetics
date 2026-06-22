@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-06-22T21:13:30.879Z",
-  "commitCount": 1223,
+  "generatedAt": "2026-06-22T22:54:46.383Z",
+  "commitCount": 1227,
   "commits": [
+    {
+      "shortSha": "b7c5359",
+      "message": "feat: Add revolver damage barrel and optic attachments with gameplay effects",
+      "author": "Kasper",
+      "date": "2026-06-22T22:02:22Z"
+    },
+    {
+      "shortSha": "0a28000",
+      "message": "feat: Enhance projectile visuals and weapon attachments",
+      "author": "Kasper",
+      "date": "2026-06-22T21:49:47Z"
+    },
+    {
+      "shortSha": "e1b6db5",
+      "message": "Merge branch 'Multiplatform' of private source into Multiplatform",
+      "author": "Kasper",
+      "date": "2026-06-22T21:32:20Z"
+    },
+    {
+      "shortSha": "bc2169d",
+      "message": "feat: Implement aim assist functionality for BoneBreaker weapon attachments and add Laser Rifle optic attachment",
+      "author": "Kasper",
+      "date": "2026-06-22T21:32:15Z"
+    },
     {
       "shortSha": "f66fa68",
       "message": "feat: Update workspace configuration and add new assets for grenade mechanics",
