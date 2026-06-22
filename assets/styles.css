@@ -719,19 +719,28 @@ p {
 
 .screenshot-gallery-viewport {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
-  min-height: clamp(16rem, 40vw, 28rem);
+  max-height: clamp(28rem, 70vw, 42rem);
   border: 1px solid rgba(135, 227, 255, 0.24);
   border-radius: 8px;
   background: var(--panel-solid);
   box-shadow: 0 30px 90px rgba(0, 0, 0, 0.24);
 }
 
+.screenshot-gallery-viewport:empty,
+.screenshot-gallery-viewport.is-loading {
+  min-height: clamp(16rem, 40vw, 28rem);
+}
+
 .screenshot-gallery-image {
   display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  max-height: clamp(28rem, 70vw, 42rem);
+  object-fit: contain;
 }
 
 .screenshot-gallery-arrow {
