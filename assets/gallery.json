@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-06-22T12:25:40.170Z",
-  "imageCount": 12,
+  "generatedAt": "2026-06-22T12:42:46.616Z",
+  "imageCount": 14,
   "images": [
+    {
+      "src": "assets/images/cyber-bully/gallery/Kril_D.png",
+      "alt": "Cyber Bully Kril D",
+      "title": "Kril D"
+    },
+    {
+      "src": "assets/images/cyber-bully/gallery/Kril_E.png",
+      "alt": "Cyber Bully Kril E",
+      "title": "Kril E"
+    },
     {
       "src": "assets/images/cyber-bully/gallery/Screenshot 2025-05-31 005402.png",
       "alt": "Cyber Bully Screenshot 2025 05 31 005402",
