@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-06-22T12:42:45.467Z",
-  "commitCount": 1204,
+  "generatedAt": "2026-06-22T17:48:35.965Z",
+  "commitCount": 1210,
   "commits": [
+    {
+      "shortSha": "24b10f4",
+      "message": "feat: Enhance grenade mechanics with new smoke grenade functionality and player input updates",
+      "author": "Kasper",
+      "date": "2026-06-22T17:19:10Z"
+    },
+    {
+      "shortSha": "4bec329",
+      "message": "feat: Add class redirects for AnimGraphNode_FightingAttack and update grenade throw indicator logic",
+      "author": "Kasper",
+      "date": "2026-06-22T15:54:24Z"
+    },
+    {
+      "shortSha": "cc87780",
+      "message": "Add Volumetric Smoke Module and related assets",
+      "author": "Kasper",
+      "date": "2026-06-22T15:49:30Z"
+    },
+    {
+      "shortSha": "84bf4ec",
+      "message": "feat: Enhance grenade mechanics with new assets and explosion effects",
+      "author": "Kasper",
+      "date": "2026-06-22T15:31:04Z"
+    },
+    {
+      "shortSha": "ee63827",
+      "message": "feat: Update grenade mechanics and add new sound assets for enhanced gameplay experience",
+      "author": "Kasper",
+      "date": "2026-06-22T14:44:28Z"
+    },
+    {
+      "shortSha": "3cf083b",
+      "message": "feat: Add Prismatiscape interaction system with grenade projectile integration and new sound effects",
+      "author": "Kasper",
+      "date": "2026-06-22T14:16:14Z"
+    },
     {
       "shortSha": "e03a53b",
       "message": "feat: Implement save-point disk feature for respawning at stored grid cell",
