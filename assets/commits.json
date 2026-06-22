@@ -1,7 +1,85 @@
 {
-  "generatedAt": "2026-06-22T17:48:35.965Z",
-  "commitCount": 1210,
+  "generatedAt": "2026-06-22T21:05:00.166Z",
+  "commitCount": 1223,
   "commits": [
+    {
+      "shortSha": "f66fa68",
+      "message": "feat: Update workspace configuration and add new assets for grenade mechanics",
+      "author": "Kazber",
+      "date": "2026-06-22T20:54:50Z"
+    },
+    {
+      "shortSha": "105d525",
+      "message": "feat: Add weapon throw sound asset to enhance audio feedback during gameplay",
+      "author": "Kazber",
+      "date": "2026-06-22T20:32:40Z"
+    },
+    {
+      "shortSha": "4793af4",
+      "message": "feat: Clean up ChangeListManager configuration and update highlighting settings",
+      "author": "Kasper",
+      "date": "2026-06-22T20:28:43Z"
+    },
+    {
+      "shortSha": "0c44357",
+      "message": "feat: Add dedicated grenade throw sound to enhance audio feedback during gameplay",
+      "author": "Kazber",
+      "date": "2026-06-22T20:28:20Z"
+    },
+    {
+      "shortSha": "d3a7923",
+      "message": "feat: Add diagnostic logging for Prismatiscape manager and local control state changes",
+      "author": "Kazber",
+      "date": "2026-06-22T20:27:33Z"
+    },
+    {
+      "shortSha": "da4ef7a",
+      "message": "feat: Update grenade mechanics and player character integration for improved targeting and visual consistency",
+      "author": "Kazber",
+      "date": "2026-06-22T20:23:10Z"
+    },
+    {
+      "shortSha": "e39049e",
+      "message": "feat: Refactor UpdatePrismatiscapeFollowTarget to return success status and improve local player targeting",
+      "author": "Kasper",
+      "date": "2026-06-22T19:26:34Z"
+    },
+    {
+      "shortSha": "e1dcbc6",
+      "message": "Add Prismatiscape Plugin Components and Manager",
+      "author": "Kazber",
+      "date": "2026-06-22T18:56:39Z"
+    },
+    {
+      "shortSha": "b0fe702",
+      "message": "feat: Refactor Prismatiscape interaction grid management to improve local player targeting",
+      "author": "Kasper",
+      "date": "2026-06-22T18:51:55Z"
+    },
+    {
+      "shortSha": "146c095",
+      "message": "feat: Update player character to integrate PrismatiscapeManager and adjust interaction grid behavior",
+      "author": "Kasper",
+      "date": "2026-06-22T18:41:15Z"
+    },
+    {
+      "shortSha": "67f2512",
+      "message": "feat: Enhance grenade mechanics with safe scaling and launch functionality",
+      "author": "Kasper",
+      "date": "2026-06-22T18:06:55Z"
+    },
+    {
+      "shortSha": "0743a73",
+      "message": "Update various material assets across multiple categories in Cyber Bully",
+      "author": "Kasper",
+      "date": "2026-06-22T17:58:06Z"
+    },
+    {
+      "shortSha": "34c109d",
+      "message": "feat: Implement visual debugging for grenade mechanics, including debug markers for launch, impact, and detonation",
+      "author": "Kasper",
+      "date": "2026-06-22T17:49:42Z"
+    },
     {
       "shortSha": "24b10f4",
       "message": "feat: Enhance grenade mechanics with new smoke grenade functionality and player input updates",
