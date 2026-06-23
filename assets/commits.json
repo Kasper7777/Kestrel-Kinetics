@@ -1,7 +1,97 @@
 {
-  "generatedAt": "2026-06-23T12:15:34.097Z",
-  "commitCount": 1242,
+  "generatedAt": "2026-06-23T15:25:17.413Z",
+  "commitCount": 1257,
   "commits": [
+    {
+      "shortSha": "c6b4fbb",
+      "message": "Add CB Report.pages to documentation notes",
+      "author": "Kazber",
+      "date": "2026-06-23T15:12:01Z"
+    },
+    {
+      "shortSha": "bb48492",
+      "message": "Remove unused virtual textures setting from DefaultEngine.ini",
+      "author": "Kazber",
+      "date": "2026-06-23T14:53:23Z"
+    },
+    {
+      "shortSha": "d8de450",
+      "message": "Merge branch 'Multiplatform' of private source into Multiplatform",
+      "author": "Kasper",
+      "date": "2026-06-23T14:34:10Z"
+    },
+    {
+      "shortSha": "f3370b5",
+      "message": "Add RiderLink and RiderLogging modules with initial implementation",
+      "author": "Kasper",
+      "date": "2026-06-23T14:34:05Z"
+    },
+    {
+      "shortSha": "2a33bed",
+      "message": "Refactor validation logic in UValidationTest_TerminalSubsystem for improved clarity",
+      "author": "Kazber",
+      "date": "2026-06-23T14:21:49Z"
+    },
+    {
+      "shortSha": "4b1509b",
+      "message": "Merge branch 'Multiplatform' of private source into Multiplatform",
+      "author": "Kasper",
+      "date": "2026-06-23T14:20:44Z"
+    },
+    {
+      "shortSha": "15f16b5",
+      "message": "Add configuration file for Unreal server setup",
+      "author": "Kasper",
+      "date": "2026-06-23T14:18:05Z"
+    },
+    {
+      "shortSha": "971891c",
+      "message": "Refactor Terminal Subsystem References and Update Build Files",
+      "author": "Kasper",
+      "date": "2026-06-23T14:18:05Z"
+    },
+    {
+      "shortSha": "0e07ee1",
+      "message": "Refactor: Replace references to TerminalSubsystem with TerminalOSSubsystem across multiple files",
+      "author": "Kazber",
+      "date": "2026-06-23T14:05:27Z"
+    },
+    {
+      "shortSha": "2894d11",
+      "message": "Remove obsolete solution files for Automation and Cyber_Bully",
+      "author": "Kazber",
+      "date": "2026-06-23T13:56:09Z"
+    },
+    {
+      "shortSha": "cc7f1ad",
+      "message": "Add refresh functionality for held-item UI preview on weapon attachment",
+      "author": "Kazber",
+      "date": "2026-06-23T13:54:36Z"
+    },
+    {
+      "shortSha": "34007ed",
+      "message": "Add new assets: MI_GreenCube, BP_LaserRifleSplitterBarrel, and update Laser_Amazer",
+      "author": "Kazber",
+      "date": "2026-06-23T13:39:11Z"
+    },
+    {
+      "shortSha": "dbdbd29",
+      "message": "Add MCP configuration file for Unreal server setup",
+      "author": "Kazber",
+      "date": "2026-06-23T13:08:18Z"
+    },
+    {
+      "shortSha": "8b4b7f3",
+      "message": "Add Terminal and EditorToolset modules to Cyber_Bully.uproject",
+      "author": "Kazber",
+      "date": "2026-06-23T12:24:35Z"
+    },
+    {
+      "shortSha": "2589ff9",
+      "message": "Untrack Rider per-user workspace.xml files",
+      "author": "Kasper",
+      "date": "2026-06-23T12:18:36Z"
+    },
     {
       "shortSha": "c7905c2",
       "message": "Update .gitignore and project configuration files for improved IDE compatibility and organization",
