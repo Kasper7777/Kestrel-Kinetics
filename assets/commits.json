@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-06-23T18:13:49.258Z",
-  "commitCount": 1257,
+  "generatedAt": "2026-06-23T20:22:14.373Z",
+  "commitCount": 1261,
   "commits": [
+    {
+      "shortSha": "3562e01",
+      "message": "Update CB Report.pages with new documentation notes",
+      "author": "Kazber",
+      "date": "2026-06-23T20:21:26Z"
+    },
+    {
+      "shortSha": "0bc996e",
+      "message": "Add vertical fan beam functionality to BoneBreakerWeapon and enhance CBLaserRifleSplitterBarrelAttachment with vertical spread settings; introduce fresh spawn widget for weapon attachments",
+      "author": "Kazber",
+      "date": "2026-06-23T20:15:55Z"
+    },
+    {
+      "shortSha": "d2bc61f",
+      "message": "Add heavy barrel attachments for laser rifle and revolver with damage and projectile size enhancements",
+      "author": "Kazber",
+      "date": "2026-06-23T20:01:24Z"
+    },
+    {
+      "shortSha": "718bf80",
+      "message": "Enhance BoneBreakerWeapon with vertical fan beam functionality and update CBLaserRifleSplitterBarrelAttachment to support new vertical spread settings",
+      "author": "Kazber",
+      "date": "2026-06-23T19:31:05Z"
+    },
     {
       "shortSha": "c6b4fbb",
       "message": "Add CB Report.pages to documentation notes",
