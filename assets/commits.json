@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-06-23T20:22:14.373Z",
-  "commitCount": 1261,
+  "generatedAt": "2026-06-23T22:37:11.170Z",
+  "commitCount": 1267,
   "commits": [
+    {
+      "shortSha": "100797e",
+      "message": "Update CB Report.pages with new content",
+      "author": "Kazber",
+      "date": "2026-06-23T22:35:48Z"
+    },
+    {
+      "shortSha": "a2b8b2d",
+      "message": "Update ABP_CB_Player.uasset with new animation data for improved character movement",
+      "author": "Kazber",
+      "date": "2026-06-23T22:29:48Z"
+    },
+    {
+      "shortSha": "2010371",
+      "message": "Update ABP_CB_Player.uasset with new animation data for improved character movement",
+      "author": "Kazber",
+      "date": "2026-06-23T21:57:38Z"
+    },
+    {
+      "shortSha": "717a53e",
+      "message": "Update ABP_CB_Player.uasset with new animation data for enhanced character movement",
+      "author": "Kazber",
+      "date": "2026-06-23T21:31:46Z"
+    },
+    {
+      "shortSha": "169e74e",
+      "message": "Implement dog blood squib spawning and configure health bar widget in ACBNPCDog; add CB_BlendSpaceCrouched asset",
+      "author": "Kazber",
+      "date": "2026-06-23T20:55:09Z"
+    },
+    {
+      "shortSha": "c4b43b6",
+      "message": "Refactor code structure for improved readability and maintainability",
+      "author": "Kazber",
+      "date": "2026-06-23T20:35:44Z"
+    },
     {
       "shortSha": "3562e01",
       "message": "Update CB Report.pages with new documentation notes",
