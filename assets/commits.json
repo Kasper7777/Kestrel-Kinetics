@@ -1,7 +1,97 @@
 {
-  "generatedAt": "2026-06-23T08:38:27.981Z",
-  "commitCount": 1227,
+  "generatedAt": "2026-06-23T12:15:34.097Z",
+  "commitCount": 1242,
   "commits": [
+    {
+      "shortSha": "c7905c2",
+      "message": "Update .gitignore and project configuration files for improved IDE compatibility and organization",
+      "author": "Kasper",
+      "date": "2026-06-23T12:11:15Z"
+    },
+    {
+      "shortSha": "e55d25e",
+      "message": "Refactor NPC-related functions in BullyTerminalExtensionsBPLibrary for clarity and consistency",
+      "author": "Kazber",
+      "date": "2026-06-23T11:17:57Z"
+    },
+    {
+      "shortSha": "ebb2a1a",
+      "message": "Add Cyber_Bully_5_8: project config, docs, and tools",
+      "author": "Kazber",
+      "date": "2026-06-23T10:47:43Z"
+    },
+    {
+      "shortSha": "19c5a29",
+      "message": "Add Cyber_Bully_5_8: Source",
+      "author": "Kazber",
+      "date": "2026-06-23T10:47:43Z"
+    },
+    {
+      "shortSha": "6e50287",
+      "message": "Add Cyber_Bully_5_8: Plugins",
+      "author": "Kazber",
+      "date": "2026-06-23T10:47:41Z"
+    },
+    {
+      "shortSha": "258c791",
+      "message": "Add Cyber_Bully_5_8: Content assets (part 10/10)",
+      "author": "Kazber",
+      "date": "2026-06-23T10:47:16Z"
+    },
+    {
+      "shortSha": "aae2093",
+      "message": "Add Cyber_Bully_5_8: Content assets (part 9/10)",
+      "author": "Kazber",
+      "date": "2026-06-23T10:47:13Z"
+    },
+    {
+      "shortSha": "655a691",
+      "message": "Add Cyber_Bully_5_8: Content assets (part 8/10)",
+      "author": "Kazber",
+      "date": "2026-06-23T10:47:10Z"
+    },
+    {
+      "shortSha": "875d947",
+      "message": "Add Cyber_Bully_5_8: Content assets (part 7/10)",
+      "author": "Kazber",
+      "date": "2026-06-23T10:47:06Z"
+    },
+    {
+      "shortSha": "9a9b210",
+      "message": "Add Cyber_Bully_5_8: Content assets (part 6/10)",
+      "author": "Kazber",
+      "date": "2026-06-23T10:47:03Z"
+    },
+    {
+      "shortSha": "2579b9a",
+      "message": "Add Cyber_Bully_5_8: Content assets (part 5/10)",
+      "author": "Kazber",
+      "date": "2026-06-23T10:47:01Z"
+    },
+    {
+      "shortSha": "1b43041",
+      "message": "Add Cyber_Bully_5_8: Content assets (part 4/10)",
+      "author": "Kazber",
+      "date": "2026-06-23T10:46:58Z"
+    },
+    {
+      "shortSha": "9366eee",
+      "message": "Add Cyber_Bully_5_8: Content assets (part 3/10)",
+      "author": "Kazber",
+      "date": "2026-06-23T10:46:55Z"
+    },
+    {
+      "shortSha": "11f748f",
+      "message": "Add Cyber_Bully_5_8: Content assets (part 2/10)",
+      "author": "Kazber",
+      "date": "2026-06-23T10:46:53Z"
+    },
+    {
+      "shortSha": "2655b85",
+      "message": "Add Cyber_Bully_5_8: Content assets (part 1/10)",
+      "author": "Kazber",
+      "date": "2026-06-23T10:46:50Z"
+    },
     {
       "shortSha": "b7c5359",
       "message": "feat: Add revolver damage barrel and optic attachments with gameplay effects",
