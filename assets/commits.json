@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-06-24T00:10:18.880Z",
-  "commitCount": 1269,
+  "generatedAt": "2026-06-24T04:34:15.124Z",
+  "commitCount": 1273,
   "commits": [
+    {
+      "shortSha": "81f39d4",
+      "message": "Update Ion Painter asset with new binary data",
+      "author": "Kazber",
+      "date": "2026-06-24T01:16:23Z"
+    },
+    {
+      "shortSha": "64a9db7",
+      "message": "Update Ion Painter weapon logic to use new muzzle point and bullet direction arrow",
+      "author": "Kazber",
+      "date": "2026-06-24T01:16:11Z"
+    },
+    {
+      "shortSha": "545215a",
+      "message": "Add Ion Painter laser converter and related assets; update projectile behavior",
+      "author": "Kazber",
+      "date": "2026-06-24T00:59:53Z"
+    },
+    {
+      "shortSha": "189dd6c",
+      "message": "Add laser gun functionality to Ion Painter and related attachments",
+      "author": "Kazber",
+      "date": "2026-06-24T00:48:15Z"
+    },
     {
       "shortSha": "343227d",
       "message": "Add preview source actor handling for weapon attachments in HeldItemCaptureStage",
