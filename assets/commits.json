@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-06-23T22:37:11.170Z",
-  "commitCount": 1267,
+  "generatedAt": "2026-06-24T00:10:18.880Z",
+  "commitCount": 1269,
   "commits": [
+    {
+      "shortSha": "343227d",
+      "message": "Add preview source actor handling for weapon attachments in HeldItemCaptureStage",
+      "author": "Kazber",
+      "date": "2026-06-23T22:46:05Z"
+    },
+    {
+      "shortSha": "e82c2b7",
+      "message": "Update weapon attachment assets and CB Report with new binary data",
+      "author": "Kazber",
+      "date": "2026-06-23T22:40:35Z"
+    },
     {
       "shortSha": "100797e",
       "message": "Update CB Report.pages with new content",
