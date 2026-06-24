@@ -1,7 +1,79 @@
 {
-  "generatedAt": "2026-06-24T12:00:32.615Z",
-  "commitCount": 1273,
+  "generatedAt": "2026-06-24T15:06:21.796Z",
+  "commitCount": 1285,
   "commits": [
+    {
+      "shortSha": "1975553",
+      "message": "Implement save-point disk functionality and update game instance handling for mid-run saves",
+      "author": "Kazber",
+      "date": "2026-06-24T14:38:56Z"
+    },
+    {
+      "shortSha": "15f6e2b",
+      "message": "Add LaserGun sound asset and update weapon attachment functionality",
+      "author": "Kazber",
+      "date": "2026-06-24T14:32:29Z"
+    },
+    {
+      "shortSha": "9b0d453",
+      "message": "Update BP_IonPainterLaserConverter asset to improve weapon attachment functionality",
+      "author": "Kazber",
+      "date": "2026-06-24T14:19:32Z"
+    },
+    {
+      "shortSha": "96281c0",
+      "message": "Refactor fire effects category from \"Effects\" to \"Trigger\" for better organization and clarity",
+      "author": "Kazber",
+      "date": "2026-06-24T14:11:38Z"
+    },
+    {
+      "shortSha": "1c7f7dc",
+      "message": "Add fire effects for weapon attachments including sound and visual cues",
+      "author": "Kazber",
+      "date": "2026-06-24T14:07:17Z"
+    },
+    {
+      "shortSha": "76015d4",
+      "message": "Fix ammo clip handling and destruction logic for better gameplay experience",
+      "author": "Kazber",
+      "date": "2026-06-24T13:48:06Z"
+    },
+    {
+      "shortSha": "c3cdf14",
+      "message": "Remove the spare ammo thing make it a physical clip that you can carry. If you drop the weapon then the ammo you are carrying should drop with it. You can always pick it up. Clips for your held weapon should automatically be picked up when you are near them when near the are magatized towards you and attach to your body on the hip socket. Then reloading consumes it. Dropping the weapon drops it too. You can olny carry 4 extra clips. As long as you still have the weapon the clips for that weapon stay attached even if you switch to another weapon. The number of clips is always 4. These attach to hip armour only. We need to add 4 sockets to armour that I can move around and we can only pickup ammo if we have holster enabled armour. Each ammo clip will have a max cap. The visual ui thing will add up the total spare ammo.",
+      "author": "Kazber",
+      "date": "2026-06-24T13:40:51Z"
+    },
+    {
+      "shortSha": "21f52e3",
+      "message": "Refine laser origin calculation to ensure accurate start point for visual beam and strike trace",
+      "author": "Kazber",
+      "date": "2026-06-24T13:21:10Z"
+    },
+    {
+      "shortSha": "4acf525",
+      "message": "Add GetLaserOriginAndDirection method for consistent laser beam origin and direction",
+      "author": "Kazber",
+      "date": "2026-06-24T13:09:42Z"
+    },
+    {
+      "shortSha": "16ba014",
+      "message": "Update Ion Painter assets and improve laser beam targeting logic for better alignment and performance",
+      "author": "Kazber",
+      "date": "2026-06-24T13:04:07Z"
+    },
+    {
+      "shortSha": "47db65d",
+      "message": "Enhance projectile behavior by linking bullets to their firing weapon, ensuring proper collision handling and visual alignment for laser beams.",
+      "author": "Kazber",
+      "date": "2026-06-24T12:13:09Z"
+    },
+    {
+      "shortSha": "92ca574",
+      "message": "ion",
+      "author": "Kazber",
+      "date": "2026-06-24T11:12:09Z"
+    },
     {
       "shortSha": "81f39d4",
       "message": "Update Ion Painter asset with new binary data",
