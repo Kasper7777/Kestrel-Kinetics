@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-06-24T20:05:42.779Z",
-  "commitCount": 1299,
+  "generatedAt": "2026-06-24T21:44:38.865Z",
+  "commitCount": 1305,
   "commits": [
+    {
+      "shortSha": "34ae53c",
+      "message": "Update binary assets for TestLevel and Title Block",
+      "author": "Kazber",
+      "date": "2026-06-24T21:42:50Z"
+    },
+    {
+      "shortSha": "8c2dc79",
+      "message": "Implement NativeConstruct for immediate UI usability in settings screen",
+      "author": "Kazber",
+      "date": "2026-06-24T21:16:32Z"
+    },
+    {
+      "shortSha": "7073e3c",
+      "message": "Add settings screen widget and update clear progress confirmation logic",
+      "author": "Kazber",
+      "date": "2026-06-24T21:09:21Z"
+    },
+    {
+      "shortSha": "913ea81",
+      "message": "Update .gitignore to exclude local MCP config and adjust Unreal Engine input mapping rules; update binary assets for armor and settings",
+      "author": "Kazber",
+      "date": "2026-06-24T20:49:16Z"
+    },
+    {
+      "shortSha": "aa87404",
+      "message": "Add MCP configuration to .gitignore to exclude machine-specific paths",
+      "author": "Kazber",
+      "date": "2026-06-24T20:35:58Z"
+    },
+    {
+      "shortSha": "2deb0ba",
+      "message": "Remove unused MCP server configuration from .mcp.json",
+      "author": "Kazber",
+      "date": "2026-06-24T20:35:49Z"
+    },
     {
       "shortSha": "fb39414",
       "message": "Add functionality to clear all saved progress and reset game state; include new sound asset",
