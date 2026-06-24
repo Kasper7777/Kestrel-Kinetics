@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-06-24T17:17:25.156Z",
-  "commitCount": 1288,
+  "generatedAt": "2026-06-24T20:05:42.779Z",
+  "commitCount": 1299,
   "commits": [
+    {
+      "shortSha": "fb39414",
+      "message": "Add functionality to clear all saved progress and reset game state; include new sound asset",
+      "author": "Kazber",
+      "date": "2026-06-24T19:52:58Z"
+    },
+    {
+      "shortSha": "1cdeeaf",
+      "message": "Update CB Report.pages with new content",
+      "author": "Kazber",
+      "date": "2026-06-24T19:43:25Z"
+    },
+    {
+      "shortSha": "7e3464c",
+      "message": "Update CBIonPainter to support FPS mode and adjust related properties",
+      "author": "Kazber",
+      "date": "2026-06-24T18:52:53Z"
+    },
+    {
+      "shortSha": "18e3b02",
+      "message": "Add IonConverter assets and remove deprecated ionc asset",
+      "author": "Kazber",
+      "date": "2026-06-24T18:49:54Z"
+    },
+    {
+      "shortSha": "c9187e0",
+      "message": "Merge branch 'Multiplatform' of private source into Multiplatform",
+      "author": "Kasper",
+      "date": "2026-06-24T18:46:50Z"
+    },
+    {
+      "shortSha": "70f8b4b",
+      "message": "Implement code changes to enhance functionality and improve performance",
+      "author": "Kasper",
+      "date": "2026-06-24T18:46:45Z"
+    },
+    {
+      "shortSha": "53a2d73",
+      "message": "Add IonConverter mesh assets to the project",
+      "author": "Kazber",
+      "date": "2026-06-24T18:39:53Z"
+    },
+    {
+      "shortSha": "0d4e96e",
+      "message": "Add IonConverter attachment model to the project",
+      "author": "Kasper",
+      "date": "2026-06-24T18:30:04Z"
+    },
+    {
+      "shortSha": "ad2c9df",
+      "message": "Implement firing weapon handling in CBBulletProjectile to ignore sibling projectiles for multi-beam shots",
+      "author": "Kazber",
+      "date": "2026-06-24T18:28:42Z"
+    },
+    {
+      "shortSha": "2d6c9ba",
+      "message": "Refactor laser origin and direction calculation in ACBIonPainter for improved alignment and clarity",
+      "author": "Kazber",
+      "date": "2026-06-24T18:02:05Z"
+    },
+    {
+      "shortSha": "2a8691f",
+      "message": "Enhance BoneBreaker weapon attachment system with multicast sound and attachment change notifications",
+      "author": "Kazber",
+      "date": "2026-06-24T17:29:40Z"
+    },
     {
       "shortSha": "c73f0f5",
       "message": "Refactor CyberBullyEditor module to implement custom startup and shutdown logic for PreBeginPIE handling",
