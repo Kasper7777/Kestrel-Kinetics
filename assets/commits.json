@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-06-25T15:11:23.761Z",
-  "commitCount": 1322,
+  "generatedAt": "2026-06-25T17:22:39.774Z",
+  "commitCount": 1324,
   "commits": [
+    {
+      "shortSha": "1bee0ed",
+      "message": "Implement Kardz game mechanics including card management and combat resolution",
+      "author": "Kazber",
+      "date": "2026-06-25T17:15:28Z"
+    },
+    {
+      "shortSha": "6789115",
+      "message": "feat: Update binary assets for Clothing_Test, BP_LaserRifleOptic, Laser_Amazer, and CB Report",
+      "author": "Kazber",
+      "date": "2026-06-25T17:00:11Z"
+    },
     {
       "shortSha": "edc744d",
       "message": "Add new gamepad library and betting functionality",
