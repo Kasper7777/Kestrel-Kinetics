@@ -1,7 +1,12 @@
 {
-  "generatedAt": "2026-06-24T23:21:27.197Z",
-  "imageCount": 15,
+  "generatedAt": "2026-06-25T01:52:20.871Z",
+  "imageCount": 17,
   "images": [
+    {
+      "src": "assets/images/cyber-bully/gallery/CB_Banner_sm.png",
+      "alt": "Cyber Bully CB Banner Sm",
+      "title": "CB Banner Sm"
+    },
     {
       "src": "assets/images/cyber-bully/gallery/Kril_D.png",
       "alt": "Cyber Bully Kril D",
@@ -71,6 +76,11 @@
       "src": "assets/images/cyber-bully/gallery/Screenshot 2026-06-22 194735.png",
       "alt": "Cyber Bully Screenshot 2026 06 22 194735",
       "title": "Screenshot 2026 06 22 194735"
+    },
+    {
+      "src": "assets/images/cyber-bully/gallery/Screenshot 2026-06-25 at 02.49.51.png",
+      "alt": "Cyber Bully Screenshot 2026 06 25 At 02.49.51",
+      "title": "Screenshot 2026 06 25 At 02.49.51"
     },
     {
       "src": "assets/images/cyber-bully/gallery/title.png",

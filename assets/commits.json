@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-06-24T23:21:25.336Z",
-  "commitCount": 1306,
+  "generatedAt": "2026-06-25T01:52:19.604Z",
+  "commitCount": 1312,
   "commits": [
+    {
+      "shortSha": "5e4b04a",
+      "message": "Update CB Report binary file for improved documentation",
+      "author": "Kazber",
+      "date": "2026-06-25T00:18:27Z"
+    },
+    {
+      "shortSha": "0caab3a",
+      "message": "Update binary report file for improved documentation",
+      "author": "Kazber",
+      "date": "2026-06-25T00:10:39Z"
+    },
+    {
+      "shortSha": "88b0cab",
+      "message": "Update binary assets for AI Testing and Radio weapon",
+      "author": "Kazber",
+      "date": "2026-06-25T00:04:21Z"
+    },
+    {
+      "shortSha": "18680dc",
+      "message": "Refactor aim assist logic in BoneBreakerWeapon for improved accuracy and performance",
+      "author": "Kazber",
+      "date": "2026-06-24T23:58:42Z"
+    },
+    {
+      "shortSha": "33de58d",
+      "message": "Add new assets for Revolver weapon, including sound effects, meshes, and materials",
+      "author": "Kazber",
+      "date": "2026-06-24T23:52:29Z"
+    },
+    {
+      "shortSha": "cb79ac1",
+      "message": "Add new sound effects and assets for camera and laser weapons",
+      "author": "Kazber",
+      "date": "2026-06-24T23:28:13Z"
+    },
     {
       "shortSha": "022fe41",
       "message": "Refactor settings screen widget implementation",
