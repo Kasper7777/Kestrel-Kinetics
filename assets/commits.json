@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-06-25T20:21:46.920Z",
-  "commitCount": 1328,
+  "generatedAt": "2026-06-25T22:44:46.123Z",
+  "commitCount": 1332,
   "commits": [
+    {
+      "shortSha": "a48d4ac",
+      "message": "feat: Add Kardz deck management functionality and UI widget",
+      "author": "Kazber",
+      "date": "2026-06-25T22:22:13Z"
+    },
+    {
+      "shortSha": "2fd62d4",
+      "message": "feat: Update binary assets for Kardz card pickup and battle functionality",
+      "author": "Kazber",
+      "date": "2026-06-25T22:02:25Z"
+    },
+    {
+      "shortSha": "a9b1b6d",
+      "message": "feat: Implement Kardz battle board and component, enhance card pickup functionality",
+      "author": "Kazber",
+      "date": "2026-06-25T21:18:32Z"
+    },
+    {
+      "shortSha": "405b885",
+      "message": "feat: Refactor KardzCardPickup to improve component structure and add drop functionality",
+      "author": "Kazber",
+      "date": "2026-06-25T21:04:14Z"
+    },
     {
       "shortSha": "f966e5e",
       "message": "feat: Update CBKardzCardPickup to support multiple digit and color property types",
