@@ -1,7 +1,55 @@
 {
-  "generatedAt": "2026-06-25T11:49:51.479Z",
-  "commitCount": 1314,
+  "generatedAt": "2026-06-25T15:11:23.761Z",
+  "commitCount": 1322,
   "commits": [
+    {
+      "shortSha": "edc744d",
+      "message": "Add new gamepad library and betting functionality",
+      "author": "Kazber",
+      "date": "2026-06-25T15:00:24Z"
+    },
+    {
+      "shortSha": "faa969f",
+      "message": "feat: Add new texture and model assets for ACOG scope",
+      "author": "Kasper",
+      "date": "2026-06-25T14:49:05Z"
+    },
+    {
+      "shortSha": "d3bb408",
+      "message": "Add new image assets for volcano and zombie",
+      "author": "Kasper",
+      "date": "2026-06-25T14:08:31Z"
+    },
+    {
+      "shortSha": "70fd9bd",
+      "message": "Add new assets for KardZ game content",
+      "author": "Kazber",
+      "date": "2026-06-25T14:08:12Z"
+    },
+    {
+      "shortSha": "09a3a77",
+      "message": "Add Kardz plugin with core functionality and drag-and-drop support",
+      "author": "Kazber",
+      "date": "2026-06-25T14:03:35Z"
+    },
+    {
+      "shortSha": "be621d7",
+      "message": "feat: Implement runtime audio routing and native fade-in effects in settings widget",
+      "author": "Kazber",
+      "date": "2026-06-25T13:28:14Z"
+    },
+    {
+      "shortSha": "edfcb10",
+      "message": "feat: Enhance settings widget with focus visual updates and native fade-in effects",
+      "author": "Kazber",
+      "date": "2026-06-25T12:25:36Z"
+    },
+    {
+      "shortSha": "ddfff9f",
+      "message": "Refactor settings widget for improved gamepad navigation and key binding management",
+      "author": "Kazber",
+      "date": "2026-06-25T12:12:35Z"
+    },
     {
       "shortSha": "a1c9e82",
       "message": "feat: Enhance control settings and key bindings in settings widget",
