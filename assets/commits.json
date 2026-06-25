@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-06-25T17:22:39.774Z",
-  "commitCount": 1324,
+  "generatedAt": "2026-06-25T20:21:46.920Z",
+  "commitCount": 1328,
   "commits": [
+    {
+      "shortSha": "f966e5e",
+      "message": "feat: Update CBKardzCardPickup to support multiple digit and color property types",
+      "author": "Kazber",
+      "date": "2026-06-25T19:15:36Z"
+    },
+    {
+      "shortSha": "fbb5029",
+      "message": "feat: Enhance Kardz card pickup with widget components for health, defense, attack, and element display",
+      "author": "Kazber",
+      "date": "2026-06-25T19:06:57Z"
+    },
+    {
+      "shortSha": "e05abaf",
+      "message": "feat: Implement Kardz card pickup functionality and integrate with player character",
+      "author": "Kazber",
+      "date": "2026-06-25T18:05:59Z"
+    },
+    {
+      "shortSha": "21ceea0",
+      "message": "feat: Update Kardz card definitions and add new assets",
+      "author": "Kazber",
+      "date": "2026-06-25T17:55:04Z"
+    },
     {
       "shortSha": "1bee0ed",
       "message": "Implement Kardz game mechanics including card management and combat resolution",
