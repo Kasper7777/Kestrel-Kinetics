@@ -1,7 +1,61 @@
 {
-  "generatedAt": "2026-06-25T22:44:46.123Z",
-  "commitCount": 1332,
+  "generatedAt": "2026-06-26T01:29:07.650Z",
+  "commitCount": 1341,
   "commits": [
+    {
+      "shortSha": "17746df",
+      "message": "fix: Improve widget class assignment logic in ShowKardzDeckWidget function",
+      "author": "Kazber",
+      "date": "2026-06-26T01:24:50Z"
+    },
+    {
+      "shortSha": "590270e",
+      "message": "feat: Add icon support for Kardz cards and enhance deck widget layout",
+      "author": "Kazber",
+      "date": "2026-06-26T01:24:39Z"
+    },
+    {
+      "shortSha": "07316e0",
+      "message": "feat: Enhance Kardz deck and battle move widgets with improved UI and functionality",
+      "author": "Kazber",
+      "date": "2026-06-26T00:50:47Z"
+    },
+    {
+      "shortSha": "06c0d16",
+      "message": "feat: Introduce CBKardzBattleMoveWidget and enhance CBKardzDeckWidget with dynamic card handling",
+      "author": "Kazber",
+      "date": "2026-06-26T00:12:41Z"
+    },
+    {
+      "shortSha": "7d92a1a",
+      "message": "feat: Add KadzDeck asset and update KardzComponent and PlayerCharacter for improved deck management",
+      "author": "Kazber",
+      "date": "2026-06-25T23:45:27Z"
+    },
+    {
+      "shortSha": "a504a84",
+      "message": "feat: Refactor Kardz input handling and enhance KardzDeckWidget integration",
+      "author": "Kazber",
+      "date": "2026-06-25T23:32:06Z"
+    },
+    {
+      "shortSha": "45dc1c0",
+      "message": "feat: Add support for additional camera control modifier using Gamepad_LeftShoulder",
+      "author": "Kazber",
+      "date": "2026-06-25T23:06:57Z"
+    },
+    {
+      "shortSha": "e165260",
+      "message": "feat: Enhance KardzDeckWidget with CanvasPanel and dynamic card borders",
+      "author": "Kazber",
+      "date": "2026-06-25T22:48:13Z"
+    },
+    {
+      "shortSha": "5200435",
+      "message": "feat: Add functionality to play selected Kard on nearby battle board",
+      "author": "Kazber",
+      "date": "2026-06-25T22:47:55Z"
+    },
     {
       "shortSha": "a48d4ac",
       "message": "feat: Add Kardz deck management functionality and UI widget",
