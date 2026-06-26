@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-06-26T13:19:28.018Z",
-  "commitCount": 1343,
+  "generatedAt": "2026-06-26T16:27:44.344Z",
+  "commitCount": 1348,
   "commits": [
+    {
+      "shortSha": "c1aa9a2",
+      "message": "kardz update",
+      "author": "Kazber",
+      "date": "2026-06-26T15:53:19Z"
+    },
+    {
+      "shortSha": "fa2cc73",
+      "message": "feat: Add Kardz AI components including decorators and tasks for NPC card collection",
+      "author": "Kazber",
+      "date": "2026-06-26T14:53:11Z"
+    },
+    {
+      "shortSha": "f3d6f70",
+      "message": "feat: Implement Kardz mini-game mechanics with NPC card collection and challenge system",
+      "author": "Kazber",
+      "date": "2026-06-26T14:07:37Z"
+    },
+    {
+      "shortSha": "408f5cb",
+      "message": "feat: Add outline color for selected card and implement card drop functionality",
+      "author": "Kazber",
+      "date": "2026-06-26T13:31:24Z"
+    },
+    {
+      "shortSha": "8e6ec50",
+      "message": "fix: Update color values for Kardz attributes and improve color consistency",
+      "author": "Kazber",
+      "date": "2026-06-26T13:23:28Z"
+    },
     {
       "shortSha": "b585cb6",
       "message": "feat: Enhance CBKardzDeckWidget with fan layout and dynamic card positioning",
