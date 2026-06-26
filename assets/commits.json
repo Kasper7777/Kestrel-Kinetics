@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-06-26T10:28:08.078Z",
-  "commitCount": 1341,
+  "generatedAt": "2026-06-26T13:19:28.018Z",
+  "commitCount": 1343,
   "commits": [
+    {
+      "shortSha": "b585cb6",
+      "message": "feat: Enhance CBKardzDeckWidget with fan layout and dynamic card positioning",
+      "author": "Kazber",
+      "date": "2026-06-26T13:00:50Z"
+    },
+    {
+      "shortSha": "d56c59b",
+      "message": "feat: Implement auto-binding for fallback widgets in CBKardzBattleMoveWidget",
+      "author": "Kazber",
+      "date": "2026-06-26T12:50:17Z"
+    },
     {
       "shortSha": "17746df",
       "message": "fix: Improve widget class assignment logic in ShowKardzDeckWidget function",
