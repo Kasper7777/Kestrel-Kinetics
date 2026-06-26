@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-06-26T19:02:48.601Z",
-  "commitCount": 1350,
+  "generatedAt": "2026-06-26T20:54:42.130Z",
+  "commitCount": 1352,
   "commits": [
+    {
+      "shortSha": "a41fa6f",
+      "message": "Oc fix",
+      "author": "Kasper",
+      "date": "2026-06-26T20:41:58Z"
+    },
+    {
+      "shortSha": "2867b4d",
+      "message": "the struggle",
+      "author": "Kazber",
+      "date": "2026-06-26T19:50:14Z"
+    },
     {
       "shortSha": "1e05562",
       "message": "deck ui",
