@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-27T00:19:35.045Z",
-  "imageCount": 17,
+  "generatedAt": "2026-06-27T01:16:00.917Z",
+  "imageCount": 18,
   "images": [
     {
       "src": "assets/images/cyber-bully/gallery/CB_Banner_sm.png",
@@ -81,6 +81,11 @@
       "src": "assets/images/cyber-bully/gallery/Screenshot 2026-06-25 at 02.49.51.png",
       "alt": "Cyber Bully Screenshot 2026 06 25 At 02.49.51",
       "title": "Screenshot 2026 06 25 At 02.49.51"
+    },
+    {
+      "src": "assets/images/cyber-bully/gallery/Screenshot 2026-06-26 213148.png",
+      "alt": "Cyber Bully Screenshot 2026 06 26 213148",
+      "title": "Screenshot 2026 06 26 213148"
     },
     {
       "src": "assets/images/cyber-bully/gallery/title.png",
