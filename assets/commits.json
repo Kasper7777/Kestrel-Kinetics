@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-06-26T22:35:13.871Z",
-  "commitCount": 1353,
+  "generatedAt": "2026-06-27T00:19:33.322Z",
+  "commitCount": 1355,
   "commits": [
+    {
+      "shortSha": "17eb0e7",
+      "message": "added item image for kardz",
+      "author": "Kazber",
+      "date": "2026-06-26T23:35:41Z"
+    },
+    {
+      "shortSha": "25e3d28",
+      "message": "Kardz spawner",
+      "author": "Kazber",
+      "date": "2026-06-26T23:11:14Z"
+    },
     {
       "shortSha": "644b3bc",
       "message": "Adding attachments to the main game",
