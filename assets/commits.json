@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-06-27T23:17:38.222Z",
-  "commitCount": 1374,
+  "generatedAt": "2026-06-28T04:48:34.999Z",
+  "commitCount": 1379,
   "commits": [
+    {
+      "shortSha": "0861b87",
+      "message": "up2",
+      "author": "Kazber",
+      "date": "2026-06-28T00:52:30Z"
+    },
+    {
+      "shortSha": "cd6b557",
+      "message": "this is becoming a slog now. to many different parts to get working. The scale issues are a constant annoyance.",
+      "author": "Kazber",
+      "date": "2026-06-28T00:15:19Z"
+    },
+    {
+      "shortSha": "016442c",
+      "message": "battle visual",
+      "author": "Kazber",
+      "date": "2026-06-27T23:53:25Z"
+    },
+    {
+      "shortSha": "a16eec6",
+      "message": "the a word",
+      "author": "Kazber",
+      "date": "2026-06-27T23:40:40Z"
+    },
+    {
+      "shortSha": "85fec6b",
+      "message": "battle",
+      "author": "Kazber",
+      "date": "2026-06-27T23:21:33Z"
+    },
     {
       "shortSha": "9f9d3b1",
       "message": "kardz battle",
