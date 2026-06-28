@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-06-28T21:19:04.670Z",
-  "commitCount": 1403,
+  "generatedAt": "2026-06-28T23:17:35.405Z",
+  "commitCount": 1407,
   "commits": [
+    {
+      "shortSha": "86e1bff",
+      "message": "fix floating armour after battle",
+      "author": "Kazber",
+      "date": "2026-06-28T23:17:21Z"
+    },
+    {
+      "shortSha": "65e8456",
+      "message": "The Kardz collection path doesn't fire the pickup-animation pulse that civilians/player use.",
+      "author": "Kazber",
+      "date": "2026-06-28T22:43:43Z"
+    },
+    {
+      "shortSha": "6fc4dda",
+      "message": "Kards decks persist when we go to a new level.",
+      "author": "Kazber",
+      "date": "2026-06-28T22:12:18Z"
+    },
+    {
+      "shortSha": "3d15f9f",
+      "message": "Kards plays need to search for bet items too. Kardz players have their own behaviour!",
+      "author": "Kazber",
+      "date": "2026-06-28T21:22:03Z"
+    },
     {
       "shortSha": "50fe50f",
       "message": "testing repairs",
