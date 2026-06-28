@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-06-28T11:16:03.418Z",
-  "commitCount": 1379,
+  "generatedAt": "2026-06-28T12:44:19.646Z",
+  "commitCount": 1381,
   "commits": [
+    {
+      "shortSha": "f8d2ea4",
+      "message": "kardz",
+      "author": "Kazber",
+      "date": "2026-06-28T12:11:45Z"
+    },
+    {
+      "shortSha": "dd6e4f4",
+      "message": "3. We need to be able to select items for betting. This should pop up before the card game starts. List all items in a bag first, then items holstered or held, then items equiped. The npc will have an array where bet items can be set.  The npc still does not pick up cards.  Lets make a text widget that I can style that will pop up at the end of each turn. This will be useful to explain what is going on.  There is no clear options “Skip(if we already have a card down), Retire”",
+      "author": "Kazber",
+      "date": "2026-06-28T11:45:04Z"
+    },
     {
       "shortSha": "0861b87",
       "message": "up2",
