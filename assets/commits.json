@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-06-28T14:56:59.909Z",
-  "commitCount": 1385,
+  "generatedAt": "2026-06-28T16:36:41.272Z",
+  "commitCount": 1390,
   "commits": [
+    {
+      "shortSha": "bec425c",
+      "message": "The npc still does not pick up cards.  There is no clear options “Skip(if we already have a card down), Retire”",
+      "author": "Kazber",
+      "date": "2026-06-28T16:18:52Z"
+    },
+    {
+      "shortSha": "b6a3e3e",
+      "message": "kardz",
+      "author": "Kazber",
+      "date": "2026-06-28T15:57:07Z"
+    },
+    {
+      "shortSha": "d741781",
+      "message": "simple map setup",
+      "author": "Kazber",
+      "date": "2026-06-28T15:35:44Z"
+    },
+    {
+      "shortSha": "e554571",
+      "message": "update_kard",
+      "author": "Kazber",
+      "date": "2026-06-28T15:15:44Z"
+    },
+    {
+      "shortSha": "6f10870",
+      "message": "add sounds",
+      "author": "Kazber",
+      "date": "2026-06-28T15:05:20Z"
+    },
     {
       "shortSha": "f9f6518",
       "message": "kardz",
