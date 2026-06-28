@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-06-28T16:36:41.272Z",
-  "commitCount": 1390,
+  "generatedAt": "2026-06-28T18:17:12.227Z",
+  "commitCount": 1394,
   "commits": [
+    {
+      "shortSha": "d02a3a9",
+      "message": "Kards up1",
+      "author": "Kazber",
+      "date": "2026-06-28T18:15:51Z"
+    },
+    {
+      "shortSha": "623d1a0",
+      "message": "kards kind of working now",
+      "author": "Kazber",
+      "date": "2026-06-28T17:46:42Z"
+    },
+    {
+      "shortSha": "30feffd",
+      "message": "attachments when attached to a weapon should visually behave like the weapon they are attached to when in a bag.",
+      "author": "Kazber",
+      "date": "2026-06-28T17:09:28Z"
+    },
+    {
+      "shortSha": "08cd6d8",
+      "message": "attachments still floating",
+      "author": "Kazber",
+      "date": "2026-06-28T16:49:34Z"
+    },
     {
       "shortSha": "bec425c",
       "message": "The npc still does not pick up cards.  There is no clear options “Skip(if we already have a card down), Retire”",
