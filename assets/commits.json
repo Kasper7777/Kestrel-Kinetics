@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-06-29T09:58:14.768Z",
-  "commitCount": 1407,
+  "generatedAt": "2026-06-29T14:18:59.110Z",
+  "commitCount": 1409,
   "commits": [
+    {
+      "shortSha": "4076c7a",
+      "message": "First time we see play on and retire we can’t select. We should be able to select a card and then that would just assume we’re going to play on anyway. We can keep the play on button and the retire button at this point however we should be able to select it if focus is an issue then press pressing down on the D pad while in this mode should get us back to those buttons at this point.",
+      "author": "Kazber",
+      "date": "2026-06-29T14:11:19Z"
+    },
+    {
+      "shortSha": "3374017",
+      "message": "Positioning guide Arrows appear on bet items, might be better to remove these arrows now. And sometimes float.",
+      "author": "Kazber",
+      "date": "2026-06-29T12:07:28Z"
+    },
     {
       "shortSha": "86e1bff",
       "message": "fix floating armour after battle",
