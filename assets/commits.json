@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-06-29T20:14:39.050Z",
-  "commitCount": 1420,
+  "generatedAt": "2026-06-29T21:44:16.683Z",
+  "commitCount": 1423,
   "commits": [
+    {
+      "shortSha": "99a62f9",
+      "message": "The text widget for kardz should tell the player if they have bet enough items to match the opponents bet.",
+      "author": "Kazber",
+      "date": "2026-06-29T21:34:50Z"
+    },
+    {
+      "shortSha": "77c288c",
+      "message": "values for items",
+      "author": "Kazber",
+      "date": "2026-06-29T21:19:09Z"
+    },
+    {
+      "shortSha": "5d26624",
+      "message": "If one player bets something they were wearing it should return to them on the slot where they were wearing it if they won the battle.",
+      "author": "Kazber",
+      "date": "2026-06-29T20:31:41Z"
+    },
     {
       "shortSha": "e0397d4",
       "message": "elem",
