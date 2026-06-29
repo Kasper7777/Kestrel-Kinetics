@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-06-29T17:47:36.123Z",
-  "commitCount": 1415,
+  "generatedAt": "2026-06-29T20:14:39.050Z",
+  "commitCount": 1420,
   "commits": [
+    {
+      "shortSha": "e0397d4",
+      "message": "elem",
+      "author": "Kazber",
+      "date": "2026-06-29T20:10:50Z"
+    },
+    {
+      "shortSha": "84d42ba",
+      "message": "fixed by renaming the shadowing local Owner to WeaponOwner.",
+      "author": "Kasper",
+      "date": "2026-06-29T19:40:12Z"
+    },
+    {
+      "shortSha": "ac6cfb3",
+      "message": "element symbols rather than text",
+      "author": "Kazber",
+      "date": "2026-06-29T19:31:48Z"
+    },
+    {
+      "shortSha": "aab6380",
+      "message": "you can bet clothes now",
+      "author": "Kazber",
+      "date": "2026-06-29T19:22:15Z"
+    },
+    {
+      "shortSha": "9326130",
+      "message": "circular dependency fixes",
+      "author": "Kazber",
+      "date": "2026-06-29T18:27:20Z"
+    },
     {
       "shortSha": "ab4365c",
       "message": "random stuff fixed",
