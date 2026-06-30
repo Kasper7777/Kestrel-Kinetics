@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-06-30T21:04:17.715Z",
-  "commitCount": 1464,
+  "generatedAt": "2026-06-30T22:39:13.728Z",
+  "commitCount": 1468,
   "commits": [
+    {
+      "shortSha": "083f50a",
+      "message": "dlls",
+      "author": "Kasper",
+      "date": "2026-06-30T22:22:35Z"
+    },
+    {
+      "shortSha": "500466a",
+      "message": "dll files",
+      "author": "Kasper",
+      "date": "2026-06-30T22:19:38Z"
+    },
+    {
+      "shortSha": "67706fc",
+      "message": "API errors are fixed and the Win64 Development game target",
+      "author": "Kasper",
+      "date": "2026-06-30T21:10:05Z"
+    },
+    {
+      "shortSha": "fedf956",
+      "message": "col",
+      "author": "Kazber",
+      "date": "2026-06-30T21:06:06Z"
+    },
     {
       "shortSha": "1362eb4",
       "message": "foggggg",
