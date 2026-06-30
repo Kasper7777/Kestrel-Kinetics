@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-06-30T11:50:26.025Z",
-  "commitCount": 1441,
+  "generatedAt": "2026-06-30T14:42:21.344Z",
+  "commitCount": 1443,
   "commits": [
+    {
+      "shortSha": "af1a03e",
+      "message": "The Kardz deck UI now hides when entering FPS mode and reappears on exit",
+      "author": "Kazber",
+      "date": "2026-06-30T13:12:30Z"
+    },
+    {
+      "shortSha": "a482daa",
+      "message": "Kril",
+      "author": "Kazber",
+      "date": "2026-06-30T13:06:53Z"
+    },
     {
       "shortSha": "f025ac3",
       "message": "fixed kardz message",
