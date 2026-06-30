@@ -1,7 +1,55 @@
 {
-  "generatedAt": "2026-06-30T00:20:14.846Z",
-  "commitCount": 1433,
+  "generatedAt": "2026-06-30T05:17:09.758Z",
+  "commitCount": 1441,
   "commits": [
+    {
+      "shortSha": "f025ac3",
+      "message": "fixed kardz message",
+      "author": "Kazber",
+      "date": "2026-06-30T04:17:14Z"
+    },
+    {
+      "shortSha": "3246a63",
+      "message": "fixed break",
+      "author": "Kazber",
+      "date": "2026-06-30T03:52:00Z"
+    },
+    {
+      "shortSha": "a543bd7",
+      "message": "match outcome",
+      "author": "Kazber",
+      "date": "2026-06-30T03:32:57Z"
+    },
+    {
+      "shortSha": "8f82c65",
+      "message": "Fix visual Controls Page. Improve it. Controller, Keyboard and Mouse. Add a button at the bottom of the settings widget that goes to the controls page. This should update automatically as we develop the game. CDcontrolsWidget. How it works is we have an image of whatever controller is selected in the middle and text boxes all around it that explains the what the various buttons do with all the holds and combinations.",
+      "author": "Kazber",
+      "date": "2026-06-30T02:41:27Z"
+    },
+    {
+      "shortSha": "072fb1b",
+      "message": "When I have a weapon and a bag I cannot put weapons in the bag i get the hands full warning.",
+      "author": "Kazber",
+      "date": "2026-06-30T01:40:36Z"
+    },
+    {
+      "shortSha": "a5e6564",
+      "message": "Fix Kardz and Bag issues. \"Kard (None)\" in the bag. When bag contents are saved/restored across levels, only the actor class is persisted. Bug weapon-in-bag when hands full: TryPickupWeapon returns early on \"hands full\" before the pickup path that would route the weapon into the bag.",
+      "author": "Kazber",
+      "date": "2026-06-30T01:16:36Z"
+    },
+    {
+      "shortSha": "7cc1113",
+      "message": "title adjustments",
+      "author": "Kasper",
+      "date": "2026-06-30T00:47:17Z"
+    },
+    {
+      "shortSha": "7bbb70a",
+      "message": "windows repairs, because i develop on mac",
+      "author": "Kasper",
+      "date": "2026-06-30T00:38:04Z"
+    },
     {
       "shortSha": "906aad1",
       "message": "title f",
