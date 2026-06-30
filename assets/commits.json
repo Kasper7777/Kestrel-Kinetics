@@ -1,7 +1,55 @@
 {
-  "generatedAt": "2026-06-30T14:42:21.344Z",
-  "commitCount": 1443,
+  "generatedAt": "2026-06-30T17:14:56.713Z",
+  "commitCount": 1451,
   "commits": [
+    {
+      "shortSha": "a067b33",
+      "message": "fixes to kardz",
+      "author": "Kazber",
+      "date": "2026-06-30T16:49:24Z"
+    },
+    {
+      "shortSha": "3640777",
+      "message": "siren kard",
+      "author": "Kazber",
+      "date": "2026-06-30T16:31:56Z"
+    },
+    {
+      "shortSha": "aedcd6c",
+      "message": "add grim ablity kard",
+      "author": "Kazber",
+      "date": "2026-06-30T16:23:16Z"
+    },
+    {
+      "shortSha": "83e22fe",
+      "message": "worm imp",
+      "author": "Kazber",
+      "date": "2026-06-30T15:48:44Z"
+    },
+    {
+      "shortSha": "09d42c7",
+      "message": "special kardz abilities Worm",
+      "author": "Kazber",
+      "date": "2026-06-30T15:30:12Z"
+    },
+    {
+      "shortSha": "abe6366",
+      "message": "added to maps",
+      "author": "Kazber",
+      "date": "2026-06-30T15:10:51Z"
+    },
+    {
+      "shortSha": "8a43630",
+      "message": "save point",
+      "author": "Kazber",
+      "date": "2026-06-30T14:58:24Z"
+    },
+    {
+      "shortSha": "1fb7d15",
+      "message": "save disks and break fixes",
+      "author": "Kazber",
+      "date": "2026-06-30T14:53:13Z"
+    },
     {
       "shortSha": "af1a03e",
       "message": "The Kardz deck UI now hides when entering FPS mode and reappears on exit",
