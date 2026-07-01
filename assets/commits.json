@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-07-01T12:46:43.888Z",
-  "commitCount": 1475,
+  "generatedAt": "2026-07-01T15:49:29.837Z",
+  "commitCount": 1481,
   "commits": [
+    {
+      "shortSha": "0666c88",
+      "message": "Added poker kardz",
+      "author": "Kazber",
+      "date": "2026-07-01T15:07:22Z"
+    },
+    {
+      "shortSha": "b8dd9a1",
+      "message": "adding poker kard type",
+      "author": "Kazber",
+      "date": "2026-07-01T14:54:28Z"
+    },
+    {
+      "shortSha": "807c6b6",
+      "message": "Add scrollable item list and focus navigation for betting widget",
+      "author": "Kazber",
+      "date": "2026-07-01T14:11:53Z"
+    },
+    {
+      "shortSha": "1b1e97f",
+      "message": "kards sounds",
+      "author": "Kazber",
+      "date": "2026-07-01T13:56:24Z"
+    },
+    {
+      "shortSha": "fffac1b",
+      "message": "Added slot-aware attachment save data in [CBPlayerState.h (line 21)](/Users/sthari01/Documents/GitHub/Cyber_Bully_502_Bad_Gateway/Cyber_Bully_5_8/Source/Cyber_Bully/Public/CBPlayerState.h:21).",
+      "author": "Kazber",
+      "date": "2026-07-01T13:24:04Z"
+    },
+    {
+      "shortSha": "d7483c5",
+      "message": "Goat/resurrection Kard draw handling now returns resurrecting Kards to their original owner on a draw instead of clearing/losing them. See [CBKardzBattleComponent.cpp (line 4854)](/Users/sthari01/Documents/GitHub/Cyber_Bully_502_Bad_Gateway/Cyber_Bully_5_8/Source/Cyber_Bully/Private/Kardz/CBKardzBattleComponent.cpp:4854).",
+      "author": "Kazber",
+      "date": "2026-07-01T13:04:48Z"
+    },
     {
       "shortSha": "d156dce",
       "message": "fixes",
