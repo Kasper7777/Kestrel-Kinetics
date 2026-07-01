@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-07-01T00:20:39.633Z",
-  "commitCount": 1470,
+  "generatedAt": "2026-07-01T05:53:53.441Z",
+  "commitCount": 1475,
   "commits": [
+    {
+      "shortSha": "d156dce",
+      "message": "fixes",
+      "author": "Kazber",
+      "date": "2026-07-01T01:50:09Z"
+    },
+    {
+      "shortSha": "1241f18",
+      "message": "kardz battle",
+      "author": "Kazber",
+      "date": "2026-07-01T01:05:52Z"
+    },
+    {
+      "shortSha": "df0b8d4",
+      "message": "edge",
+      "author": "Kazber",
+      "date": "2026-07-01T00:47:39Z"
+    },
+    {
+      "shortSha": "b4eed84",
+      "message": "more sounds",
+      "author": "Kazber",
+      "date": "2026-07-01T00:34:05Z"
+    },
+    {
+      "shortSha": "771c5f8",
+      "message": "When we are in a game and our gun has less than the highest capacity ammunition, then if we try to pick up ammo for that gun, it should just reload the gun and drop any remaining ammo so if the clip had 30 ammo for example, and the gun already had 10 ammo and the maximum capacity for the gun is 30 then we would drop a clip with 20 ammo.",
+      "author": "Kazber",
+      "date": "2026-07-01T00:19:07Z"
+    },
     {
       "shortSha": "74fd479",
       "message": "new sounds",
