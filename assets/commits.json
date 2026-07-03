@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-03T11:41:28.855Z",
-  "commitCount": 1506,
+  "generatedAt": "2026-07-03T14:30:36.509Z",
+  "commitCount": 1508,
   "commits": [
+    {
+      "shortSha": "f12f342",
+      "message": "fix: Prevent NPCs from mimicking attacks with empty hands and improve weapon handling logic",
+      "author": "Kazber",
+      "date": "2026-07-03T13:15:15Z"
+    },
+    {
+      "shortSha": "54048f5",
+      "message": "feat: Enhance Overtone voice pitch functionality and update various assets",
+      "author": "Kazber",
+      "date": "2026-07-03T12:32:20Z"
+    },
     {
       "shortSha": "ad4fd6e",
       "message": "Update enemy assets and enhance round outcome broadcasting functionality",
