@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-07-03T08:26:41.835Z",
-  "commitCount": 1500,
+  "generatedAt": "2026-07-03T11:41:28.855Z",
+  "commitCount": 1506,
   "commits": [
+    {
+      "shortSha": "ad4fd6e",
+      "message": "Update enemy assets and enhance round outcome broadcasting functionality",
+      "author": "Kazber",
+      "date": "2026-07-03T11:27:55Z"
+    },
+    {
+      "shortSha": "8cf6ef0",
+      "message": "Add NPC match start and round outcome broadcast functionality",
+      "author": "Kazber",
+      "date": "2026-07-03T10:57:04Z"
+    },
+    {
+      "shortSha": "98dde7e",
+      "message": "Update enemy and attack arrow assets for improved gameplay mechanics and visual effects",
+      "author": "Kazber",
+      "date": "2026-07-03T10:40:22Z"
+    },
+    {
+      "shortSha": "3e67c2c",
+      "message": "Refactor AttackArrow widget for improved visibility handling and add new arrow assets",
+      "author": "Kazber",
+      "date": "2026-07-03T09:18:00Z"
+    },
+    {
+      "shortSha": "525eb94",
+      "message": "Add AttackArrow assets and update CB Report",
+      "author": "Kazber",
+      "date": "2026-07-03T08:54:32Z"
+    },
+    {
+      "shortSha": "0b4e947",
+      "message": "Add attack arrow widget and integrate into battle component",
+      "author": "Kazber",
+      "date": "2026-07-03T08:31:10Z"
+    },
     {
       "shortSha": "75f3cc5",
       "message": "Enhance Kardz NPC functionality and UI updates",
