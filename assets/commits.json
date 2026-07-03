@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-03T04:55:55.363Z",
-  "commitCount": 1498,
+  "generatedAt": "2026-07-03T08:26:41.835Z",
+  "commitCount": 1500,
   "commits": [
+    {
+      "shortSha": "75f3cc5",
+      "message": "Enhance Kardz NPC functionality and UI updates",
+      "author": "Kazber",
+      "date": "2026-07-03T07:57:03Z"
+    },
+    {
+      "shortSha": "df27b43",
+      "message": "Implement death record system with NPC death logging, UI integration, and terminal disk for access",
+      "author": "Kazber",
+      "date": "2026-07-03T07:25:29Z"
+    },
     {
       "shortSha": "2ef5be0",
       "message": "Enhance NPC persistence by adding Kardz state handling and refactoring related functions for improved clarity and maintainability",
