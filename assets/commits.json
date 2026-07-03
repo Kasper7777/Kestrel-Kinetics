@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-07-03T00:18:23.865Z",
-  "commitCount": 1493,
+  "generatedAt": "2026-07-03T04:55:55.363Z",
+  "commitCount": 1498,
   "commits": [
+    {
+      "shortSha": "2ef5be0",
+      "message": "Enhance NPC persistence by adding Kardz state handling and refactoring related functions for improved clarity and maintainability",
+      "author": "Kazber",
+      "date": "2026-07-03T03:04:06Z"
+    },
+    {
+      "shortSha": "118b91f",
+      "message": "Enhance Controls Display and Settings Widget Functionality",
+      "author": "Kazber",
+      "date": "2026-07-03T02:17:07Z"
+    },
+    {
+      "shortSha": "62f3bea",
+      "message": "Enhance item persistence by adding bag contents handling and refactoring related functions for better clarity and maintainability",
+      "author": "Kazber",
+      "date": "2026-07-03T01:41:05Z"
+    },
+    {
+      "shortSha": "2fa252f",
+      "message": "Add Kardz card ID handling to item persistence and spawning logic",
+      "author": "Kazber",
+      "date": "2026-07-03T01:14:41Z"
+    },
+    {
+      "shortSha": "1626d5b",
+      "message": "Add IsItemCarriedByCharacter function to determine item ownership by characters",
+      "author": "Kazber",
+      "date": "2026-07-03T01:10:23Z"
+    },
     {
       "shortSha": "2ddff78",
       "message": "Improve card instance loading logic in ACBKardzCardPickup and enhance error handling for unplayable cards",
