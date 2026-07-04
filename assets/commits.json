@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-04T22:10:30.116Z",
-  "commitCount": 1517,
+  "generatedAt": "2026-07-04T23:12:10.850Z",
+  "commitCount": 1518,
   "commits": [
+    {
+      "shortSha": "7676cd8",
+      "message": "feat: Enhance keyboard navigation and focus handling in death records and item history widgets",
+      "author": "Kazber",
+      "date": "2026-07-04T22:45:02Z"
+    },
     {
       "shortSha": "84323b7",
       "message": "feat: Refactor UI initialization in death records and item history widgets for improved rendering",
