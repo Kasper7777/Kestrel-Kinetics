@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-07-04T04:00:01.968Z",
-  "commitCount": 1508,
+  "generatedAt": "2026-07-04T07:13:26.281Z",
+  "commitCount": 1513,
   "commits": [
+    {
+      "shortSha": "a453ddf",
+      "message": "feat: Update Kardz card definitions asset for improved gameplay integration",
+      "author": "Kazber",
+      "date": "2026-07-04T07:05:09Z"
+    },
+    {
+      "shortSha": "4e3c138",
+      "message": "feat: Refactor rich text handling in item history widget and add new card images",
+      "author": "Kazber",
+      "date": "2026-07-04T06:50:58Z"
+    },
+    {
+      "shortSha": "eaf9eac",
+      "message": "Enhance gameplay features and UI elements",
+      "author": "Kazber",
+      "date": "2026-07-04T06:29:16Z"
+    },
+    {
+      "shortSha": "e428c13",
+      "message": "feat: Implement keyboard and mouse visual support in controls widget and enhance layout management",
+      "author": "Kazber",
+      "date": "2026-07-04T05:10:44Z"
+    },
+    {
+      "shortSha": "f8ddc35",
+      "message": "feat: Update enemy assets and add new UI images for enhanced gameplay experience",
+      "author": "Kazber",
+      "date": "2026-07-04T04:53:43Z"
+    },
     {
       "shortSha": "f12f342",
       "message": "fix: Prevent NPCs from mimicking attacks with empty hands and improve weapon handling logic",
