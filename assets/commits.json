@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-04T11:45:23.229Z",
-  "commitCount": 1516,
+  "generatedAt": "2026-07-04T13:56:19.767Z",
+  "commitCount": 1517,
   "commits": [
+    {
+      "shortSha": "84323b7",
+      "message": "feat: Refactor UI initialization in death records and item history widgets for improved rendering",
+      "author": "Kazber",
+      "date": "2026-07-04T12:23:38Z"
+    },
     {
       "shortSha": "2549eb7",
       "message": "feat: Add new assets and improve UI handling in death records and item history widgets",
