@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-05T00:12:02.346Z",
-  "commitCount": 1518,
+  "generatedAt": "2026-07-05T04:18:50.046Z",
+  "commitCount": 1520,
   "commits": [
+    {
+      "shortSha": "1e8f07e",
+      "message": "feat: Add user zoom multiplier for PDA screen and implement deferred live-preview apply for settings",
+      "author": "Kazber",
+      "date": "2026-07-05T01:10:16Z"
+    },
+    {
+      "shortSha": "12dac28",
+      "message": "feat: Implement self-attack mechanics and card conversion abilities",
+      "author": "Kazber",
+      "date": "2026-07-05T00:50:42Z"
+    },
     {
       "shortSha": "7676cd8",
       "message": "feat: Enhance keyboard navigation and focus handling in death records and item history widgets",
