@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-06T04:41:41.705Z",
-  "commitCount": 1523,
+  "generatedAt": "2026-07-06T09:10:07.666Z",
+  "commitCount": 1525,
   "commits": [
+    {
+      "shortSha": "7c97d8d",
+      "message": "feat: Implement NPC name management with loading from CSV and unique name generation",
+      "author": "Kazber",
+      "date": "2026-07-06T09:02:07Z"
+    },
+    {
+      "shortSha": "cc4afe7",
+      "message": "feat: Enhance grid management for multi-layer buildings with air tile support and variant classification",
+      "author": "Kazber",
+      "date": "2026-07-06T07:39:38Z"
+    },
     {
       "shortSha": "67bebb0",
       "message": "feat: Enhance deck layout configuration with detailed comments and add uniform scale multiplier for fan layout",
