@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-06T09:10:07.666Z",
-  "commitCount": 1525,
+  "generatedAt": "2026-07-06T12:57:56.233Z",
+  "commitCount": 1527,
   "commits": [
+    {
+      "shortSha": "baa2cae",
+      "message": "feat: Enhance XP logging to include victim names for kill sources in readouts",
+      "author": "Kazber",
+      "date": "2026-07-06T10:04:15Z"
+    },
+    {
+      "shortSha": "b345402",
+      "message": "Refactor BoneBreaker damage handling and enhance XP attribution",
+      "author": "Kazber",
+      "date": "2026-07-06T09:38:17Z"
+    },
     {
       "shortSha": "7c97d8d",
       "message": "feat: Implement NPC name management with loading from CSV and unique name generation",
