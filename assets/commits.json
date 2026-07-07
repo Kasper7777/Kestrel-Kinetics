@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-06T22:36:23.067Z",
-  "commitCount": 1527,
+  "generatedAt": "2026-07-07T00:19:21.909Z",
+  "commitCount": 1529,
   "commits": [
+    {
+      "shortSha": "e94b50e",
+      "message": "feat: Add Kardz mini-game configuration and loadout management for NPCs",
+      "author": "Kazber",
+      "date": "2026-07-07T00:10:13Z"
+    },
+    {
+      "shortSha": "557dabf",
+      "message": "feat: Add Kardz mini-game configuration for spawned NPCs with adjustable enable chance and starting deck",
+      "author": "Kazber",
+      "date": "2026-07-06T23:24:28Z"
+    },
     {
       "shortSha": "baa2cae",
       "message": "feat: Enhance XP logging to include victim names for kill sources in readouts",
