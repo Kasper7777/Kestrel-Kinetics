@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-07-07T00:19:21.909Z",
-  "commitCount": 1529,
+  "generatedAt": "2026-07-07T05:05:41.811Z",
+  "commitCount": 1534,
   "commits": [
+    {
+      "shortSha": "252a909",
+      "message": "feat: Update City_01 asset and CB Report with new configurations",
+      "author": "Kazber",
+      "date": "2026-07-07T02:22:34Z"
+    },
+    {
+      "shortSha": "2e1cd67",
+      "message": "Add new NPC names to NPCNames.csv and enhance GridManager functionality",
+      "author": "Kazber",
+      "date": "2026-07-07T02:09:31Z"
+    },
+    {
+      "shortSha": "8cf4c6c",
+      "message": "Refactor code structure for improved readability and maintainability",
+      "author": "Kazber",
+      "date": "2026-07-07T01:16:35Z"
+    },
+    {
+      "shortSha": "5165aa9",
+      "message": "feat: Add new building elements and update NPC names in the city builder",
+      "author": "Kazber",
+      "date": "2026-07-07T00:52:34Z"
+    },
+    {
+      "shortSha": "357a9c9",
+      "message": "feat: Enhance NPC management with dog and Kardz player identification in grid and map widgets",
+      "author": "Kazber",
+      "date": "2026-07-07T00:41:19Z"
+    },
     {
       "shortSha": "e94b50e",
       "message": "feat: Add Kardz mini-game configuration and loadout management for NPCs",
