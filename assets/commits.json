@@ -1,7 +1,49 @@
 {
-  "generatedAt": "2026-07-07T08:40:35.069Z",
-  "commitCount": 1536,
+  "generatedAt": "2026-07-07T12:09:02.125Z",
+  "commitCount": 1543,
   "commits": [
+    {
+      "shortSha": "fd648bd",
+      "message": "feat: Add NPC speech bubble spawning functionality",
+      "author": "Kazber",
+      "date": "2026-07-07T11:48:00Z"
+    },
+    {
+      "shortSha": "7318177",
+      "message": "feat: Refactor building neighbor logic for improved tile type handling",
+      "author": "Kazber",
+      "date": "2026-07-07T11:00:10Z"
+    },
+    {
+      "shortSha": "1141210",
+      "message": "chore: Update CB Report with new binary content",
+      "author": "Kazber",
+      "date": "2026-07-07T10:33:54Z"
+    },
+    {
+      "shortSha": "c610dd8",
+      "message": "Implement bonded civilian photo system",
+      "author": "Kazber",
+      "date": "2026-07-07T10:33:31Z"
+    },
+    {
+      "shortSha": "75618a1",
+      "message": "feat: Add new speech bubble assets for enhanced dialogue presentation",
+      "author": "Kazber",
+      "date": "2026-07-07T09:17:46Z"
+    },
+    {
+      "shortSha": "a2f7e6e",
+      "message": "Some stuff from manic mondays",
+      "author": "Kazber",
+      "date": "2026-07-07T09:06:20Z"
+    },
+    {
+      "shortSha": "6365b0e",
+      "message": "feat: Add dog NPC weapon handling and pickup restrictions",
+      "author": "Kazber",
+      "date": "2026-07-07T09:03:10Z"
+    },
     {
       "shortSha": "1185dc5",
       "message": "chore: Update CB Report with new content",
