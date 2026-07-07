@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-07-07T12:09:02.125Z",
-  "commitCount": 1543,
+  "generatedAt": "2026-07-07T15:12:38.854Z",
+  "commitCount": 1548,
   "commits": [
+    {
+      "shortSha": "82c9050",
+      "message": "feat: Remove unused 3D battle assets and add upper-layer path doorway wall variants",
+      "author": "Kazber",
+      "date": "2026-07-07T14:44:37Z"
+    },
+    {
+      "shortSha": "9d2bb2f",
+      "message": "Enhance City Builder Path Variants and Add New Assets",
+      "author": "Kazber",
+      "date": "2026-07-07T14:27:25Z"
+    },
+    {
+      "shortSha": "15f8228",
+      "message": "feat: Implement bonded escort behavior for photographed civilians",
+      "author": "Kazber",
+      "date": "2026-07-07T14:02:21Z"
+    },
+    {
+      "shortSha": "11b2983",
+      "message": "feat: Implement persistent graffiti decal system and update related spawning logic",
+      "author": "Kazber",
+      "date": "2026-07-07T13:03:44Z"
+    },
+    {
+      "shortSha": "f3fcede",
+      "message": "feat: Update NPC speech bubble spawning logic and improve socket handling",
+      "author": "Kazber",
+      "date": "2026-07-07T12:10:19Z"
+    },
     {
       "shortSha": "fd648bd",
       "message": "feat: Add NPC speech bubble spawning functionality",
