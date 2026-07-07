@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-07T15:12:38.854Z",
-  "commitCount": 1548,
+  "generatedAt": "2026-07-07T17:25:29.900Z",
+  "commitCount": 1549,
   "commits": [
+    {
+      "shortSha": "7e0b442",
+      "message": "feat: Add random candidate cell selection for bonded civilians and update related logic",
+      "author": "Kazber",
+      "date": "2026-07-07T15:58:00Z"
+    },
     {
       "shortSha": "82c9050",
       "message": "feat: Remove unused 3D battle assets and add upper-layer path doorway wall variants",
