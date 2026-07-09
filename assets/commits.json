@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-09T04:11:58.090Z",
-  "commitCount": 1554,
+  "generatedAt": "2026-07-09T07:51:56.058Z",
+  "commitCount": 1556,
   "commits": [
+    {
+      "shortSha": "c387782",
+      "message": "feat: Add change notes for FPS/Terminal camera and NPC aiming adjustments",
+      "author": "Kazber",
+      "date": "2026-07-09T07:35:45Z"
+    },
+    {
+      "shortSha": "6c8c059",
+      "message": "Enhance Grid-Based City Builder with Layered Texture Support",
+      "author": "Kazber",
+      "date": "2026-07-09T07:30:08Z"
+    },
     {
       "shortSha": "283ecf5",
       "message": "feat: Implement upper layer ramp connection logic for road tiles",
