@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-09T07:51:56.058Z",
-  "commitCount": 1556,
+  "generatedAt": "2026-07-09T11:27:27.086Z",
+  "commitCount": 1560,
   "commits": [
+    {
+      "shortSha": "66b226c",
+      "message": "feat: Enhance bonded NPC behavior and interactions",
+      "author": "Kazber",
+      "date": "2026-07-09T10:06:19Z"
+    },
+    {
+      "shortSha": "6385b89",
+      "message": "feat: Refactor EdgeTriggerActor to enhance widget color application and remove unused material parameters",
+      "author": "Kazber",
+      "date": "2026-07-09T09:11:56Z"
+    },
+    {
+      "shortSha": "952c4d6",
+      "message": "feat: Enhance ramp functionality by adding suppression logic for overlapping road tiles and updating related methods",
+      "author": "Kazber",
+      "date": "2026-07-09T08:59:36Z"
+    },
+    {
+      "shortSha": "a227f31",
+      "message": "feat: Update EdgeTriggerActor to support dynamic material color changes and add new properties for visual effects",
+      "author": "Kazber",
+      "date": "2026-07-09T08:06:50Z"
+    },
     {
       "shortSha": "c387782",
       "message": "feat: Add change notes for FPS/Terminal camera and NPC aiming adjustments",
