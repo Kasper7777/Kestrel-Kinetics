@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-11T03:40:19.868Z",
-  "commitCount": 1567,
+  "generatedAt": "2026-07-11T06:25:04.270Z",
+  "commitCount": 1571,
   "commits": [
+    {
+      "shortSha": "d68b794",
+      "message": "feat: Add diagnostic logging for painted ramp tiles in upper layer generation",
+      "author": "Kazber",
+      "date": "2026-07-11T06:24:50Z"
+    },
+    {
+      "shortSha": "efb669c",
+      "message": "feat: Implement road ramp functionality and enhance road classification logic",
+      "author": "Kazber",
+      "date": "2026-07-11T06:08:33Z"
+    },
+    {
+      "shortSha": "60a675a",
+      "message": "feat: Add new building layers and enhance NPC-vs-NPC matchmaking logic",
+      "author": "Kazber",
+      "date": "2026-07-11T05:35:57Z"
+    },
+    {
+      "shortSha": "e426c90",
+      "message": "feat: Update building asset files for improved city builder functionality",
+      "author": "Kazber",
+      "date": "2026-07-11T03:54:31Z"
+    },
     {
       "shortSha": "58cca0b",
       "message": "feat: Add doorway tile assignment logic and variants for building layers",
