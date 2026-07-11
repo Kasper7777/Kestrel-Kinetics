@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-11T13:51:43.064Z",
-  "commitCount": 1581,
+  "generatedAt": "2026-07-11T15:14:08.298Z",
+  "commitCount": 1583,
   "commits": [
+    {
+      "shortSha": "03bf253",
+      "message": "feat: Implement escort respawn logic and grace period handling for bonded NPCs",
+      "author": "Kazber",
+      "date": "2026-07-11T14:32:28Z"
+    },
+    {
+      "shortSha": "9866459",
+      "message": "feat: Implement bonded NPC name reservation and clue system for missing partners",
+      "author": "Kazber",
+      "date": "2026-07-11T14:09:40Z"
+    },
     {
       "shortSha": "2a91eec",
       "message": "feat: Enhance bonded group functionality with color overrides for NPC markers and add new map images",
