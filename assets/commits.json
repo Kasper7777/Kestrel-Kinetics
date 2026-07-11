@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-11T12:03:45.087Z",
-  "commitCount": 1580,
+  "generatedAt": "2026-07-11T13:51:43.064Z",
+  "commitCount": 1581,
   "commits": [
+    {
+      "shortSha": "2a91eec",
+      "message": "feat: Enhance bonded group functionality with color overrides for NPC markers and add new map images",
+      "author": "Kazber",
+      "date": "2026-07-11T13:05:01Z"
+    },
     {
       "shortSha": "13a64c2",
       "message": "feat: Implement weapon lowering functionality and update threat detection logic",
