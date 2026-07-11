@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-07-11T08:58:33.089Z",
-  "commitCount": 1577,
+  "generatedAt": "2026-07-11T10:33:45.924Z",
+  "commitCount": 1580,
   "commits": [
+    {
+      "shortSha": "13a64c2",
+      "message": "feat: Implement weapon lowering functionality and update threat detection logic",
+      "author": "Kazber",
+      "date": "2026-07-11T10:19:45Z"
+    },
+    {
+      "shortSha": "749f48e",
+      "message": "feat: Update grid generation logic to support multi-layer edge triggers and enhance logging",
+      "author": "Kazber",
+      "date": "2026-07-11T10:01:58Z"
+    },
+    {
+      "shortSha": "da8982f",
+      "message": "feat: Introduce water tile functionality with classification and spawning logic",
+      "author": "Kazber",
+      "date": "2026-07-11T09:20:53Z"
+    },
     {
       "shortSha": "75eed26",
       "message": "feat: Add roof cap spawning logic for upper layers and improve logging for interior tile placements",
