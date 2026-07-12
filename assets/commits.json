@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-12T03:54:37.204Z",
-  "commitCount": 1583,
+  "generatedAt": "2026-07-12T06:47:41.902Z",
+  "commitCount": 1584,
   "commits": [
+    {
+      "shortSha": "8a732e9",
+      "message": "feat: Add bonded objective icons widget and integrate with EdgeTriggerActor for visual representation",
+      "author": "Kazber",
+      "date": "2026-07-12T04:01:48Z"
+    },
     {
       "shortSha": "03bf253",
       "message": "feat: Implement escort respawn logic and grace period handling for bonded NPCs",
