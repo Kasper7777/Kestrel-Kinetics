@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-12T13:54:22.701Z",
-  "commitCount": 1584,
+  "generatedAt": "2026-07-12T15:14:23.286Z",
+  "commitCount": 1585,
   "commits": [
+    {
+      "shortSha": "9538330",
+      "message": "feat: Add functionality to ensure bonded group row names are reserved and implement reunion reward item handling",
+      "author": "Kazber",
+      "date": "2026-07-12T15:04:29Z"
+    },
     {
       "shortSha": "8a732e9",
       "message": "feat: Add bonded objective icons widget and integrate with EdgeTriggerActor for visual representation",
