@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-13T17:21:59.233Z",
-  "commitCount": 1603,
+  "generatedAt": "2026-07-13T19:46:53.344Z",
+  "commitCount": 1604,
   "commits": [
+    {
+      "shortSha": "765c51b",
+      "message": "feat: Add debug logging for NPC match and combat resolution to track match events",
+      "author": "Kazber",
+      "date": "2026-07-13T17:43:37Z"
+    },
     {
       "shortSha": "577766d",
       "message": "feat: Implement IsFightableCardId method to filter non-battle cards and add logging for skipped cards",
