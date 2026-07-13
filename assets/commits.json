@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-07-13T15:09:41.440Z",
-  "commitCount": 1600,
+  "generatedAt": "2026-07-13T17:21:59.233Z",
+  "commitCount": 1603,
   "commits": [
+    {
+      "shortSha": "577766d",
+      "message": "feat: Implement IsFightableCardId method to filter non-battle cards and add logging for skipped cards",
+      "author": "Kazber",
+      "date": "2026-07-13T17:08:01Z"
+    },
+    {
+      "shortSha": "c1e9dba",
+      "message": "feat: Update level assets and enhance combat logging for better debugging",
+      "author": "Kazber",
+      "date": "2026-07-13T16:42:15Z"
+    },
+    {
+      "shortSha": "6d3ae4d",
+      "message": "feat: Add PlaceCardNoResolve method and refactor combat resolution for group attacks",
+      "author": "Kazber",
+      "date": "2026-07-13T16:28:32Z"
+    },
     {
       "shortSha": "ed6705b",
       "message": "feat: Enhance NPC name color handling and bonding features with new functions and updates",
