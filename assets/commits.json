@@ -1,7 +1,61 @@
 {
-  "generatedAt": "2026-07-13T03:57:50.700Z",
-  "commitCount": 1585,
+  "generatedAt": "2026-07-13T07:35:31.814Z",
+  "commitCount": 1594,
   "commits": [
+    {
+      "shortSha": "6e8ce37",
+      "message": "feat: Add new building assets including walls, doors, and shaders for Building04",
+      "author": "Kazber",
+      "date": "2026-07-13T07:28:40Z"
+    },
+    {
+      "shortSha": "4bc89ee",
+      "message": "feat: Implement non-consuming input bindings for Dash and Sprint actions, and add weapon lowering functionality",
+      "author": "Kazber",
+      "date": "2026-07-13T06:33:45Z"
+    },
+    {
+      "shortSha": "51c6be8",
+      "message": "Add story NPC component and integrate with enemy class",
+      "author": "Kazber",
+      "date": "2026-07-13T05:57:27Z"
+    },
+    {
+      "shortSha": "0c9f478",
+      "message": "fix: Prevent Kardz deck from displaying over active photo album in UI",
+      "author": "Kazber",
+      "date": "2026-07-13T05:16:54Z"
+    },
+    {
+      "shortSha": "931a683",
+      "message": "feat: Implement photo capture delay in camera weapon for improved snapshot accuracy",
+      "author": "Kazber",
+      "date": "2026-07-13T05:01:03Z"
+    },
+    {
+      "shortSha": "3ff075b",
+      "message": "feat: Implement active photo management system with UI integration for bonded NPC interactions",
+      "author": "Kazber",
+      "date": "2026-07-13T04:44:42Z"
+    },
+    {
+      "shortSha": "ab0f6c2",
+      "message": "feat: Enhance item persistence system with stable identifiers for level-recreated items",
+      "author": "Kazber",
+      "date": "2026-07-13T04:19:50Z"
+    },
+    {
+      "shortSha": "9d199fb",
+      "message": "fix: Update key acceptance logic to use virtual key for gamepad A button",
+      "author": "Kazber",
+      "date": "2026-07-12T16:06:13Z"
+    },
+    {
+      "shortSha": "4aa570c",
+      "message": "feat: Implement NPC name revelation and persistence system for overhead health bar display",
+      "author": "Kazber",
+      "date": "2026-07-12T16:01:05Z"
+    },
     {
       "shortSha": "9538330",
       "message": "feat: Add functionality to ensure bonded group row names are reserved and implement reunion reward item handling",
