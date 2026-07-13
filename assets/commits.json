@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-07-13T11:27:40.411Z",
-  "commitCount": 1597,
+  "generatedAt": "2026-07-13T15:09:41.440Z",
+  "commitCount": 1600,
   "commits": [
+    {
+      "shortSha": "ed6705b",
+      "message": "feat: Enhance NPC name color handling and bonding features with new functions and updates",
+      "author": "Kazber",
+      "date": "2026-07-13T15:01:45Z"
+    },
+    {
+      "shortSha": "701ae86",
+      "message": "feat: Refactor floor class management to support multiple variants and improve random selection logic",
+      "author": "Kazber",
+      "date": "2026-07-13T13:58:48Z"
+    },
+    {
+      "shortSha": "c8006a1",
+      "message": "feat: Update assets and components for enhanced compass functionality and armor interactions",
+      "author": "Kazber",
+      "date": "2026-07-13T12:36:54Z"
+    },
     {
       "shortSha": "05eb214",
       "message": "feat: Refactor weapon attachment management for improved cleanup and silent installs",
