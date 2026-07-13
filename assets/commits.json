@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-07-13T07:35:31.814Z",
-  "commitCount": 1594,
+  "generatedAt": "2026-07-13T11:27:40.411Z",
+  "commitCount": 1597,
   "commits": [
+    {
+      "shortSha": "05eb214",
+      "message": "feat: Refactor weapon attachment management for improved cleanup and silent installs",
+      "author": "Kazber",
+      "date": "2026-07-13T08:58:01Z"
+    },
+    {
+      "shortSha": "9a7f429",
+      "message": "feat: Add CBCompassPointerComponent for dynamic compass functionality",
+      "author": "Kazber",
+      "date": "2026-07-13T08:30:09Z"
+    },
+    {
+      "shortSha": "9bc3e95",
+      "message": "feat: Refactor weapon state management and add animation flag updates in player character",
+      "author": "Kazber",
+      "date": "2026-07-13T07:39:46Z"
+    },
     {
       "shortSha": "6e8ce37",
       "message": "feat: Add new building assets including walls, doors, and shaders for Building04",
