@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-07-14T15:02:26.624Z",
-  "commitCount": 1625,
+  "generatedAt": "2026-07-14T16:37:47.474Z",
+  "commitCount": 1628,
   "commits": [
+    {
+      "shortSha": "bdba9d9",
+      "message": "feat: add new pixel art assets and implement random animation selection for TerminalPixelBillboardActor",
+      "author": "Kazber",
+      "date": "2026-07-14T16:17:41Z"
+    },
+    {
+      "shortSha": "3b4459f",
+      "message": "fix: add new fish pixel art assets and enhance TerminalPixelBillboardActor with runtime input change handling",
+      "author": "Kazber",
+      "date": "2026-07-14T15:45:03Z"
+    },
+    {
+      "shortSha": "0142509",
+      "message": "fix: enhance TerminalPixelBillboardActor with runtime input change handling and expose properties for spawn configuration",
+      "author": "Kazber",
+      "date": "2026-07-14T15:16:26Z"
+    },
     {
       "shortSha": "6055d25",
       "message": "fix: add new PBR shader assets for Layer 2+ paths and update existing path elements",
