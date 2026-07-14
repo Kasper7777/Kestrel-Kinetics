@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-07-14T12:38:45.249Z",
-  "commitCount": 1620,
+  "generatedAt": "2026-07-14T15:02:26.624Z",
+  "commitCount": 1625,
   "commits": [
+    {
+      "shortSha": "6055d25",
+      "message": "fix: add new PBR shader assets for Layer 2+ paths and update existing path elements",
+      "author": "Kazber",
+      "date": "2026-07-14T14:51:50Z"
+    },
+    {
+      "shortSha": "71b2c7d",
+      "message": "fix: add new PBR shader texture assets for Layer 2+ paths and update report notes",
+      "author": "Kazber",
+      "date": "2026-07-14T14:41:20Z"
+    },
+    {
+      "shortSha": "fe2bf6c",
+      "message": "fix: update path and billboard logic for Layer 2+ walkways, add support for walled rows and adjust offsets",
+      "author": "Kazber",
+      "date": "2026-07-14T14:18:27Z"
+    },
+    {
+      "shortSha": "7980e3f",
+      "message": "fix: update path and building elements for Layer 2+ walkways, add doorway logic and visibility tracking",
+      "author": "Kazber",
+      "date": "2026-07-14T13:40:01Z"
+    },
+    {
+      "shortSha": "6c3e37a",
+      "message": "fix: add new path and billboard assets, update TerminalPixelBillboardActor for runtime animation control",
+      "author": "Kazber",
+      "date": "2026-07-14T13:08:32Z"
+    },
     {
       "shortSha": "d6ce865",
       "message": "fix: add uniform scale property for upper path billboards to prevent size issues",
