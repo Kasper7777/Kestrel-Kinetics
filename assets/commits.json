@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-14T00:05:58.557Z",
-  "commitCount": 1604,
+  "generatedAt": "2026-07-14T03:31:14.918Z",
+  "commitCount": 1605,
   "commits": [
+    {
+      "shortSha": "c02a852",
+      "message": "feat: Enhance faction system with helmet-based combatant logic and faction affiliation updates",
+      "author": "Kazber",
+      "date": "2026-07-14T01:49:31Z"
+    },
     {
       "shortSha": "765c51b",
       "message": "feat: Add debug logging for NPC match and combat resolution to track match events",
