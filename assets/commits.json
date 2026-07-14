@@ -1,7 +1,49 @@
 {
-  "generatedAt": "2026-07-14T10:56:40.784Z",
-  "commitCount": 1613,
+  "generatedAt": "2026-07-14T12:38:45.249Z",
+  "commitCount": 1620,
   "commits": [
+    {
+      "shortSha": "d6ce865",
+      "message": "fix: add uniform scale property for upper path billboards to prevent size issues",
+      "author": "Kazber",
+      "date": "2026-07-14T12:16:03Z"
+    },
+    {
+      "shortSha": "e335206",
+      "message": "fix: load configured billboard frames on play",
+      "author": "Kazber",
+      "date": "2026-07-14T12:14:13Z"
+    },
+    {
+      "shortSha": "a35f8c0",
+      "message": "fix: load LED billboard texture sequences at runtime",
+      "author": "Kazber",
+      "date": "2026-07-14T12:10:56Z"
+    },
+    {
+      "shortSha": "2e3c158",
+      "message": "fix: update billboard spawning logic for upper-layer walkways and add road requirement",
+      "author": "Kazber",
+      "date": "2026-07-14T12:05:38Z"
+    },
+    {
+      "shortSha": "5941a05",
+      "message": "fix: make LED billboard visible in play",
+      "author": "Kazber",
+      "date": "2026-07-14T09:22:06Z"
+    },
+    {
+      "shortSha": "44d667b",
+      "message": "fix: show LED billboard editor preview by default",
+      "author": "Kazber",
+      "date": "2026-07-14T09:17:22Z"
+    },
+    {
+      "shortSha": "bd7f226",
+      "message": "fix: keep LED billboard from blocking player",
+      "author": "Kazber",
+      "date": "2026-07-14T09:11:22Z"
+    },
     {
       "shortSha": "0ab95a8",
       "message": "feat: add upper-layer walkway billboards functionality and cleanup logic",
