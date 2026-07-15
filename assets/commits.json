@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-15T09:20:41.505Z",
-  "commitCount": 1640,
+  "generatedAt": "2026-07-15T11:47:01.636Z",
+  "commitCount": 1642,
   "commits": [
+    {
+      "shortSha": "4c45081",
+      "message": "feat: Enhance weapon aiming and NPC behavior",
+      "author": "Kazber",
+      "date": "2026-07-15T11:10:36Z"
+    },
+    {
+      "shortSha": "30e53b3",
+      "message": "Enhance armor and faction assets; update AI combat behavior and grid management",
+      "author": "Kazber",
+      "date": "2026-07-15T09:28:56Z"
+    },
     {
       "shortSha": "77fccf3",
       "message": "refactor: remove unused utility pole placement keys and improve comments for path infrastructure",
