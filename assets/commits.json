@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-15T11:47:01.636Z",
-  "commitCount": 1642,
+  "generatedAt": "2026-07-15T14:07:25.553Z",
+  "commitCount": 1644,
   "commits": [
+    {
+      "shortSha": "561f284",
+      "message": "feat: Refactor NPC aiming logic and improve weapon aim handling for AI combatants",
+      "author": "Kazber",
+      "date": "2026-07-15T13:30:47Z"
+    },
+    {
+      "shortSha": "a494c17",
+      "message": "feat: Implement faction-based targeting and aiming logic for AI combatants",
+      "author": "Kazber",
+      "date": "2026-07-15T12:56:01Z"
+    },
     {
       "shortSha": "4c45081",
       "message": "feat: Enhance weapon aiming and NPC behavior",
