@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-15T14:07:25.553Z",
-  "commitCount": 1644,
+  "generatedAt": "2026-07-15T15:48:15.738Z",
+  "commitCount": 1646,
   "commits": [
+    {
+      "shortSha": "9d8ec30",
+      "message": "feat: Remove NPC aiming logic from various weapon classes for improved control",
+      "author": "Kazber",
+      "date": "2026-07-15T15:04:29Z"
+    },
+    {
+      "shortSha": "0133e9c",
+      "message": "feat: Add new map layers and update enemy aiming logic for improved targeting",
+      "author": "Kazber",
+      "date": "2026-07-15T14:23:55Z"
+    },
     {
       "shortSha": "561f284",
       "message": "feat: Refactor NPC aiming logic and improve weapon aim handling for AI combatants",
