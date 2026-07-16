@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-16T03:34:40.165Z",
-  "commitCount": 1654,
+  "generatedAt": "2026-07-16T06:29:58.709Z",
+  "commitCount": 1656,
   "commits": [
+    {
+      "shortSha": "c4f9756",
+      "message": "feat: Enhance custom depth rendering for NPCs and players to improve occlusion visibility",
+      "author": "Kazber",
+      "date": "2026-07-16T06:14:33Z"
+    },
+    {
+      "shortSha": "d1d95d0",
+      "message": "feat: Implement enemy threat evaluation based on faction disguise and update related functionality",
+      "author": "Kazber",
+      "date": "2026-07-16T05:54:11Z"
+    },
     {
       "shortSha": "b3b7e73",
       "message": "feat: Add new decals and update building and path object functionality",
