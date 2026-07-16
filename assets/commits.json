@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-07-16T14:20:00.081Z",
-  "commitCount": 1659,
+  "generatedAt": "2026-07-16T16:39:51.533Z",
+  "commitCount": 1664,
   "commits": [
+    {
+      "shortSha": "c2c4267",
+      "message": "feat: Add new advert assets and update existing ones in Title Block",
+      "author": "Kazber",
+      "date": "2026-07-16T15:55:01Z"
+    },
+    {
+      "shortSha": "9922271",
+      "message": "feat: Update Kardz card definitions asset",
+      "author": "Kazber",
+      "date": "2026-07-16T15:32:13Z"
+    },
+    {
+      "shortSha": "6e5c214",
+      "message": "feat: Update various asset files including clothing, weapons, and pickups",
+      "author": "Kazber",
+      "date": "2026-07-16T15:18:44Z"
+    },
+    {
+      "shortSha": "be2ff89",
+      "message": "Update armor assets and improve wall placement logic",
+      "author": "Kazber",
+      "date": "2026-07-16T15:09:07Z"
+    },
+    {
+      "shortSha": "b4865d8",
+      "message": "feat: Implement faction control system for map territories",
+      "author": "Kazber",
+      "date": "2026-07-16T14:37:14Z"
+    },
     {
       "shortSha": "72dd59f",
       "message": "feat: Update various assets including fog, adverts, and item lore; enhance advert selection logic",
