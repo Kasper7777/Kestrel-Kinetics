@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-16T16:39:51.533Z",
-  "commitCount": 1664,
+  "generatedAt": "2026-07-16T18:18:52.014Z",
+  "commitCount": 1665,
   "commits": [
+    {
+      "shortSha": "7cd83ea",
+      "message": "feat: Enhance CBDroneMissile functionality with homing capabilities and improved explosion handling",
+      "author": "Kazber",
+      "date": "2026-07-16T18:10:31Z"
+    },
     {
       "shortSha": "c2c4267",
       "message": "feat: Add new advert assets and update existing ones in Title Block",
