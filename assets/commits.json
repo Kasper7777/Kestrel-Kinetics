@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-07-16T18:18:52.014Z",
-  "commitCount": 1665,
+  "generatedAt": "2026-07-16T20:10:28.932Z",
+  "commitCount": 1670,
   "commits": [
+    {
+      "shortSha": "67cbf50",
+      "message": "feat: Update cruise missile and radio systems with enhanced targeting and flight mechanics; add new RC_Radio models",
+      "author": "Kazber",
+      "date": "2026-07-16T20:03:02Z"
+    },
+    {
+      "shortSha": "e162d26",
+      "message": "feat: Enhance CBCruiseMissileRadio functionality with immediate launch capability and improved missile class handling",
+      "author": "Kazber",
+      "date": "2026-07-16T19:23:54Z"
+    },
+    {
+      "shortSha": "1f21216",
+      "message": "feat: Implement cruise missile weapon system with projectile and explosion classes",
+      "author": "Kazber",
+      "date": "2026-07-16T19:10:46Z"
+    },
+    {
+      "shortSha": "21a6a41",
+      "message": "feat: Add new texture and icon assets for Kardz including antqueen, beta, fireant, guppy, jellyfish, orb, and wand",
+      "author": "Kazber",
+      "date": "2026-07-16T18:32:32Z"
+    },
+    {
+      "shortSha": "dbb5fdc",
+      "message": "feat: Add new image assets for Kardz including beta and guppy graphics and icons",
+      "author": "Kazber",
+      "date": "2026-07-16T18:19:29Z"
+    },
     {
       "shortSha": "7cd83ea",
       "message": "feat: Enhance CBDroneMissile functionality with homing capabilities and improved explosion handling",
