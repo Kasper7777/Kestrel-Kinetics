@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-07-16T20:10:28.932Z",
-  "commitCount": 1670,
+  "generatedAt": "2026-07-16T21:14:36.031Z",
+  "commitCount": 1673,
   "commits": [
+    {
+      "shortSha": "8e40203",
+      "message": "fix: Correct Y-axis handling for compass direction in EdgeTriggerActor",
+      "author": "Kazber",
+      "date": "2026-07-16T20:58:51Z"
+    },
+    {
+      "shortSha": "d24a205",
+      "message": "feat: Update armor assets and test level with new binary files",
+      "author": "Kazber",
+      "date": "2026-07-16T20:45:32Z"
+    },
+    {
+      "shortSha": "c2add9e",
+      "message": "feat: Add BullyAutoMapWidget for self-building map functionality and live refresh in the visualizer",
+      "author": "Kazber",
+      "date": "2026-07-16T20:41:41Z"
+    },
     {
       "shortSha": "67cbf50",
       "message": "feat: Update cruise missile and radio systems with enhanced targeting and flight mechanics; add new RC_Radio models",
