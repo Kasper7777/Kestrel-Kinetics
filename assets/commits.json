@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-17T17:29:36.956Z",
-  "commitCount": 1688,
+  "generatedAt": "2026-07-17T19:31:01.128Z",
+  "commitCount": 1692,
   "commits": [
+    {
+      "shortSha": "149b4c5",
+      "message": "Add Bully Voice Twist functionality and trading NPC enhancements",
+      "author": "Kazber",
+      "date": "2026-07-17T19:24:49Z"
+    },
+    {
+      "shortSha": "1e1e26e",
+      "message": "feat: Implement modal input handling for wager selection in Kardz gameplay",
+      "author": "Kazber",
+      "date": "2026-07-17T18:54:19Z"
+    },
+    {
+      "shortSha": "c4fb534",
+      "message": "feat: Add new character assets and update level design for enhanced gameplay",
+      "author": "Kazber",
+      "date": "2026-07-17T18:40:34Z"
+    },
+    {
+      "shortSha": "4464bc0",
+      "message": "feat: Enhance trading mechanics and NPC behavior with briefcase management",
+      "author": "Kazber",
+      "date": "2026-07-17T18:17:23Z"
+    },
     {
       "shortSha": "2b84a7b",
       "message": "feat: Update trading civilian implementation and related assets for improved functionality",
