@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-17T19:31:01.128Z",
-  "commitCount": 1692,
+  "generatedAt": "2026-07-17T21:06:52.873Z",
+  "commitCount": 1694,
   "commits": [
+    {
+      "shortSha": "caa8a1e",
+      "message": "feat: Enhance trading NPC functionality with improved component checks and distance calculations",
+      "author": "Kazber",
+      "date": "2026-07-17T20:11:01Z"
+    },
+    {
+      "shortSha": "07102ab",
+      "message": "feat: Update binary assets for Base Enemy, Test Level, Trader Controller, and Trader Type",
+      "author": "Kazber",
+      "date": "2026-07-17T19:46:29Z"
+    },
     {
       "shortSha": "149b4c5",
       "message": "Add Bully Voice Twist functionality and trading NPC enhancements",
