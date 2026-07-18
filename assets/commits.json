@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-18T18:06:35.534Z",
-  "commitCount": 1701,
+  "generatedAt": "2026-07-18T19:29:30.279Z",
+  "commitCount": 1705,
   "commits": [
+    {
+      "shortSha": "a07e5b1",
+      "message": "feat: Implement starting cell weapon selection and unlock system; add tests and new weapon assets",
+      "author": "Kazber",
+      "date": "2026-07-18T19:14:50Z"
+    },
+    {
+      "shortSha": "e0a5243",
+      "message": "feat: Add player marker functionality to map widgets",
+      "author": "Kazber",
+      "date": "2026-07-18T18:58:16Z"
+    },
+    {
+      "shortSha": "a717bea",
+      "message": "feat: Add new texture and icon assets for Baby Alien, Monsyer, Witch, and witch moon; enhance resource distribution rules for balanced city economy",
+      "author": "Kazber",
+      "date": "2026-07-18T18:37:03Z"
+    },
+    {
+      "shortSha": "892b8ca",
+      "message": "feat: Enhance item spawning and resource management with exact-class lookups and deferred retries",
+      "author": "Kazber",
+      "date": "2026-07-18T18:15:42Z"
+    },
     {
       "shortSha": "79ca104",
       "message": "feat: Simplify city resource economy setup by removing redundant parameters and derive categories from item classes",
