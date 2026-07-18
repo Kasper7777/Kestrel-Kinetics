@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-18T16:09:57.905Z",
-  "commitCount": 1696,
+  "generatedAt": "2026-07-18T17:12:58.594Z",
+  "commitCount": 1700,
   "commits": [
+    {
+      "shortSha": "44d6ca9",
+      "message": "feat: Implement city resource economy reset on player death and optimize NPC record handling",
+      "author": "Kazber",
+      "date": "2026-07-18T17:00:16Z"
+    },
+    {
+      "shortSha": "67f3e94",
+      "message": "feat: Add city resource item management and off-screen economy simulation",
+      "author": "Kazber",
+      "date": "2026-07-18T16:51:27Z"
+    },
+    {
+      "shortSha": "f8bfc82",
+      "message": "feat: Implement city resource economy setup and reset functionality",
+      "author": "Kazber",
+      "date": "2026-07-18T16:41:15Z"
+    },
+    {
+      "shortSha": "64d6707",
+      "message": "feat: Implement city resource economy and UI updates",
+      "author": "Kazber",
+      "date": "2026-07-18T15:40:31Z"
+    },
     {
       "shortSha": "58c779e",
       "message": "feat: Refactor trader widget input handling and improve item retrieval logic",
