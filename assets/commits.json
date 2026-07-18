@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-18T06:16:57.708Z",
-  "commitCount": 1694,
+  "generatedAt": "2026-07-18T08:10:34.601Z",
+  "commitCount": 1695,
   "commits": [
+    {
+      "shortSha": "5e6a4d3",
+      "message": "Add resource distribution system, trading mechanics, and debug UI components",
+      "author": "Kazber",
+      "date": "2026-07-18T07:07:43Z"
+    },
     {
       "shortSha": "caa8a1e",
       "message": "feat: Enhance trading NPC functionality with improved component checks and distance calculations",
