@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-18T19:29:30.279Z",
-  "commitCount": 1705,
+  "generatedAt": "2026-07-18T21:04:32.234Z",
+  "commitCount": 1706,
   "commits": [
+    {
+      "shortSha": "2199ef3",
+      "message": "feat: Refactor starting cell weapon system to use AActor; update tests and add new image assets",
+      "author": "Kazber",
+      "date": "2026-07-18T19:52:27Z"
+    },
     {
       "shortSha": "a07e5b1",
       "message": "feat: Implement starting cell weapon selection and unlock system; add tests and new weapon assets",
