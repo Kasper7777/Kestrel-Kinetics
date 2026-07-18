@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-18T17:12:58.594Z",
-  "commitCount": 1700,
+  "generatedAt": "2026-07-18T18:06:35.534Z",
+  "commitCount": 1701,
   "commits": [
+    {
+      "shortSha": "79ca104",
+      "message": "feat: Simplify city resource economy setup by removing redundant parameters and derive categories from item classes",
+      "author": "Kazber",
+      "date": "2026-07-18T17:32:22Z"
+    },
     {
       "shortSha": "44d6ca9",
       "message": "feat: Implement city resource economy reset on player death and optimize NPC record handling",
