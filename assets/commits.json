@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-19T09:16:52.306Z",
-  "commitCount": 1710,
+  "generatedAt": "2026-07-19T10:43:56.366Z",
+  "commitCount": 1711,
   "commits": [
+    {
+      "shortSha": "d015917",
+      "message": "feat: Implement city resource reset handling and improve Kardz distribution rules",
+      "author": "Kazber",
+      "date": "2026-07-19T09:43:13Z"
+    },
     {
       "shortSha": "6eae229",
       "message": "feat: Enhance city resource management with new game setup and logging features",
