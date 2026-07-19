@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-19T12:05:46.712Z",
-  "commitCount": 1712,
+  "generatedAt": "2026-07-19T13:51:31.577Z",
+  "commitCount": 1713,
   "commits": [
+    {
+      "shortSha": "97fdc32",
+      "message": "feat: Enhance city resource management with new CSV export and physics drop settings",
+      "author": "Kazber",
+      "date": "2026-07-19T12:51:15Z"
+    },
     {
       "shortSha": "8e44a17",
       "message": "feat: Add gameplay setting to force resource regeneration on new game",
