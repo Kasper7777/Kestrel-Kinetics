@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-19T17:14:16.703Z",
-  "commitCount": 1721,
+  "generatedAt": "2026-07-19T18:07:37.076Z",
+  "commitCount": 1722,
   "commits": [
+    {
+      "shortSha": "fe6ec17",
+      "message": "feat: Introduce separate Kardz budget management for resource distribution in city cells",
+      "author": "Kazber",
+      "date": "2026-07-19T18:05:54Z"
+    },
     {
       "shortSha": "cb6f247",
       "message": "feat: Implement Kardz NPC loadout management and add new images for visual assets",
