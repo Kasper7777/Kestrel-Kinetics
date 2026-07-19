@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-19T16:09:14.471Z",
-  "commitCount": 1717,
+  "generatedAt": "2026-07-19T17:14:16.703Z",
+  "commitCount": 1721,
   "commits": [
+    {
+      "shortSha": "cb6f247",
+      "message": "feat: Implement Kardz NPC loadout management and add new images for visual assets",
+      "author": "Kazber",
+      "date": "2026-07-19T17:09:12Z"
+    },
+    {
+      "shortSha": "59f0c43",
+      "message": "feat: Enhance Kardz player spawning with loadout support and bag configuration",
+      "author": "Kazber",
+      "date": "2026-07-19T16:56:40Z"
+    },
+    {
+      "shortSha": "0b1e6e0",
+      "message": "feat: Add human armour and clothing slot support for trader spawning",
+      "author": "Kazber",
+      "date": "2026-07-19T16:47:29Z"
+    },
+    {
+      "shortSha": "9dcb05b",
+      "message": "feat: Enhance NPC spawning with dedicated Kardz player and trader functionality",
+      "author": "Kazber",
+      "date": "2026-07-19T16:38:30Z"
+    },
     {
       "shortSha": "15e93f7",
       "message": "feat: Enhance betting and barter system with support for multiple bag types and worn clothing",
