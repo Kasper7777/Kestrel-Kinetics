@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-19T10:43:56.366Z",
-  "commitCount": 1711,
+  "generatedAt": "2026-07-19T12:05:46.712Z",
+  "commitCount": 1712,
   "commits": [
+    {
+      "shortSha": "8e44a17",
+      "message": "feat: Add gameplay setting to force resource regeneration on new game",
+      "author": "Kazber",
+      "date": "2026-07-19T12:02:56Z"
+    },
     {
       "shortSha": "d015917",
       "message": "feat: Implement city resource reset handling and improve Kardz distribution rules",
