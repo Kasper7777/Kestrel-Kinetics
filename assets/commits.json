@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-07-19T06:41:52.295Z",
-  "commitCount": 1707,
+  "generatedAt": "2026-07-19T09:16:52.306Z",
+  "commitCount": 1710,
   "commits": [
+    {
+      "shortSha": "6eae229",
+      "message": "feat: Enhance city resource management with new game setup and logging features",
+      "author": "Kazber",
+      "date": "2026-07-19T08:59:03Z"
+    },
+    {
+      "shortSha": "6f78fb4",
+      "message": "feat: Implement DestroyWornGear method to manage gear removal for traders leaving the cell",
+      "author": "Kazber",
+      "date": "2026-07-19T07:52:35Z"
+    },
+    {
+      "shortSha": "33e2051",
+      "message": "feat: Update Kardz distribution rules and enhance card value handling",
+      "author": "Kazber",
+      "date": "2026-07-19T07:29:50Z"
+    },
     {
       "shortSha": "21e0d5d",
       "message": "feat: Enhance trading and Kardz mechanics",
