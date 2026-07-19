@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-19T18:07:37.076Z",
-  "commitCount": 1722,
+  "generatedAt": "2026-07-19T19:30:23.718Z",
+  "commitCount": 1726,
   "commits": [
+    {
+      "shortSha": "8d914a9",
+      "message": "feat: Enhance NPC persistence by adding support for saving and restoring battle damage and conversion states in Kardz gameplay",
+      "author": "Kazber",
+      "date": "2026-07-19T18:53:28Z"
+    },
+    {
+      "shortSha": "7aeb1e7",
+      "message": "feat: Enhance card management by implementing runtime stats preservation and healing mechanics for NPCs and players at match end",
+      "author": "Kazber",
+      "date": "2026-07-19T18:49:08Z"
+    },
+    {
+      "shortSha": "ac59f41",
+      "message": "feat: Implement gameplay input locking and action aborting for Kardz matches",
+      "author": "Kazber",
+      "date": "2026-07-19T18:36:37Z"
+    },
+    {
+      "shortSha": "63ac082",
+      "message": "feat: Add functionality to drop holstered items and enhance trading item management",
+      "author": "Kazber",
+      "date": "2026-07-19T18:22:53Z"
+    },
     {
       "shortSha": "fe6ec17",
       "message": "feat: Introduce separate Kardz budget management for resource distribution in city cells",
