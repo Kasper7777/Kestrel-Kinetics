@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-20T13:16:13.698Z",
-  "commitCount": 1726,
+  "generatedAt": "2026-07-20T15:21:37.781Z",
+  "commitCount": 1730,
   "commits": [
+    {
+      "shortSha": "0120807",
+      "message": "feat: Implement Taser body highlight component and associated visual effects for enhanced gameplay feedback",
+      "author": "Kazber",
+      "date": "2026-07-20T14:49:50Z"
+    },
+    {
+      "shortSha": "864e3a5",
+      "message": "feat: Enhance trading and UI functionality by preventing rival traders from accessing each other's favorite items, improving widget layout handling, and refining button binding logic",
+      "author": "Kazber",
+      "date": "2026-07-20T14:38:57Z"
+    },
+    {
+      "shortSha": "11c2222",
+      "message": "Enhance Kardz functionality and UI improvements",
+      "author": "Kazber",
+      "date": "2026-07-20T14:22:09Z"
+    },
+    {
+      "shortSha": "83774a5",
+      "message": "feat: Add Taser body highlight effect and duration settings for enhanced visual feedback on hit",
+      "author": "Kazber",
+      "date": "2026-07-20T14:11:42Z"
+    },
     {
       "shortSha": "8d914a9",
       "message": "feat: Enhance NPC persistence by adding support for saving and restoring battle damage and conversion states in Kardz gameplay",
