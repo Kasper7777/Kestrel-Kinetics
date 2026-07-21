@@ -1,7 +1,55 @@
 {
-  "generatedAt": "2026-07-21T14:19:43.787Z",
-  "commitCount": 1750,
+  "generatedAt": "2026-07-21T16:40:22.177Z",
+  "commitCount": 1758,
   "commits": [
+    {
+      "shortSha": "58970bc",
+      "message": "feat: Update AnimNode_AimAtTarget for improved axis handling and add new character images",
+      "author": "Kazber",
+      "date": "2026-07-21T16:33:47Z"
+    },
+    {
+      "shortSha": "69ba635",
+      "message": "feat: Enhance AnimNode_AimAtTarget with debug sweep functionality and live preview updates",
+      "author": "Kazber",
+      "date": "2026-07-21T16:03:41Z"
+    },
+    {
+      "shortSha": "c3c7aa1",
+      "message": "feat: Enhance AimAtTarget functionality with customizable axis modes",
+      "author": "Kazber",
+      "date": "2026-07-21T15:59:58Z"
+    },
+    {
+      "shortSha": "5ae9df6",
+      "message": "feat: Enhance aiming system with debug options and improved pitch handling",
+      "author": "Kazber",
+      "date": "2026-07-21T15:48:56Z"
+    },
+    {
+      "shortSha": "b7449be",
+      "message": "feat: Improve aim targeting logic by caching actor-to-component rotation for accurate aiming",
+      "author": "Kazber",
+      "date": "2026-07-21T15:33:02Z"
+    },
+    {
+      "shortSha": "a037fd0",
+      "message": "feat: Enhance NPC spawning logic with new cell blocking mechanisms and content detection",
+      "author": "Kazber",
+      "date": "2026-07-21T15:19:54Z"
+    },
+    {
+      "shortSha": "adfee59",
+      "message": "Refactor city resource population system and enhance market map widget",
+      "author": "Kazber",
+      "date": "2026-07-21T14:53:35Z"
+    },
+    {
+      "shortSha": "b699a14",
+      "message": "feat: Enhance commander placement logic to support faction diversity and boss cell exclusion",
+      "author": "Kazber",
+      "date": "2026-07-21T14:23:52Z"
+    },
     {
       "shortSha": "2066ac0",
       "message": "feat: Implement commander garrison system",
