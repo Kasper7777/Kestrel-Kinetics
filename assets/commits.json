@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-07-21T09:38:06.644Z",
-  "commitCount": 1740,
+  "generatedAt": "2026-07-21T11:58:54.515Z",
+  "commitCount": 1745,
   "commits": [
+    {
+      "shortSha": "1d9e1ed",
+      "message": "Add new textures and icons for KardZ cards; update existing assets",
+      "author": "Kazber",
+      "date": "2026-07-21T11:56:31Z"
+    },
+    {
+      "shortSha": "1ff8e4a",
+      "message": "feat: Implement Kardz bag persistence and ensure NPCs have bags on restore",
+      "author": "Kazber",
+      "date": "2026-07-21T11:50:20Z"
+    },
+    {
+      "shortSha": "e0ca426",
+      "message": "feat: Enhance Kardz NPC auto-collect behavior and bag management",
+      "author": "Kazber",
+      "date": "2026-07-21T11:30:27Z"
+    },
+    {
+      "shortSha": "7e00e6c",
+      "message": "feat: Add new Furball character images and icons",
+      "author": "Kazber",
+      "date": "2026-07-21T11:26:55Z"
+    },
+    {
+      "shortSha": "2e7a111",
+      "message": "Add Bully Voice Changer functionality and related components",
+      "author": "Kazber",
+      "date": "2026-07-21T11:15:11Z"
+    },
     {
       "shortSha": "ce47fb3",
       "message": "feat: Implement dedicated commander spawning and support mechanics in EnemyMaker",
