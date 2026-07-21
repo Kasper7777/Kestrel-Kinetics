@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-07-21T11:58:54.515Z",
-  "commitCount": 1745,
+  "generatedAt": "2026-07-21T14:19:43.787Z",
+  "commitCount": 1750,
   "commits": [
+    {
+      "shortSha": "2066ac0",
+      "message": "feat: Implement commander garrison system",
+      "author": "Kazber",
+      "date": "2026-07-21T14:16:18Z"
+    },
+    {
+      "shortSha": "e8526d6",
+      "message": "feat: Add faction display name and debug print functionality for enemies",
+      "author": "Kazber",
+      "date": "2026-07-21T13:38:24Z"
+    },
+    {
+      "shortSha": "b911485",
+      "message": "feat: Add new Comander icon assets and update UI elements",
+      "author": "Kazber",
+      "date": "2026-07-21T13:25:14Z"
+    },
+    {
+      "shortSha": "7f9a5c1",
+      "message": "feat: Add new commander hats and meshes, including various textures and animations",
+      "author": "Kazber",
+      "date": "2026-07-21T13:08:31Z"
+    },
+    {
+      "shortSha": "f4001b4",
+      "message": "feat: Improve Kardz bag handling in enemy setup to prevent unwanted weapon drops",
+      "author": "Kazber",
+      "date": "2026-07-21T12:04:27Z"
+    },
     {
       "shortSha": "1d9e1ed",
       "message": "Add new textures and icons for KardZ cards; update existing assets",
