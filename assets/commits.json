@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-07-21T16:40:22.177Z",
-  "commitCount": 1758,
+  "generatedAt": "2026-07-21T18:38:59.601Z",
+  "commitCount": 1761,
   "commits": [
+    {
+      "shortSha": "744570c",
+      "message": "Add BattleBot Trainer functionality and NPC interaction system",
+      "author": "Kazber",
+      "date": "2026-07-21T17:36:32Z"
+    },
+    {
+      "shortSha": "8b92b9b",
+      "message": "feat: Add first encounter functionality for commanders and enhance related events",
+      "author": "Kazber",
+      "date": "2026-07-21T17:14:20Z"
+    },
+    {
+      "shortSha": "e19d2a8",
+      "message": "feat: Implement one-time XP award system to prevent farming through repeated actions",
+      "author": "Kazber",
+      "date": "2026-07-21T16:52:48Z"
+    },
     {
       "shortSha": "58970bc",
       "message": "feat: Update AnimNode_AimAtTarget for improved axis handling and add new character images",
