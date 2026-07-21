@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-21T03:42:41.853Z",
-  "commitCount": 1735,
+  "generatedAt": "2026-07-21T06:40:01.763Z",
+  "commitCount": 1736,
   "commits": [
+    {
+      "shortSha": "2827765",
+      "message": "feat: Update projectile collision handling in CBPlayerCharacter to improve bone detection and prevent character trapping",
+      "author": "Kazber",
+      "date": "2026-07-21T06:21:23Z"
+    },
     {
       "shortSha": "4dc4c38",
       "message": "feat: Add Trader icon assets and update related files for improved UI representation",
