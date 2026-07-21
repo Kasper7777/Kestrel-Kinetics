@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-07-21T18:38:59.601Z",
-  "commitCount": 1761,
+  "generatedAt": "2026-07-21T20:35:26.656Z",
+  "commitCount": 1764,
   "commits": [
+    {
+      "shortSha": "526e07f",
+      "message": "feat: Enhance loading screen functionality for new game runs and cell transitions",
+      "author": "Kazber",
+      "date": "2026-07-21T19:06:55Z"
+    },
+    {
+      "shortSha": "576f5e5",
+      "message": "feat: Update loading progress subsystem and screen widget for improved functionality and performance",
+      "author": "Kazber",
+      "date": "2026-07-21T19:00:51Z"
+    },
+    {
+      "shortSha": "8f6a98d",
+      "message": "feat: Implement loading progress subsystem and loading screen widget",
+      "author": "Kazber",
+      "date": "2026-07-21T18:39:01Z"
+    },
     {
       "shortSha": "744570c",
       "message": "Add BattleBot Trainer functionality and NPC interaction system",
