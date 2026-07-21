@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-21T06:40:01.763Z",
-  "commitCount": 1736,
+  "generatedAt": "2026-07-21T09:38:06.644Z",
+  "commitCount": 1740,
   "commits": [
+    {
+      "shortSha": "ce47fb3",
+      "message": "feat: Implement dedicated commander spawning and support mechanics in EnemyMaker",
+      "author": "Kazber",
+      "date": "2026-07-21T09:21:17Z"
+    },
+    {
+      "shortSha": "2c69c04",
+      "message": "Add commander support subsystem for enhanced faction combat mechanics",
+      "author": "Kazber",
+      "date": "2026-07-21T08:55:20Z"
+    },
+    {
+      "shortSha": "be44456",
+      "message": "feat: Add support for trading civilians in map NPC blip system and update related data structures",
+      "author": "Kazber",
+      "date": "2026-07-21T07:42:25Z"
+    },
+    {
+      "shortSha": "bc75265",
+      "message": "feat: Add lore functionality to grid cells and update NPC AI controllers",
+      "author": "Kazber",
+      "date": "2026-07-21T06:58:05Z"
+    },
     {
       "shortSha": "2827765",
       "message": "feat: Update projectile collision handling in CBPlayerCharacter to improve bone detection and prevent character trapping",
