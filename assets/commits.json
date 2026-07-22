@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-22T16:43:20.626Z",
-  "commitCount": 1774,
+  "generatedAt": "2026-07-22T18:20:29.211Z",
+  "commitCount": 1775,
   "commits": [
+    {
+      "shortSha": "7702b06",
+      "message": "feat: Enhance commander support system with boost links and bonuses",
+      "author": "Kazber",
+      "date": "2026-07-22T17:53:13Z"
+    },
     {
       "shortSha": "d8578c8",
       "message": "Add new BattleBot assets and enhance TrainerBattleArena functionality",
