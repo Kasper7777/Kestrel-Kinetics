@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-23T22:13:37.862Z",
-  "commitCount": 1813,
+  "generatedAt": "2026-07-23T23:10:56.359Z",
+  "commitCount": 1815,
   "commits": [
+    {
+      "shortSha": "14a1f01",
+      "message": "feat: Enhance SmallPetWidget with new pet states and visuals, including Loved and Sleeping states",
+      "author": "Kazber",
+      "date": "2026-07-23T22:50:06Z"
+    },
+    {
+      "shortSha": "e62e89b",
+      "message": "feat: Add new fish assets and images for various states in the game",
+      "author": "Kazber",
+      "date": "2026-07-23T22:33:17Z"
+    },
     {
       "shortSha": "dd4d560",
       "message": "feat: Add support for wall damage states and backdrop visibility in TrainerBattleArena",
