@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-23T14:29:15.874Z",
-  "commitCount": 1793,
+  "generatedAt": "2026-07-23T16:44:23.347Z",
+  "commitCount": 1797,
   "commits": [
+    {
+      "shortSha": "6134993",
+      "message": "feat: Update armor and enemy assets; add new Left Arm and Chest styles, and Base Enemy Trainer",
+      "author": "Kazber",
+      "date": "2026-07-23T16:22:12Z"
+    },
+    {
+      "shortSha": "6bdfeb8",
+      "message": "feat: Refactor pet terminal and widget to use credits instead of gift cards; add purchase cooldown and animated flipbook support",
+      "author": "Kazber",
+      "date": "2026-07-23T15:35:45Z"
+    },
+    {
+      "shortSha": "1a09558",
+      "message": "feat: Add ForceAssembleBot function to bypass pet maturity gate and streamline bot assembly",
+      "author": "Kazber",
+      "date": "2026-07-23T15:12:19Z"
+    },
+    {
+      "shortSha": "04efa2c",
+      "message": "refactor: Remove ABattleBotTrainerCivilian class and update trainer component logic for pet management",
+      "author": "Kazber",
+      "date": "2026-07-23T14:56:34Z"
+    },
     {
       "shortSha": "fb3c039",
       "message": "feat: Update Battle Bot components and README for improved camera setup and functionality",
