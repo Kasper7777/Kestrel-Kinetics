@@ -1,7 +1,49 @@
 {
-  "generatedAt": "2026-07-23T20:19:15.136Z",
-  "commitCount": 1806,
+  "generatedAt": "2026-07-23T22:13:37.862Z",
+  "commitCount": 1813,
   "commits": [
+    {
+      "shortSha": "dd4d560",
+      "message": "feat: Add support for wall damage states and backdrop visibility in TrainerBattleArena",
+      "author": "Kazber",
+      "date": "2026-07-23T21:57:52Z"
+    },
+    {
+      "shortSha": "f3f3065",
+      "message": "feat: Update multiple weapon assets for improved functionality and performance",
+      "author": "Kazber",
+      "date": "2026-07-23T21:43:03Z"
+    },
+    {
+      "shortSha": "f388f61",
+      "message": "feat: Enhance beam-in control logic and update spawn pause behavior for characters",
+      "author": "Kazber",
+      "date": "2026-07-23T21:16:52Z"
+    },
+    {
+      "shortSha": "867b954",
+      "message": "feat: Implement universal ready-pause for beam-in characters",
+      "author": "Kazber",
+      "date": "2026-07-23T21:07:08Z"
+    },
+    {
+      "shortSha": "be3c090",
+      "message": "feat: Update multiple enemy and player assets for improved functionality and performance",
+      "author": "Kazber",
+      "date": "2026-07-23T20:46:24Z"
+    },
+    {
+      "shortSha": "c6d673c",
+      "message": "feat: Update CBBeamInComponent to enhance material transition and cleanup logic",
+      "author": "Kazber",
+      "date": "2026-07-23T20:33:23Z"
+    },
+    {
+      "shortSha": "274faa4",
+      "message": "Add new material instances for BeamIn assets",
+      "author": "Kazber",
+      "date": "2026-07-23T20:19:13Z"
+    },
     {
       "shortSha": "6e5fb55",
       "message": "Add new sound assets for BattleBoard and update TrainerBattleArena blueprint",
