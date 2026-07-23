@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-23T09:34:53.478Z",
-  "commitCount": 1788,
+  "generatedAt": "2026-07-23T12:01:59.076Z",
+  "commitCount": 1790,
   "commits": [
+    {
+      "shortSha": "3fd8fa3",
+      "message": "Enhance Battle Bot functionality with Behavior Trees and new tasks",
+      "author": "Kazber",
+      "date": "2026-07-23T10:50:14Z"
+    },
+    {
+      "shortSha": "1123835",
+      "message": "Add Small Pet functionality to BattleBots plugin",
+      "author": "Kazber",
+      "date": "2026-07-23T10:00:12Z"
+    },
     {
       "shortSha": "b21f97d",
       "message": "feat: Enhance Battle Bot and Small Pet integration with improved component registration and readiness checks",
