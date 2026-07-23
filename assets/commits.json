@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-07-23T06:38:50.052Z",
-  "commitCount": 1785,
+  "generatedAt": "2026-07-23T09:34:53.478Z",
+  "commitCount": 1788,
   "commits": [
+    {
+      "shortSha": "b21f97d",
+      "message": "feat: Enhance Battle Bot and Small Pet integration with improved component registration and readiness checks",
+      "author": "Kazber",
+      "date": "2026-07-23T09:33:30Z"
+    },
+    {
+      "shortSha": "fb85467",
+      "message": "feat: Update Small Pet testing functionality with new starting age and maturity options; streamline testing state overrides",
+      "author": "Kazber",
+      "date": "2026-07-23T08:16:46Z"
+    },
+    {
+      "shortSha": "0beb9e5",
+      "message": "feat: Implement weapon attachment validation and repair logic in EnemyWeaponComponent; enhance firing conditions for AI",
+      "author": "Kazber",
+      "date": "2026-07-23T07:59:01Z"
+    },
     {
       "shortSha": "e161f20",
       "message": "feat: Enhance Battle Bot and Small Pet functionality with testing state overrides and improved property synchronization",
