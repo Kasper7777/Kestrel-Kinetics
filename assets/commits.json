@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-07-24T09:32:37.607Z",
-  "commitCount": 1826,
+  "generatedAt": "2026-07-24T11:54:52.299Z",
+  "commitCount": 1829,
   "commits": [
+    {
+      "shortSha": "e39d139",
+      "message": "Add new images for Barry, Billy, and Dracorix in various states and actions",
+      "author": "Kazber",
+      "date": "2026-07-24T10:28:34Z"
+    },
+    {
+      "shortSha": "b786c5c",
+      "message": "Add new assets and enhance SmallPetWidget functionality",
+      "author": "Kazber",
+      "date": "2026-07-24T10:09:35Z"
+    },
+    {
+      "shortSha": "015f088",
+      "message": "Enhance SmallPet and TrainerBattle functionality; add new fish game assets",
+      "author": "Kazber",
+      "date": "2026-07-24T09:47:46Z"
+    },
     {
       "shortSha": "5331c65",
       "message": "Add new assets and update TrainerBattleTypes for Rick character",
