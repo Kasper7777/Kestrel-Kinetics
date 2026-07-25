@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-25T09:11:16.346Z",
-  "commitCount": 1846,
+  "generatedAt": "2026-07-25T10:42:44.541Z",
+  "commitCount": 1848,
   "commits": [
+    {
+      "shortSha": "7516175",
+      "message": "feat: Update BattleBot components to use exact pet references and improve part handling logic",
+      "author": "Kazber",
+      "date": "2026-07-25T10:00:03Z"
+    },
+    {
+      "shortSha": "7529368",
+      "message": "feat: Enhance BattleBot functionality with navigation and component updates",
+      "author": "Kazber",
+      "date": "2026-07-24T21:03:41Z"
+    },
     {
       "shortSha": "ae1b9c3",
       "message": "feat: Implement native brain logic for BattleBot AI and enhance movement handling",
