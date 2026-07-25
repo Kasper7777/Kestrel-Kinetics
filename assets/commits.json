@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-25T19:32:54.370Z",
-  "commitCount": 1858,
+  "generatedAt": "2026-07-25T21:07:48.312Z",
+  "commitCount": 1860,
   "commits": [
+    {
+      "shortSha": "68e7095",
+      "message": "Add Co-Combatant AI functionality and behavior tree integration",
+      "author": "Kazber",
+      "date": "2026-07-25T20:47:26Z"
+    },
+    {
+      "shortSha": "0c73d75",
+      "message": "feat: Add destruction mechanics and audio cues for Battle Bot parts",
+      "author": "Kazber",
+      "date": "2026-07-25T20:00:41Z"
+    },
     {
       "shortSha": "d0ea6c1",
       "message": "feat: Enhance Battle Bot functionality with ammo scavenging and voice setup, update UI elements",
