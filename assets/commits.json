@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-25T15:18:00.953Z",
-  "commitCount": 1851,
+  "generatedAt": "2026-07-25T17:13:18.065Z",
+  "commitCount": 1853,
   "commits": [
+    {
+      "shortSha": "ea1f43f",
+      "message": "feat: Add Battle Bot assets and enhance UI with NPC icon functionality",
+      "author": "Kazber",
+      "date": "2026-07-25T16:03:55Z"
+    },
+    {
+      "shortSha": "a05c125",
+      "message": "Refactor code structure for improved readability and maintainability",
+      "author": "Kazber",
+      "date": "2026-07-25T15:37:31Z"
+    },
     {
       "shortSha": "e6e828e",
       "message": "feat: Enhance Battle Bot functionality with new audio cues and UI elements",
