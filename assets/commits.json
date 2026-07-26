@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-26T22:11:24.780Z",
-  "commitCount": 1878,
+  "generatedAt": "2026-07-26T23:10:29.899Z",
+  "commitCount": 1879,
   "commits": [
+    {
+      "shortSha": "5d31a7b",
+      "message": "feat: Update scavenger behavior to allow weapon and ammo pickups while maintaining non-hostile status",
+      "author": "Kazber",
+      "date": "2026-07-26T22:18:52Z"
+    },
     {
       "shortSha": "45cdb25",
       "message": "feat: Add audio watchdog for persistent loop sounds and improve ballistic fire interval handling",
