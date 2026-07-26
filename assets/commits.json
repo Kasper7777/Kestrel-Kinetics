@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-26T19:33:40.671Z",
-  "commitCount": 1872,
+  "generatedAt": "2026-07-26T21:10:10.441Z",
+  "commitCount": 1876,
   "commits": [
+    {
+      "shortSha": "eea8c31",
+      "message": "feat: Enhance co-combatant behavior with improved ally state handling and logging",
+      "author": "Kazber",
+      "date": "2026-07-26T20:53:50Z"
+    },
+    {
+      "shortSha": "0a0cd5b",
+      "message": "feat: Integrate Niagara system for ballistic muzzle flash effects in BattleBot component",
+      "author": "Kazber",
+      "date": "2026-07-26T20:53:21Z"
+    },
+    {
+      "shortSha": "ce1e72d",
+      "message": "feat: Add starting ammo configuration for ballistic bots and improve cover detection logic for allies",
+      "author": "Kazber",
+      "date": "2026-07-26T20:17:56Z"
+    },
+    {
+      "shortSha": "60935dd",
+      "message": "feat: Add diagnostics and target handling improvements for co-combatant behavior",
+      "author": "Kazber",
+      "date": "2026-07-26T19:52:51Z"
+    },
     {
       "shortSha": "4cc29b2",
       "message": "feat: Implement NPC armour persistence and restoration logic for enhanced gameplay consistency",
