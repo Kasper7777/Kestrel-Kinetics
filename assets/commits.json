@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-26T15:19:34.392Z",
-  "commitCount": 1862,
+  "generatedAt": "2026-07-26T17:13:42.757Z",
+  "commitCount": 1866,
   "commits": [
+    {
+      "shortSha": "eb87292",
+      "message": "feat: Enhance AI behavior with armour pickup logic and logging for co-combatants",
+      "author": "Kazber",
+      "date": "2026-07-26T17:07:10Z"
+    },
+    {
+      "shortSha": "487c411",
+      "message": "feat: Implement editor-side functionality for bonded NPC group ID synchronization",
+      "author": "Kazber",
+      "date": "2026-07-26T16:46:16Z"
+    },
+    {
+      "shortSha": "da592aa",
+      "message": "feat: Enhance Co-Combatant AI with fallback behavior tree and bonded NPC functionality",
+      "author": "Kazber",
+      "date": "2026-07-26T16:32:09Z"
+    },
+    {
+      "shortSha": "5d00b21",
+      "message": "feat: Implement bonded NPC testing functionality and enhance Battle Bot leadership system",
+      "author": "Kazber",
+      "date": "2026-07-26T16:25:10Z"
+    },
     {
       "shortSha": "513be08",
       "message": "feat: Add trader population management and related functionality",
