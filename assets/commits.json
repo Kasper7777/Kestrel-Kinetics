@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-26T17:13:42.757Z",
-  "commitCount": 1866,
+  "generatedAt": "2026-07-26T18:11:16.204Z",
+  "commitCount": 1868,
   "commits": [
+    {
+      "shortSha": "0b9a632",
+      "message": "feat: Enhance ally movement logic to support navigation in navmesh-less levels",
+      "author": "Kazber",
+      "date": "2026-07-26T17:44:00Z"
+    },
+    {
+      "shortSha": "9ad4a73",
+      "message": "feat: Add weapon stripping logic for civilian NPCs and enhance bonded NPC component functionality",
+      "author": "Kazber",
+      "date": "2026-07-26T17:34:00Z"
+    },
     {
       "shortSha": "eb87292",
       "message": "feat: Enhance AI behavior with armour pickup logic and logging for co-combatants",
