@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-26T06:47:31.950Z",
-  "commitCount": 1860,
+  "generatedAt": "2026-07-26T09:22:42.287Z",
+  "commitCount": 1862,
   "commits": [
+    {
+      "shortSha": "513be08",
+      "message": "feat: Add trader population management and related functionality",
+      "author": "Kazber",
+      "date": "2026-07-26T08:16:30Z"
+    },
+    {
+      "shortSha": "50785c6",
+      "message": "feat: Enhance civilian population management and intel system",
+      "author": "Kazber",
+      "date": "2026-07-25T21:26:31Z"
+    },
     {
       "shortSha": "68e7095",
       "message": "Add Co-Combatant AI functionality and behavior tree integration",
