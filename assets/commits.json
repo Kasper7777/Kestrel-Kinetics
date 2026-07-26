@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-26T21:10:10.441Z",
-  "commitCount": 1876,
+  "generatedAt": "2026-07-26T22:11:24.780Z",
+  "commitCount": 1878,
   "commits": [
+    {
+      "shortSha": "45cdb25",
+      "message": "feat: Add audio watchdog for persistent loop sounds and improve ballistic fire interval handling",
+      "author": "Kazber",
+      "date": "2026-07-26T22:04:57Z"
+    },
+    {
+      "shortSha": "7ce216d",
+      "message": "feat: Implement player side combatant logic for Battle Bots and enhance enemy targeting behavior",
+      "author": "Kazber",
+      "date": "2026-07-26T21:24:28Z"
+    },
     {
       "shortSha": "eea8c31",
       "message": "feat: Enhance co-combatant behavior with improved ally state handling and logging",
