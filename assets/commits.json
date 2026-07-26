@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-26T18:11:16.204Z",
-  "commitCount": 1868,
+  "generatedAt": "2026-07-26T19:33:40.671Z",
+  "commitCount": 1872,
   "commits": [
+    {
+      "shortSha": "4cc29b2",
+      "message": "feat: Implement NPC armour persistence and restoration logic for enhanced gameplay consistency",
+      "author": "Kazber",
+      "date": "2026-07-26T19:01:32Z"
+    },
+    {
+      "shortSha": "b8e16a9",
+      "message": "feat: Improve ally navigation logic for navmesh-less environments with enhanced pathfinding checks",
+      "author": "Kazber",
+      "date": "2026-07-26T18:53:10Z"
+    },
+    {
+      "shortSha": "310c403",
+      "message": "feat: Enhance co-combatant AI with new melee engagement logic and gear handling events",
+      "author": "Kazber",
+      "date": "2026-07-26T18:38:05Z"
+    },
+    {
+      "shortSha": "a554235",
+      "message": "feat: Enhance Co-Combatant AI with unreachable gear handling and cooldown logic",
+      "author": "Kazber",
+      "date": "2026-07-26T18:19:58Z"
+    },
     {
       "shortSha": "0b9a632",
       "message": "feat: Enhance ally movement logic to support navigation in navmesh-less levels",
