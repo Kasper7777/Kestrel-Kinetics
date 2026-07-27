@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-27T04:00:19.530Z",
-  "commitCount": 1879,
+  "generatedAt": "2026-07-27T07:48:13.703Z",
+  "commitCount": 1881,
   "commits": [
+    {
+      "shortSha": "8c0c58b",
+      "message": "feat: Implement roaming animal arrival spawning for Cats and Rats, including travel ledger management",
+      "author": "Kazber",
+      "date": "2026-07-27T07:47:19Z"
+    },
+    {
+      "shortSha": "236588c",
+      "message": "feat: Introduce animal NPCs (Cats and Rats) with distinct behaviors and interactions",
+      "author": "Kazber",
+      "date": "2026-07-27T07:34:50Z"
+    },
     {
       "shortSha": "5d31a7b",
       "message": "feat: Update scavenger behavior to allow weapon and ammo pickups while maintaining non-hostile status",
