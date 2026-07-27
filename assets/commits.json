@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-07-27T11:36:53.717Z",
-  "commitCount": 1885,
+  "generatedAt": "2026-07-27T15:11:23.797Z",
+  "commitCount": 1887,
   "commits": [
+    {
+      "shortSha": "c226800",
+      "message": "feat: Refactor control size calculations and improve skeleton-based sizing logic in BullyRigBuilder",
+      "author": "Kazber",
+      "date": "2026-07-27T12:27:29Z"
+    },
+    {
+      "shortSha": "e7231d6",
+      "message": "feat: Refactor Bully Rigging Toolz, add new window for rig creation and update settings management",
+      "author": "Kazber",
+      "date": "2026-07-27T12:14:07Z"
+    },
     {
       "shortSha": "51ce152",
       "message": "Add Bully Rigging Toolz Plugin for Control Rig Generation",
