@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-27T07:48:13.703Z",
-  "commitCount": 1881,
+  "generatedAt": "2026-07-27T11:36:53.717Z",
+  "commitCount": 1885,
   "commits": [
+    {
+      "shortSha": "51ce152",
+      "message": "Add Bully Rigging Toolz Plugin for Control Rig Generation",
+      "author": "Kazber",
+      "date": "2026-07-27T10:07:34Z"
+    },
+    {
+      "shortSha": "a52492b",
+      "message": "feat: Update enemy AI behavior and item spawning logic, including retry mechanisms for weapon and ammo searches",
+      "author": "Kazber",
+      "date": "2026-07-27T08:59:44Z"
+    },
+    {
+      "shortSha": "b3ad5ef",
+      "message": "feat: Add events for ammo collection and gun drainage in BattleBotComponent",
+      "author": "Kazber",
+      "date": "2026-07-27T08:40:47Z"
+    },
+    {
+      "shortSha": "30c9a21",
+      "message": "Add new animal behavior tasks and refactor animal spawning logic",
+      "author": "Kazber",
+      "date": "2026-07-27T08:05:42Z"
+    },
     {
       "shortSha": "8c0c58b",
       "message": "feat: Implement roaming animal arrival spawning for Cats and Rats, including travel ledger management",
