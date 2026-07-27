@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-07-27T18:45:42.224Z",
-  "commitCount": 1888,
+  "generatedAt": "2026-07-27T20:41:58.287Z",
+  "commitCount": 1893,
   "commits": [
+    {
+      "shortSha": "0360a74",
+      "message": "feat: Add beam-in/out effect handling and invulnerability during transitions",
+      "author": "Kazber",
+      "date": "2026-07-27T20:17:58Z"
+    },
+    {
+      "shortSha": "6ee076b",
+      "message": "feat: Update GoMapV3 asset with new binary changes",
+      "author": "Kazber",
+      "date": "2026-07-27T20:02:53Z"
+    },
+    {
+      "shortSha": "dfb97a3",
+      "message": "feat: Add subtitle functionality for NPCs with widget component and head-framing camera support",
+      "author": "Kazber",
+      "date": "2026-07-27T19:48:06Z"
+    },
+    {
+      "shortSha": "f0e27c1",
+      "message": "feat: Enhance BattleBots spawning logic with road tile selection and update player character weapon handling",
+      "author": "Kazber",
+      "date": "2026-07-27T19:31:50Z"
+    },
+    {
+      "shortSha": "afe778b",
+      "message": "feat: Implement map scale persistence across transitions and enhance weapon state restoration",
+      "author": "Kazber",
+      "date": "2026-07-27T19:01:56Z"
+    },
     {
       "shortSha": "2301e68",
       "message": "Add field bot functionality to BattleBots plugin",
