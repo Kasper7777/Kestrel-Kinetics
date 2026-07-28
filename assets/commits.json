@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-28T09:46:14.937Z",
-  "commitCount": 1894,
+  "generatedAt": "2026-07-28T12:12:01.685Z",
+  "commitCount": 1898,
   "commits": [
+    {
+      "shortSha": "bf2fab9",
+      "message": "feat: Add NPC class registration for shader precaching in city resource subsystem",
+      "author": "Kazber",
+      "date": "2026-07-28T11:51:22Z"
+    },
+    {
+      "shortSha": "d39d7ae",
+      "message": "feat: Enhance loading screen functionality with explicit step reporting and visibility control",
+      "author": "Kazber",
+      "date": "2026-07-28T10:12:06Z"
+    },
+    {
+      "shortSha": "6339c0c",
+      "message": "feat: Update loading screen widget with terminal font and size adjustments",
+      "author": "Kazber",
+      "date": "2026-07-28T10:05:18Z"
+    },
+    {
+      "shortSha": "e98cdf3",
+      "message": "feat: Add care sound functionality and audio overrides for small pets",
+      "author": "Kazber",
+      "date": "2026-07-28T09:54:49Z"
+    },
     {
       "shortSha": "19cc290",
       "message": "feat: Implement loading level handling and shader precaching for city resources",
