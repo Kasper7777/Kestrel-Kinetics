@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-07-28T06:38:53.530Z",
-  "commitCount": 1893,
+  "generatedAt": "2026-07-28T09:46:14.937Z",
+  "commitCount": 1894,
   "commits": [
+    {
+      "shortSha": "19cc290",
+      "message": "feat: Implement loading level handling and shader precaching for city resources",
+      "author": "Kazber",
+      "date": "2026-07-28T09:18:52Z"
+    },
     {
       "shortSha": "0360a74",
       "message": "feat: Add beam-in/out effect handling and invulnerability during transitions",
