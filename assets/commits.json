@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-07-28T16:49:28.178Z",
-  "commitCount": 1909,
+  "generatedAt": "2026-07-28T18:43:27.253Z",
+  "commitCount": 1914,
   "commits": [
+    {
+      "shortSha": "3e8cb9d",
+      "message": "Add Bully Kutz plugin for motion-comic cutscene capture",
+      "author": "Kazber",
+      "date": "2026-07-28T18:32:01Z"
+    },
+    {
+      "shortSha": "87ca453",
+      "message": "feat: Add invulnerability handling during beam-in/out and enhance performance logging for various components",
+      "author": "Kazber",
+      "date": "2026-07-28T18:11:31Z"
+    },
+    {
+      "shortSha": "1a12897",
+      "message": "feat: Enhance pet care sound functionality and update subtitle widget animations",
+      "author": "Kazber",
+      "date": "2026-07-28T17:59:37Z"
+    },
+    {
+      "shortSha": "bf8f621",
+      "message": "Add default care sounds to pet definitions and backfill existing slots",
+      "author": "Kazber",
+      "date": "2026-07-28T17:24:01Z"
+    },
+    {
+      "shortSha": "36b835e",
+      "message": "Add new sound assets and enhance death snapshot subsystem",
+      "author": "Kazber",
+      "date": "2026-07-28T17:17:38Z"
+    },
     {
       "shortSha": "7f04189",
       "message": "feat: Enhance subtitle widget with single-panel mode and dynamic portrait handling; improve logging and loading screen visuals",
