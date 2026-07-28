@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-07-28T12:12:01.685Z",
-  "commitCount": 1898,
+  "generatedAt": "2026-07-28T14:34:22.995Z",
+  "commitCount": 1904,
   "commits": [
+    {
+      "shortSha": "0761fe5",
+      "message": "feat: Refactor respawn status widget to build widget tree in code and improve layout management",
+      "author": "Kazber",
+      "date": "2026-07-28T14:34:08Z"
+    },
+    {
+      "shortSha": "354b4ba",
+      "message": "feat: Add respawn status widget and subtitle settings",
+      "author": "Kazber",
+      "date": "2026-07-28T14:26:35Z"
+    },
+    {
+      "shortSha": "f7247d9",
+      "message": "Refactor checkpoint and subtitle systems for improved functionality and UI updates",
+      "author": "Kazber",
+      "date": "2026-07-28T13:47:26Z"
+    },
+    {
+      "shortSha": "76d7812",
+      "message": "feat: Add respawn status widget with dynamic HUD indicators for checkpoints and save points",
+      "author": "Kazber",
+      "date": "2026-07-28T13:08:25Z"
+    },
+    {
+      "shortSha": "454206a",
+      "message": "feat: Enhance subtitle functionality with dynamic speech tracking and customizable styles",
+      "author": "Kazber",
+      "date": "2026-07-28T13:06:48Z"
+    },
+    {
+      "shortSha": "274a731",
+      "message": "feat: Implement checkpoint disk system for respawn functionality",
+      "author": "Kazber",
+      "date": "2026-07-28T12:33:27Z"
+    },
     {
       "shortSha": "bf2fab9",
       "message": "feat: Add NPC class registration for shader precaching in city resource subsystem",
