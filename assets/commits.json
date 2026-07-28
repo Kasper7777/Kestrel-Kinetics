@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-07-28T14:34:22.995Z",
-  "commitCount": 1904,
+  "generatedAt": "2026-07-28T16:49:28.178Z",
+  "commitCount": 1909,
   "commits": [
+    {
+      "shortSha": "7f04189",
+      "message": "feat: Enhance subtitle widget with single-panel mode and dynamic portrait handling; improve logging and loading screen visuals",
+      "author": "Kazber",
+      "date": "2026-07-28T16:48:05Z"
+    },
+    {
+      "shortSha": "e42ad8b",
+      "message": "feat: Enhance subtitle widget initialization by adding dynamic canvas handling and improving row management",
+      "author": "Kazber",
+      "date": "2026-07-28T16:11:50Z"
+    },
+    {
+      "shortSha": "c941a77",
+      "message": "feat: Update array maker functionality and improve level blueprint handling; modify TestLevel and report files",
+      "author": "Kazber",
+      "date": "2026-07-28T16:05:33Z"
+    },
+    {
+      "shortSha": "7990af1",
+      "message": "feat: Enhance array maker functionality with level blueprint creation and lighting adjustments for live portraits",
+      "author": "Kazber",
+      "date": "2026-07-28T15:53:29Z"
+    },
+    {
+      "shortSha": "38cce9d",
+      "message": "feat: Add new assets for checkpoint and save icons, update respawn status UI, and enhance checkpoint disk documentation",
+      "author": "Kazber",
+      "date": "2026-07-28T15:20:48Z"
+    },
     {
       "shortSha": "0761fe5",
       "message": "feat: Refactor respawn status widget to build widget tree in code and improve layout management",
