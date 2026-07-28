@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-28T20:33:53.292Z",
-  "commitCount": 1917,
+  "generatedAt": "2026-07-28T22:15:37.180Z",
+  "commitCount": 1921,
   "commits": [
+    {
+      "shortSha": "02d2b1b",
+      "message": "feat: Remove BattleBotAssemblyDisk and BattleBotPetDisk classes; update pickup text handling in TerminalDiskBase",
+      "author": "Kazber",
+      "date": "2026-07-28T21:53:20Z"
+    },
+    {
+      "shortSha": "b4a9167",
+      "message": "feat: Add BattleBotAssemblyDisk and BattleBotPetDisk classes with pickup text functionality",
+      "author": "Kazber",
+      "date": "2026-07-28T21:17:08Z"
+    },
+    {
+      "shortSha": "91e5da5",
+      "message": "feat: Add logging and handle disk insertion for BattleBot terminal",
+      "author": "Kazber",
+      "date": "2026-07-28T21:06:22Z"
+    },
+    {
+      "shortSha": "e50864e",
+      "message": "feat: Enhance disk drop mechanics with upward boost and restore scale logic",
+      "author": "Kazber",
+      "date": "2026-07-28T20:38:24Z"
+    },
     {
       "shortSha": "9e58860",
       "message": "feat: Implement initial contents handling in CBBagWeapon and update header file",
