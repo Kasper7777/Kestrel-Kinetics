@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-29T15:18:17.106Z",
-  "commitCount": 1927,
+  "generatedAt": "2026-07-29T17:36:43.111Z",
+  "commitCount": 1931,
   "commits": [
+    {
+      "shortSha": "22cbedb",
+      "message": "feat: Improve terminal screen handling and focus management in player character",
+      "author": "Kazber",
+      "date": "2026-07-29T16:55:45Z"
+    },
+    {
+      "shortSha": "8c9232e",
+      "message": "feat: Add support for direct screen panel rendering in terminals and implement toggle functionality",
+      "author": "Kazber",
+      "date": "2026-07-29T16:18:27Z"
+    },
+    {
+      "shortSha": "e7094c0",
+      "message": "feat: Implement checkpoint disk functionality to prevent player death and manage respawn state",
+      "author": "Kazber",
+      "date": "2026-07-29T16:18:08Z"
+    },
+    {
+      "shortSha": "68b46f5",
+      "message": "feat: Enhance boot screen widget with prompt marker and update layout logic",
+      "author": "Kazber",
+      "date": "2026-07-29T15:21:15Z"
+    },
     {
       "shortSha": "ee8eef8",
       "message": "feat: Enhance armour pickup text generation and implement checkpoint disk handling in terminals",
