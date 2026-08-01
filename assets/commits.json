@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-08-01T19:31:36.322Z",
-  "commitCount": 1940,
+  "generatedAt": "2026-08-01T21:07:56.392Z",
+  "commitCount": 1944,
   "commits": [
+    {
+      "shortSha": "ce8c65f",
+      "message": "Refactor BattleBot movement logic for improved combat targeting and navigation",
+      "author": "Kasper",
+      "date": "2026-08-01T20:47:32Z"
+    },
+    {
+      "shortSha": "55eff78",
+      "message": "feat: Implement per-slot armour management for Battle Bot components",
+      "author": "Kasper",
+      "date": "2026-08-01T20:41:34Z"
+    },
+    {
+      "shortSha": "617dcee",
+      "message": "feat: Enhance Battle Bot assembly and damage handling systems",
+      "author": "Kasper",
+      "date": "2026-08-01T20:11:11Z"
+    },
+    {
+      "shortSha": "6c93015",
+      "message": "Refactor loading phases and improve texture priming",
+      "author": "Kasper",
+      "date": "2026-08-01T19:37:08Z"
+    },
     {
       "shortSha": "32ce1e8",
       "message": "refactor: Rename variables for clarity in multiple UI and AI controller files",
