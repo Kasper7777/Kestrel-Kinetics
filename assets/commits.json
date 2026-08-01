@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-01T21:07:56.392Z",
-  "commitCount": 1944,
+  "generatedAt": "2026-08-01T22:09:53.683Z",
+  "commitCount": 1947,
   "commits": [
+    {
+      "shortSha": "1e03f10",
+      "message": "feat: Enhance NPC speech handling with reading time ceiling and expiration logic; add diagnostics for card play failures",
+      "author": "Kasper",
+      "date": "2026-08-01T21:34:16Z"
+    },
+    {
+      "shortSha": "a3dae5b",
+      "message": "feat: Enhance subtitle fading and add continuous fade functionality; refactor beam component glow handling",
+      "author": "Kasper",
+      "date": "2026-08-01T21:12:39Z"
+    },
+    {
+      "shortSha": "96563cb",
+      "message": "feat: Add ClearAssemblyPreview function and enhance subtitle panel fade handling",
+      "author": "Kasper",
+      "date": "2026-08-01T21:00:58Z"
+    },
     {
       "shortSha": "ce8c65f",
       "message": "Refactor BattleBot movement logic for improved combat targeting and navigation",
