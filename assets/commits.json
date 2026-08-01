@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-01T22:09:53.683Z",
-  "commitCount": 1947,
+  "generatedAt": "2026-08-01T23:09:31.547Z",
+  "commitCount": 1949,
   "commits": [
+    {
+      "shortSha": "aaf3eac",
+      "message": "feat: Update road cell handling in enemy spawners and grid manager; include large road cells for surface verification",
+      "author": "Kasper",
+      "date": "2026-08-01T22:40:23Z"
+    },
+    {
+      "shortSha": "c81aa27",
+      "message": "Refactor item spawning and navigation checks",
+      "author": "Kasper",
+      "date": "2026-08-01T22:21:53Z"
+    },
     {
       "shortSha": "1e03f10",
       "message": "feat: Enhance NPC speech handling with reading time ceiling and expiration logic; add diagnostics for card play failures",
