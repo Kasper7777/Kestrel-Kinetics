@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-08-02T19:32:17.366Z",
-  "commitCount": 1953,
+  "generatedAt": "2026-08-02T21:09:12.537Z",
+  "commitCount": 1957,
   "commits": [
+    {
+      "shortSha": "e2cf6b1",
+      "message": "feat: Enhance item spawning and pickup mechanics; implement server authority checks and increase NPC limits",
+      "author": "Kasper",
+      "date": "2026-08-02T20:56:22Z"
+    },
+    {
+      "shortSha": "fd49c2d",
+      "message": "feat: Implement fade-in effect for BullyCurrentGridWidget; add properties for fade duration and activation",
+      "author": "Kasper",
+      "date": "2026-08-02T20:13:09Z"
+    },
+    {
+      "shortSha": "d1aa88d",
+      "message": "feat: Implement screen fade subsystem for level transitions; enhance UI and world fade handling",
+      "author": "Kasper",
+      "date": "2026-08-02T19:57:59Z"
+    },
+    {
+      "shortSha": "f391462",
+      "message": "feat: Enhance disk scaling and collision handling; ensure absolute scale and root component integrity during attachment",
+      "author": "Kasper",
+      "date": "2026-08-02T19:41:12Z"
+    },
     {
       "shortSha": "866f1af",
       "message": "feat: Implement arrival fade handling for level transitions; add camera fade controls and safety mechanisms",
