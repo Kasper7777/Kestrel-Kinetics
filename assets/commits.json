@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-02T17:13:17.373Z",
-  "commitCount": 1949,
+  "generatedAt": "2026-08-02T18:10:13.118Z",
+  "commitCount": 1950,
   "commits": [
+    {
+      "shortSha": "cde1bf8",
+      "message": "feat: Enhance enemy and NPC spawning logic to accept verified road surfaces without navmesh confirmation; improve loading screen input handling",
+      "author": "Kasper",
+      "date": "2026-08-02T18:06:14Z"
+    },
     {
       "shortSha": "aaf3eac",
       "message": "feat: Update road cell handling in enemy spawners and grid manager; include large road cells for surface verification",
