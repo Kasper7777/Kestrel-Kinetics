@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-02T21:09:12.537Z",
-  "commitCount": 1957,
+  "generatedAt": "2026-08-02T22:08:44.011Z",
+  "commitCount": 1959,
   "commits": [
+    {
+      "shortSha": "f650204",
+      "message": "feat: Implement bone health restoration from snapshot; enhance player state saving and loading mechanics",
+      "author": "Kasper",
+      "date": "2026-08-02T21:46:29Z"
+    },
+    {
+      "shortSha": "2eedcce",
+      "message": "feat: Implement civilian clustering for road tile spawns; enhance spawn logic for grouped AI behavior",
+      "author": "Kasper",
+      "date": "2026-08-02T21:33:22Z"
+    },
     {
       "shortSha": "e2cf6b1",
       "message": "feat: Enhance item spawning and pickup mechanics; implement server authority checks and increase NPC limits",
