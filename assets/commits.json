@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-02T18:10:13.118Z",
-  "commitCount": 1950,
+  "generatedAt": "2026-08-02T19:32:17.366Z",
+  "commitCount": 1953,
   "commits": [
+    {
+      "shortSha": "866f1af",
+      "message": "feat: Implement arrival fade handling for level transitions; add camera fade controls and safety mechanisms",
+      "author": "Kasper",
+      "date": "2026-08-02T19:28:13Z"
+    },
+    {
+      "shortSha": "7c74cc3",
+      "message": "feat: Add loading screen any-key continue functionality; introduce LoadingLevelContinueDestination property for seamless level transitions",
+      "author": "Kasper",
+      "date": "2026-08-02T18:36:01Z"
+    },
+    {
+      "shortSha": "52e6433",
+      "message": "feat: Enhance loading screen functionality with any-key continue support; improve input handling and prompt visibility",
+      "author": "Kasper",
+      "date": "2026-08-02T18:18:47Z"
+    },
     {
       "shortSha": "cde1bf8",
       "message": "feat: Enhance enemy and NPC spawning logic to accept verified road surfaces without navmesh confirmation; improve loading screen input handling",
