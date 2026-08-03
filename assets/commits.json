@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-03T17:18:57.614Z",
-  "commitCount": 1970,
+  "generatedAt": "2026-08-03T19:55:38.784Z",
+  "commitCount": 1972,
   "commits": [
+    {
+      "shortSha": "8e7db45",
+      "message": "feat: Add BumBagClasses support for trainer spawning and loadout management",
+      "author": "Kasper",
+      "date": "2026-08-03T19:42:28Z"
+    },
+    {
+      "shortSha": "2fc0e40",
+      "message": "feat: Enhance trainer spawning with dedicated armour classes for PDA and disk drive, and improve level loading handling",
+      "author": "Kasper",
+      "date": "2026-08-03T19:28:39Z"
+    },
     {
       "shortSha": "04043e7",
       "message": "feat: Refactor PDA view handling with IsHandFreeForPDAView check and update comments for clarity",
