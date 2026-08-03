@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-03T15:13:40.995Z",
-  "commitCount": 1968,
+  "generatedAt": "2026-08-03T17:18:57.614Z",
+  "commitCount": 1970,
   "commits": [
+    {
+      "shortSha": "04043e7",
+      "message": "feat: Refactor PDA view handling with IsHandFreeForPDAView check and update comments for clarity",
+      "author": "Kasper",
+      "date": "2026-08-03T16:37:49Z"
+    },
+    {
+      "shortSha": "48a58cc",
+      "message": "feat: Implement dedicated trainer spawning with pet disk assignment and configuration updates",
+      "author": "Kasper",
+      "date": "2026-08-03T16:37:30Z"
+    },
     {
       "shortSha": "c17aecc",
       "message": "feat: Enhance Bully Kutz subsystem with new animation time control, material mode options, and improved paperdoll processing",
