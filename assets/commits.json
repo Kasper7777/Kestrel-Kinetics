@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-03T21:20:23.711Z",
-  "commitCount": 1975,
+  "generatedAt": "2026-08-03T23:18:06.118Z",
+  "commitCount": 1978,
   "commits": [
+    {
+      "shortSha": "640e4a5",
+      "message": "Refactor BattleBot Trainer System",
+      "author": "Kasper",
+      "date": "2026-08-03T22:04:12Z"
+    },
+    {
+      "shortSha": "51763bd",
+      "message": "feat: Add texture compilation handling in BullyKutzSubsystem for editor mode",
+      "author": "Kasper",
+      "date": "2026-08-03T21:45:20Z"
+    },
+    {
+      "shortSha": "7ac5944",
+      "message": "feat: Add support for bum bag classes in trainer component and enemy spawner",
+      "author": "Kasper",
+      "date": "2026-08-03T21:31:35Z"
+    },
     {
       "shortSha": "4c17508",
       "message": "feat: Add Trainer AI Controller support to EnemyMaker and BattleBotTrainerSubsystem",
