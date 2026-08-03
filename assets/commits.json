@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-08-03T11:42:28.583Z",
-  "commitCount": 1963,
+  "generatedAt": "2026-08-03T15:13:40.995Z",
+  "commitCount": 1968,
   "commits": [
+    {
+      "shortSha": "c17aecc",
+      "message": "feat: Enhance Bully Kutz subsystem with new animation time control, material mode options, and improved paperdoll processing",
+      "author": "Kasper",
+      "date": "2026-08-03T13:58:35Z"
+    },
+    {
+      "shortSha": "9c096ae",
+      "message": "feat: Update Bully Kutz plugin with enhanced animation detection, improved framing settings, and new pre-save functionality",
+      "author": "Kasper",
+      "date": "2026-08-03T13:20:39Z"
+    },
+    {
+      "shortSha": "6d448e9",
+      "message": "feat: Enhance Bully Kutz functionality with designer preview, animation bool detection, and improved lighting settings",
+      "author": "Kasper",
+      "date": "2026-08-03T12:49:21Z"
+    },
+    {
+      "shortSha": "538efdf",
+      "message": "feat: Update Bully Kutz subsystem with new framing settings and disable beam-in effect during capture",
+      "author": "Kasper",
+      "date": "2026-08-03T12:19:34Z"
+    },
+    {
+      "shortSha": "18b7e72",
+      "message": "feat: Enhance BattleBotTerminal with network replication and sound playback improvements; add Bully Kutz image capture functionality",
+      "author": "Kasper",
+      "date": "2026-08-03T11:56:09Z"
+    },
     {
       "shortSha": "ff288f3",
       "message": "feat: Add disk flash component and sound effects for pet supply dispenser",
