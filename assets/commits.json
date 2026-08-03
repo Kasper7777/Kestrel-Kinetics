@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-03T19:55:38.784Z",
-  "commitCount": 1972,
+  "generatedAt": "2026-08-03T21:20:23.711Z",
+  "commitCount": 1975,
   "commits": [
+    {
+      "shortSha": "4c17508",
+      "message": "feat: Add Trainer AI Controller support to EnemyMaker and BattleBotTrainerSubsystem",
+      "author": "Kasper",
+      "date": "2026-08-03T20:48:11Z"
+    },
+    {
+      "shortSha": "578a9c8",
+      "message": "feat: Add support for refilling pet credits at terminals and enhance trainer AI controller handling",
+      "author": "Kasper",
+      "date": "2026-08-03T20:33:51Z"
+    },
+    {
+      "shortSha": "26c6ab6",
+      "message": "feat: Enhance arena spawning by adding height offset to prevent geometry clipping",
+      "author": "Kasper",
+      "date": "2026-08-03T20:07:41Z"
+    },
     {
       "shortSha": "8e7db45",
       "message": "feat: Add BumBagClasses support for trainer spawning and loadout management",
