@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-08-03T07:45:18.683Z",
-  "commitCount": 1959,
+  "generatedAt": "2026-08-03T11:42:28.583Z",
+  "commitCount": 1963,
   "commits": [
+    {
+      "shortSha": "ff288f3",
+      "message": "feat: Add disk flash component and sound effects for pet supply dispenser",
+      "author": "Kasper",
+      "date": "2026-08-03T11:16:10Z"
+    },
+    {
+      "shortSha": "895a7ef",
+      "message": "fix: Update play mode mappings and improve command cache handling",
+      "author": "Kasper",
+      "date": "2026-08-03T10:38:27Z"
+    },
+    {
+      "shortSha": "69be64c",
+      "message": "Add RiderLink and RiderLogging modules with initial implementations",
+      "author": "Kasper",
+      "date": "2026-08-03T10:31:36Z"
+    },
+    {
+      "shortSha": "9c099b9",
+      "message": "Remove deprecated RiderLink and RiderLogging modules",
+      "author": "Kasper",
+      "date": "2026-08-03T10:28:50Z"
+    },
     {
       "shortSha": "f650204",
       "message": "feat: Implement bone health restoration from snapshot; enhance player state saving and loading mechanics",
