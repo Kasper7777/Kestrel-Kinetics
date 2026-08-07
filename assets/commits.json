@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-07T18:00:34.710Z",
-  "commitCount": 1981,
+  "generatedAt": "2026-08-07T19:13:29.392Z",
+  "commitCount": 1982,
   "commits": [
+    {
+      "shortSha": "b7244ef",
+      "message": "feat: Implement weapon and item pickup methods to return success status and prevent multiple callback bindings in settings widget",
+      "author": "Kazber",
+      "date": "2026-08-07T18:06:12Z"
+    },
     {
       "shortSha": "9de142e",
       "message": "feat: Enhance loading screen functionality with failsafe for input prompts and improve actor rendering readiness checks",
