@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-07T19:58:33.249Z",
+  "generatedAt": "2026-08-07T20:57:09.220Z",
   "commitCount": 1984,
   "commits": [
+    {
+      "shortSha": "e3ef2ae",
+      "message": "refactor: Rename Brush variable to CurrentBrush for clarity in HidePlaceholderWhilePending and FinishCapture methods",
+      "author": "Kasper",
+      "date": "2026-08-07T19:58:20Z"
+    },
     {
       "shortSha": "d83eaa8",
       "message": "feat: Add HidePlaceholderWhilePending method to manage brush visibility during capture and update CalculateGroundedLocation to report ground detection status",
@@ -8395,12 +8401,6 @@
       "message": "Add weapon pickup handling in UManicTaskPickupTarget",
       "author": "Kazber",
       "date": "2025-12-29T08:36:18Z"
-    },
-    {
-      "shortSha": "228182a",
-      "message": "Refactor UManicTaskPickupTarget logging and update pickup parameters",
-      "author": "Kazber",
-      "date": "2025-12-29T06:42:02Z"
     },
     {
       "shortSha": "228182a",
