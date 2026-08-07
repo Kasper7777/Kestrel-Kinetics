@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-07T19:13:29.392Z",
-  "commitCount": 1982,
+  "generatedAt": "2026-08-07T19:58:33.249Z",
+  "commitCount": 1984,
   "commits": [
+    {
+      "shortSha": "d83eaa8",
+      "message": "feat: Add HidePlaceholderWhilePending method to manage brush visibility during capture and update CalculateGroundedLocation to report ground detection status",
+      "author": "Kazber",
+      "date": "2026-08-07T19:37:25Z"
+    },
     {
       "shortSha": "b7244ef",
       "message": "feat: Implement weapon and item pickup methods to return success status and prevent multiple callback bindings in settings widget",
@@ -8389,6 +8395,12 @@
       "message": "Add weapon pickup handling in UManicTaskPickupTarget",
       "author": "Kazber",
       "date": "2025-12-29T08:36:18Z"
+    },
+    {
+      "shortSha": "228182a",
+      "message": "Refactor UManicTaskPickupTarget logging and update pickup parameters",
+      "author": "Kazber",
+      "date": "2025-12-29T06:42:02Z"
     },
     {
       "shortSha": "228182a",
