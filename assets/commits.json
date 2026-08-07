@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-07T20:57:09.220Z",
-  "commitCount": 1984,
+  "generatedAt": "2026-08-07T21:53:57.078Z",
+  "commitCount": 1985,
   "commits": [
+    {
+      "shortSha": "a3e5033",
+      "message": "feat: Enhance screen fade subsystem with carried cover grace management and loading screen readiness checks",
+      "author": "Kasper",
+      "date": "2026-08-07T21:37:09Z"
+    },
     {
       "shortSha": "e3ef2ae",
       "message": "refactor: Rename Brush variable to CurrentBrush for clarity in HidePlaceholderWhilePending and FinishCapture methods",
