@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-08T17:44:41.637Z",
-  "commitCount": 1992,
+  "generatedAt": "2026-08-08T18:56:53.994Z",
+  "commitCount": 1993,
   "commits": [
+    {
+      "shortSha": "4d7121d",
+      "message": "feat: Enhance aiming mechanics for ACBEnemy and CBIonPainter, adding aim trimming and prerequisite checks for weapon pickup",
+      "author": "Kasper",
+      "date": "2026-08-08T18:03:32Z"
+    },
     {
       "shortSha": "4ea57fa",
       "message": "feat: Disable overlap events for skeletal meshes to optimize performance and reduce unnecessary scene queries",
