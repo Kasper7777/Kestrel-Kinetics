@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-08T14:48:41.215Z",
-  "commitCount": 1990,
+  "generatedAt": "2026-08-08T15:43:52.558Z",
+  "commitCount": 1991,
   "commits": [
+    {
+      "shortSha": "e01d004",
+      "message": "feat: Add DefaultScalability.ini for improved graphics settings management and performance mode adjustments",
+      "author": "Kasper",
+      "date": "2026-08-08T15:24:49Z"
+    },
     {
       "shortSha": "bbcd8ce",
       "message": "feat: Reorganize settings layout to prioritize performance options for improved user experience",
