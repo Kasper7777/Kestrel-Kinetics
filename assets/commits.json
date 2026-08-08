@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-08T13:10:19.134Z",
-  "commitCount": 1989,
+  "generatedAt": "2026-08-08T13:55:25.717Z",
+  "commitCount": 1990,
   "commits": [
+    {
+      "shortSha": "bbcd8ce",
+      "message": "feat: Reorganize settings layout to prioritize performance options for improved user experience",
+      "author": "Kasper",
+      "date": "2026-08-08T13:53:10Z"
+    },
     {
       "shortSha": "76b50b3",
       "message": "feat: Add debug draw option for attack aim and mesh forward lines in Knife, Punch, and SubMachineGun attack components",
