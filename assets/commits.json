@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-08T15:43:52.558Z",
-  "commitCount": 1991,
+  "generatedAt": "2026-08-08T16:50:10.922Z",
+  "commitCount": 1992,
   "commits": [
+    {
+      "shortSha": "4ea57fa",
+      "message": "feat: Disable overlap events for skeletal meshes to optimize performance and reduce unnecessary scene queries",
+      "author": "Kasper",
+      "date": "2026-08-08T16:09:01Z"
+    },
     {
       "shortSha": "e01d004",
       "message": "feat: Add DefaultScalability.ini for improved graphics settings management and performance mode adjustments",
