@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-08T22:44:57.990Z",
-  "commitCount": 1995,
+  "generatedAt": "2026-08-08T23:43:35.975Z",
+  "commitCount": 1998,
   "commits": [
+    {
+      "shortSha": "bc304bf",
+      "message": "feat: Enhance civilian behavior pathfinding with retry timer and failure handling",
+      "author": "Kasper",
+      "date": "2026-08-08T23:27:52Z"
+    },
+    {
+      "shortSha": "760753b",
+      "message": "Refactor item spawner logging and debug options",
+      "author": "Kasper",
+      "date": "2026-08-08T23:10:59Z"
+    },
+    {
+      "shortSha": "9367896",
+      "message": "Refactor loading screen management to use core ticker for retries",
+      "author": "Kasper",
+      "date": "2026-08-08T22:45:39Z"
+    },
     {
       "shortSha": "3f3b25a",
       "message": "feat: Implement city setup gate functionality to manage world pause during city build process",
