@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-08T09:52:52.571Z",
-  "commitCount": 1985,
+  "generatedAt": "2026-08-08T10:49:40.904Z",
+  "commitCount": 1988,
   "commits": [
+    {
+      "shortSha": "d24cd04",
+      "message": "feat: Implement FPS counter widget and integrate into game viewport for real-time frame rate display",
+      "author": "Kasper",
+      "date": "2026-08-08T10:48:40Z"
+    },
+    {
+      "shortSha": "dc5c94f",
+      "message": "feat: Optimize NPC retrieval and physics handling across multiple components",
+      "author": "Kasper",
+      "date": "2026-08-08T10:25:11Z"
+    },
+    {
+      "shortSha": "27c2b44",
+      "message": "Refactor enemy and player character systems for improved performance and logging",
+      "author": "Kasper",
+      "date": "2026-08-08T10:00:17Z"
+    },
     {
       "shortSha": "a3e5033",
       "message": "feat: Enhance screen fade subsystem with carried cover grace management and loading screen readiness checks",
