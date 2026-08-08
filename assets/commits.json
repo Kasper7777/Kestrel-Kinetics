@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-08T10:49:40.904Z",
-  "commitCount": 1988,
+  "generatedAt": "2026-08-08T11:40:45.088Z",
+  "commitCount": 1989,
   "commits": [
+    {
+      "shortSha": "76b50b3",
+      "message": "feat: Add debug draw option for attack aim and mesh forward lines in Knife, Punch, and SubMachineGun attack components",
+      "author": "Kasper",
+      "date": "2026-08-08T11:02:28Z"
+    },
     {
       "shortSha": "d24cd04",
       "message": "feat: Implement FPS counter widget and integrate into game viewport for real-time frame rate display",
