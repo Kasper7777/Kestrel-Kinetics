@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-08T20:46:32.103Z",
-  "commitCount": 1993,
+  "generatedAt": "2026-08-08T21:44:12.275Z",
+  "commitCount": 1995,
   "commits": [
+    {
+      "shortSha": "3f3b25a",
+      "message": "feat: Implement city setup gate functionality to manage world pause during city build process",
+      "author": "Kasper",
+      "date": "2026-08-08T21:38:17Z"
+    },
+    {
+      "shortSha": "6bfa9e5",
+      "message": "feat: Implement grid cell layout caching and precaching for improved performance",
+      "author": "Kasper",
+      "date": "2026-08-08T20:53:20Z"
+    },
     {
       "shortSha": "4d7121d",
       "message": "feat: Enhance aiming mechanics for ACBEnemy and CBIonPainter, adding aim trimming and prerequisite checks for weapon pickup",
