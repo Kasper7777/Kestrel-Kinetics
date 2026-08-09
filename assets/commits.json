@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-09T17:46:12.257Z",
-  "commitCount": 2007,
+  "generatedAt": "2026-08-09T18:59:01.083Z",
+  "commitCount": 2008,
   "commits": [
+    {
+      "shortSha": "bd4e6da",
+      "message": "feat: Implement story NPC behavior with spotting mechanics and animations",
+      "author": "Kasper",
+      "date": "2026-08-09T18:43:48Z"
+    },
     {
       "shortSha": "d55e161",
       "message": "feat: Add attention-getting behavior and gift/drop mechanics to CBStoryNPCComponent",
