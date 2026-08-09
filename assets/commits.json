@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-09T13:58:04.360Z",
-  "commitCount": 2004,
+  "generatedAt": "2026-08-09T14:51:05.520Z",
+  "commitCount": 2005,
   "commits": [
+    {
+      "shortSha": "66be5ca",
+      "message": "feat: Add audio support for trolley movement with rolling and stop sounds",
+      "author": "Kasper",
+      "date": "2026-08-09T14:36:19Z"
+    },
     {
       "shortSha": "2da5e52",
       "message": "feat: Implement pause-independent ticker for city setup gate arrival retries",
