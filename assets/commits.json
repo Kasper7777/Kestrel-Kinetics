@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-09T19:47:06.943Z",
-  "commitCount": 2012,
+  "generatedAt": "2026-08-09T20:50:03.214Z",
+  "commitCount": 2015,
   "commits": [
+    {
+      "shortSha": "d47c6a3",
+      "message": "feat: Enhance NPC audio handling with Overtone integration and distance-based subtitle scaling",
+      "author": "Kasper",
+      "date": "2026-08-09T20:40:39Z"
+    },
+    {
+      "shortSha": "5d7c5b1",
+      "message": "feat: Enhance NPC dialogue system with distance-based scaling and opacity for subtitles",
+      "author": "Kasper",
+      "date": "2026-08-09T20:20:40Z"
+    },
+    {
+      "shortSha": "d73e439",
+      "message": "feat: Implement dialogue line variations for NPCs to enhance speech diversity",
+      "author": "Kasper",
+      "date": "2026-08-09T19:53:12Z"
+    },
     {
       "shortSha": "ecb40ba",
       "message": "feat: Add ClothingActor include to CBEnemy for clothing functionality",
