@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-09T20:50:03.214Z",
-  "commitCount": 2015,
+  "generatedAt": "2026-08-09T21:46:05.426Z",
+  "commitCount": 2018,
   "commits": [
+    {
+      "shortSha": "36cb3e4",
+      "message": "feat: Refactor subtitle color adjustment for improved readability with distance-based brightness",
+      "author": "Kasper",
+      "date": "2026-08-09T21:20:09Z"
+    },
+    {
+      "shortSha": "35373f5",
+      "message": "feat: Enhance NPC movement and subtitle visibility with distance-based brightness adjustments",
+      "author": "Kasper",
+      "date": "2026-08-09T21:14:03Z"
+    },
+    {
+      "shortSha": "8bf3df0",
+      "message": "feat: Implement post-dialogue actions for NPCs, including leaving and hostility transitions",
+      "author": "Kasper",
+      "date": "2026-08-09T20:52:13Z"
+    },
     {
       "shortSha": "d47c6a3",
       "message": "feat: Enhance NPC audio handling with Overtone integration and distance-based subtitle scaling",
