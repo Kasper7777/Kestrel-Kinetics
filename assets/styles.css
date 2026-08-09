@@ -12,6 +12,13 @@
   --accent-dim: #8f4257;
   --ok: #9cab7d;
   --error: #c47a68;
+  /* Sequential ramp for commit density: one hue, light to dark, validated for
+     monotone lightness and a 2:1 floor against the panel surface. */
+  --heat-0: #241f1a;
+  --heat-1: #78404e;
+  --heat-2: #9d4f65;
+  --heat-3: #c15f7b;
+  --heat-4: #e06c8f;
   --font-body: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-mono: ui-monospace, "Cascadia Code", "Consolas", "SFMono-Regular", Menlo, monospace;
   font-family: var(--font-body);
@@ -994,6 +1001,405 @@ dd {
   font-weight: 500;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.development {
+  display: block;
+}
+
+.development .section-heading {
+  margin-bottom: clamp(1.75rem, 4vw, 2.75rem);
+}
+
+.development-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(19rem, 1fr);
+  gap: clamp(1.75rem, 4vw, 3.25rem);
+  align-items: start;
+}
+
+/* Long commit subjects would otherwise set the column's minimum width and push
+   the whole section past the viewport on narrow screens. */
+.development-layout > *,
+.commit-list,
+.commit-item {
+  min-width: 0;
+}
+
+.commit-list {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+/* Some commit subjects embed a full file path with no spaces; "anywhere" also
+   shrinks the min-content width, which "break-word" does not. */
+.commit-title {
+  overflow-wrap: anywhere;
+}
+
+.development-metrics {
+  position: relative;
+  border-left: 3px solid var(--accent);
+  padding-left: 1rem;
+}
+
+.metrics-status {
+  margin: 0;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+}
+
+.metrics-body {
+  display: grid;
+  gap: clamp(1.5rem, 3vw, 2.25rem);
+}
+
+.metrics-body[hidden] {
+  display: none;
+}
+
+.metric-hero-value {
+  display: block;
+  color: var(--text);
+  font-size: clamp(3rem, 7vw, 4.5rem);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+}
+
+.metric-hero-label {
+  display: block;
+  margin-top: 0.4rem;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.metric-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  gap: 1px;
+  margin: 0;
+  border: 1px solid var(--line);
+  background: var(--line);
+}
+
+.metric-tile {
+  padding: 0.85rem 0.9rem;
+  background: var(--panel);
+}
+
+.metric-tile dt {
+  margin-bottom: 0.45rem;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+}
+
+.metric-tile dd {
+  margin: 0;
+}
+
+.metric-value {
+  display: block;
+  color: var(--text);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.05;
+}
+
+.metric-note {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  line-height: 1.4;
+}
+
+.metric-note.is-up {
+  color: var(--ok);
+}
+
+.chart {
+  display: grid;
+  gap: 0.85rem;
+  margin: 0;
+}
+
+.chart-caption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.3rem 1rem;
+}
+
+.chart-title {
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.chart-subtitle {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+}
+
+.heatmap-scroll {
+  overflow-x: auto;
+  padding-bottom: 0.15rem;
+}
+
+.heatmap {
+  --heat-cell: clamp(9px, 1.05vw, 13px);
+  border-collapse: separate;
+  border-spacing: 3px;
+}
+
+.heatmap th {
+  padding: 0;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 500;
+}
+
+.heat-weekday {
+  padding-right: 0.35rem;
+  text-align: right;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.heat-month {
+  position: relative;
+  height: 0.95rem;
+  text-align: left;
+}
+
+.heat-month span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  white-space: nowrap;
+}
+
+.heat-cell {
+  width: var(--heat-cell);
+  height: var(--heat-cell);
+  padding: 0;
+  border-radius: 2px;
+  background: var(--heat-0);
+}
+
+.heat-cell.is-future {
+  background: transparent;
+}
+
+.heat-cell:hover {
+  box-shadow: 0 0 0 1px var(--text);
+}
+
+.heat-cell:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 1px;
+}
+
+.heat-legend {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin: 0;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+}
+
+.heat-legend-swatch {
+  width: 11px;
+  height: 11px;
+  border-radius: 2px;
+}
+
+.heat-cell[data-level="0"],
+.heat-legend-swatch[data-level="0"] {
+  background: var(--heat-0);
+}
+
+.heat-cell[data-level="1"],
+.heat-legend-swatch[data-level="1"] {
+  background: var(--heat-1);
+}
+
+.heat-cell[data-level="2"],
+.heat-legend-swatch[data-level="2"] {
+  background: var(--heat-2);
+}
+
+.heat-cell[data-level="3"],
+.heat-legend-swatch[data-level="3"] {
+  background: var(--heat-3);
+}
+
+.heat-cell[data-level="4"],
+.heat-legend-swatch[data-level="4"] {
+  background: var(--heat-4);
+}
+
+.month-chart {
+  position: relative;
+  padding-left: 2.4rem;
+}
+
+.month-grid {
+  position: absolute;
+  top: 1.25rem;
+  right: 0;
+  bottom: 1.5rem;
+  left: 2.4rem;
+}
+
+.month-gridline {
+  position: absolute;
+  right: 0;
+  left: 0;
+  border-top: 1px solid var(--line);
+}
+
+.month-gridline.is-base {
+  bottom: 0;
+  border-top-color: var(--line-strong);
+}
+
+.month-gridline.is-top {
+  top: 0;
+}
+
+.month-gridline i {
+  position: absolute;
+  top: -0.65em;
+  right: calc(100% + 0.5rem);
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-style: normal;
+  font-variant-numeric: tabular-nums;
+}
+
+.month-bars,
+.month-axis {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 2px;
+}
+
+.month-bars {
+  position: relative;
+  height: 8.5rem;
+  /* Headroom so the peak's direct label never rides out of the plot box. */
+  padding-top: 1.25rem;
+  align-items: end;
+}
+
+.month-col {
+  position: relative;
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.month-col:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
+}
+
+.month-bar {
+  width: 100%;
+  max-width: 24px;
+  border-radius: 4px 4px 0 0;
+  background: var(--heat-4);
+  transition: filter 140ms ease;
+}
+
+.month-bar.has-value {
+  min-height: 3px;
+}
+
+.month-col:hover .month-bar,
+.month-col:focus-visible .month-bar {
+  filter: brightness(1.18);
+}
+
+.month-value {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  white-space: nowrap;
+}
+
+.month-axis {
+  height: 1.5rem;
+  align-items: center;
+}
+
+.month-axis span {
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: clamp(0.55rem, 1vw, 0.68rem);
+  text-align: center;
+}
+
+.chart-tip {
+  position: absolute;
+  z-index: 4;
+  border: 1px solid var(--line-strong);
+  padding: 0.4rem 0.6rem;
+  background: rgba(13, 12, 10, 0.96);
+  pointer-events: none;
+  transform: translate(-50%, -100%);
+  white-space: nowrap;
+}
+
+.chart-tip[hidden] {
+  display: none;
+}
+
+.chart-tip strong {
+  display: block;
+  color: var(--text);
+  font-size: 0.92rem;
+  line-height: 1.2;
+}
+
+.chart-tip span {
+  display: block;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+}
+
 .site-footer {
   display: flex;
   flex-wrap: wrap;
@@ -1023,9 +1429,14 @@ dd {
   .section-heading,
   .press-band,
   .development,
+  .development-layout,
   .systems-list article,
   .project-panel {
     grid-template-columns: 1fr;
+  }
+
+  .month-bars {
+    height: 7rem;
   }
 
   .project-copy {

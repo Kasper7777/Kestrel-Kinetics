@@ -194,12 +194,75 @@
           <p class="eyebrow">Development log</p>
           <h2>Progress, without the noise.</h2>
         </div>
-        <div class="development-panel">
-          <div class="development-summary">
-            <p data-commit-summary>Loading the Manic Monday's development history.</p>
+        <div class="development-layout">
+          <div class="development-metrics" data-metrics>
+            <p class="metrics-status" data-metrics-status>Reading the commit history...</p>
+            <div class="metrics-body" data-metrics-body hidden>
+              <div class="metric-hero">
+                <span class="metric-hero-value" data-metric-total>0</span>
+                <span class="metric-hero-label">Commits since <span data-metric-since>the first build</span></span>
+              </div>
+
+              <dl class="metric-tiles">
+                <div class="metric-tile">
+                  <dt>Last 30 days</dt>
+                  <dd>
+                    <span class="metric-value" data-metric-recent>0</span>
+                    <span class="metric-note" data-metric-trend></span>
+                  </dd>
+                </div>
+                <div class="metric-tile">
+                  <dt>Active days</dt>
+                  <dd>
+                    <span class="metric-value" data-metric-active>0</span>
+                    <span class="metric-note" data-metric-active-note></span>
+                  </dd>
+                </div>
+                <div class="metric-tile">
+                  <dt>Longest streak</dt>
+                  <dd>
+                    <span class="metric-value" data-metric-streak>0</span>
+                    <span class="metric-note" data-metric-streak-note></span>
+                  </dd>
+                </div>
+                <div class="metric-tile">
+                  <dt>Busiest day</dt>
+                  <dd>
+                    <span class="metric-value" data-metric-peak>0</span>
+                    <span class="metric-note" data-metric-peak-note></span>
+                  </dd>
+                </div>
+              </dl>
+
+              <figure class="chart">
+                <figcaption class="chart-caption">
+                  <span class="chart-title">Commits per day</span>
+                  <span class="chart-subtitle" data-heat-range></span>
+                </figcaption>
+                <div class="heatmap-scroll">
+                  <table class="heatmap" data-heatmap></table>
+                </div>
+                <p class="heat-legend" data-heat-legend></p>
+              </figure>
+
+              <figure class="chart">
+                <figcaption class="chart-caption">
+                  <span class="chart-title">Commits per month</span>
+                  <span class="chart-subtitle" data-month-range></span>
+                </figcaption>
+                <div class="month-chart" data-month-chart></div>
+              </figure>
+            </div>
+            <div class="chart-tip" data-chart-tip aria-hidden="true" hidden></div>
           </div>
-          <p class="commit-status" data-commit-status>Syncing development log...</p>
-          <ol class="commit-list" data-commit-list aria-live="polite"></ol>
+
+          <div class="development-panel">
+            <div class="development-summary">
+              <p data-commit-summary>Loading the Manic Monday's development history.</p>
+            </div>
+            <p class="commit-status" data-commit-status>Syncing development log...</p>
+            <ol class="commit-list" data-commit-list aria-live="polite"></ol>
+          </div>
         </div>
       </section>
     </main>
