@@ -1,670 +1,4528 @@
 {
-  "generatedAt": "2026-06-27T00:19:33.322Z",
-  "commitCount": 1355,
+  "generatedAt": "2026-08-09T09:00:37.792Z",
+  "commitCount": 1998,
   "commits": [
     {
-      "shortSha": "17eb0e7",
+      "shortSha": "bc304bf",
+      "message": "feat: Enhance civilian behavior pathfinding with retry timer and failure handling",
+      "author": "Kasper",
+      "date": "2026-08-08T23:27:52Z"
+    },
+    {
+      "shortSha": "760753b",
+      "message": "Refactor item spawner logging and debug options",
+      "author": "Kasper",
+      "date": "2026-08-08T23:10:59Z"
+    },
+    {
+      "shortSha": "9367896",
+      "message": "Refactor loading screen management to use core ticker for retries",
+      "author": "Kasper",
+      "date": "2026-08-08T22:45:39Z"
+    },
+    {
+      "shortSha": "3f3b25a",
+      "message": "feat: Implement city setup gate functionality to manage world pause during city build process",
+      "author": "Kasper",
+      "date": "2026-08-08T21:38:17Z"
+    },
+    {
+      "shortSha": "6bfa9e5",
+      "message": "feat: Implement grid cell layout caching and precaching for improved performance",
+      "author": "Kasper",
+      "date": "2026-08-08T20:53:20Z"
+    },
+    {
+      "shortSha": "4d7121d",
+      "message": "feat: Enhance aiming mechanics for ACBEnemy and CBIonPainter, adding aim trimming and prerequisite checks for weapon pickup",
+      "author": "Kasper",
+      "date": "2026-08-08T18:03:32Z"
+    },
+    {
+      "shortSha": "4ea57fa",
+      "message": "feat: Disable overlap events for skeletal meshes to optimize performance and reduce unnecessary scene queries",
+      "author": "Kasper",
+      "date": "2026-08-08T16:09:01Z"
+    },
+    {
+      "shortSha": "e01d004",
+      "message": "feat: Add DefaultScalability.ini for improved graphics settings management and performance mode adjustments",
+      "author": "Kasper",
+      "date": "2026-08-08T15:24:49Z"
+    },
+    {
+      "shortSha": "bbcd8ce",
+      "message": "feat: Reorganize settings layout to prioritize performance options for improved user experience",
+      "author": "Kasper",
+      "date": "2026-08-08T13:53:10Z"
+    },
+    {
+      "shortSha": "76b50b3",
+      "message": "feat: Add debug draw option for attack aim and mesh forward lines in Knife, Punch, and SubMachineGun attack components",
+      "author": "Kasper",
+      "date": "2026-08-08T11:02:28Z"
+    },
+    {
+      "shortSha": "d24cd04",
+      "message": "feat: Implement FPS counter widget and integrate into game viewport for real-time frame rate display",
+      "author": "Kasper",
+      "date": "2026-08-08T10:48:40Z"
+    },
+    {
+      "shortSha": "dc5c94f",
+      "message": "feat: Optimize NPC retrieval and physics handling across multiple components",
+      "author": "Kasper",
+      "date": "2026-08-08T10:25:11Z"
+    },
+    {
+      "shortSha": "27c2b44",
+      "message": "Refactor enemy and player character systems for improved performance and logging",
+      "author": "Kasper",
+      "date": "2026-08-08T10:00:17Z"
+    },
+    {
+      "shortSha": "a3e5033",
+      "message": "feat: Enhance screen fade subsystem with carried cover grace management and loading screen readiness checks",
+      "author": "Kasper",
+      "date": "2026-08-07T21:37:09Z"
+    },
+    {
+      "shortSha": "e3ef2ae",
+      "message": "refactor: Rename Brush variable to CurrentBrush for clarity in HidePlaceholderWhilePending and FinishCapture methods",
+      "author": "Kasper",
+      "date": "2026-08-07T19:58:20Z"
+    },
+    {
+      "shortSha": "d83eaa8",
+      "message": "feat: Add HidePlaceholderWhilePending method to manage brush visibility during capture and update CalculateGroundedLocation to report ground detection status",
+      "author": "Kazber",
+      "date": "2026-08-07T19:37:25Z"
+    },
+    {
+      "shortSha": "b7244ef",
+      "message": "feat: Implement weapon and item pickup methods to return success status and prevent multiple callback bindings in settings widget",
+      "author": "Kazber",
+      "date": "2026-08-07T18:06:12Z"
+    },
+    {
+      "shortSha": "9de142e",
+      "message": "feat: Enhance loading screen functionality with failsafe for input prompts and improve actor rendering readiness checks",
+      "author": "Kazber",
+      "date": "2026-08-07T17:54:58Z"
+    },
+    {
+      "shortSha": "eb3d15b",
+      "message": "feat: Implement EndPlay method in ClothingActor and update timer handling in various components",
+      "author": "Kazber",
+      "date": "2026-08-07T17:44:08Z"
+    },
+    {
+      "shortSha": "2eb1561",
+      "message": "Refactor loading screen and fade transitions for smoother experience",
+      "author": "Kazber",
+      "date": "2026-08-06T23:29:53Z"
+    },
+    {
+      "shortSha": "640e4a5",
+      "message": "Refactor BattleBot Trainer System",
+      "author": "Kasper",
+      "date": "2026-08-03T22:04:12Z"
+    },
+    {
+      "shortSha": "51763bd",
+      "message": "feat: Add texture compilation handling in BullyKutzSubsystem for editor mode",
+      "author": "Kasper",
+      "date": "2026-08-03T21:45:20Z"
+    },
+    {
+      "shortSha": "7ac5944",
+      "message": "feat: Add support for bum bag classes in trainer component and enemy spawner",
+      "author": "Kasper",
+      "date": "2026-08-03T21:31:35Z"
+    },
+    {
+      "shortSha": "4c17508",
+      "message": "feat: Add Trainer AI Controller support to EnemyMaker and BattleBotTrainerSubsystem",
+      "author": "Kasper",
+      "date": "2026-08-03T20:48:11Z"
+    },
+    {
+      "shortSha": "578a9c8",
+      "message": "feat: Add support for refilling pet credits at terminals and enhance trainer AI controller handling",
+      "author": "Kasper",
+      "date": "2026-08-03T20:33:51Z"
+    },
+    {
+      "shortSha": "26c6ab6",
+      "message": "feat: Enhance arena spawning by adding height offset to prevent geometry clipping",
+      "author": "Kasper",
+      "date": "2026-08-03T20:07:41Z"
+    },
+    {
+      "shortSha": "8e7db45",
+      "message": "feat: Add BumBagClasses support for trainer spawning and loadout management",
+      "author": "Kasper",
+      "date": "2026-08-03T19:42:28Z"
+    },
+    {
+      "shortSha": "2fc0e40",
+      "message": "feat: Enhance trainer spawning with dedicated armour classes for PDA and disk drive, and improve level loading handling",
+      "author": "Kasper",
+      "date": "2026-08-03T19:28:39Z"
+    },
+    {
+      "shortSha": "04043e7",
+      "message": "feat: Refactor PDA view handling with IsHandFreeForPDAView check and update comments for clarity",
+      "author": "Kasper",
+      "date": "2026-08-03T16:37:49Z"
+    },
+    {
+      "shortSha": "48a58cc",
+      "message": "feat: Implement dedicated trainer spawning with pet disk assignment and configuration updates",
+      "author": "Kasper",
+      "date": "2026-08-03T16:37:30Z"
+    },
+    {
+      "shortSha": "c17aecc",
+      "message": "feat: Enhance Bully Kutz subsystem with new animation time control, material mode options, and improved paperdoll processing",
+      "author": "Kasper",
+      "date": "2026-08-03T13:58:35Z"
+    },
+    {
+      "shortSha": "9c096ae",
+      "message": "feat: Update Bully Kutz plugin with enhanced animation detection, improved framing settings, and new pre-save functionality",
+      "author": "Kasper",
+      "date": "2026-08-03T13:20:39Z"
+    },
+    {
+      "shortSha": "6d448e9",
+      "message": "feat: Enhance Bully Kutz functionality with designer preview, animation bool detection, and improved lighting settings",
+      "author": "Kasper",
+      "date": "2026-08-03T12:49:21Z"
+    },
+    {
+      "shortSha": "538efdf",
+      "message": "feat: Update Bully Kutz subsystem with new framing settings and disable beam-in effect during capture",
+      "author": "Kasper",
+      "date": "2026-08-03T12:19:34Z"
+    },
+    {
+      "shortSha": "18b7e72",
+      "message": "feat: Enhance BattleBotTerminal with network replication and sound playback improvements; add Bully Kutz image capture functionality",
+      "author": "Kasper",
+      "date": "2026-08-03T11:56:09Z"
+    },
+    {
+      "shortSha": "ff288f3",
+      "message": "feat: Add disk flash component and sound effects for pet supply dispenser",
+      "author": "Kasper",
+      "date": "2026-08-03T11:16:10Z"
+    },
+    {
+      "shortSha": "895a7ef",
+      "message": "fix: Update play mode mappings and improve command cache handling",
+      "author": "Kasper",
+      "date": "2026-08-03T10:38:27Z"
+    },
+    {
+      "shortSha": "69be64c",
+      "message": "Add RiderLink and RiderLogging modules with initial implementations",
+      "author": "Kasper",
+      "date": "2026-08-03T10:31:36Z"
+    },
+    {
+      "shortSha": "9c099b9",
+      "message": "Remove deprecated RiderLink and RiderLogging modules",
+      "author": "Kasper",
+      "date": "2026-08-03T10:28:50Z"
+    },
+    {
+      "shortSha": "f650204",
+      "message": "feat: Implement bone health restoration from snapshot; enhance player state saving and loading mechanics",
+      "author": "Kasper",
+      "date": "2026-08-02T21:46:29Z"
+    },
+    {
+      "shortSha": "2eedcce",
+      "message": "feat: Implement civilian clustering for road tile spawns; enhance spawn logic for grouped AI behavior",
+      "author": "Kasper",
+      "date": "2026-08-02T21:33:22Z"
+    },
+    {
+      "shortSha": "e2cf6b1",
+      "message": "feat: Enhance item spawning and pickup mechanics; implement server authority checks and increase NPC limits",
+      "author": "Kasper",
+      "date": "2026-08-02T20:56:22Z"
+    },
+    {
+      "shortSha": "fd49c2d",
+      "message": "feat: Implement fade-in effect for BullyCurrentGridWidget; add properties for fade duration and activation",
+      "author": "Kasper",
+      "date": "2026-08-02T20:13:09Z"
+    },
+    {
+      "shortSha": "d1aa88d",
+      "message": "feat: Implement screen fade subsystem for level transitions; enhance UI and world fade handling",
+      "author": "Kasper",
+      "date": "2026-08-02T19:57:59Z"
+    },
+    {
+      "shortSha": "f391462",
+      "message": "feat: Enhance disk scaling and collision handling; ensure absolute scale and root component integrity during attachment",
+      "author": "Kasper",
+      "date": "2026-08-02T19:41:12Z"
+    },
+    {
+      "shortSha": "866f1af",
+      "message": "feat: Implement arrival fade handling for level transitions; add camera fade controls and safety mechanisms",
+      "author": "Kasper",
+      "date": "2026-08-02T19:28:13Z"
+    },
+    {
+      "shortSha": "7c74cc3",
+      "message": "feat: Add loading screen any-key continue functionality; introduce LoadingLevelContinueDestination property for seamless level transitions",
+      "author": "Kasper",
+      "date": "2026-08-02T18:36:01Z"
+    },
+    {
+      "shortSha": "52e6433",
+      "message": "feat: Enhance loading screen functionality with any-key continue support; improve input handling and prompt visibility",
+      "author": "Kasper",
+      "date": "2026-08-02T18:18:47Z"
+    },
+    {
+      "shortSha": "cde1bf8",
+      "message": "feat: Enhance enemy and NPC spawning logic to accept verified road surfaces without navmesh confirmation; improve loading screen input handling",
+      "author": "Kasper",
+      "date": "2026-08-02T18:06:14Z"
+    },
+    {
+      "shortSha": "aaf3eac",
+      "message": "feat: Update road cell handling in enemy spawners and grid manager; include large road cells for surface verification",
+      "author": "Kasper",
+      "date": "2026-08-01T22:40:23Z"
+    },
+    {
+      "shortSha": "c81aa27",
+      "message": "Refactor item spawning and navigation checks",
+      "author": "Kasper",
+      "date": "2026-08-01T22:21:53Z"
+    },
+    {
+      "shortSha": "1e03f10",
+      "message": "feat: Enhance NPC speech handling with reading time ceiling and expiration logic; add diagnostics for card play failures",
+      "author": "Kasper",
+      "date": "2026-08-01T21:34:16Z"
+    },
+    {
+      "shortSha": "a3dae5b",
+      "message": "feat: Enhance subtitle fading and add continuous fade functionality; refactor beam component glow handling",
+      "author": "Kasper",
+      "date": "2026-08-01T21:12:39Z"
+    },
+    {
+      "shortSha": "96563cb",
+      "message": "feat: Add ClearAssemblyPreview function and enhance subtitle panel fade handling",
+      "author": "Kasper",
+      "date": "2026-08-01T21:00:58Z"
+    },
+    {
+      "shortSha": "ce8c65f",
+      "message": "Refactor BattleBot movement logic for improved combat targeting and navigation",
+      "author": "Kasper",
+      "date": "2026-08-01T20:47:32Z"
+    },
+    {
+      "shortSha": "55eff78",
+      "message": "feat: Implement per-slot armour management for Battle Bot components",
+      "author": "Kasper",
+      "date": "2026-08-01T20:41:34Z"
+    },
+    {
+      "shortSha": "617dcee",
+      "message": "feat: Enhance Battle Bot assembly and damage handling systems",
+      "author": "Kasper",
+      "date": "2026-08-01T20:11:11Z"
+    },
+    {
+      "shortSha": "6c93015",
+      "message": "Refactor loading phases and improve texture priming",
+      "author": "Kasper",
+      "date": "2026-08-01T19:37:08Z"
+    },
+    {
+      "shortSha": "32ce1e8",
+      "message": "refactor: Rename variables for clarity in multiple UI and AI controller files",
+      "author": "Kasper",
+      "date": "2026-08-01T17:51:24Z"
+    },
+    {
+      "shortSha": "c42acfe",
+      "message": "feat: Implement per-part health system for Battle Bot components",
+      "author": "Kazber",
+      "date": "2026-07-30T20:13:45Z"
+    },
+    {
+      "shortSha": "81f599c",
+      "message": "Refactor BattleBot deployment and recall system",
+      "author": "Kazber",
+      "date": "2026-07-30T18:58:21Z"
+    },
+    {
+      "shortSha": "997258c",
+      "message": "feat: Implement body part management for Battle Bots, enhancing level persistence and item handling",
+      "author": "Kazber",
+      "date": "2026-07-30T18:12:18Z"
+    },
+    {
+      "shortSha": "43bd6e0",
+      "message": "feat: Enhance Battle Bot functionality with ammo management and UI updates",
+      "author": "Kazber",
+      "date": "2026-07-30T17:57:21Z"
+    },
+    {
+      "shortSha": "2b66154",
+      "message": "Refactor Battle Bot Core Mechanics",
+      "author": "Kazber",
+      "date": "2026-07-30T17:13:53Z"
+    },
+    {
+      "shortSha": "384639a",
+      "message": "feat: Add audio feedback for button activation across various UI components",
+      "author": "Kazber",
+      "date": "2026-07-30T09:47:05Z"
+    },
+    {
+      "shortSha": "b162e9d",
+      "message": "Add audio feedback for UI navigation with gamepad/keyboard",
+      "author": "Kazber",
+      "date": "2026-07-30T09:19:28Z"
+    },
+    {
+      "shortSha": "803e583",
+      "message": "Refactor terminal screen rendering and logging",
+      "author": "Kazber",
+      "date": "2026-07-29T19:18:33Z"
+    },
+    {
+      "shortSha": "22cbedb",
+      "message": "feat: Improve terminal screen handling and focus management in player character",
+      "author": "Kazber",
+      "date": "2026-07-29T16:55:45Z"
+    },
+    {
+      "shortSha": "8c9232e",
+      "message": "feat: Add support for direct screen panel rendering in terminals and implement toggle functionality",
+      "author": "Kazber",
+      "date": "2026-07-29T16:18:27Z"
+    },
+    {
+      "shortSha": "e7094c0",
+      "message": "feat: Implement checkpoint disk functionality to prevent player death and manage respawn state",
+      "author": "Kazber",
+      "date": "2026-07-29T16:18:08Z"
+    },
+    {
+      "shortSha": "68b46f5",
+      "message": "feat: Enhance boot screen widget with prompt marker and update layout logic",
+      "author": "Kazber",
+      "date": "2026-07-29T15:21:15Z"
+    },
+    {
+      "shortSha": "ee8eef8",
+      "message": "feat: Enhance armour pickup text generation and implement checkpoint disk handling in terminals",
+      "author": "Kazber",
+      "date": "2026-07-29T14:57:07Z"
+    },
+    {
+      "shortSha": "21b0dbd",
+      "message": "feat: Update widget rendering logic and adjust cursor font size for boot screen",
+      "author": "Kazber",
+      "date": "2026-07-29T11:45:22Z"
+    },
+    {
+      "shortSha": "635c600",
+      "message": "feat: Add boot screen widget for Battle Bots and implement disk locking mechanism in terminals",
+      "author": "Kazber",
+      "date": "2026-07-29T09:56:51Z"
+    },
+    {
+      "shortSha": "e673091",
+      "message": "feat: Implement functionality to take loaded disk into hand and equip items directly from the bag",
+      "author": "Kazber",
+      "date": "2026-07-29T09:34:24Z"
+    },
+    {
+      "shortSha": "0afea74",
+      "message": "feat: Implement terminal boot screen widget with uptime counter and blinking cursor",
+      "author": "Kazber",
+      "date": "2026-07-29T08:57:05Z"
+    },
+    {
+      "shortSha": "d9e3627",
+      "message": "feat: Enhance diagnostic logging for widget render target wiring and implement flight recorder for dropped disks",
+      "author": "Kazber",
+      "date": "2026-07-29T08:40:39Z"
+    },
+    {
+      "shortSha": "02d2b1b",
+      "message": "feat: Remove BattleBotAssemblyDisk and BattleBotPetDisk classes; update pickup text handling in TerminalDiskBase",
+      "author": "Kazber",
+      "date": "2026-07-28T21:53:20Z"
+    },
+    {
+      "shortSha": "b4a9167",
+      "message": "feat: Add BattleBotAssemblyDisk and BattleBotPetDisk classes with pickup text functionality",
+      "author": "Kazber",
+      "date": "2026-07-28T21:17:08Z"
+    },
+    {
+      "shortSha": "91e5da5",
+      "message": "feat: Add logging and handle disk insertion for BattleBot terminal",
+      "author": "Kazber",
+      "date": "2026-07-28T21:06:22Z"
+    },
+    {
+      "shortSha": "e50864e",
+      "message": "feat: Enhance disk drop mechanics with upward boost and restore scale logic",
+      "author": "Kazber",
+      "date": "2026-07-28T20:38:24Z"
+    },
+    {
+      "shortSha": "9e58860",
+      "message": "feat: Implement initial contents handling in CBBagWeapon and update header file",
+      "author": "Kazber",
+      "date": "2026-07-28T20:24:04Z"
+    },
+    {
+      "shortSha": "1ce5cb7",
+      "message": "Add new sound assets and enhance Bully Kutz plugin functionality",
+      "author": "Kazber",
+      "date": "2026-07-28T20:11:47Z"
+    },
+    {
+      "shortSha": "bb747dd",
+      "message": "feat: Add Hover locomotion type and update movement logic for Battle Bots",
+      "author": "Kazber",
+      "date": "2026-07-28T18:56:51Z"
+    },
+    {
+      "shortSha": "3e8cb9d",
+      "message": "Add Bully Kutz plugin for motion-comic cutscene capture",
+      "author": "Kazber",
+      "date": "2026-07-28T18:32:01Z"
+    },
+    {
+      "shortSha": "87ca453",
+      "message": "feat: Add invulnerability handling during beam-in/out and enhance performance logging for various components",
+      "author": "Kazber",
+      "date": "2026-07-28T18:11:31Z"
+    },
+    {
+      "shortSha": "1a12897",
+      "message": "feat: Enhance pet care sound functionality and update subtitle widget animations",
+      "author": "Kazber",
+      "date": "2026-07-28T17:59:37Z"
+    },
+    {
+      "shortSha": "bf8f621",
+      "message": "Add default care sounds to pet definitions and backfill existing slots",
+      "author": "Kazber",
+      "date": "2026-07-28T17:24:01Z"
+    },
+    {
+      "shortSha": "36b835e",
+      "message": "Add new sound assets and enhance death snapshot subsystem",
+      "author": "Kazber",
+      "date": "2026-07-28T17:17:38Z"
+    },
+    {
+      "shortSha": "7f04189",
+      "message": "feat: Enhance subtitle widget with single-panel mode and dynamic portrait handling; improve logging and loading screen visuals",
+      "author": "Kazber",
+      "date": "2026-07-28T16:48:05Z"
+    },
+    {
+      "shortSha": "e42ad8b",
+      "message": "feat: Enhance subtitle widget initialization by adding dynamic canvas handling and improving row management",
+      "author": "Kazber",
+      "date": "2026-07-28T16:11:50Z"
+    },
+    {
+      "shortSha": "c941a77",
+      "message": "feat: Update array maker functionality and improve level blueprint handling; modify TestLevel and report files",
+      "author": "Kazber",
+      "date": "2026-07-28T16:05:33Z"
+    },
+    {
+      "shortSha": "7990af1",
+      "message": "feat: Enhance array maker functionality with level blueprint creation and lighting adjustments for live portraits",
+      "author": "Kazber",
+      "date": "2026-07-28T15:53:29Z"
+    },
+    {
+      "shortSha": "38cce9d",
+      "message": "feat: Add new assets for checkpoint and save icons, update respawn status UI, and enhance checkpoint disk documentation",
+      "author": "Kazber",
+      "date": "2026-07-28T15:20:48Z"
+    },
+    {
+      "shortSha": "0761fe5",
+      "message": "feat: Refactor respawn status widget to build widget tree in code and improve layout management",
+      "author": "Kazber",
+      "date": "2026-07-28T14:34:08Z"
+    },
+    {
+      "shortSha": "354b4ba",
+      "message": "feat: Add respawn status widget and subtitle settings",
+      "author": "Kazber",
+      "date": "2026-07-28T14:26:35Z"
+    },
+    {
+      "shortSha": "f7247d9",
+      "message": "Refactor checkpoint and subtitle systems for improved functionality and UI updates",
+      "author": "Kazber",
+      "date": "2026-07-28T13:47:26Z"
+    },
+    {
+      "shortSha": "76d7812",
+      "message": "feat: Add respawn status widget with dynamic HUD indicators for checkpoints and save points",
+      "author": "Kazber",
+      "date": "2026-07-28T13:08:25Z"
+    },
+    {
+      "shortSha": "454206a",
+      "message": "feat: Enhance subtitle functionality with dynamic speech tracking and customizable styles",
+      "author": "Kazber",
+      "date": "2026-07-28T13:06:48Z"
+    },
+    {
+      "shortSha": "274a731",
+      "message": "feat: Implement checkpoint disk system for respawn functionality",
+      "author": "Kazber",
+      "date": "2026-07-28T12:33:27Z"
+    },
+    {
+      "shortSha": "bf2fab9",
+      "message": "feat: Add NPC class registration for shader precaching in city resource subsystem",
+      "author": "Kazber",
+      "date": "2026-07-28T11:51:22Z"
+    },
+    {
+      "shortSha": "d39d7ae",
+      "message": "feat: Enhance loading screen functionality with explicit step reporting and visibility control",
+      "author": "Kazber",
+      "date": "2026-07-28T10:12:06Z"
+    },
+    {
+      "shortSha": "6339c0c",
+      "message": "feat: Update loading screen widget with terminal font and size adjustments",
+      "author": "Kazber",
+      "date": "2026-07-28T10:05:18Z"
+    },
+    {
+      "shortSha": "e98cdf3",
+      "message": "feat: Add care sound functionality and audio overrides for small pets",
+      "author": "Kazber",
+      "date": "2026-07-28T09:54:49Z"
+    },
+    {
+      "shortSha": "19cc290",
+      "message": "feat: Implement loading level handling and shader precaching for city resources",
+      "author": "Kazber",
+      "date": "2026-07-28T09:18:52Z"
+    },
+    {
+      "shortSha": "0360a74",
+      "message": "feat: Add beam-in/out effect handling and invulnerability during transitions",
+      "author": "Kazber",
+      "date": "2026-07-27T20:17:58Z"
+    },
+    {
+      "shortSha": "6ee076b",
+      "message": "feat: Update GoMapV3 asset with new binary changes",
+      "author": "Kazber",
+      "date": "2026-07-27T20:02:53Z"
+    },
+    {
+      "shortSha": "dfb97a3",
+      "message": "feat: Add subtitle functionality for NPCs with widget component and head-framing camera support",
+      "author": "Kazber",
+      "date": "2026-07-27T19:48:06Z"
+    },
+    {
+      "shortSha": "f0e27c1",
+      "message": "feat: Enhance BattleBots spawning logic with road tile selection and update player character weapon handling",
+      "author": "Kazber",
+      "date": "2026-07-27T19:31:50Z"
+    },
+    {
+      "shortSha": "afe778b",
+      "message": "feat: Implement map scale persistence across transitions and enhance weapon state restoration",
+      "author": "Kazber",
+      "date": "2026-07-27T19:01:56Z"
+    },
+    {
+      "shortSha": "2301e68",
+      "message": "Add field bot functionality to BattleBots plugin",
+      "author": "Kazber",
+      "date": "2026-07-27T18:11:52Z"
+    },
+    {
+      "shortSha": "c226800",
+      "message": "feat: Refactor control size calculations and improve skeleton-based sizing logic in BullyRigBuilder",
+      "author": "Kazber",
+      "date": "2026-07-27T12:27:29Z"
+    },
+    {
+      "shortSha": "e7231d6",
+      "message": "feat: Refactor Bully Rigging Toolz, add new window for rig creation and update settings management",
+      "author": "Kazber",
+      "date": "2026-07-27T12:14:07Z"
+    },
+    {
+      "shortSha": "51ce152",
+      "message": "Add Bully Rigging Toolz Plugin for Control Rig Generation",
+      "author": "Kazber",
+      "date": "2026-07-27T10:07:34Z"
+    },
+    {
+      "shortSha": "a52492b",
+      "message": "feat: Update enemy AI behavior and item spawning logic, including retry mechanisms for weapon and ammo searches",
+      "author": "Kazber",
+      "date": "2026-07-27T08:59:44Z"
+    },
+    {
+      "shortSha": "b3ad5ef",
+      "message": "feat: Add events for ammo collection and gun drainage in BattleBotComponent",
+      "author": "Kazber",
+      "date": "2026-07-27T08:40:47Z"
+    },
+    {
+      "shortSha": "30c9a21",
+      "message": "Add new animal behavior tasks and refactor animal spawning logic",
+      "author": "Kazber",
+      "date": "2026-07-27T08:05:42Z"
+    },
+    {
+      "shortSha": "8c0c58b",
+      "message": "feat: Implement roaming animal arrival spawning for Cats and Rats, including travel ledger management",
+      "author": "Kazber",
+      "date": "2026-07-27T07:47:19Z"
+    },
+    {
+      "shortSha": "236588c",
+      "message": "feat: Introduce animal NPCs (Cats and Rats) with distinct behaviors and interactions",
+      "author": "Kazber",
+      "date": "2026-07-27T07:34:50Z"
+    },
+    {
+      "shortSha": "5d31a7b",
+      "message": "feat: Update scavenger behavior to allow weapon and ammo pickups while maintaining non-hostile status",
+      "author": "Kazber",
+      "date": "2026-07-26T22:18:52Z"
+    },
+    {
+      "shortSha": "45cdb25",
+      "message": "feat: Add audio watchdog for persistent loop sounds and improve ballistic fire interval handling",
+      "author": "Kazber",
+      "date": "2026-07-26T22:04:57Z"
+    },
+    {
+      "shortSha": "7ce216d",
+      "message": "feat: Implement player side combatant logic for Battle Bots and enhance enemy targeting behavior",
+      "author": "Kazber",
+      "date": "2026-07-26T21:24:28Z"
+    },
+    {
+      "shortSha": "eea8c31",
+      "message": "feat: Enhance co-combatant behavior with improved ally state handling and logging",
+      "author": "Kazber",
+      "date": "2026-07-26T20:53:50Z"
+    },
+    {
+      "shortSha": "0a0cd5b",
+      "message": "feat: Integrate Niagara system for ballistic muzzle flash effects in BattleBot component",
+      "author": "Kazber",
+      "date": "2026-07-26T20:53:21Z"
+    },
+    {
+      "shortSha": "ce1e72d",
+      "message": "feat: Add starting ammo configuration for ballistic bots and improve cover detection logic for allies",
+      "author": "Kazber",
+      "date": "2026-07-26T20:17:56Z"
+    },
+    {
+      "shortSha": "60935dd",
+      "message": "feat: Add diagnostics and target handling improvements for co-combatant behavior",
+      "author": "Kazber",
+      "date": "2026-07-26T19:52:51Z"
+    },
+    {
+      "shortSha": "4cc29b2",
+      "message": "feat: Implement NPC armour persistence and restoration logic for enhanced gameplay consistency",
+      "author": "Kazber",
+      "date": "2026-07-26T19:01:32Z"
+    },
+    {
+      "shortSha": "b8e16a9",
+      "message": "feat: Improve ally navigation logic for navmesh-less environments with enhanced pathfinding checks",
+      "author": "Kazber",
+      "date": "2026-07-26T18:53:10Z"
+    },
+    {
+      "shortSha": "310c403",
+      "message": "feat: Enhance co-combatant AI with new melee engagement logic and gear handling events",
+      "author": "Kazber",
+      "date": "2026-07-26T18:38:05Z"
+    },
+    {
+      "shortSha": "a554235",
+      "message": "feat: Enhance Co-Combatant AI with unreachable gear handling and cooldown logic",
+      "author": "Kazber",
+      "date": "2026-07-26T18:19:58Z"
+    },
+    {
+      "shortSha": "0b9a632",
+      "message": "feat: Enhance ally movement logic to support navigation in navmesh-less levels",
+      "author": "Kazber",
+      "date": "2026-07-26T17:44:00Z"
+    },
+    {
+      "shortSha": "9ad4a73",
+      "message": "feat: Add weapon stripping logic for civilian NPCs and enhance bonded NPC component functionality",
+      "author": "Kazber",
+      "date": "2026-07-26T17:34:00Z"
+    },
+    {
+      "shortSha": "eb87292",
+      "message": "feat: Enhance AI behavior with armour pickup logic and logging for co-combatants",
+      "author": "Kazber",
+      "date": "2026-07-26T17:07:10Z"
+    },
+    {
+      "shortSha": "487c411",
+      "message": "feat: Implement editor-side functionality for bonded NPC group ID synchronization",
+      "author": "Kazber",
+      "date": "2026-07-26T16:46:16Z"
+    },
+    {
+      "shortSha": "da592aa",
+      "message": "feat: Enhance Co-Combatant AI with fallback behavior tree and bonded NPC functionality",
+      "author": "Kazber",
+      "date": "2026-07-26T16:32:09Z"
+    },
+    {
+      "shortSha": "5d00b21",
+      "message": "feat: Implement bonded NPC testing functionality and enhance Battle Bot leadership system",
+      "author": "Kazber",
+      "date": "2026-07-26T16:25:10Z"
+    },
+    {
+      "shortSha": "513be08",
+      "message": "feat: Add trader population management and related functionality",
+      "author": "Kazber",
+      "date": "2026-07-26T08:16:30Z"
+    },
+    {
+      "shortSha": "50785c6",
+      "message": "feat: Enhance civilian population management and intel system",
+      "author": "Kazber",
+      "date": "2026-07-25T21:26:31Z"
+    },
+    {
+      "shortSha": "68e7095",
+      "message": "Add Co-Combatant AI functionality and behavior tree integration",
+      "author": "Kazber",
+      "date": "2026-07-25T20:47:26Z"
+    },
+    {
+      "shortSha": "0c73d75",
+      "message": "feat: Add destruction mechanics and audio cues for Battle Bot parts",
+      "author": "Kazber",
+      "date": "2026-07-25T20:00:41Z"
+    },
+    {
+      "shortSha": "d0ea6c1",
+      "message": "feat: Enhance Battle Bot functionality with ammo scavenging and voice setup, update UI elements",
+      "author": "Kazber",
+      "date": "2026-07-25T19:17:20Z"
+    },
+    {
+      "shortSha": "20e7c6b",
+      "message": "feat: Add blood squib functionality to BattleBot and update NPC icon size in status bar",
+      "author": "Kazber",
+      "date": "2026-07-25T18:42:56Z"
+    },
+    {
+      "shortSha": "f30f1af",
+      "message": "Add win lines for Cyber Bully Pet Battle Trainer and update report file",
+      "author": "Kazber",
+      "date": "2026-07-25T18:18:25Z"
+    },
+    {
+      "shortSha": "dfb4919",
+      "message": "Update CB Report.pages with new content and formatting changes",
+      "author": "Kazber",
+      "date": "2026-07-25T17:26:19Z"
+    },
+    {
+      "shortSha": "a8ad9d3",
+      "message": "feat: Add speech array functionality and update related assets",
+      "author": "Kazber",
+      "date": "2026-07-25T16:47:00Z"
+    },
+    {
+      "shortSha": "ea1f43f",
+      "message": "feat: Add Battle Bot assets and enhance UI with NPC icon functionality",
+      "author": "Kazber",
+      "date": "2026-07-25T16:03:55Z"
+    },
+    {
+      "shortSha": "a05c125",
+      "message": "Refactor code structure for improved readability and maintainability",
+      "author": "Kazber",
+      "date": "2026-07-25T15:37:31Z"
+    },
+    {
+      "shortSha": "e6e828e",
+      "message": "feat: Enhance Battle Bot functionality with new audio cues and UI elements",
+      "author": "Kazber",
+      "date": "2026-07-25T15:11:59Z"
+    },
+    {
+      "shortSha": "64e8ea9",
+      "message": "Add Battle Bot Status Bar and Behavior Task",
+      "author": "Kazber",
+      "date": "2026-07-25T14:24:04Z"
+    },
+    {
+      "shortSha": "2a45a2d",
+      "message": "Add new Battle Bot parts and enhance component functionality",
+      "author": "Kazber",
+      "date": "2026-07-25T13:33:02Z"
+    },
+    {
+      "shortSha": "7516175",
+      "message": "feat: Update BattleBot components to use exact pet references and improve part handling logic",
+      "author": "Kazber",
+      "date": "2026-07-25T10:00:03Z"
+    },
+    {
+      "shortSha": "7529368",
+      "message": "feat: Enhance BattleBot functionality with navigation and component updates",
+      "author": "Kazber",
+      "date": "2026-07-24T21:03:41Z"
+    },
+    {
+      "shortSha": "ae1b9c3",
+      "message": "feat: Implement native brain logic for BattleBot AI and enhance movement handling",
+      "author": "Kazber",
+      "date": "2026-07-24T20:04:59Z"
+    },
+    {
+      "shortSha": "2d29c0c",
+      "message": "Add sound deduplication tool and menu integration",
+      "author": "Kazber",
+      "date": "2026-07-24T19:42:01Z"
+    },
+    {
+      "shortSha": "3b50a5b",
+      "message": "Refactor Battle Bot System to Remove DataTable Dependency",
+      "author": "Kazber",
+      "date": "2026-07-24T19:09:17Z"
+    },
+    {
+      "shortSha": "2954b17",
+      "message": "feat: Enhance BattleBot subsystem and part pickup registration",
+      "author": "Kazber",
+      "date": "2026-07-24T18:33:27Z"
+    },
+    {
+      "shortSha": "182001a",
+      "message": "Add BattleBotComponent for enhanced bot behavior and functionality",
+      "author": "Kazber",
+      "date": "2026-07-24T17:58:01Z"
+    },
+    {
+      "shortSha": "309edec",
+      "message": "Add Bully Ring Modulator functionality and assets",
+      "author": "Kazber",
+      "date": "2026-07-24T16:29:19Z"
+    },
+    {
+      "shortSha": "2a13647",
+      "message": "feat: Enhance BattleBot functionality with body part attachment and release mechanics",
+      "author": "Kazber",
+      "date": "2026-07-24T16:08:59Z"
+    },
+    {
+      "shortSha": "f686e85",
+      "message": "Add new assets for Woof and Squeak characters in FishGame",
+      "author": "Kazber",
+      "date": "2026-07-24T15:24:34Z"
+    },
+    {
+      "shortSha": "e266e19",
+      "message": "Refactor Battle Bot Assembly UI and Add Head Part Pickup",
+      "author": "Kazber",
+      "date": "2026-07-24T15:11:45Z"
+    },
+    {
+      "shortSha": "8c05cba",
+      "message": "Add new lizard pet assets and implement life support system for BattleBot",
+      "author": "Kazber",
+      "date": "2026-07-24T14:55:29Z"
+    },
+    {
+      "shortSha": "82bf027",
+      "message": "Add new Yerox assets and implement beam-out functionality",
+      "author": "Kazber",
+      "date": "2026-07-24T14:47:21Z"
+    },
+    {
+      "shortSha": "d3647ab",
+      "message": "Enhance BattleBot Mechanics and Pet Stats",
+      "author": "Kazber",
+      "date": "2026-07-24T14:31:40Z"
+    },
+    {
+      "shortSha": "c5b3a99",
+      "message": "Add BattleBotWrongDiskWidget and BattleBotPetInsertWidget",
+      "author": "Kazber",
+      "date": "2026-07-24T13:31:24Z"
+    },
+    {
+      "shortSha": "43806df",
+      "message": "Add new Xeril and Zerkal pet assets with various states and actions",
+      "author": "Kazber",
+      "date": "2026-07-24T13:01:48Z"
+    },
+    {
+      "shortSha": "57b5107",
+      "message": "Enhance BattleBot assembly and terminal functionality; add new Goldy fish assets",
+      "author": "Kazber",
+      "date": "2026-07-24T12:56:17Z"
+    },
+    {
+      "shortSha": "9f70bcc",
+      "message": "Add battle outcome handling and audio for small pets",
+      "author": "Kazber",
+      "date": "2026-07-24T12:32:47Z"
+    },
+    {
+      "shortSha": "98b67e3",
+      "message": "Add new assets for Dracorix and Randy characters, including various states and actions",
+      "author": "Kazber",
+      "date": "2026-07-24T12:16:13Z"
+    },
+    {
+      "shortSha": "e39d139",
+      "message": "Add new images for Barry, Billy, and Dracorix in various states and actions",
+      "author": "Kazber",
+      "date": "2026-07-24T10:28:34Z"
+    },
+    {
+      "shortSha": "b786c5c",
+      "message": "Add new assets and enhance SmallPetWidget functionality",
+      "author": "Kazber",
+      "date": "2026-07-24T10:09:35Z"
+    },
+    {
+      "shortSha": "015f088",
+      "message": "Enhance SmallPet and TrainerBattle functionality; add new fish game assets",
+      "author": "Kazber",
+      "date": "2026-07-24T09:47:46Z"
+    },
+    {
+      "shortSha": "5331c65",
+      "message": "Add new assets and update TrainerBattleTypes for Rick character",
+      "author": "Kazber",
+      "date": "2026-07-24T09:26:13Z"
+    },
+    {
+      "shortSha": "2535ff5",
+      "message": "Add virtual pet tools and assets",
+      "author": "Kazber",
+      "date": "2026-07-24T09:25:59Z"
+    },
+    {
+      "shortSha": "f4dba12",
+      "message": "Add Sid virtual pet assets and image processing script",
+      "author": "Kazber",
+      "date": "2026-07-24T08:58:54Z"
+    },
+    {
+      "shortSha": "3c50346",
+      "message": "feat: Add new Bob pet assets including various states and behaviors",
+      "author": "Kazber",
+      "date": "2026-07-24T08:43:19Z"
+    },
+    {
+      "shortSha": "a514cb0",
+      "message": "feat: Add battle pose functionality for small pets and implement portrait display in TrainerBattleArena",
+      "author": "Kazber",
+      "date": "2026-07-24T08:34:25Z"
+    },
+    {
+      "shortSha": "f59fbc7",
+      "message": "feat: Enhance Virtual Pets and Battle Bots with new assets and editor tools",
+      "author": "Kazber",
+      "date": "2026-07-24T08:10:05Z"
+    },
+    {
+      "shortSha": "4f26277",
+      "message": "Add new fish assets and update pet widget functionality",
+      "author": "Kazber",
+      "date": "2026-07-24T07:57:04Z"
+    },
+    {
+      "shortSha": "8f17a3f",
+      "message": "feat: Implement gamepad navigation enhancements in BullyButtonRingWidget and update SmallPetWidget to utilize ring navigation",
+      "author": "Kazber",
+      "date": "2026-07-24T07:50:50Z"
+    },
+    {
+      "shortSha": "137e926",
+      "message": "feat: Refactor TrainerBattleArena backdrop logic and implement BullyButtonRingWidget for gamepad navigation",
+      "author": "Kazber",
+      "date": "2026-07-24T07:34:17Z"
+    },
+    {
+      "shortSha": "62bc992",
+      "message": "feat: Enhance BattleBot functionality with Core Pet Disk integration",
+      "author": "Kazber",
+      "date": "2026-07-24T07:14:22Z"
+    },
+    {
+      "shortSha": "d3ee4d9",
+      "message": "feat: Enhance SmallPetWidget with new visual states for Loved and Sleeping, and improve screen widget padding in TerminalComputerBase",
+      "author": "Kazber",
+      "date": "2026-07-24T06:46:34Z"
+    },
+    {
+      "shortSha": "14a1f01",
+      "message": "feat: Enhance SmallPetWidget with new pet states and visuals, including Loved and Sleeping states",
+      "author": "Kazber",
+      "date": "2026-07-23T22:50:06Z"
+    },
+    {
+      "shortSha": "e62e89b",
+      "message": "feat: Add new fish assets and images for various states in the game",
+      "author": "Kazber",
+      "date": "2026-07-23T22:33:17Z"
+    },
+    {
+      "shortSha": "dd4d560",
+      "message": "feat: Add support for wall damage states and backdrop visibility in TrainerBattleArena",
+      "author": "Kazber",
+      "date": "2026-07-23T21:57:52Z"
+    },
+    {
+      "shortSha": "f3f3065",
+      "message": "feat: Update multiple weapon assets for improved functionality and performance",
+      "author": "Kazber",
+      "date": "2026-07-23T21:43:03Z"
+    },
+    {
+      "shortSha": "f388f61",
+      "message": "feat: Enhance beam-in control logic and update spawn pause behavior for characters",
+      "author": "Kazber",
+      "date": "2026-07-23T21:16:52Z"
+    },
+    {
+      "shortSha": "867b954",
+      "message": "feat: Implement universal ready-pause for beam-in characters",
+      "author": "Kazber",
+      "date": "2026-07-23T21:07:08Z"
+    },
+    {
+      "shortSha": "be3c090",
+      "message": "feat: Update multiple enemy and player assets for improved functionality and performance",
+      "author": "Kazber",
+      "date": "2026-07-23T20:46:24Z"
+    },
+    {
+      "shortSha": "c6d673c",
+      "message": "feat: Update CBBeamInComponent to enhance material transition and cleanup logic",
+      "author": "Kazber",
+      "date": "2026-07-23T20:33:23Z"
+    },
+    {
+      "shortSha": "274faa4",
+      "message": "Add new material instances for BeamIn assets",
+      "author": "Kazber",
+      "date": "2026-07-23T20:19:13Z"
+    },
+    {
+      "shortSha": "6e5fb55",
+      "message": "Add new sound assets for BattleBoard and update TrainerBattleArena blueprint",
+      "author": "Kazber",
+      "date": "2026-07-23T19:50:04Z"
+    },
+    {
+      "shortSha": "b0747dc",
+      "message": "feat: Add random pitch variance for impact sounds and implement missile launch sound in CBDrone",
+      "author": "Kazber",
+      "date": "2026-07-23T19:36:53Z"
+    },
+    {
+      "shortSha": "e04d865",
+      "message": "feat: Implement CBBeamInComponent for character materialization effect and integrate into player and enemy classes",
+      "author": "Kazber",
+      "date": "2026-07-23T19:05:44Z"
+    },
+    {
+      "shortSha": "1092449",
+      "message": "feat: Add PDA result font support and implement view camera mode for PDA interactions",
+      "author": "Kazber",
+      "date": "2026-07-23T18:52:50Z"
+    },
+    {
+      "shortSha": "5142ff0",
+      "message": "feat: Enhance TrainerBattleArena with PDA result text and improve UI button functionality",
+      "author": "Kazber",
+      "date": "2026-07-23T18:19:12Z"
+    },
+    {
+      "shortSha": "6c78cc4",
+      "message": "feat: Update binary assets for Left Colico Colour Arm, Trainer, Trainer Controller, and Title",
+      "author": "Kazber",
+      "date": "2026-07-23T17:59:27Z"
+    },
+    {
+      "shortSha": "1d5c3d0",
+      "message": "feat: Add logging functionality for BattleBotTrainer diagnostics and update PDA screen visibility handling",
+      "author": "Kazber",
+      "date": "2026-07-23T17:46:09Z"
+    },
+    {
+      "shortSha": "884f6e7",
+      "message": "feat: Add Trainer behavior task and enhance UI button functionality; update README for clarity",
+      "author": "Kazber",
+      "date": "2026-07-23T17:15:14Z"
+    },
+    {
+      "shortSha": "0caa8df",
+      "message": "feat: Enhance BattleBotTrainerComponent with new equipment handling and update README for clarity",
+      "author": "Kazber",
+      "date": "2026-07-23T16:57:11Z"
+    },
+    {
+      "shortSha": "6134993",
+      "message": "feat: Update armor and enemy assets; add new Left Arm and Chest styles, and Base Enemy Trainer",
+      "author": "Kazber",
+      "date": "2026-07-23T16:22:12Z"
+    },
+    {
+      "shortSha": "6bdfeb8",
+      "message": "feat: Refactor pet terminal and widget to use credits instead of gift cards; add purchase cooldown and animated flipbook support",
+      "author": "Kazber",
+      "date": "2026-07-23T15:35:45Z"
+    },
+    {
+      "shortSha": "1a09558",
+      "message": "feat: Add ForceAssembleBot function to bypass pet maturity gate and streamline bot assembly",
+      "author": "Kazber",
+      "date": "2026-07-23T15:12:19Z"
+    },
+    {
+      "shortSha": "04efa2c",
+      "message": "refactor: Remove ABattleBotTrainerCivilian class and update trainer component logic for pet management",
+      "author": "Kazber",
+      "date": "2026-07-23T14:56:34Z"
+    },
+    {
+      "shortSha": "fb3c039",
+      "message": "feat: Update Battle Bot components and README for improved camera setup and functionality",
+      "author": "Kazber",
+      "date": "2026-07-23T14:16:02Z"
+    },
+    {
+      "shortSha": "cbf86ac",
+      "message": "feat: Update Battle Bot components and enhance camera positioning; add new icons",
+      "author": "Kazber",
+      "date": "2026-07-23T13:36:43Z"
+    },
+    {
+      "shortSha": "b8986b2",
+      "message": "feat: Implement post-win fight point distribution for trainer battles",
+      "author": "Kazber",
+      "date": "2026-07-23T12:51:07Z"
+    },
+    {
+      "shortSha": "3fd8fa3",
+      "message": "Enhance Battle Bot functionality with Behavior Trees and new tasks",
+      "author": "Kazber",
+      "date": "2026-07-23T10:50:14Z"
+    },
+    {
+      "shortSha": "1123835",
+      "message": "Add Small Pet functionality to BattleBots plugin",
+      "author": "Kazber",
+      "date": "2026-07-23T10:00:12Z"
+    },
+    {
+      "shortSha": "b21f97d",
+      "message": "feat: Enhance Battle Bot and Small Pet integration with improved component registration and readiness checks",
+      "author": "Kazber",
+      "date": "2026-07-23T09:33:30Z"
+    },
+    {
+      "shortSha": "fb85467",
+      "message": "feat: Update Small Pet testing functionality with new starting age and maturity options; streamline testing state overrides",
+      "author": "Kazber",
+      "date": "2026-07-23T08:16:46Z"
+    },
+    {
+      "shortSha": "0beb9e5",
+      "message": "feat: Implement weapon attachment validation and repair logic in EnemyWeaponComponent; enhance firing conditions for AI",
+      "author": "Kazber",
+      "date": "2026-07-23T07:59:01Z"
+    },
+    {
+      "shortSha": "e161f20",
+      "message": "feat: Enhance Battle Bot and Small Pet functionality with testing state overrides and improved property synchronization",
+      "author": "Kazber",
+      "date": "2026-07-22T22:46:52Z"
+    },
+    {
+      "shortSha": "bd94807",
+      "message": "feat: Add missing Character header include in BattleBotTerminal",
+      "author": "Kazber",
+      "date": "2026-07-22T22:28:36Z"
+    },
+    {
+      "shortSha": "3fc795c",
+      "message": "Enhance Battle Bot assembly and terminal functionality",
+      "author": "Kazber",
+      "date": "2026-07-22T22:11:58Z"
+    },
+    {
+      "shortSha": "22bdc44",
+      "message": "feat: Update Battle Bot terminal functionality with new part assembly preview and mesh customization options; enhance part pickup and drop interactions",
+      "author": "Kazber",
+      "date": "2026-07-22T21:40:49Z"
+    },
+    {
+      "shortSha": "04de023",
+      "message": "feat: Enhance Battle Bot functionality with new part pickup and terminal interaction features; add new assets and icons",
+      "author": "Kazber",
+      "date": "2026-07-22T21:07:32Z"
+    },
+    {
+      "shortSha": "862cbd6",
+      "message": "feat: Add Battle Bot AI controller and enhance ownership link functionality",
+      "author": "Kazber",
+      "date": "2026-07-22T20:24:17Z"
+    },
+    {
+      "shortSha": "899c6f4",
+      "message": "feat: Implement Battle Bot terminal interactions and part delivery system",
+      "author": "Kazber",
+      "date": "2026-07-22T20:07:37Z"
+    },
+    {
+      "shortSha": "e130c7a",
+      "message": "feat: Update commander support subsystem with soldier count logging and error handling",
+      "author": "Kazber",
+      "date": "2026-07-22T19:16:59Z"
+    },
+    {
+      "shortSha": "52f5170",
+      "message": "Add new Kardz icons and update existing assets",
+      "author": "Kazber",
+      "date": "2026-07-22T18:51:53Z"
+    },
+    {
+      "shortSha": "e63a7b5",
+      "message": "feat: Add new commander boost link functionality and improve visibility handling",
+      "author": "Kazber",
+      "date": "2026-07-22T18:26:02Z"
+    },
+    {
+      "shortSha": "6af80fb",
+      "message": "feat: Enhance commander support system with boost links and bonuses",
+      "author": "Kazber",
+      "date": "2026-07-22T17:53:13Z"
+    },
+    {
+      "shortSha": "5b95b36",
+      "message": "Add new BattleBot assets and enhance TrainerBattleArena functionality",
+      "author": "Kazber",
+      "date": "2026-07-22T16:42:39Z"
+    },
+    {
+      "shortSha": "fd29200",
+      "message": "feat: Integrate live pet functionality in PetBattleArenaTestScenario with experience rewards",
+      "author": "Kazber",
+      "date": "2026-07-22T15:24:11Z"
+    },
+    {
+      "shortSha": "087c3cf",
+      "message": "Enhance Trainer Battle System with Experience and Leveling Features",
+      "author": "Kazber",
+      "date": "2026-07-22T15:13:26Z"
+    },
+    {
+      "shortSha": "b2d2f63",
+      "message": "Refactor code structure for improved readability and maintainability",
+      "author": "Kazber",
+      "date": "2026-07-22T15:12:57Z"
+    },
+    {
+      "shortSha": "610bbb4",
+      "message": "feat: Add geometry logging for BullyTestAreaActor and update widget initialization methods",
+      "author": "Kazber",
+      "date": "2026-07-22T12:25:26Z"
+    },
+    {
+      "shortSha": "53b4512",
+      "message": "feat: Improve PlayerController and LocalPlayer readiness checks in BullyTestAreaActor; add detailed logging in BullyTestAreaWidget",
+      "author": "Kazber",
+      "date": "2026-07-22T11:26:45Z"
+    },
+    {
+      "shortSha": "cd39989",
+      "message": "feat: Implement retry mechanism for PlayerController in BullyTestAreaActor",
+      "author": "Kazber",
+      "date": "2026-07-22T09:34:51Z"
+    },
+    {
+      "shortSha": "48678f9",
+      "message": "feat: Remove obsolete Virtual Pets map and add new BattleBot and PetBattle assets",
+      "author": "Kazber",
+      "date": "2026-07-22T09:27:43Z"
+    },
+    {
+      "shortSha": "d727c94",
+      "message": "Add Bully Test Area functionality with interactive scenario selection",
+      "author": "Kazber",
+      "date": "2026-07-22T09:09:55Z"
+    },
+    {
+      "shortSha": "48b7fbf",
+      "message": "feat: Enhance Terminal Map Editor with Layer Management",
+      "author": "Kazber",
+      "date": "2026-07-22T08:32:55Z"
+    },
+    {
+      "shortSha": "a08f42f",
+      "message": "feat: Enhance loading screen functionality for new game runs and cell transitions",
+      "author": "Kazber",
+      "date": "2026-07-21T19:06:55Z"
+    },
+    {
+      "shortSha": "80cb75d",
+      "message": "feat: Update loading progress subsystem and screen widget for improved functionality and performance",
+      "author": "Kazber",
+      "date": "2026-07-21T19:00:51Z"
+    },
+    {
+      "shortSha": "4d91d73",
+      "message": "feat: Implement loading progress subsystem and loading screen widget",
+      "author": "Kazber",
+      "date": "2026-07-21T18:39:01Z"
+    },
+    {
+      "shortSha": "aa1f01c",
+      "message": "Add BattleBot Trainer functionality and NPC interaction system",
+      "author": "Kazber",
+      "date": "2026-07-21T17:36:32Z"
+    },
+    {
+      "shortSha": "1c515ba",
+      "message": "feat: Add first encounter functionality for commanders and enhance related events",
+      "author": "Kazber",
+      "date": "2026-07-21T17:14:20Z"
+    },
+    {
+      "shortSha": "37161d1",
+      "message": "feat: Implement one-time XP award system to prevent farming through repeated actions",
+      "author": "Kazber",
+      "date": "2026-07-21T16:52:48Z"
+    },
+    {
+      "shortSha": "d434f01",
+      "message": "feat: Update AnimNode_AimAtTarget for improved axis handling and add new character images",
+      "author": "Kazber",
+      "date": "2026-07-21T16:33:47Z"
+    },
+    {
+      "shortSha": "18dace8",
+      "message": "feat: Enhance AnimNode_AimAtTarget with debug sweep functionality and live preview updates",
+      "author": "Kazber",
+      "date": "2026-07-21T16:03:41Z"
+    },
+    {
+      "shortSha": "f622e2d",
+      "message": "feat: Enhance AimAtTarget functionality with customizable axis modes",
+      "author": "Kazber",
+      "date": "2026-07-21T15:59:58Z"
+    },
+    {
+      "shortSha": "8dc70c7",
+      "message": "feat: Enhance aiming system with debug options and improved pitch handling",
+      "author": "Kazber",
+      "date": "2026-07-21T15:48:56Z"
+    },
+    {
+      "shortSha": "3f2b532",
+      "message": "feat: Improve aim targeting logic by caching actor-to-component rotation for accurate aiming",
+      "author": "Kazber",
+      "date": "2026-07-21T15:33:02Z"
+    },
+    {
+      "shortSha": "d06fe78",
+      "message": "feat: Enhance NPC spawning logic with new cell blocking mechanisms and content detection",
+      "author": "Kazber",
+      "date": "2026-07-21T15:19:54Z"
+    },
+    {
+      "shortSha": "d5acdf2",
+      "message": "Refactor city resource population system and enhance market map widget",
+      "author": "Kazber",
+      "date": "2026-07-21T14:53:35Z"
+    },
+    {
+      "shortSha": "d2ca722",
+      "message": "feat: Enhance commander placement logic to support faction diversity and boss cell exclusion",
+      "author": "Kazber",
+      "date": "2026-07-21T14:23:52Z"
+    },
+    {
+      "shortSha": "638a878",
+      "message": "feat: Implement commander garrison system",
+      "author": "Kazber",
+      "date": "2026-07-21T14:16:18Z"
+    },
+    {
+      "shortSha": "a6d2a51",
+      "message": "feat: Add faction display name and debug print functionality for enemies",
+      "author": "Kazber",
+      "date": "2026-07-21T13:38:24Z"
+    },
+    {
+      "shortSha": "5c59c98",
+      "message": "feat: Add new Comander icon assets and update UI elements",
+      "author": "Kazber",
+      "date": "2026-07-21T13:25:14Z"
+    },
+    {
+      "shortSha": "1f12fc8",
+      "message": "feat: Add new commander hats and meshes, including various textures and animations",
+      "author": "Kazber",
+      "date": "2026-07-21T13:08:31Z"
+    },
+    {
+      "shortSha": "65ce6c0",
+      "message": "feat: Improve Kardz bag handling in enemy setup to prevent unwanted weapon drops",
+      "author": "Kazber",
+      "date": "2026-07-21T12:04:27Z"
+    },
+    {
+      "shortSha": "8e786df",
+      "message": "Add new textures and icons for KardZ cards; update existing assets",
+      "author": "Kazber",
+      "date": "2026-07-21T11:56:31Z"
+    },
+    {
+      "shortSha": "d3d6bfc",
+      "message": "feat: Implement Kardz bag persistence and ensure NPCs have bags on restore",
+      "author": "Kazber",
+      "date": "2026-07-21T11:50:20Z"
+    },
+    {
+      "shortSha": "78be9be",
+      "message": "feat: Enhance Kardz NPC auto-collect behavior and bag management",
+      "author": "Kazber",
+      "date": "2026-07-21T11:30:27Z"
+    },
+    {
+      "shortSha": "35d52e6",
+      "message": "feat: Add new Furball character images and icons",
+      "author": "Kazber",
+      "date": "2026-07-21T11:26:55Z"
+    },
+    {
+      "shortSha": "f299368",
+      "message": "Add Bully Voice Changer functionality and related components",
+      "author": "Kazber",
+      "date": "2026-07-21T11:15:11Z"
+    },
+    {
+      "shortSha": "1fa5b55",
+      "message": "feat: Implement dedicated commander spawning and support mechanics in EnemyMaker",
+      "author": "Kazber",
+      "date": "2026-07-21T09:21:17Z"
+    },
+    {
+      "shortSha": "2b653d4",
+      "message": "Add commander support subsystem for enhanced faction combat mechanics",
+      "author": "Kazber",
+      "date": "2026-07-21T08:55:20Z"
+    },
+    {
+      "shortSha": "f497b05",
+      "message": "feat: Add support for trading civilians in map NPC blip system and update related data structures",
+      "author": "Kazber",
+      "date": "2026-07-21T07:42:25Z"
+    },
+    {
+      "shortSha": "6b16139",
+      "message": "feat: Add lore functionality to grid cells and update NPC AI controllers",
+      "author": "Kazber",
+      "date": "2026-07-21T06:58:05Z"
+    },
+    {
+      "shortSha": "6b96455",
+      "message": "feat: Update projectile collision handling in CBPlayerCharacter to improve bone detection and prevent character trapping",
+      "author": "Kazber",
+      "date": "2026-07-21T06:21:23Z"
+    },
+    {
+      "shortSha": "bb53c15",
+      "message": "feat: Add Trader icon assets and update related files for improved UI representation",
+      "author": "Kazber",
+      "date": "2026-07-20T16:32:55Z"
+    },
+    {
+      "shortSha": "0a18e4f",
+      "message": "feat: Add CBCellLoreSubsystem for managing authored and procedural lore for city grid cells",
+      "author": "Kazber",
+      "date": "2026-07-20T16:04:28Z"
+    },
+    {
+      "shortSha": "f3aad00",
+      "message": "feat: Enhance enemy outline system with distinct stencils for hostile, non-hostile, and trader characters",
+      "author": "Kazber",
+      "date": "2026-07-20T15:53:47Z"
+    },
+    {
+      "shortSha": "1fc4da8",
+      "message": "feat: Prevent item drop when L1 is held without valid combos during gameplay",
+      "author": "Kazber",
+      "date": "2026-07-20T15:33:41Z"
+    },
+    {
+      "shortSha": "4c57d17",
+      "message": "feat: Update CBTraderBarterWidget to improve button focus handling and add optional ButtonSlot for layout customization",
+      "author": "Kazber",
+      "date": "2026-07-20T15:33:04Z"
+    },
+    {
+      "shortSha": "81cb9b7",
+      "message": "feat: Implement Taser body highlight component and associated visual effects for enhanced gameplay feedback",
+      "author": "Kazber",
+      "date": "2026-07-20T14:49:50Z"
+    },
+    {
+      "shortSha": "da4e15f",
+      "message": "feat: Enhance trading and UI functionality by preventing rival traders from accessing each other's favorite items, improving widget layout handling, and refining button binding logic",
+      "author": "Kazber",
+      "date": "2026-07-20T14:38:57Z"
+    },
+    {
+      "shortSha": "d49224f",
+      "message": "Enhance Kardz functionality and UI improvements",
+      "author": "Kazber",
+      "date": "2026-07-20T14:22:09Z"
+    },
+    {
+      "shortSha": "8505d34",
+      "message": "feat: Add Taser body highlight effect and duration settings for enhanced visual feedback on hit",
+      "author": "Kazber",
+      "date": "2026-07-20T14:11:42Z"
+    },
+    {
+      "shortSha": "fe29b59",
+      "message": "feat: Enhance NPC persistence by adding support for saving and restoring battle damage and conversion states in Kardz gameplay",
+      "author": "Kazber",
+      "date": "2026-07-19T18:53:28Z"
+    },
+    {
+      "shortSha": "4b40b71",
+      "message": "feat: Enhance card management by implementing runtime stats preservation and healing mechanics for NPCs and players at match end",
+      "author": "Kazber",
+      "date": "2026-07-19T18:49:08Z"
+    },
+    {
+      "shortSha": "e1304b5",
+      "message": "feat: Implement gameplay input locking and action aborting for Kardz matches",
+      "author": "Kazber",
+      "date": "2026-07-19T18:36:37Z"
+    },
+    {
+      "shortSha": "678b7f3",
+      "message": "feat: Add functionality to drop holstered items and enhance trading item management",
+      "author": "Kazber",
+      "date": "2026-07-19T18:22:53Z"
+    },
+    {
+      "shortSha": "c4deb0e",
+      "message": "feat: Introduce separate Kardz budget management for resource distribution in city cells",
+      "author": "Kazber",
+      "date": "2026-07-19T18:05:54Z"
+    },
+    {
+      "shortSha": "1354fc1",
+      "message": "feat: Implement Kardz NPC loadout management and add new images for visual assets",
+      "author": "Kazber",
+      "date": "2026-07-19T17:09:12Z"
+    },
+    {
+      "shortSha": "d6b5c23",
+      "message": "feat: Enhance Kardz player spawning with loadout support and bag configuration",
+      "author": "Kazber",
+      "date": "2026-07-19T16:56:40Z"
+    },
+    {
+      "shortSha": "e0a5d16",
+      "message": "feat: Add human armour and clothing slot support for trader spawning",
+      "author": "Kazber",
+      "date": "2026-07-19T16:47:29Z"
+    },
+    {
+      "shortSha": "699dd04",
+      "message": "feat: Enhance NPC spawning with dedicated Kardz player and trader functionality",
+      "author": "Kazber",
+      "date": "2026-07-19T16:38:30Z"
+    },
+    {
+      "shortSha": "465dbd6",
+      "message": "feat: Enhance betting and barter system with support for multiple bag types and worn clothing",
+      "author": "Kazber",
+      "date": "2026-07-19T15:36:40Z"
+    },
+    {
+      "shortSha": "18ae9be",
+      "message": "feat: Update player asset and report notes for improved game functionality",
+      "author": "Kazber",
+      "date": "2026-07-19T14:35:08Z"
+    },
+    {
+      "shortSha": "b11e8e2",
+      "message": "feat: Add new character icons and textures for enhanced gameplay experience",
+      "author": "Kazber",
+      "date": "2026-07-19T14:20:21Z"
+    },
+    {
+      "shortSha": "ec90803",
+      "message": "feat: Enhance city resource management with improved distribution rules and logging features",
+      "author": "Kazber",
+      "date": "2026-07-19T14:07:04Z"
+    },
+    {
+      "shortSha": "c2c6fbc",
+      "message": "feat: Enhance city resource management with new CSV export and physics drop settings",
+      "author": "Kazber",
+      "date": "2026-07-19T12:51:15Z"
+    },
+    {
+      "shortSha": "7a4c043",
+      "message": "feat: Add gameplay setting to force resource regeneration on new game",
+      "author": "Kazber",
+      "date": "2026-07-19T12:02:56Z"
+    },
+    {
+      "shortSha": "cb696e1",
+      "message": "feat: Implement city resource reset handling and improve Kardz distribution rules",
+      "author": "Kazber",
+      "date": "2026-07-19T09:43:13Z"
+    },
+    {
+      "shortSha": "3a57766",
+      "message": "feat: Enhance city resource management with new game setup and logging features",
+      "author": "Kazber",
+      "date": "2026-07-19T08:59:03Z"
+    },
+    {
+      "shortSha": "19e844d",
+      "message": "feat: Implement DestroyWornGear method to manage gear removal for traders leaving the cell",
+      "author": "Kazber",
+      "date": "2026-07-19T07:52:35Z"
+    },
+    {
+      "shortSha": "0d2670c",
+      "message": "feat: Update Kardz distribution rules and enhance card value handling",
+      "author": "Kazber",
+      "date": "2026-07-19T07:29:50Z"
+    },
+    {
+      "shortSha": "687f1e6",
+      "message": "feat: Enhance trading and Kardz mechanics",
+      "author": "Kazber",
+      "date": "2026-07-19T06:26:01Z"
+    },
+    {
+      "shortSha": "db9e904",
+      "message": "feat: Refactor starting cell weapon system to use AActor; update tests and add new image assets",
+      "author": "Kazber",
+      "date": "2026-07-18T19:52:27Z"
+    },
+    {
+      "shortSha": "ca70078",
+      "message": "feat: Implement starting cell weapon selection and unlock system; add tests and new weapon assets",
+      "author": "Kazber",
+      "date": "2026-07-18T19:14:50Z"
+    },
+    {
+      "shortSha": "412ef49",
+      "message": "feat: Add player marker functionality to map widgets",
+      "author": "Kazber",
+      "date": "2026-07-18T18:58:16Z"
+    },
+    {
+      "shortSha": "8af0ecf",
+      "message": "feat: Add new texture and icon assets for Baby Alien, Monsyer, Witch, and witch moon; enhance resource distribution rules for balanced city economy",
+      "author": "Kazber",
+      "date": "2026-07-18T18:37:03Z"
+    },
+    {
+      "shortSha": "e7ab5b5",
+      "message": "feat: Enhance item spawning and resource management with exact-class lookups and deferred retries",
+      "author": "Kazber",
+      "date": "2026-07-18T18:15:42Z"
+    },
+    {
+      "shortSha": "a97f92f",
+      "message": "feat: Simplify city resource economy setup by removing redundant parameters and derive categories from item classes",
+      "author": "Kazber",
+      "date": "2026-07-18T17:32:22Z"
+    },
+    {
+      "shortSha": "c705573",
+      "message": "feat: Implement city resource economy reset on player death and optimize NPC record handling",
+      "author": "Kazber",
+      "date": "2026-07-18T17:00:16Z"
+    },
+    {
+      "shortSha": "143cd88",
+      "message": "feat: Add city resource item management and off-screen economy simulation",
+      "author": "Kazber",
+      "date": "2026-07-18T16:51:27Z"
+    },
+    {
+      "shortSha": "09d52b0",
+      "message": "feat: Implement city resource economy setup and reset functionality",
+      "author": "Kazber",
+      "date": "2026-07-18T16:41:15Z"
+    },
+    {
+      "shortSha": "07d6d44",
+      "message": "feat: Implement city resource economy and UI updates",
+      "author": "Kazber",
+      "date": "2026-07-18T15:40:31Z"
+    },
+    {
+      "shortSha": "7f0732b",
+      "message": "feat: Refactor trader widget input handling and improve item retrieval logic",
+      "author": "Kazber",
+      "date": "2026-07-18T09:43:07Z"
+    },
+    {
+      "shortSha": "cc65d46",
+      "message": "Add resource distribution system, trading mechanics, and debug UI components",
+      "author": "Kazber",
+      "date": "2026-07-18T07:07:43Z"
+    },
+    {
+      "shortSha": "42f21f3",
+      "message": "feat: Enhance trading NPC functionality with improved component checks and distance calculations",
+      "author": "Kazber",
+      "date": "2026-07-17T20:11:01Z"
+    },
+    {
+      "shortSha": "2005257",
+      "message": "feat: Update binary assets for Base Enemy, Test Level, Trader Controller, and Trader Type",
+      "author": "Kazber",
+      "date": "2026-07-17T19:46:29Z"
+    },
+    {
+      "shortSha": "d1bd9e3",
+      "message": "Add Bully Voice Twist functionality and trading NPC enhancements",
+      "author": "Kazber",
+      "date": "2026-07-17T19:24:49Z"
+    },
+    {
+      "shortSha": "a056131",
+      "message": "feat: Implement modal input handling for wager selection in Kardz gameplay",
+      "author": "Kazber",
+      "date": "2026-07-17T18:54:19Z"
+    },
+    {
+      "shortSha": "43be192",
+      "message": "feat: Add new character assets and update level design for enhanced gameplay",
+      "author": "Kazber",
+      "date": "2026-07-17T18:40:34Z"
+    },
+    {
+      "shortSha": "5d52d6a",
+      "message": "feat: Enhance trading mechanics and NPC behavior with briefcase management",
+      "author": "Kazber",
+      "date": "2026-07-17T18:17:23Z"
+    },
+    {
+      "shortSha": "3dc7cca",
+      "message": "feat: Update trading civilian implementation and related assets for improved functionality",
+      "author": "Kazber",
+      "date": "2026-07-17T17:08:53Z"
+    },
+    {
+      "shortSha": "9d91f26",
+      "message": "feat: Add new trader assets and update related files for enhanced trading mechanics",
+      "author": "Kazber",
+      "date": "2026-07-17T16:39:59Z"
+    },
+    {
+      "shortSha": "7fff3e3",
+      "message": "Add trading civilian mechanics and briefcase weapon implementation",
+      "author": "Kazber",
+      "date": "2026-07-17T15:08:41Z"
+    },
+    {
+      "shortSha": "c41584f",
+      "message": "feat: Add new surfer character assets and icons for enhanced gameplay experience",
+      "author": "Kazber",
+      "date": "2026-07-17T13:59:23Z"
+    },
+    {
+      "shortSha": "7a6c30c",
+      "message": "feat: Update City_01 asset and AI_Testing_Stuck map for improved functionality",
+      "author": "Kazber",
+      "date": "2026-07-17T13:44:08Z"
+    },
+    {
+      "shortSha": "4b3698c",
+      "message": "feat: Add and update various asset files for City Builder, enhancing visual elements and functionality",
+      "author": "Kazber",
+      "date": "2026-07-17T09:24:32Z"
+    },
+    {
+      "shortSha": "e0b6d11",
+      "message": "feat: Add new trash assets including plastic bag, trash bag, and trash mat for enhanced city environment",
+      "author": "Kazber",
+      "date": "2026-07-17T08:56:51Z"
+    },
+    {
+      "shortSha": "723ddbf",
+      "message": "feat: Add new brick assets and textures for City Builder, enhancing visual variety",
+      "author": "Kazber",
+      "date": "2026-07-17T08:41:00Z"
+    },
+    {
+      "shortSha": "1d39817",
+      "message": "feat: Update various assets including new AC unit textures and models, and remove obsolete files",
+      "author": "Kazber",
+      "date": "2026-07-17T08:12:10Z"
+    },
+    {
+      "shortSha": "e511a7d",
+      "message": "feat: Add new textures and icons for Kardz, including cloude, eyepoke, ice, paperplane, rain, tornado, and their respective icons",
+      "author": "Kazber",
+      "date": "2026-07-17T07:35:45Z"
+    },
+    {
+      "shortSha": "7aa2925",
+      "message": "feat: Add new Kardz artwork, icons, and update import script for enhanced functionality",
+      "author": "Kazber",
+      "date": "2026-07-17T07:30:00Z"
+    },
+    {
+      "shortSha": "5919908",
+      "message": "Add new Kardz artwork and icons; update Python scripts for texture configuration",
+      "author": "Kazber",
+      "date": "2026-07-17T07:29:45Z"
+    },
+    {
+      "shortSha": "0dbf796",
+      "message": "feat: Add new Kardz artwork, icons, and import script for enhanced card functionality",
+      "author": "Kazber",
+      "date": "2026-07-17T06:47:31Z"
+    },
+    {
+      "shortSha": "cb71c2f",
+      "message": "Enhance audio management and wall placement logic",
+      "author": "Kazber",
+      "date": "2026-07-17T06:25:31Z"
+    },
+    {
+      "shortSha": "5f8324a",
+      "message": "Add Bully Toy Sound plugin for enhanced audio processing",
+      "author": "Kazber",
+      "date": "2026-07-17T05:36:35Z"
+    },
+    {
+      "shortSha": "035cf53",
+      "message": "fix: Correct Y-axis handling for compass direction in EdgeTriggerActor",
+      "author": "Kazber",
+      "date": "2026-07-16T20:58:51Z"
+    },
+    {
+      "shortSha": "ae9abb9",
+      "message": "feat: Update armor assets and test level with new binary files",
+      "author": "Kazber",
+      "date": "2026-07-16T20:45:32Z"
+    },
+    {
+      "shortSha": "656af93",
+      "message": "feat: Add BullyAutoMapWidget for self-building map functionality and live refresh in the visualizer",
+      "author": "Kazber",
+      "date": "2026-07-16T20:41:41Z"
+    },
+    {
+      "shortSha": "1b41143",
+      "message": "feat: Update cruise missile and radio systems with enhanced targeting and flight mechanics; add new RC_Radio models",
+      "author": "Kazber",
+      "date": "2026-07-16T20:03:02Z"
+    },
+    {
+      "shortSha": "eb722cb",
+      "message": "feat: Enhance CBCruiseMissileRadio functionality with immediate launch capability and improved missile class handling",
+      "author": "Kazber",
+      "date": "2026-07-16T19:23:54Z"
+    },
+    {
+      "shortSha": "2e54538",
+      "message": "feat: Implement cruise missile weapon system with projectile and explosion classes",
+      "author": "Kazber",
+      "date": "2026-07-16T19:10:46Z"
+    },
+    {
+      "shortSha": "de46e4e",
+      "message": "feat: Add new texture and icon assets for Kardz including antqueen, beta, fireant, guppy, jellyfish, orb, and wand",
+      "author": "Kazber",
+      "date": "2026-07-16T18:32:32Z"
+    },
+    {
+      "shortSha": "5ef42b9",
+      "message": "feat: Add new image assets for Kardz including beta and guppy graphics and icons",
+      "author": "Kazber",
+      "date": "2026-07-16T18:19:29Z"
+    },
+    {
+      "shortSha": "4b5fdf5",
+      "message": "feat: Enhance CBDroneMissile functionality with homing capabilities and improved explosion handling",
+      "author": "Kazber",
+      "date": "2026-07-16T18:10:31Z"
+    },
+    {
+      "shortSha": "dccce34",
+      "message": "feat: Add new advert assets and update existing ones in Title Block",
+      "author": "Kazber",
+      "date": "2026-07-16T15:55:01Z"
+    },
+    {
+      "shortSha": "22e7049",
+      "message": "feat: Update Kardz card definitions asset",
+      "author": "Kazber",
+      "date": "2026-07-16T15:32:13Z"
+    },
+    {
+      "shortSha": "5a01b9b",
+      "message": "feat: Update various asset files including clothing, weapons, and pickups",
+      "author": "Kazber",
+      "date": "2026-07-16T15:18:44Z"
+    },
+    {
+      "shortSha": "d45f22b",
+      "message": "Update armor assets and improve wall placement logic",
+      "author": "Kazber",
+      "date": "2026-07-16T15:09:07Z"
+    },
+    {
+      "shortSha": "707146f",
+      "message": "feat: Implement faction control system for map territories",
+      "author": "Kazber",
+      "date": "2026-07-16T14:37:14Z"
+    },
+    {
+      "shortSha": "c3b6f73",
+      "message": "feat: Update various assets including fog, adverts, and item lore; enhance advert selection logic",
+      "author": "Kazber",
+      "date": "2026-07-16T12:06:24Z"
+    },
+    {
+      "shortSha": "46e25b3",
+      "message": "feat: Update various advert assets and improve card display logic in UI",
+      "author": "Kazber",
+      "date": "2026-07-16T08:19:20Z"
+    },
+    {
+      "shortSha": "6bc0beb",
+      "message": "feat: Enhance custom depth rendering for enemies and players to improve visibility and occlusion handling",
+      "author": "Kazber",
+      "date": "2026-07-16T06:32:31Z"
+    },
+    {
+      "shortSha": "1b24233",
+      "message": "feat: Enhance custom depth rendering for NPCs and players to improve occlusion visibility",
+      "author": "Kazber",
+      "date": "2026-07-16T06:14:33Z"
+    },
+    {
+      "shortSha": "5ad15a7",
+      "message": "feat: Implement enemy threat evaluation based on faction disguise and update related functionality",
+      "author": "Kazber",
+      "date": "2026-07-16T05:54:11Z"
+    },
+    {
+      "shortSha": "d775fa4",
+      "message": "feat: Add new decals and update building and path object functionality",
+      "author": "Kazber",
+      "date": "2026-07-15T20:43:35Z"
+    },
+    {
+      "shortSha": "25549ba",
+      "message": "feat: Update decal assets and improve visual quality across multiple files",
+      "author": "Kazber",
+      "date": "2026-07-15T19:59:05Z"
+    },
+    {
+      "shortSha": "f561fb2",
+      "message": "feat: Add new advert assets and enhance player state management",
+      "author": "Kazber",
+      "date": "2026-07-15T19:26:43Z"
+    },
+    {
+      "shortSha": "8c23ef1",
+      "message": "feat: Add new decals and update existing assets for enhanced visual quality",
+      "author": "Kazber",
+      "date": "2026-07-15T18:56:06Z"
+    },
+    {
+      "shortSha": "54a00b7",
+      "message": "Add new decals and enhance corner decal functionality",
+      "author": "Kazber",
+      "date": "2026-07-15T18:17:58Z"
+    },
+    {
+      "shortSha": "a71d439",
+      "message": "feat: Add wall placement adjustments and enhance corner decal functionality",
+      "author": "Kazber",
+      "date": "2026-07-15T17:20:30Z"
+    },
+    {
+      "shortSha": "45ef8d6",
+      "message": "Enhance GridManager and AnimNode functionality",
+      "author": "Kazber",
+      "date": "2026-07-15T16:54:51Z"
+    },
+    {
+      "shortSha": "6599a3e",
+      "message": "Add new textures and models for office furniture",
+      "author": "Kazber",
+      "date": "2026-07-15T16:03:26Z"
+    },
+    {
+      "shortSha": "acd2a0f",
+      "message": "feat: Remove NPC aiming logic from various weapon classes for improved control",
+      "author": "Kazber",
+      "date": "2026-07-15T15:04:29Z"
+    },
+    {
+      "shortSha": "cb54850",
+      "message": "feat: Add new map layers and update enemy aiming logic for improved targeting",
+      "author": "Kazber",
+      "date": "2026-07-15T14:23:55Z"
+    },
+    {
+      "shortSha": "900f16a",
+      "message": "feat: Refactor NPC aiming logic and improve weapon aim handling for AI combatants",
+      "author": "Kazber",
+      "date": "2026-07-15T13:30:47Z"
+    },
+    {
+      "shortSha": "e2f5663",
+      "message": "feat: Implement faction-based targeting and aiming logic for AI combatants",
+      "author": "Kazber",
+      "date": "2026-07-15T12:56:01Z"
+    },
+    {
+      "shortSha": "fa32836",
+      "message": "feat: Enhance weapon aiming and NPC behavior",
+      "author": "Kazber",
+      "date": "2026-07-15T11:10:36Z"
+    },
+    {
+      "shortSha": "2ebec60",
+      "message": "Enhance armor and faction assets; update AI combat behavior and grid management",
+      "author": "Kazber",
+      "date": "2026-07-15T09:28:56Z"
+    },
+    {
+      "shortSha": "268f461",
+      "message": "refactor: remove unused utility pole placement keys and improve comments for path infrastructure",
+      "author": "Kazber",
+      "date": "2026-07-15T08:31:43Z"
+    },
+    {
+      "shortSha": "1cd4538",
+      "message": "feat: add support for path object generation in GridManager with configurable properties",
+      "author": "Kazber",
+      "date": "2026-07-15T08:09:41Z"
+    },
+    {
+      "shortSha": "86350d6",
+      "message": "Refactor city builder assets and enhance map visualizer",
+      "author": "Kazber",
+      "date": "2026-07-15T07:46:42Z"
+    },
+    {
+      "shortSha": "5ca8464",
+      "message": "feat: implement ground object generation in GridManager with configurable types and limits",
+      "author": "Kazber",
+      "date": "2026-07-15T07:19:29Z"
+    },
+    {
+      "shortSha": "0355e91",
+      "message": "Add item lore system for pickups and adverts",
+      "author": "Kazber",
+      "date": "2026-07-15T06:40:17Z"
+    },
+    {
+      "shortSha": "ed611d5",
+      "message": "feat: enhance grid manager to support street light generation alongside utility poles",
+      "author": "Kazber",
+      "date": "2026-07-15T05:43:33Z"
+    },
+    {
+      "shortSha": "2b7d105",
+      "message": "feat: enhance utility pole placement logic by ignoring attached path visuals",
+      "author": "Kazber",
+      "date": "2026-07-15T04:59:27Z"
+    },
+    {
+      "shortSha": "8591eb4",
+      "message": "feat: add utility pole asset and enhance grid generation logic",
+      "author": "Kazber",
+      "date": "2026-07-15T04:39:24Z"
+    },
+    {
+      "shortSha": "d8d2779",
+      "message": "Add utility pole and cable network system",
+      "author": "Kazber",
+      "date": "2026-07-15T04:04:42Z"
+    },
+    {
+      "shortSha": "e9ea890",
+      "message": "feat: update binary assets for Level 2 paths and report",
+      "author": "Kazber",
+      "date": "2026-07-14T17:46:54Z"
+    },
+    {
+      "shortSha": "97593e3",
+      "message": "Enhance performance settings and add new animations",
+      "author": "Kazber",
+      "date": "2026-07-14T17:23:47Z"
+    },
+    {
+      "shortSha": "b5b9822",
+      "message": "feat: add new pixel art assets and animations for LED Billboard",
+      "author": "Kazber",
+      "date": "2026-07-14T16:40:43Z"
+    },
+    {
+      "shortSha": "77c2415",
+      "message": "feat: add new pixel art assets and implement random animation selection for TerminalPixelBillboardActor",
+      "author": "Kazber",
+      "date": "2026-07-14T16:17:41Z"
+    },
+    {
+      "shortSha": "b5f5dad",
+      "message": "fix: add new fish pixel art assets and enhance TerminalPixelBillboardActor with runtime input change handling",
+      "author": "Kazber",
+      "date": "2026-07-14T15:45:03Z"
+    },
+    {
+      "shortSha": "b67774f",
+      "message": "fix: enhance TerminalPixelBillboardActor with runtime input change handling and expose properties for spawn configuration",
+      "author": "Kazber",
+      "date": "2026-07-14T15:16:26Z"
+    },
+    {
+      "shortSha": "3f7273f",
+      "message": "fix: add new PBR shader assets for Layer 2+ paths and update existing path elements",
+      "author": "Kazber",
+      "date": "2026-07-14T14:51:50Z"
+    },
+    {
+      "shortSha": "32da9de",
+      "message": "fix: add new PBR shader texture assets for Layer 2+ paths and update report notes",
+      "author": "Kazber",
+      "date": "2026-07-14T14:41:20Z"
+    },
+    {
+      "shortSha": "b7a1e0c",
+      "message": "fix: update path and billboard logic for Layer 2+ walkways, add support for walled rows and adjust offsets",
+      "author": "Kazber",
+      "date": "2026-07-14T14:18:27Z"
+    },
+    {
+      "shortSha": "4391652",
+      "message": "fix: update path and building elements for Layer 2+ walkways, add doorway logic and visibility tracking",
+      "author": "Kazber",
+      "date": "2026-07-14T13:40:01Z"
+    },
+    {
+      "shortSha": "e68e6af",
+      "message": "fix: add new path and billboard assets, update TerminalPixelBillboardActor for runtime animation control",
+      "author": "Kazber",
+      "date": "2026-07-14T13:08:32Z"
+    },
+    {
+      "shortSha": "3107a56",
+      "message": "fix: add uniform scale property for upper path billboards to prevent size issues",
+      "author": "Kazber",
+      "date": "2026-07-14T12:16:03Z"
+    },
+    {
+      "shortSha": "220c8c1",
+      "message": "fix: load configured billboard frames on play",
+      "author": "Kazber",
+      "date": "2026-07-14T12:14:13Z"
+    },
+    {
+      "shortSha": "32fa9f2",
+      "message": "fix: load LED billboard texture sequences at runtime",
+      "author": "Kazber",
+      "date": "2026-07-14T12:10:56Z"
+    },
+    {
+      "shortSha": "2e9dd74",
+      "message": "fix: update billboard spawning logic for upper-layer walkways and add road requirement",
+      "author": "Kazber",
+      "date": "2026-07-14T12:05:38Z"
+    },
+    {
+      "shortSha": "c717ab2",
+      "message": "fix: make LED billboard visible in play",
+      "author": "Kazber",
+      "date": "2026-07-14T09:22:06Z"
+    },
+    {
+      "shortSha": "4134f12",
+      "message": "fix: show LED billboard editor preview by default",
+      "author": "Kazber",
+      "date": "2026-07-14T09:17:22Z"
+    },
+    {
+      "shortSha": "0cb5620",
+      "message": "fix: keep LED billboard from blocking player",
+      "author": "Kazber",
+      "date": "2026-07-14T09:11:22Z"
+    },
+    {
+      "shortSha": "1a3b945",
+      "message": "feat: add upper-layer walkway billboards functionality and cleanup logic",
+      "author": "Kazber",
+      "date": "2026-07-14T09:02:36Z"
+    },
+    {
+      "shortSha": "f4e63e9",
+      "message": "perf: reduce LED billboard runtime work",
+      "author": "Kazber",
+      "date": "2026-07-14T08:59:49Z"
+    },
+    {
+      "shortSha": "592c1e4",
+      "message": "feat: update LED billboard without generated test map",
+      "author": "Kazber",
+      "date": "2026-07-14T08:49:47Z"
+    },
+    {
+      "shortSha": "8335776",
+      "message": "feat: Add LED Billboard asset and update TestLevel map; refactor match subsystem for improved player-game flow",
+      "author": "Kazber",
+      "date": "2026-07-14T06:54:55Z"
+    },
+    {
+      "shortSha": "9ed88ce",
+      "message": "feat: Implement combat interleaving in match subsystem and add wearable bag functionality",
+      "author": "Kazber",
+      "date": "2026-07-14T06:20:38Z"
+    },
+    {
+      "shortSha": "fa3b74d",
+      "message": "feat: Add WearableBagWeapon class and integrate wearable bag functionality into player character",
+      "author": "Kazber",
+      "date": "2026-07-14T05:48:55Z"
+    },
+    {
+      "shortSha": "143edb0",
+      "message": "Add TerminalPixelBillboardActor class and related functionality",
+      "author": "Kazber",
+      "date": "2026-07-14T04:57:52Z"
+    },
+    {
+      "shortSha": "fb619eb",
+      "message": "feat: Refactor card destruction visuals and improve item ejection logic in battle components",
+      "author": "Kazber",
+      "date": "2026-07-14T02:43:39Z"
+    },
+    {
+      "shortSha": "7fd9c26",
+      "message": "feat: Enhance faction system with helmet-based combatant logic and faction affiliation updates",
+      "author": "Kazber",
+      "date": "2026-07-14T01:49:31Z"
+    },
+    {
+      "shortSha": "edcdb46",
+      "message": "feat: Add debug logging for NPC match and combat resolution to track match events",
+      "author": "Kazber",
+      "date": "2026-07-13T17:43:37Z"
+    },
+    {
+      "shortSha": "cc0caaf",
+      "message": "feat: Implement IsFightableCardId method to filter non-battle cards and add logging for skipped cards",
+      "author": "Kazber",
+      "date": "2026-07-13T17:08:01Z"
+    },
+    {
+      "shortSha": "5082d02",
+      "message": "feat: Update level assets and enhance combat logging for better debugging",
+      "author": "Kazber",
+      "date": "2026-07-13T16:42:15Z"
+    },
+    {
+      "shortSha": "9a0fa8c",
+      "message": "feat: Add PlaceCardNoResolve method and refactor combat resolution for group attacks",
+      "author": "Kazber",
+      "date": "2026-07-13T16:28:32Z"
+    },
+    {
+      "shortSha": "8bda0ab",
+      "message": "feat: Enhance NPC name color handling and bonding features with new functions and updates",
+      "author": "Kazber",
+      "date": "2026-07-13T15:01:45Z"
+    },
+    {
+      "shortSha": "a6141ef",
+      "message": "feat: Refactor floor class management to support multiple variants and improve random selection logic",
+      "author": "Kazber",
+      "date": "2026-07-13T13:58:48Z"
+    },
+    {
+      "shortSha": "0afc56d",
+      "message": "feat: Update assets and components for enhanced compass functionality and armor interactions",
+      "author": "Kazber",
+      "date": "2026-07-13T12:36:54Z"
+    },
+    {
+      "shortSha": "cee3fad",
+      "message": "feat: Refactor weapon attachment management for improved cleanup and silent installs",
+      "author": "Kazber",
+      "date": "2026-07-13T08:58:01Z"
+    },
+    {
+      "shortSha": "46172d7",
+      "message": "feat: Add CBCompassPointerComponent for dynamic compass functionality",
+      "author": "Kazber",
+      "date": "2026-07-13T08:30:09Z"
+    },
+    {
+      "shortSha": "09e58f3",
+      "message": "feat: Refactor weapon state management and add animation flag updates in player character",
+      "author": "Kazber",
+      "date": "2026-07-13T07:39:46Z"
+    },
+    {
+      "shortSha": "8cb6eda",
+      "message": "feat: Add new building assets including walls, doors, and shaders for Building04",
+      "author": "Kazber",
+      "date": "2026-07-13T07:28:40Z"
+    },
+    {
+      "shortSha": "a7b0bde",
+      "message": "feat: Implement non-consuming input bindings for Dash and Sprint actions, and add weapon lowering functionality",
+      "author": "Kazber",
+      "date": "2026-07-13T06:33:45Z"
+    },
+    {
+      "shortSha": "18c5488",
+      "message": "Add story NPC component and integrate with enemy class",
+      "author": "Kazber",
+      "date": "2026-07-13T05:57:27Z"
+    },
+    {
+      "shortSha": "b99d387",
+      "message": "fix: Prevent Kardz deck from displaying over active photo album in UI",
+      "author": "Kazber",
+      "date": "2026-07-13T05:16:54Z"
+    },
+    {
+      "shortSha": "a2a7cb1",
+      "message": "feat: Implement photo capture delay in camera weapon for improved snapshot accuracy",
+      "author": "Kazber",
+      "date": "2026-07-13T05:01:03Z"
+    },
+    {
+      "shortSha": "738a29f",
+      "message": "feat: Implement active photo management system with UI integration for bonded NPC interactions",
+      "author": "Kazber",
+      "date": "2026-07-13T04:44:42Z"
+    },
+    {
+      "shortSha": "9d5d24d",
+      "message": "feat: Enhance item persistence system with stable identifiers for level-recreated items",
+      "author": "Kazber",
+      "date": "2026-07-13T04:19:50Z"
+    },
+    {
+      "shortSha": "82103c2",
+      "message": "fix: Update key acceptance logic to use virtual key for gamepad A button",
+      "author": "Kazber",
+      "date": "2026-07-12T16:06:13Z"
+    },
+    {
+      "shortSha": "01e7f31",
+      "message": "feat: Implement NPC name revelation and persistence system for overhead health bar display",
+      "author": "Kazber",
+      "date": "2026-07-12T16:01:05Z"
+    },
+    {
+      "shortSha": "c7dbf67",
+      "message": "feat: Add functionality to ensure bonded group row names are reserved and implement reunion reward item handling",
+      "author": "Kazber",
+      "date": "2026-07-12T15:04:29Z"
+    },
+    {
+      "shortSha": "335583e",
+      "message": "feat: Add bonded objective icons widget and integrate with EdgeTriggerActor for visual representation",
+      "author": "Kazber",
+      "date": "2026-07-12T04:01:48Z"
+    },
+    {
+      "shortSha": "23896b9",
+      "message": "feat: Implement escort respawn logic and grace period handling for bonded NPCs",
+      "author": "Kazber",
+      "date": "2026-07-11T14:32:28Z"
+    },
+    {
+      "shortSha": "cba7537",
+      "message": "feat: Implement bonded NPC name reservation and clue system for missing partners",
+      "author": "Kazber",
+      "date": "2026-07-11T14:09:40Z"
+    },
+    {
+      "shortSha": "215f9b2",
+      "message": "feat: Enhance bonded group functionality with color overrides for NPC markers and add new map images",
+      "author": "Kazber",
+      "date": "2026-07-11T13:05:01Z"
+    },
+    {
+      "shortSha": "53ee162",
+      "message": "feat: Implement weapon lowering functionality and update threat detection logic",
+      "author": "Kazber",
+      "date": "2026-07-11T10:19:45Z"
+    },
+    {
+      "shortSha": "e1c87ad",
+      "message": "feat: Update grid generation logic to support multi-layer edge triggers and enhance logging",
+      "author": "Kazber",
+      "date": "2026-07-11T10:01:58Z"
+    },
+    {
+      "shortSha": "e1e60a0",
+      "message": "feat: Introduce water tile functionality with classification and spawning logic",
+      "author": "Kazber",
+      "date": "2026-07-11T09:20:53Z"
+    },
+    {
+      "shortSha": "7229b1d",
+      "message": "feat: Add roof cap spawning logic for upper layers and improve logging for interior tile placements",
+      "author": "Kazber",
+      "date": "2026-07-11T07:58:33Z"
+    },
+    {
+      "shortSha": "6d76754",
+      "message": "feat: Update background tint logic for album images to ensure proper visibility",
+      "author": "Kazber",
+      "date": "2026-07-11T07:42:56Z"
+    },
+    {
+      "shortSha": "c3306c6",
+      "message": "feat: Enhance bonded photo functionality with texture key support",
+      "author": "Kazber",
+      "date": "2026-07-11T07:30:24Z"
+    },
+    {
+      "shortSha": "a419c52",
+      "message": "feat: Add roof cap functionality and enhance grid management for building placements",
+      "author": "Kazber",
+      "date": "2026-07-11T07:02:06Z"
+    },
+    {
+      "shortSha": "1d52b06",
+      "message": "feat: Implement player state saving during level transitions and photo interactions",
+      "author": "Kazber",
+      "date": "2026-07-11T06:48:32Z"
+    },
+    {
+      "shortSha": "4f6f25c",
+      "message": "feat: Implement ramp extension logic to suppress underlying roads for smoother transitions",
+      "author": "Kazber",
+      "date": "2026-07-11T06:36:50Z"
+    },
+    {
+      "shortSha": "b77fd80",
+      "message": "feat: Add diagnostic logging for painted ramp tiles in upper layer generation",
+      "author": "Kazber",
+      "date": "2026-07-11T06:24:50Z"
+    },
+    {
+      "shortSha": "e9fff94",
+      "message": "feat: Implement road ramp functionality and enhance road classification logic",
+      "author": "Kazber",
+      "date": "2026-07-11T06:08:33Z"
+    },
+    {
+      "shortSha": "82ad506",
+      "message": "feat: Add new building layers and enhance NPC-vs-NPC matchmaking logic",
+      "author": "Kazber",
+      "date": "2026-07-11T05:35:57Z"
+    },
+    {
+      "shortSha": "e18d1ac",
+      "message": "feat: Update building asset files for improved city builder functionality",
+      "author": "Kazber",
+      "date": "2026-07-11T03:54:31Z"
+    },
+    {
+      "shortSha": "9c4748c",
+      "message": "feat: Add doorway tile assignment logic and variants for building layers",
+      "author": "Kazber",
+      "date": "2026-07-11T03:33:42Z"
+    },
+    {
+      "shortSha": "9c164d2",
+      "message": "Enhance photo album functionality and UI",
+      "author": "Kazber",
+      "date": "2026-07-11T02:57:36Z"
+    },
+    {
+      "shortSha": "d15f22d",
+      "message": "feat: Add interior floor class properties and logic for grid-based building placements",
+      "author": "Kazber",
+      "date": "2026-07-09T22:49:24Z"
+    },
+    {
+      "shortSha": "5542529",
+      "message": "feat: Enhance UI and functionality for bonded photo collection, including layout adjustments and new floor assets",
+      "author": "Kazber",
+      "date": "2026-07-09T13:17:42Z"
+    },
+    {
+      "shortSha": "52077cf",
+      "message": "feat: Add interior floor placement logic and UI adjustments for bonded photo album",
+      "author": "Kazber",
+      "date": "2026-07-09T12:42:01Z"
+    },
+    {
+      "shortSha": "7e555f0",
+      "message": "feat: Implement bonded photo album functionality and UI integration",
+      "author": "Kazber",
+      "date": "2026-07-09T12:20:20Z"
+    },
+    {
+      "shortSha": "be71fe8",
+      "message": "feat: Update enemy assets and add new bonded photo pickup weapon",
+      "author": "Kazber",
+      "date": "2026-07-09T11:30:22Z"
+    },
+    {
+      "shortSha": "949d8df",
+      "message": "feat: Enhance bonded NPC behavior and interactions",
+      "author": "Kazber",
+      "date": "2026-07-09T10:06:19Z"
+    },
+    {
+      "shortSha": "8758d21",
+      "message": "feat: Refactor EdgeTriggerActor to enhance widget color application and remove unused material parameters",
+      "author": "Kazber",
+      "date": "2026-07-09T09:11:56Z"
+    },
+    {
+      "shortSha": "6618943",
+      "message": "feat: Enhance ramp functionality by adding suppression logic for overlapping road tiles and updating related methods",
+      "author": "Kazber",
+      "date": "2026-07-09T08:59:36Z"
+    },
+    {
+      "shortSha": "de0d3bd",
+      "message": "feat: Update EdgeTriggerActor to support dynamic material color changes and add new properties for visual effects",
+      "author": "Kazber",
+      "date": "2026-07-09T08:06:50Z"
+    },
+    {
+      "shortSha": "7e2a3e5",
+      "message": "feat: Add change notes for FPS/Terminal camera and NPC aiming adjustments",
+      "author": "Kazber",
+      "date": "2026-07-09T07:35:45Z"
+    },
+    {
+      "shortSha": "97da18d",
+      "message": "Enhance Grid-Based City Builder with Layered Texture Support",
+      "author": "Kazber",
+      "date": "2026-07-09T07:30:08Z"
+    },
+    {
+      "shortSha": "e3ede0a",
+      "message": "feat: Implement upper layer ramp connection logic for road tiles",
+      "author": "Kazber",
+      "date": "2026-07-08T11:34:25Z"
+    },
+    {
+      "shortSha": "7ab8196",
+      "message": "feat: Update road and shape assets, including new road variants and modified images",
+      "author": "Kazber",
+      "date": "2026-07-08T10:54:17Z"
+    },
+    {
+      "shortSha": "ec0cab7",
+      "message": "feat: Add functionality for bonded group tracking and photo handling in gameplay",
+      "author": "Kazber",
+      "date": "2026-07-08T10:35:31Z"
+    },
+    {
+      "shortSha": "069fa49",
+      "message": "feat: Enhance road layer variant handling and add new upper layer road variant properties",
+      "author": "Kazber",
+      "date": "2026-07-08T09:45:34Z"
+    },
+    {
+      "shortSha": "6e44a18",
+      "message": "Refactor bonded photo collection and camera weapon functionality",
+      "author": "Kazber",
+      "date": "2026-07-08T01:02:01Z"
+    },
+    {
+      "shortSha": "eb87f6c",
+      "message": "feat: Add random candidate cell selection for bonded civilians and update related logic",
+      "author": "Kazber",
+      "date": "2026-07-07T15:58:00Z"
+    },
+    {
+      "shortSha": "27e659c",
+      "message": "feat: Remove unused 3D battle assets and add upper-layer path doorway wall variants",
+      "author": "Kazber",
+      "date": "2026-07-07T14:44:37Z"
+    },
+    {
+      "shortSha": "520b66e",
+      "message": "Enhance City Builder Path Variants and Add New Assets",
+      "author": "Kazber",
+      "date": "2026-07-07T14:27:25Z"
+    },
+    {
+      "shortSha": "4dbdd3d",
+      "message": "feat: Implement bonded escort behavior for photographed civilians",
+      "author": "Kazber",
+      "date": "2026-07-07T14:02:21Z"
+    },
+    {
+      "shortSha": "089cc0e",
+      "message": "feat: Implement persistent graffiti decal system and update related spawning logic",
+      "author": "Kazber",
+      "date": "2026-07-07T13:03:44Z"
+    },
+    {
+      "shortSha": "8c465d5",
+      "message": "feat: Update NPC speech bubble spawning logic and improve socket handling",
+      "author": "Kazber",
+      "date": "2026-07-07T12:10:19Z"
+    },
+    {
+      "shortSha": "5e8d380",
+      "message": "feat: Add NPC speech bubble spawning functionality",
+      "author": "Kazber",
+      "date": "2026-07-07T11:48:00Z"
+    },
+    {
+      "shortSha": "35ec8aa",
+      "message": "feat: Refactor building neighbor logic for improved tile type handling",
+      "author": "Kazber",
+      "date": "2026-07-07T11:00:10Z"
+    },
+    {
+      "shortSha": "2443d1d",
+      "message": "chore: Update CB Report with new binary content",
+      "author": "Kazber",
+      "date": "2026-07-07T10:33:54Z"
+    },
+    {
+      "shortSha": "917ba62",
+      "message": "Implement bonded civilian photo system",
+      "author": "Kazber",
+      "date": "2026-07-07T10:33:31Z"
+    },
+    {
+      "shortSha": "4c5376c",
+      "message": "feat: Add new speech bubble assets for enhanced dialogue presentation",
+      "author": "Kazber",
+      "date": "2026-07-07T09:17:46Z"
+    },
+    {
+      "shortSha": "21e4ff1",
+      "message": "Some stuff from manic mondays",
+      "author": "Kazber",
+      "date": "2026-07-07T09:06:20Z"
+    },
+    {
+      "shortSha": "bc3bf89",
+      "message": "feat: Add dog NPC weapon handling and pickup restrictions",
+      "author": "Kazber",
+      "date": "2026-07-07T09:03:10Z"
+    },
+    {
+      "shortSha": "42e673d",
+      "message": "chore: Update CB Report with new content",
+      "author": "Kazber",
+      "date": "2026-07-07T08:07:57Z"
+    },
+    {
+      "shortSha": "90273a4",
+      "message": "feat: Implement upscaling quality settings and enhance display settings management",
+      "author": "Kazber",
+      "date": "2026-07-07T08:06:16Z"
+    },
+    {
+      "shortSha": "ec6634f",
+      "message": "feat: Update City_01 asset and CB Report with new configurations",
+      "author": "Kazber",
+      "date": "2026-07-07T02:22:34Z"
+    },
+    {
+      "shortSha": "16ec269",
+      "message": "Add new NPC names to NPCNames.csv and enhance GridManager functionality",
+      "author": "Kazber",
+      "date": "2026-07-07T02:09:31Z"
+    },
+    {
+      "shortSha": "85adf73",
+      "message": "Refactor code structure for improved readability and maintainability",
+      "author": "Kazber",
+      "date": "2026-07-07T01:16:35Z"
+    },
+    {
+      "shortSha": "6512061",
+      "message": "feat: Add new building elements and update NPC names in the city builder",
+      "author": "Kazber",
+      "date": "2026-07-07T00:52:34Z"
+    },
+    {
+      "shortSha": "5b864b8",
+      "message": "feat: Enhance NPC management with dog and Kardz player identification in grid and map widgets",
+      "author": "Kazber",
+      "date": "2026-07-07T00:41:19Z"
+    },
+    {
+      "shortSha": "ed4181b",
+      "message": "feat: Add Kardz mini-game configuration and loadout management for NPCs",
+      "author": "Kazber",
+      "date": "2026-07-07T00:10:13Z"
+    },
+    {
+      "shortSha": "6898e15",
+      "message": "feat: Add Kardz mini-game configuration for spawned NPCs with adjustable enable chance and starting deck",
+      "author": "Kazber",
+      "date": "2026-07-06T23:24:28Z"
+    },
+    {
+      "shortSha": "12f17e8",
+      "message": "feat: Enhance XP logging to include victim names for kill sources in readouts",
+      "author": "Kazber",
+      "date": "2026-07-06T10:04:15Z"
+    },
+    {
+      "shortSha": "e7921bc",
+      "message": "Refactor BoneBreaker damage handling and enhance XP attribution",
+      "author": "Kazber",
+      "date": "2026-07-06T09:38:17Z"
+    },
+    {
+      "shortSha": "9b59c29",
+      "message": "feat: Implement NPC name management with loading from CSV and unique name generation",
+      "author": "Kazber",
+      "date": "2026-07-06T09:02:07Z"
+    },
+    {
+      "shortSha": "89ca76d",
+      "message": "feat: Enhance grid management for multi-layer buildings with air tile support and variant classification",
+      "author": "Kazber",
+      "date": "2026-07-06T07:39:38Z"
+    },
+    {
+      "shortSha": "3768e6c",
+      "message": "feat: Enhance deck layout configuration with detailed comments and add uniform scale multiplier for fan layout",
+      "author": "Kazber",
+      "date": "2026-07-05T08:45:07Z"
+    },
+    {
+      "shortSha": "6dd774b",
+      "message": "feat: Add support for upper layers in grid generation and enhance tile type retrieval for specific layers",
+      "author": "Kazber",
+      "date": "2026-07-05T07:38:22Z"
+    },
+    {
+      "shortSha": "8bb3568",
+      "message": "feat: Implement terminal camera toggle functionality and enhance UI navigation for death records and item history",
+      "author": "Kazber",
+      "date": "2026-07-05T07:09:42Z"
+    },
+    {
+      "shortSha": "d09b852",
+      "message": "feat: Add user zoom multiplier for PDA screen and implement deferred live-preview apply for settings",
+      "author": "Kazber",
+      "date": "2026-07-05T01:10:16Z"
+    },
+    {
+      "shortSha": "5dfa09e",
+      "message": "feat: Implement self-attack mechanics and card conversion abilities",
+      "author": "Kazber",
+      "date": "2026-07-05T00:50:42Z"
+    },
+    {
+      "shortSha": "127e45e",
+      "message": "feat: Enhance keyboard navigation and focus handling in death records and item history widgets",
+      "author": "Kazber",
+      "date": "2026-07-04T22:45:02Z"
+    },
+    {
+      "shortSha": "f20cc38",
+      "message": "feat: Refactor UI initialization in death records and item history widgets for improved rendering",
+      "author": "Kazber",
+      "date": "2026-07-04T12:23:38Z"
+    },
+    {
+      "shortSha": "07511c3",
+      "message": "feat: Add new assets and improve UI handling in death records and item history widgets",
+      "author": "Kazber",
+      "date": "2026-07-04T11:28:24Z"
+    },
+    {
+      "shortSha": "d3d66b5",
+      "message": "feat: Add new assets including snake textures and icons for enhanced gameplay",
+      "author": "Kazber",
+      "date": "2026-07-04T11:01:11Z"
+    },
+    {
+      "shortSha": "37b792d",
+      "message": "feat: Add new card assets and icons for enhanced gameplay experience",
+      "author": "Kazber",
+      "date": "2026-07-04T07:20:05Z"
+    },
+    {
+      "shortSha": "1498cef",
+      "message": "feat: Update Kardz card definitions asset for improved gameplay integration",
+      "author": "Kazber",
+      "date": "2026-07-04T07:05:09Z"
+    },
+    {
+      "shortSha": "29b425e",
+      "message": "feat: Refactor rich text handling in item history widget and add new card images",
+      "author": "Kazber",
+      "date": "2026-07-04T06:50:58Z"
+    },
+    {
+      "shortSha": "5479ee6",
+      "message": "Enhance gameplay features and UI elements",
+      "author": "Kazber",
+      "date": "2026-07-04T06:29:16Z"
+    },
+    {
+      "shortSha": "f7e4681",
+      "message": "feat: Implement keyboard and mouse visual support in controls widget and enhance layout management",
+      "author": "Kazber",
+      "date": "2026-07-04T05:10:44Z"
+    },
+    {
+      "shortSha": "97263ef",
+      "message": "feat: Update enemy assets and add new UI images for enhanced gameplay experience",
+      "author": "Kazber",
+      "date": "2026-07-04T04:53:43Z"
+    },
+    {
+      "shortSha": "b4db0ba",
+      "message": "fix: Prevent NPCs from mimicking attacks with empty hands and improve weapon handling logic",
+      "author": "Kazber",
+      "date": "2026-07-03T13:15:15Z"
+    },
+    {
+      "shortSha": "b9b539b",
+      "message": "feat: Enhance Overtone voice pitch functionality and update various assets",
+      "author": "Kazber",
+      "date": "2026-07-03T12:32:20Z"
+    },
+    {
+      "shortSha": "51d3a21",
+      "message": "Update enemy assets and enhance round outcome broadcasting functionality",
+      "author": "Kazber",
+      "date": "2026-07-03T11:27:55Z"
+    },
+    {
+      "shortSha": "b3a04c8",
+      "message": "Add NPC match start and round outcome broadcast functionality",
+      "author": "Kazber",
+      "date": "2026-07-03T10:57:04Z"
+    },
+    {
+      "shortSha": "dffd974",
+      "message": "Update enemy and attack arrow assets for improved gameplay mechanics and visual effects",
+      "author": "Kazber",
+      "date": "2026-07-03T10:40:22Z"
+    },
+    {
+      "shortSha": "987f055",
+      "message": "Refactor AttackArrow widget for improved visibility handling and add new arrow assets",
+      "author": "Kazber",
+      "date": "2026-07-03T09:18:00Z"
+    },
+    {
+      "shortSha": "a56e1f7",
+      "message": "Add AttackArrow assets and update CB Report",
+      "author": "Kazber",
+      "date": "2026-07-03T08:54:32Z"
+    },
+    {
+      "shortSha": "6a3e136",
+      "message": "Add attack arrow widget and integrate into battle component",
+      "author": "Kazber",
+      "date": "2026-07-03T08:31:10Z"
+    },
+    {
+      "shortSha": "50b5b92",
+      "message": "Enhance Kardz NPC functionality and UI updates",
+      "author": "Kazber",
+      "date": "2026-07-03T07:57:03Z"
+    },
+    {
+      "shortSha": "c543ec1",
+      "message": "Implement death record system with NPC death logging, UI integration, and terminal disk for access",
+      "author": "Kazber",
+      "date": "2026-07-03T07:25:29Z"
+    },
+    {
+      "shortSha": "b4f22d9",
+      "message": "Enhance NPC persistence by adding Kardz state handling and refactoring related functions for improved clarity and maintainability",
+      "author": "Kazber",
+      "date": "2026-07-03T03:04:06Z"
+    },
+    {
+      "shortSha": "19a659b",
+      "message": "Enhance Controls Display and Settings Widget Functionality",
+      "author": "Kazber",
+      "date": "2026-07-03T02:17:07Z"
+    },
+    {
+      "shortSha": "c8025de",
+      "message": "Enhance item persistence by adding bag contents handling and refactoring related functions for better clarity and maintainability",
+      "author": "Kazber",
+      "date": "2026-07-03T01:41:05Z"
+    },
+    {
+      "shortSha": "5faa6ce",
+      "message": "Add Kardz card ID handling to item persistence and spawning logic",
+      "author": "Kazber",
+      "date": "2026-07-03T01:14:41Z"
+    },
+    {
+      "shortSha": "6109b0c",
+      "message": "Add IsItemCarriedByCharacter function to determine item ownership by characters",
+      "author": "Kazber",
+      "date": "2026-07-03T01:10:23Z"
+    },
+    {
+      "shortSha": "c385d30",
+      "message": "Improve card instance loading logic in ACBKardzCardPickup and enhance error handling for unplayable cards",
+      "author": "Kazber",
+      "date": "2026-07-02T18:33:48Z"
+    },
+    {
+      "shortSha": "7f84783",
+      "message": "Enhance grid cell visit tracking and item spawning logic to prevent duplicates on revisits",
+      "author": "Kazber",
+      "date": "2026-07-02T18:18:17Z"
+    },
+    {
+      "shortSha": "fb1249c",
+      "message": "Update item spawning logic to prevent duplicates in visited grid cells",
+      "author": "Kazber",
+      "date": "2026-07-02T17:49:19Z"
+    },
+    {
+      "shortSha": "7c0930e",
+      "message": "Refactor font usage in OvertoneGettingStartedWindow for consistency",
+      "author": "Kazber",
+      "date": "2026-07-02T17:28:58Z"
+    },
+    {
+      "shortSha": "b2a26ea",
+      "message": "Add diamond card images and icons for PokerC1",
+      "author": "Kazber",
+      "date": "2026-07-02T17:25:05Z"
+    },
+    {
+      "shortSha": "bfa7dfd",
+      "message": "Add new diamond images and icons for PokerC1",
+      "author": "Kazber",
+      "date": "2026-07-02T02:25:55Z"
+    },
+    {
+      "shortSha": "39a98e4",
+      "message": "Add script to generate icon images for Kardz and create initial icons",
+      "author": "Kazber",
+      "date": "2026-07-02T02:16:18Z"
+    },
+    {
+      "shortSha": "a4a8316",
+      "message": "Add held item display functionality and update item stats widget",
+      "author": "Kazber",
+      "date": "2026-07-02T02:05:20Z"
+    },
+    {
+      "shortSha": "c61fd3e",
+      "message": "dead kardz players cant play kardz",
+      "author": "Kazber",
+      "date": "2026-07-02T00:48:26Z"
+    },
+    {
+      "shortSha": "b68e6ab",
+      "message": "Add persistent item identity system for weapons and pickups",
+      "author": "Kazber",
+      "date": "2026-07-02T00:37:28Z"
+    },
+    {
+      "shortSha": "bcebce2",
+      "message": "plane update",
+      "author": "Kazber",
+      "date": "2026-07-02T00:10:04Z"
+    },
+    {
+      "shortSha": "477c788",
+      "message": "from the plane",
+      "author": "Kazber",
+      "date": "2026-07-01T22:13:55Z"
+    },
+    {
+      "shortSha": "afc968c",
+      "message": "Added poker kardz",
+      "author": "Kazber",
+      "date": "2026-07-01T15:07:22Z"
+    },
+    {
+      "shortSha": "54d67c0",
+      "message": "adding poker kard type",
+      "author": "Kazber",
+      "date": "2026-07-01T14:54:28Z"
+    },
+    {
+      "shortSha": "815775d",
+      "message": "Add scrollable item list and focus navigation for betting widget",
+      "author": "Kazber",
+      "date": "2026-07-01T14:11:53Z"
+    },
+    {
+      "shortSha": "1bedfab",
+      "message": "kards sounds",
+      "author": "Kazber",
+      "date": "2026-07-01T13:56:24Z"
+    },
+    {
+      "shortSha": "0e49dec",
+      "message": "Added slot-aware attachment save data in [CBPlayerState.h (line 21)](/Users/sthari01/Documents/GitHub/Cyber_Bully_502_Bad_Gateway/Cyber_Bully_5_8/Source/Cyber_Bully/Public/CBPlayerState.h:21).",
+      "author": "Kazber",
+      "date": "2026-07-01T13:24:04Z"
+    },
+    {
+      "shortSha": "4c215da",
+      "message": "Goat/resurrection Kard draw handling now returns resurrecting Kards to their original owner on a draw instead of clearing/losing them. See [CBKardzBattleComponent.cpp (line 4854)](/Users/sthari01/Documents/GitHub/Cyber_Bully_502_Bad_Gateway/Cyber_Bully_5_8/Source/Cyber_Bully/Private/Kardz/CBKardzBattleComponent.cpp:4854).",
+      "author": "Kazber",
+      "date": "2026-07-01T13:04:48Z"
+    },
+    {
+      "shortSha": "d9ef351",
+      "message": "fixes",
+      "author": "Kazber",
+      "date": "2026-07-01T01:50:09Z"
+    },
+    {
+      "shortSha": "222dd82",
+      "message": "kardz battle",
+      "author": "Kazber",
+      "date": "2026-07-01T01:05:52Z"
+    },
+    {
+      "shortSha": "788afb2",
+      "message": "edge",
+      "author": "Kazber",
+      "date": "2026-07-01T00:47:39Z"
+    },
+    {
+      "shortSha": "c5c5232",
+      "message": "more sounds",
+      "author": "Kazber",
+      "date": "2026-07-01T00:34:05Z"
+    },
+    {
+      "shortSha": "fd09bef",
+      "message": "When we are in a game and our gun has less than the highest capacity ammunition, then if we try to pick up ammo for that gun, it should just reload the gun and drop any remaining ammo so if the clip had 30 ammo for example, and the gun already had 10 ammo and the maximum capacity for the gun is 30 then we would drop a clip with 20 ammo.",
+      "author": "Kazber",
+      "date": "2026-07-01T00:19:07Z"
+    },
+    {
+      "shortSha": "f3d4d3a",
+      "message": "new sounds",
+      "author": "Kazber",
+      "date": "2026-07-01T00:07:58Z"
+    },
+    {
+      "shortSha": "418a071",
+      "message": "more kardz",
+      "author": "Kazber",
+      "date": "2026-06-30T23:15:13Z"
+    },
+    {
+      "shortSha": "92ea6d0",
+      "message": "dlls",
+      "author": "Kasper",
+      "date": "2026-06-30T22:22:35Z"
+    },
+    {
+      "shortSha": "52bb55e",
+      "message": "dll files",
+      "author": "Kasper",
+      "date": "2026-06-30T22:19:38Z"
+    },
+    {
+      "shortSha": "5ae8c19",
+      "message": "API errors are fixed and the Win64 Development game target",
+      "author": "Kasper",
+      "date": "2026-06-30T21:10:05Z"
+    },
+    {
+      "shortSha": "6a10a10",
+      "message": "col",
+      "author": "Kazber",
+      "date": "2026-06-30T21:06:06Z"
+    },
+    {
+      "shortSha": "cf8e5f0",
+      "message": "foggggg",
+      "author": "Kazber",
+      "date": "2026-06-30T21:01:20Z"
+    },
+    {
+      "shortSha": "ec71663",
+      "message": "fog",
+      "author": "Kazber",
+      "date": "2026-06-30T20:38:51Z"
+    },
+    {
+      "shortSha": "04ef381",
+      "message": "fixed and started adding fog",
+      "author": "Kazber",
+      "date": "2026-06-30T20:15:59Z"
+    },
+    {
+      "shortSha": "96c33e3",
+      "message": "add goof",
+      "author": "Kazber",
+      "date": "2026-06-30T19:42:08Z"
+    },
+    {
+      "shortSha": "dd85705",
+      "message": "added kards",
+      "author": "Kazber",
+      "date": "2026-06-30T19:30:42Z"
+    },
+    {
+      "shortSha": "1043067",
+      "message": "Deck cards that fight and die",
+      "author": "Kazber",
+      "date": "2026-06-30T19:06:41Z"
+    },
+    {
+      "shortSha": "dd5b8b4",
+      "message": "4 win",
+      "author": "Kazber",
+      "date": "2026-06-30T18:43:14Z"
+    },
+    {
+      "shortSha": "792a3b0",
+      "message": "win",
+      "author": "Kasper",
+      "date": "2026-06-30T18:39:51Z"
+    },
+    {
+      "shortSha": "72f3fb1",
+      "message": "ui",
+      "author": "Kazber",
+      "date": "2026-06-30T18:32:31Z"
+    },
+    {
+      "shortSha": "51e5125",
+      "message": "worm fix",
+      "author": "Kazber",
+      "date": "2026-06-30T18:23:15Z"
+    },
+    {
+      "shortSha": "d6e433b",
+      "message": "cheater kard",
+      "author": "Kazber",
+      "date": "2026-06-30T18:03:56Z"
+    },
+    {
+      "shortSha": "1ce17e0",
+      "message": "overflow routing for player-owned Kardz that fail to fit back into the prepared deck",
+      "author": "Kazber",
+      "date": "2026-06-30T17:46:39Z"
+    },
+    {
+      "shortSha": "ba68c22",
+      "message": "kardz more",
+      "author": "Kazber",
+      "date": "2026-06-30T16:56:37Z"
+    },
+    {
+      "shortSha": "4c10251",
+      "message": "fixes to kardz",
+      "author": "Kazber",
+      "date": "2026-06-30T16:49:24Z"
+    },
+    {
+      "shortSha": "961e5ab",
+      "message": "siren kard",
+      "author": "Kazber",
+      "date": "2026-06-30T16:31:56Z"
+    },
+    {
+      "shortSha": "396c862",
+      "message": "add grim ablity kard",
+      "author": "Kazber",
+      "date": "2026-06-30T16:23:16Z"
+    },
+    {
+      "shortSha": "1592c1e",
+      "message": "worm imp",
+      "author": "Kazber",
+      "date": "2026-06-30T15:48:44Z"
+    },
+    {
+      "shortSha": "7e318b8",
+      "message": "special kardz abilities Worm",
+      "author": "Kazber",
+      "date": "2026-06-30T15:30:12Z"
+    },
+    {
+      "shortSha": "742bb1c",
+      "message": "added to maps",
+      "author": "Kazber",
+      "date": "2026-06-30T15:10:51Z"
+    },
+    {
+      "shortSha": "03b9bab",
+      "message": "save point",
+      "author": "Kazber",
+      "date": "2026-06-30T14:58:24Z"
+    },
+    {
+      "shortSha": "ecb13d2",
+      "message": "save disks and break fixes",
+      "author": "Kazber",
+      "date": "2026-06-30T14:53:13Z"
+    },
+    {
+      "shortSha": "138f9fc",
+      "message": "The Kardz deck UI now hides when entering FPS mode and reappears on exit",
+      "author": "Kazber",
+      "date": "2026-06-30T13:12:30Z"
+    },
+    {
+      "shortSha": "ac4b97e",
+      "message": "Kril",
+      "author": "Kazber",
+      "date": "2026-06-30T13:06:53Z"
+    },
+    {
+      "shortSha": "ecc32d9",
+      "message": "fixed kardz message",
+      "author": "Kazber",
+      "date": "2026-06-30T04:17:14Z"
+    },
+    {
+      "shortSha": "662b42e",
+      "message": "fixed break",
+      "author": "Kazber",
+      "date": "2026-06-30T03:52:00Z"
+    },
+    {
+      "shortSha": "a0af9b9",
+      "message": "match outcome",
+      "author": "Kazber",
+      "date": "2026-06-30T03:32:57Z"
+    },
+    {
+      "shortSha": "c7071a2",
+      "message": "Fix visual Controls Page. Improve it. Controller, Keyboard and Mouse. Add a button at the bottom of the settings widget that goes to the controls page. This should update automatically as we develop the game. CDcontrolsWidget. How it works is we have an image of whatever controller is selected in the middle and text boxes all around it that explains the what the various buttons do with all the holds and combinations.",
+      "author": "Kazber",
+      "date": "2026-06-30T02:41:27Z"
+    },
+    {
+      "shortSha": "508c3f1",
+      "message": "When I have a weapon and a bag I cannot put weapons in the bag i get the hands full warning.",
+      "author": "Kazber",
+      "date": "2026-06-30T01:40:36Z"
+    },
+    {
+      "shortSha": "983777c",
+      "message": "Fix Kardz and Bag issues. \"Kard (None)\" in the bag. When bag contents are saved/restored across levels, only the actor class is persisted. Bug weapon-in-bag when hands full: TryPickupWeapon returns early on \"hands full\" before the pickup path that would route the weapon into the bag.",
+      "author": "Kazber",
+      "date": "2026-06-30T01:16:36Z"
+    },
+    {
+      "shortSha": "21eed0f",
+      "message": "title adjustments",
+      "author": "Kasper",
+      "date": "2026-06-30T00:47:17Z"
+    },
+    {
+      "shortSha": "cc5bf75",
+      "message": "windows repairs, because i develop on mac",
+      "author": "Kasper",
+      "date": "2026-06-30T00:38:04Z"
+    },
+    {
+      "shortSha": "594a5a3",
+      "message": "title f",
+      "author": "Kazber",
+      "date": "2026-06-29T23:59:23Z"
+    },
+    {
+      "shortSha": "a54f2b1",
+      "message": "buildf",
+      "author": "Kasper",
+      "date": "2026-06-29T23:56:27Z"
+    },
+    {
+      "shortSha": "30560c2",
+      "message": "title",
+      "author": "Kazber",
+      "date": "2026-06-29T23:54:48Z"
+    },
+    {
+      "shortSha": "ddf6ba8",
+      "message": "outline and title",
+      "author": "Kazber",
+      "date": "2026-06-29T23:39:51Z"
+    },
+    {
+      "shortSha": "d19c173",
+      "message": "bag fixes etc",
+      "author": "Kazber",
+      "date": "2026-06-29T23:26:13Z"
+    },
+    {
+      "shortSha": "24b6565",
+      "message": "bag",
+      "author": "Kazber",
+      "date": "2026-06-29T23:03:06Z"
+    },
+    {
+      "shortSha": "b28da76",
+      "message": "bag held item preview fixed",
+      "author": "Kazber",
+      "date": "2026-06-29T22:52:43Z"
+    },
+    {
+      "shortSha": "738701c",
+      "message": "bag save",
+      "author": "Kazber",
+      "date": "2026-06-29T22:29:22Z"
+    },
+    {
+      "shortSha": "dbd98be",
+      "message": "button highlights",
+      "author": "Kazber",
+      "date": "2026-06-29T22:13:34Z"
+    },
+    {
+      "shortSha": "e15ee7a",
+      "message": "fps mode improvments",
+      "author": "Kazber",
+      "date": "2026-06-29T22:03:44Z"
+    },
+    {
+      "shortSha": "9224749",
+      "message": "The text widget for kardz should tell the player if they have bet enough items to match the opponents bet.",
+      "author": "Kazber",
+      "date": "2026-06-29T21:34:50Z"
+    },
+    {
+      "shortSha": "200c2dc",
+      "message": "values for items",
+      "author": "Kazber",
+      "date": "2026-06-29T21:19:09Z"
+    },
+    {
+      "shortSha": "02fcd55",
+      "message": "If one player bets something they were wearing it should return to them on the slot where they were wearing it if they won the battle.",
+      "author": "Kazber",
+      "date": "2026-06-29T20:31:41Z"
+    },
+    {
+      "shortSha": "8e9d2d8",
+      "message": "elem",
+      "author": "Kazber",
+      "date": "2026-06-29T20:10:50Z"
+    },
+    {
+      "shortSha": "a9ceb6e",
+      "message": "fixed by renaming the shadowing local Owner to WeaponOwner.",
+      "author": "Kasper",
+      "date": "2026-06-29T19:40:12Z"
+    },
+    {
+      "shortSha": "6425bc3",
+      "message": "element symbols rather than text",
+      "author": "Kazber",
+      "date": "2026-06-29T19:31:48Z"
+    },
+    {
+      "shortSha": "91c51ef",
+      "message": "you can bet clothes now",
+      "author": "Kazber",
+      "date": "2026-06-29T19:22:15Z"
+    },
+    {
+      "shortSha": "de25622",
+      "message": "circular dependency fixes",
+      "author": "Kazber",
+      "date": "2026-06-29T18:27:20Z"
+    },
+    {
+      "shortSha": "f695826",
+      "message": "random stuff fixed",
+      "author": "Kazber",
+      "date": "2026-06-29T16:39:11Z"
+    },
+    {
+      "shortSha": "ebfa020",
+      "message": "awesome so far",
+      "author": "Kazber",
+      "date": "2026-06-29T16:29:02Z"
+    },
+    {
+      "shortSha": "efd4bf1",
+      "message": "numbers again",
+      "author": "Kazber",
+      "date": "2026-06-29T16:14:58Z"
+    },
+    {
+      "shortSha": "4935a1f",
+      "message": "the numbers the numbers the numbers!",
+      "author": "Kazber",
+      "date": "2026-06-29T15:48:55Z"
+    },
+    {
+      "shortSha": "e105b83",
+      "message": "Floating Damage Numbers",
+      "author": "Kazber",
+      "date": "2026-06-29T15:26:59Z"
+    },
+    {
+      "shortSha": "116854d",
+      "message": "Won-items floating — fixed",
+      "author": "Kazber",
+      "date": "2026-06-29T14:50:53Z"
+    },
+    {
+      "shortSha": "78648cd",
+      "message": "First time we see play on and retire we can’t select. We should be able to select a card and then that would just assume we’re going to play on anyway. We can keep the play on button and the retire button at this point however we should be able to select it if focus is an issue then press pressing down on the D pad while in this mode should get us back to those buttons at this point.",
+      "author": "Kazber",
+      "date": "2026-06-29T14:11:19Z"
+    },
+    {
+      "shortSha": "7161937",
+      "message": "Positioning guide Arrows appear on bet items, might be better to remove these arrows now. And sometimes float.",
+      "author": "Kazber",
+      "date": "2026-06-29T12:07:28Z"
+    },
+    {
+      "shortSha": "aa73683",
+      "message": "fix floating armour after battle",
+      "author": "Kazber",
+      "date": "2026-06-28T23:17:21Z"
+    },
+    {
+      "shortSha": "a765912",
+      "message": "The Kardz collection path doesn't fire the pickup-animation pulse that civilians/player use.",
+      "author": "Kazber",
+      "date": "2026-06-28T22:43:43Z"
+    },
+    {
+      "shortSha": "fd841c2",
+      "message": "Kards decks persist when we go to a new level.",
+      "author": "Kazber",
+      "date": "2026-06-28T22:12:18Z"
+    },
+    {
+      "shortSha": "1b74e4b",
+      "message": "Kards plays need to search for bet items too. Kardz players have their own behaviour!",
+      "author": "Kazber",
+      "date": "2026-06-28T21:22:03Z"
+    },
+    {
+      "shortSha": "79068ad",
+      "message": "testing repairs",
+      "author": "Kazber",
+      "date": "2026-06-28T20:58:33Z"
+    },
+    {
+      "shortSha": "a671aec",
+      "message": "adjusted board",
+      "author": "Kazber",
+      "date": "2026-06-28T20:37:42Z"
+    },
+    {
+      "shortSha": "753b04d",
+      "message": "k1",
+      "author": "Kazber",
+      "date": "2026-06-28T20:23:31Z"
+    },
+    {
+      "shortSha": "f47af5f",
+      "message": "widget fix",
+      "author": "Kazber",
+      "date": "2026-06-28T20:02:41Z"
+    },
+    {
+      "shortSha": "41e2d83",
+      "message": "when a card is destoryed the damage and attack widget does not get a chance to show",
+      "author": "Kazber",
+      "date": "2026-06-28T20:00:41Z"
+    },
+    {
+      "shortSha": "849a094",
+      "message": "fixing bags",
+      "author": "Kazber",
+      "date": "2026-06-28T19:51:40Z"
+    },
+    {
+      "shortSha": "94327cf",
+      "message": "2d",
+      "author": "Kazber",
+      "date": "2026-06-28T19:31:31Z"
+    },
+    {
+      "shortSha": "a1029d2",
+      "message": "added 2d fx",
+      "author": "Kazber",
+      "date": "2026-06-28T19:05:01Z"
+    },
+    {
+      "shortSha": "9f25bd5",
+      "message": "refine kardz",
+      "author": "Kazber",
+      "date": "2026-06-28T18:32:19Z"
+    },
+    {
+      "shortSha": "38554bd",
+      "message": "Kards up1",
+      "author": "Kazber",
+      "date": "2026-06-28T18:15:51Z"
+    },
+    {
+      "shortSha": "100ebc0",
+      "message": "kards kind of working now",
+      "author": "Kazber",
+      "date": "2026-06-28T17:46:42Z"
+    },
+    {
+      "shortSha": "72a65c9",
+      "message": "attachments when attached to a weapon should visually behave like the weapon they are attached to when in a bag.",
+      "author": "Kazber",
+      "date": "2026-06-28T17:09:28Z"
+    },
+    {
+      "shortSha": "1f2eecb",
+      "message": "attachments still floating",
+      "author": "Kazber",
+      "date": "2026-06-28T16:49:34Z"
+    },
+    {
+      "shortSha": "470878e",
+      "message": "The npc still does not pick up cards.  There is no clear options “Skip(if we already have a card down), Retire”",
+      "author": "Kazber",
+      "date": "2026-06-28T16:18:52Z"
+    },
+    {
+      "shortSha": "5c36974",
+      "message": "kardz",
+      "author": "Kazber",
+      "date": "2026-06-28T15:57:07Z"
+    },
+    {
+      "shortSha": "d64e26c",
+      "message": "simple map setup",
+      "author": "Kazber",
+      "date": "2026-06-28T15:35:44Z"
+    },
+    {
+      "shortSha": "7787965",
+      "message": "update_kard",
+      "author": "Kazber",
+      "date": "2026-06-28T15:15:44Z"
+    },
+    {
+      "shortSha": "3066e24",
+      "message": "add sounds",
+      "author": "Kazber",
+      "date": "2026-06-28T15:05:20Z"
+    },
+    {
+      "shortSha": "de46a26",
+      "message": "kardz",
+      "author": "Kazber",
+      "date": "2026-06-28T14:38:48Z"
+    },
+    {
+      "shortSha": "81537d0",
+      "message": "Hi Jeje",
+      "author": "Kazber",
+      "date": "2026-06-28T14:34:53Z"
+    },
+    {
+      "shortSha": "f490629",
+      "message": "fixing kards and attachments",
+      "author": "Kazber",
+      "date": "2026-06-28T13:29:44Z"
+    },
+    {
+      "shortSha": "5d3105c",
+      "message": "attachment drop",
+      "author": "Kazber",
+      "date": "2026-06-28T12:45:34Z"
+    },
+    {
+      "shortSha": "b74eb7c",
+      "message": "kardz",
+      "author": "Kazber",
+      "date": "2026-06-28T12:11:45Z"
+    },
+    {
+      "shortSha": "8685663",
+      "message": "3. We need to be able to select items for betting. This should pop up before the card game starts. List all items in a bag first, then items holstered or held, then items equiped. The npc will have an array where bet items can be set.  The npc still does not pick up cards.  Lets make a text widget that I can style that will pop up at the end of each turn. This will be useful to explain what is going on.  There is no clear options “Skip(if we already have a card down), Retire”",
+      "author": "Kazber",
+      "date": "2026-06-28T11:45:04Z"
+    },
+    {
+      "shortSha": "04c7cd0",
+      "message": "up2",
+      "author": "Kazber",
+      "date": "2026-06-28T00:52:30Z"
+    },
+    {
+      "shortSha": "aeeccdf",
+      "message": "this is becoming a slog now. to many different parts to get working. The scale issues are a constant annoyance.",
+      "author": "Kazber",
+      "date": "2026-06-28T00:15:19Z"
+    },
+    {
+      "shortSha": "f6be0c0",
+      "message": "battle visual",
+      "author": "Kazber",
+      "date": "2026-06-27T23:53:25Z"
+    },
+    {
+      "shortSha": "5d4fb8e",
+      "message": "the a word",
+      "author": "Kazber",
+      "date": "2026-06-27T23:40:40Z"
+    },
+    {
+      "shortSha": "4988761",
+      "message": "battle",
+      "author": "Kazber",
+      "date": "2026-06-27T23:21:33Z"
+    },
+    {
+      "shortSha": "e8262e1",
+      "message": "kardz battle",
+      "author": "Kazber",
+      "date": "2026-06-27T23:01:33Z"
+    },
+    {
+      "shortSha": "9d88165",
+      "message": "attach",
+      "author": "Kazber",
+      "date": "2026-06-27T22:52:28Z"
+    },
+    {
+      "shortSha": "1797a85",
+      "message": "Setup",
+      "author": "Kazber",
+      "date": "2026-06-27T22:33:32Z"
+    },
+    {
+      "shortSha": "34f46b4",
+      "message": "kards",
+      "author": "Kazber",
+      "date": "2026-06-27T22:04:35Z"
+    },
+    {
+      "shortSha": "254897b",
+      "message": "player",
+      "author": "Kazber",
+      "date": "2026-06-27T21:38:27Z"
+    },
+    {
+      "shortSha": "2682f3b",
+      "message": "board",
+      "author": "Kazber",
+      "date": "2026-06-27T21:30:59Z"
+    },
+    {
+      "shortSha": "f0d1eee",
+      "message": "kardz444",
+      "author": "Kazber",
+      "date": "2026-06-27T21:19:48Z"
+    },
+    {
+      "shortSha": "8e20418",
+      "message": "kardz3333",
+      "author": "Kazber",
+      "date": "2026-06-27T20:58:10Z"
+    },
+    {
+      "shortSha": "4b7e60b",
+      "message": "made a plan",
+      "author": "Kazber",
+      "date": "2026-06-27T15:55:32Z"
+    },
+    {
+      "shortSha": "9e756c2",
+      "message": "update",
+      "author": "Kazber",
+      "date": "2026-06-27T14:05:16Z"
+    },
+    {
+      "shortSha": "54254e9",
+      "message": "struggle fix for Kardz.",
+      "author": "Kazber",
+      "date": "2026-06-27T13:20:51Z"
+    },
+    {
+      "shortSha": "f184154",
+      "message": "kill script added for help killing builds",
+      "author": "Kazber",
+      "date": "2026-06-27T12:16:28Z"
+    },
+    {
+      "shortSha": "e540dd3",
+      "message": "scripts",
+      "author": "Kazber",
+      "date": "2026-06-27T09:33:07Z"
+    },
+    {
+      "shortSha": "53e40ae",
+      "message": "plan update",
+      "author": "Kazber",
+      "date": "2026-06-27T08:27:30Z"
+    },
+    {
+      "shortSha": "59be695",
+      "message": "kardxp3",
+      "author": "Kazber",
+      "date": "2026-06-27T01:13:33Z"
+    },
+    {
+      "shortSha": "303ae5c",
+      "message": "kardz p2",
+      "author": "Kazber",
+      "date": "2026-06-27T01:03:37Z"
+    },
+    {
+      "shortSha": "211780b",
+      "message": "kardz player indicator",
+      "author": "Kazber",
+      "date": "2026-06-27T01:03:17Z"
+    },
+    {
+      "shortSha": "e998265",
+      "message": "more kardz stuff",
+      "author": "Kazber",
+      "date": "2026-06-27T00:36:30Z"
+    },
+    {
+      "shortSha": "c27104a",
+      "message": "fresh item for kards",
+      "author": "Kazber",
+      "date": "2026-06-27T00:25:46Z"
+    },
+    {
+      "shortSha": "896929b",
       "message": "added item image for kardz",
       "author": "Kazber",
       "date": "2026-06-26T23:35:41Z"
     },
     {
-      "shortSha": "25e3d28",
+      "shortSha": "89e005e",
       "message": "Kardz spawner",
       "author": "Kazber",
       "date": "2026-06-26T23:11:14Z"
     },
     {
-      "shortSha": "644b3bc",
+      "shortSha": "9566dcb",
       "message": "Adding attachments to the main game",
       "author": "Kazber",
       "date": "2026-06-26T21:39:20Z"
     },
     {
-      "shortSha": "a41fa6f",
+      "shortSha": "b3fef9a",
       "message": "Oc fix",
       "author": "Kasper",
       "date": "2026-06-26T20:41:58Z"
     },
     {
-      "shortSha": "2867b4d",
+      "shortSha": "5e18f96",
       "message": "the struggle",
       "author": "Kazber",
       "date": "2026-06-26T19:50:14Z"
     },
     {
-      "shortSha": "1e05562",
+      "shortSha": "a2af13b",
       "message": "deck ui",
       "author": "Kazber",
       "date": "2026-06-26T17:04:53Z"
     },
     {
-      "shortSha": "45e9947",
+      "shortSha": "29ab871",
       "message": "fixing UI still looks bad but its fuctioning",
       "author": "Kazber",
       "date": "2026-06-26T16:32:01Z"
     },
     {
-      "shortSha": "c1aa9a2",
+      "shortSha": "65206ea",
       "message": "kardz update",
       "author": "Kazber",
       "date": "2026-06-26T15:53:19Z"
     },
     {
-      "shortSha": "fa2cc73",
+      "shortSha": "3a3777d",
       "message": "feat: Add Kardz AI components including decorators and tasks for NPC card collection",
       "author": "Kazber",
       "date": "2026-06-26T14:53:11Z"
     },
     {
-      "shortSha": "f3d6f70",
+      "shortSha": "8038a85",
       "message": "feat: Implement Kardz mini-game mechanics with NPC card collection and challenge system",
       "author": "Kazber",
       "date": "2026-06-26T14:07:37Z"
     },
     {
-      "shortSha": "408f5cb",
+      "shortSha": "f1e34ca",
       "message": "feat: Add outline color for selected card and implement card drop functionality",
       "author": "Kazber",
       "date": "2026-06-26T13:31:24Z"
     },
     {
-      "shortSha": "8e6ec50",
+      "shortSha": "2199e60",
       "message": "fix: Update color values for Kardz attributes and improve color consistency",
       "author": "Kazber",
       "date": "2026-06-26T13:23:28Z"
     },
     {
-      "shortSha": "b585cb6",
+      "shortSha": "0152070",
       "message": "feat: Enhance CBKardzDeckWidget with fan layout and dynamic card positioning",
       "author": "Kazber",
       "date": "2026-06-26T13:00:50Z"
     },
     {
-      "shortSha": "d56c59b",
+      "shortSha": "a5427ed",
       "message": "feat: Implement auto-binding for fallback widgets in CBKardzBattleMoveWidget",
       "author": "Kazber",
       "date": "2026-06-26T12:50:17Z"
     },
     {
-      "shortSha": "17746df",
+      "shortSha": "4727ca4",
       "message": "fix: Improve widget class assignment logic in ShowKardzDeckWidget function",
       "author": "Kazber",
       "date": "2026-06-26T01:24:50Z"
     },
     {
-      "shortSha": "590270e",
+      "shortSha": "da8b957",
       "message": "feat: Add icon support for Kardz cards and enhance deck widget layout",
       "author": "Kazber",
       "date": "2026-06-26T01:24:39Z"
     },
     {
-      "shortSha": "07316e0",
+      "shortSha": "7f8ddeb",
       "message": "feat: Enhance Kardz deck and battle move widgets with improved UI and functionality",
       "author": "Kazber",
       "date": "2026-06-26T00:50:47Z"
     },
     {
-      "shortSha": "06c0d16",
+      "shortSha": "74d553b",
       "message": "feat: Introduce CBKardzBattleMoveWidget and enhance CBKardzDeckWidget with dynamic card handling",
       "author": "Kazber",
       "date": "2026-06-26T00:12:41Z"
     },
     {
-      "shortSha": "7d92a1a",
+      "shortSha": "5651ab0",
       "message": "feat: Add KadzDeck asset and update KardzComponent and PlayerCharacter for improved deck management",
       "author": "Kazber",
       "date": "2026-06-25T23:45:27Z"
     },
     {
-      "shortSha": "a504a84",
+      "shortSha": "6a345a9",
       "message": "feat: Refactor Kardz input handling and enhance KardzDeckWidget integration",
       "author": "Kazber",
       "date": "2026-06-25T23:32:06Z"
     },
     {
-      "shortSha": "45dc1c0",
+      "shortSha": "be33c5f",
       "message": "feat: Add support for additional camera control modifier using Gamepad_LeftShoulder",
       "author": "Kazber",
       "date": "2026-06-25T23:06:57Z"
     },
     {
-      "shortSha": "e165260",
+      "shortSha": "2e796b6",
       "message": "feat: Enhance KardzDeckWidget with CanvasPanel and dynamic card borders",
       "author": "Kazber",
       "date": "2026-06-25T22:48:13Z"
     },
     {
-      "shortSha": "5200435",
+      "shortSha": "1c14691",
       "message": "feat: Add functionality to play selected Kard on nearby battle board",
       "author": "Kazber",
       "date": "2026-06-25T22:47:55Z"
     },
     {
-      "shortSha": "a48d4ac",
+      "shortSha": "59e3263",
       "message": "feat: Add Kardz deck management functionality and UI widget",
       "author": "Kazber",
       "date": "2026-06-25T22:22:13Z"
     },
     {
-      "shortSha": "2fd62d4",
+      "shortSha": "27eddba",
       "message": "feat: Update binary assets for Kardz card pickup and battle functionality",
       "author": "Kazber",
       "date": "2026-06-25T22:02:25Z"
     },
     {
-      "shortSha": "a9b1b6d",
+      "shortSha": "8099c2e",
       "message": "feat: Implement Kardz battle board and component, enhance card pickup functionality",
       "author": "Kazber",
       "date": "2026-06-25T21:18:32Z"
     },
     {
-      "shortSha": "405b885",
+      "shortSha": "79b4e95",
       "message": "feat: Refactor KardzCardPickup to improve component structure and add drop functionality",
       "author": "Kazber",
       "date": "2026-06-25T21:04:14Z"
     },
     {
-      "shortSha": "f966e5e",
+      "shortSha": "f872fbf",
       "message": "feat: Update CBKardzCardPickup to support multiple digit and color property types",
       "author": "Kazber",
       "date": "2026-06-25T19:15:36Z"
     },
     {
-      "shortSha": "fbb5029",
+      "shortSha": "2562cd6",
       "message": "feat: Enhance Kardz card pickup with widget components for health, defense, attack, and element display",
       "author": "Kazber",
       "date": "2026-06-25T19:06:57Z"
     },
     {
-      "shortSha": "e05abaf",
+      "shortSha": "85b4313",
       "message": "feat: Implement Kardz card pickup functionality and integrate with player character",
       "author": "Kazber",
       "date": "2026-06-25T18:05:59Z"
     },
     {
-      "shortSha": "21ceea0",
+      "shortSha": "cb47649",
       "message": "feat: Update Kardz card definitions and add new assets",
       "author": "Kazber",
       "date": "2026-06-25T17:55:04Z"
     },
     {
-      "shortSha": "1bee0ed",
+      "shortSha": "0aec016",
       "message": "Implement Kardz game mechanics including card management and combat resolution",
       "author": "Kazber",
       "date": "2026-06-25T17:15:28Z"
     },
     {
-      "shortSha": "6789115",
+      "shortSha": "a15a362",
       "message": "feat: Update binary assets for Clothing_Test, BP_LaserRifleOptic, Laser_Amazer, and CB Report",
       "author": "Kazber",
       "date": "2026-06-25T17:00:11Z"
     },
     {
-      "shortSha": "edc744d",
+      "shortSha": "d08630f",
       "message": "Add new gamepad library and betting functionality",
       "author": "Kazber",
       "date": "2026-06-25T15:00:24Z"
     },
     {
-      "shortSha": "faa969f",
+      "shortSha": "cd56331",
       "message": "feat: Add new texture and model assets for ACOG scope",
       "author": "Kasper",
       "date": "2026-06-25T14:49:05Z"
     },
     {
-      "shortSha": "d3bb408",
+      "shortSha": "5f41ad9",
       "message": "Add new image assets for volcano and zombie",
       "author": "Kasper",
       "date": "2026-06-25T14:08:31Z"
     },
     {
-      "shortSha": "70fd9bd",
+      "shortSha": "793d273",
       "message": "Add new assets for KardZ game content",
       "author": "Kazber",
       "date": "2026-06-25T14:08:12Z"
     },
     {
-      "shortSha": "09a3a77",
+      "shortSha": "f95561a",
       "message": "Add Kardz plugin with core functionality and drag-and-drop support",
       "author": "Kazber",
       "date": "2026-06-25T14:03:35Z"
     },
     {
-      "shortSha": "be621d7",
+      "shortSha": "c231244",
       "message": "feat: Implement runtime audio routing and native fade-in effects in settings widget",
       "author": "Kazber",
       "date": "2026-06-25T13:28:14Z"
     },
     {
-      "shortSha": "edfcb10",
+      "shortSha": "4887517",
       "message": "feat: Enhance settings widget with focus visual updates and native fade-in effects",
       "author": "Kazber",
       "date": "2026-06-25T12:25:36Z"
     },
     {
-      "shortSha": "ddfff9f",
+      "shortSha": "e4d83f1",
       "message": "Refactor settings widget for improved gamepad navigation and key binding management",
       "author": "Kazber",
       "date": "2026-06-25T12:12:35Z"
     },
     {
-      "shortSha": "a1c9e82",
+      "shortSha": "19c6f52",
       "message": "feat: Enhance control settings and key bindings in settings widget",
       "author": "Kazber",
       "date": "2026-06-25T11:22:07Z"
     },
     {
-      "shortSha": "90dfd17",
+      "shortSha": "c220150",
       "message": "Enhance GridManager and LevelImageRow functionality for special NPC handling and audio integration",
       "author": "Kazber",
       "date": "2026-06-25T00:56:31Z"
     },
     {
-      "shortSha": "5e4b04a",
+      "shortSha": "460a67a",
       "message": "Update CB Report binary file for improved documentation",
       "author": "Kazber",
       "date": "2026-06-25T00:18:27Z"
     },
     {
-      "shortSha": "0caab3a",
+      "shortSha": "1f0e496",
       "message": "Update binary report file for improved documentation",
       "author": "Kazber",
       "date": "2026-06-25T00:10:39Z"
     },
     {
-      "shortSha": "88b0cab",
+      "shortSha": "8e181bb",
       "message": "Update binary assets for AI Testing and Radio weapon",
       "author": "Kazber",
       "date": "2026-06-25T00:04:21Z"
     },
     {
-      "shortSha": "18680dc",
+      "shortSha": "01b2efa",
       "message": "Refactor aim assist logic in BoneBreakerWeapon for improved accuracy and performance",
       "author": "Kazber",
       "date": "2026-06-24T23:58:42Z"
     },
     {
-      "shortSha": "33de58d",
+      "shortSha": "327a9f6",
       "message": "Add new assets for Revolver weapon, including sound effects, meshes, and materials",
       "author": "Kazber",
       "date": "2026-06-24T23:52:29Z"
     },
     {
-      "shortSha": "cb79ac1",
+      "shortSha": "256af95",
       "message": "Add new sound effects and assets for camera and laser weapons",
       "author": "Kazber",
       "date": "2026-06-24T23:28:13Z"
     },
     {
-      "shortSha": "022fe41",
+      "shortSha": "5c26b85",
       "message": "Refactor settings screen widget implementation",
       "author": "Kazber",
       "date": "2026-06-24T21:57:24Z"
     },
     {
-      "shortSha": "34ae53c",
+      "shortSha": "b25149f",
       "message": "Update binary assets for TestLevel and Title Block",
       "author": "Kazber",
       "date": "2026-06-24T21:42:50Z"
     },
     {
-      "shortSha": "8c2dc79",
+      "shortSha": "7b9000c",
       "message": "Implement NativeConstruct for immediate UI usability in settings screen",
       "author": "Kazber",
       "date": "2026-06-24T21:16:32Z"
     },
     {
-      "shortSha": "7073e3c",
+      "shortSha": "6c14aa1",
       "message": "Add settings screen widget and update clear progress confirmation logic",
       "author": "Kazber",
       "date": "2026-06-24T21:09:21Z"
     },
     {
-      "shortSha": "913ea81",
-      "message": "Update .gitignore to exclude local MCP config and adjust Unreal Engine input mapping rules; update binary assets for armor and settings",
+      "shortSha": "92ca35f",
+      "message": "Update local config ignores and Unreal Engine input mapping rules; update armor and settings assets",
       "author": "Kazber",
       "date": "2026-06-24T20:49:16Z"
     },
     {
-      "shortSha": "aa87404",
-      "message": "Add MCP configuration to .gitignore to exclude machine-specific paths",
+      "shortSha": "f29a582",
+      "message": "Exclude machine-specific server configuration in .gitignore",
       "author": "Kazber",
       "date": "2026-06-24T20:35:58Z"
     },
     {
-      "shortSha": "2deb0ba",
-      "message": "Remove unused MCP server configuration from .mcp.json",
+      "shortSha": "e483f59",
+      "message": "Remove unused Unreal server configuration",
       "author": "Kazber",
       "date": "2026-06-24T20:35:49Z"
     },
     {
-      "shortSha": "fb39414",
+      "shortSha": "e6e90d5",
       "message": "Add functionality to clear all saved progress and reset game state; include new sound asset",
       "author": "Kazber",
       "date": "2026-06-24T19:52:58Z"
     },
     {
-      "shortSha": "1cdeeaf",
+      "shortSha": "f8aa7e0",
       "message": "Update CB Report.pages with new content",
       "author": "Kazber",
       "date": "2026-06-24T19:43:25Z"
     },
     {
-      "shortSha": "7e3464c",
+      "shortSha": "44c1c7d",
       "message": "Update CBIonPainter to support FPS mode and adjust related properties",
       "author": "Kazber",
       "date": "2026-06-24T18:52:53Z"
     },
     {
-      "shortSha": "18e3b02",
+      "shortSha": "58c5464",
       "message": "Add IonConverter assets and remove deprecated ionc asset",
       "author": "Kazber",
       "date": "2026-06-24T18:49:54Z"
     },
     {
-      "shortSha": "c9187e0",
+      "shortSha": "bb79436",
       "message": "Merge branch 'Multiplatform' of private source into Multiplatform",
       "author": "Kasper",
       "date": "2026-06-24T18:46:50Z"
     },
     {
-      "shortSha": "70f8b4b",
+      "shortSha": "4553ff7",
       "message": "Implement code changes to enhance functionality and improve performance",
       "author": "Kasper",
       "date": "2026-06-24T18:46:45Z"
     },
     {
-      "shortSha": "53a2d73",
+      "shortSha": "f4649ec",
       "message": "Add IonConverter mesh assets to the project",
       "author": "Kazber",
       "date": "2026-06-24T18:39:53Z"
     },
     {
-      "shortSha": "0d4e96e",
+      "shortSha": "3d18d01",
       "message": "Add IonConverter attachment model to the project",
       "author": "Kasper",
       "date": "2026-06-24T18:30:04Z"
     },
     {
-      "shortSha": "ad2c9df",
+      "shortSha": "0e05a9f",
       "message": "Implement firing weapon handling in CBBulletProjectile to ignore sibling projectiles for multi-beam shots",
       "author": "Kazber",
       "date": "2026-06-24T18:28:42Z"
     },
     {
-      "shortSha": "2d6c9ba",
+      "shortSha": "dc5ea95",
       "message": "Refactor laser origin and direction calculation in ACBIonPainter for improved alignment and clarity",
       "author": "Kazber",
       "date": "2026-06-24T18:02:05Z"
     },
     {
-      "shortSha": "2a8691f",
+      "shortSha": "b6e3bb5",
       "message": "Enhance BoneBreaker weapon attachment system with multicast sound and attachment change notifications",
       "author": "Kazber",
       "date": "2026-06-24T17:29:40Z"
     },
     {
-      "shortSha": "c73f0f5",
+      "shortSha": "3db524e",
       "message": "Refactor CyberBullyEditor module to implement custom startup and shutdown logic for PreBeginPIE handling",
       "author": "Kazber",
       "date": "2026-06-24T16:40:42Z"
     },
     {
-      "shortSha": "df64197",
+      "shortSha": "bcf7a69",
       "message": "Add new disk material asset and update save point asset",
       "author": "Kazber",
       "date": "2026-06-24T16:36:30Z"
     },
     {
-      "shortSha": "f275fb8",
+      "shortSha": "4328c35",
       "message": "Add save-point disk functionality with UI widget for managing save locations",
       "author": "Kazber",
       "date": "2026-06-24T16:15:57Z"
     },
     {
-      "shortSha": "1975553",
+      "shortSha": "24d8f45",
       "message": "Implement save-point disk functionality and update game instance handling for mid-run saves",
       "author": "Kazber",
       "date": "2026-06-24T14:38:56Z"
     },
     {
-      "shortSha": "15f6e2b",
+      "shortSha": "a69c3f5",
       "message": "Add LaserGun sound asset and update weapon attachment functionality",
       "author": "Kazber",
       "date": "2026-06-24T14:32:29Z"
     },
     {
-      "shortSha": "9b0d453",
+      "shortSha": "477e7f4",
       "message": "Update BP_IonPainterLaserConverter asset to improve weapon attachment functionality",
       "author": "Kazber",
       "date": "2026-06-24T14:19:32Z"
     },
     {
-      "shortSha": "96281c0",
+      "shortSha": "3997c44",
       "message": "Refactor fire effects category from \"Effects\" to \"Trigger\" for better organization and clarity",
       "author": "Kazber",
       "date": "2026-06-24T14:11:38Z"
     },
     {
-      "shortSha": "1c7f7dc",
+      "shortSha": "2877cb6",
       "message": "Add fire effects for weapon attachments including sound and visual cues",
       "author": "Kazber",
       "date": "2026-06-24T14:07:17Z"
     },
     {
-      "shortSha": "76015d4",
+      "shortSha": "824e5f3",
       "message": "Fix ammo clip handling and destruction logic for better gameplay experience",
       "author": "Kazber",
       "date": "2026-06-24T13:48:06Z"
     },
     {
-      "shortSha": "c3cdf14",
+      "shortSha": "1afc0e4",
       "message": "Remove the spare ammo thing make it a physical clip that you can carry. If you drop the weapon then the ammo you are carrying should drop with it. You can always pick it up. Clips for your held weapon should automatically be picked up when you are near them when near the are magatized towards you and attach to your body on the hip socket. Then reloading consumes it. Dropping the weapon drops it too. You can olny carry 4 extra clips. As long as you still have the weapon the clips for that weapon stay attached even if you switch to another weapon. The number of clips is always 4. These attach to hip armour only. We need to add 4 sockets to armour that I can move around and we can only pickup ammo if we have holster enabled armour. Each ammo clip will have a max cap. The visual ui thing will add up the total spare ammo.",
       "author": "Kazber",
       "date": "2026-06-24T13:40:51Z"
     },
     {
-      "shortSha": "21f52e3",
+      "shortSha": "76a3830",
       "message": "Refine laser origin calculation to ensure accurate start point for visual beam and strike trace",
       "author": "Kazber",
       "date": "2026-06-24T13:21:10Z"
     },
     {
-      "shortSha": "4acf525",
+      "shortSha": "9597a1d",
       "message": "Add GetLaserOriginAndDirection method for consistent laser beam origin and direction",
       "author": "Kazber",
       "date": "2026-06-24T13:09:42Z"
     },
     {
-      "shortSha": "16ba014",
+      "shortSha": "a83a7ec",
       "message": "Update Ion Painter assets and improve laser beam targeting logic for better alignment and performance",
       "author": "Kazber",
       "date": "2026-06-24T13:04:07Z"
     },
     {
-      "shortSha": "47db65d",
+      "shortSha": "a06a415",
       "message": "Enhance projectile behavior by linking bullets to their firing weapon, ensuring proper collision handling and visual alignment for laser beams.",
       "author": "Kazber",
       "date": "2026-06-24T12:13:09Z"
     },
     {
-      "shortSha": "92ca574",
+      "shortSha": "7695967",
       "message": "ion",
       "author": "Kazber",
       "date": "2026-06-24T11:12:09Z"
     },
     {
-      "shortSha": "81f39d4",
+      "shortSha": "a6dd978",
       "message": "Update Ion Painter asset with new binary data",
       "author": "Kazber",
       "date": "2026-06-24T01:16:23Z"
     },
     {
-      "shortSha": "64a9db7",
+      "shortSha": "7cb5d18",
       "message": "Update Ion Painter weapon logic to use new muzzle point and bullet direction arrow",
       "author": "Kazber",
       "date": "2026-06-24T01:16:11Z"
     },
     {
-      "shortSha": "545215a",
+      "shortSha": "ed981e7",
       "message": "Add Ion Painter laser converter and related assets; update projectile behavior",
       "author": "Kazber",
       "date": "2026-06-24T00:59:53Z"
     },
     {
-      "shortSha": "189dd6c",
+      "shortSha": "3fde7fe",
       "message": "Add laser gun functionality to Ion Painter and related attachments",
       "author": "Kazber",
       "date": "2026-06-24T00:48:15Z"
     },
     {
-      "shortSha": "343227d",
+      "shortSha": "08b4831",
       "message": "Add preview source actor handling for weapon attachments in HeldItemCaptureStage",
       "author": "Kazber",
       "date": "2026-06-23T22:46:05Z"
     },
     {
-      "shortSha": "e82c2b7",
+      "shortSha": "31e6f4e",
       "message": "Update weapon attachment assets and CB Report with new binary data",
       "author": "Kazber",
       "date": "2026-06-23T22:40:35Z"
     },
     {
-      "shortSha": "100797e",
+      "shortSha": "cd8fea0",
       "message": "Update CB Report.pages with new content",
       "author": "Kazber",
       "date": "2026-06-23T22:35:48Z"
     },
     {
-      "shortSha": "a2b8b2d",
+      "shortSha": "8f2d881",
       "message": "Update ABP_CB_Player.uasset with new animation data for improved character movement",
       "author": "Kazber",
       "date": "2026-06-23T22:29:48Z"
     },
     {
-      "shortSha": "2010371",
+      "shortSha": "8e9b319",
       "message": "Update ABP_CB_Player.uasset with new animation data for improved character movement",
       "author": "Kazber",
       "date": "2026-06-23T21:57:38Z"
     },
     {
-      "shortSha": "717a53e",
+      "shortSha": "7948267",
       "message": "Update ABP_CB_Player.uasset with new animation data for enhanced character movement",
       "author": "Kazber",
       "date": "2026-06-23T21:31:46Z"
     },
     {
-      "shortSha": "169e74e",
+      "shortSha": "7ed323a",
       "message": "Implement dog blood squib spawning and configure health bar widget in ACBNPCDog; add CB_BlendSpaceCrouched asset",
       "author": "Kazber",
       "date": "2026-06-23T20:55:09Z"
     },
     {
-      "shortSha": "c4b43b6",
+      "shortSha": "08cdced",
       "message": "Refactor code structure for improved readability and maintainability",
       "author": "Kazber",
       "date": "2026-06-23T20:35:44Z"
     },
     {
-      "shortSha": "3562e01",
+      "shortSha": "a198b2c",
       "message": "Update CB Report.pages with new documentation notes",
       "author": "Kazber",
       "date": "2026-06-23T20:21:26Z"
     },
     {
-      "shortSha": "0bc996e",
+      "shortSha": "e2bf72d",
       "message": "Add vertical fan beam functionality to BoneBreakerWeapon and enhance CBLaserRifleSplitterBarrelAttachment with vertical spread settings; introduce fresh spawn widget for weapon attachments",
       "author": "Kazber",
       "date": "2026-06-23T20:15:55Z"
     },
     {
-      "shortSha": "d2bc61f",
+      "shortSha": "d13aae6",
       "message": "Add heavy barrel attachments for laser rifle and revolver with damage and projectile size enhancements",
       "author": "Kazber",
       "date": "2026-06-23T20:01:24Z"
     },
     {
-      "shortSha": "718bf80",
+      "shortSha": "a162404",
       "message": "Enhance BoneBreakerWeapon with vertical fan beam functionality and update CBLaserRifleSplitterBarrelAttachment to support new vertical spread settings",
       "author": "Kazber",
       "date": "2026-06-23T19:31:05Z"
     },
     {
-      "shortSha": "c6b4fbb",
+      "shortSha": "e376d2e",
       "message": "Add CB Report.pages to documentation notes",
       "author": "Kazber",
       "date": "2026-06-23T15:12:01Z"
     },
     {
-      "shortSha": "bb48492",
+      "shortSha": "dbcd105",
       "message": "Remove unused virtual textures setting from DefaultEngine.ini",
       "author": "Kazber",
       "date": "2026-06-23T14:53:23Z"
     },
     {
-      "shortSha": "d8de450",
+      "shortSha": "062e92b",
       "message": "Merge branch 'Multiplatform' of private source into Multiplatform",
       "author": "Kasper",
       "date": "2026-06-23T14:34:10Z"
     },
     {
-      "shortSha": "f3370b5",
+      "shortSha": "5dce91b",
       "message": "Add RiderLink and RiderLogging modules with initial implementation",
       "author": "Kasper",
       "date": "2026-06-23T14:34:05Z"
     },
     {
-      "shortSha": "2a33bed",
+      "shortSha": "b96487d",
       "message": "Refactor validation logic in UValidationTest_TerminalSubsystem for improved clarity",
       "author": "Kazber",
       "date": "2026-06-23T14:21:49Z"
     },
     {
-      "shortSha": "4b1509b",
+      "shortSha": "9a581c2",
       "message": "Merge branch 'Multiplatform' of private source into Multiplatform",
       "author": "Kasper",
       "date": "2026-06-23T14:20:44Z"
     },
     {
-      "shortSha": "15f16b5",
+      "shortSha": "2f6903e",
       "message": "Add configuration file for Unreal server setup",
       "author": "Kasper",
       "date": "2026-06-23T14:18:05Z"
     },
     {
-      "shortSha": "971891c",
+      "shortSha": "4ca4f83",
       "message": "Refactor Terminal Subsystem References and Update Build Files",
       "author": "Kasper",
       "date": "2026-06-23T14:18:05Z"
     },
     {
-      "shortSha": "0e07ee1",
+      "shortSha": "3cfc33f",
       "message": "Refactor: Replace references to TerminalSubsystem with TerminalOSSubsystem across multiple files",
       "author": "Kazber",
       "date": "2026-06-23T14:05:27Z"
     },
     {
-      "shortSha": "2894d11",
+      "shortSha": "da83f3a",
       "message": "Remove obsolete solution files for Automation and Cyber_Bully",
       "author": "Kazber",
       "date": "2026-06-23T13:56:09Z"
     },
     {
-      "shortSha": "cc7f1ad",
+      "shortSha": "53ea88e",
       "message": "Add refresh functionality for held-item UI preview on weapon attachment",
       "author": "Kazber",
       "date": "2026-06-23T13:54:36Z"
     },
     {
-      "shortSha": "34007ed",
+      "shortSha": "0579476",
       "message": "Add new assets: MI_GreenCube, BP_LaserRifleSplitterBarrel, and update Laser_Amazer",
       "author": "Kazber",
       "date": "2026-06-23T13:39:11Z"
     },
     {
-      "shortSha": "dbdbd29",
-      "message": "Add MCP configuration file for Unreal server setup",
+      "shortSha": "b673156",
+      "message": "Add Unreal server configuration file",
       "author": "Kazber",
       "date": "2026-06-23T13:08:18Z"
     },
