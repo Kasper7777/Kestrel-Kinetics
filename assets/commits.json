@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-09T16:52:16.429Z",
-  "commitCount": 2006,
+  "generatedAt": "2026-08-09T17:46:12.257Z",
+  "commitCount": 2007,
   "commits": [
+    {
+      "shortSha": "d55e161",
+      "message": "feat: Add attention-getting behavior and gift/drop mechanics to CBStoryNPCComponent",
+      "author": "Kazber",
+      "date": "2026-08-09T17:01:50Z"
+    },
     {
       "shortSha": "1fc9aab",
       "message": "feat: Enhance GridManager with improved vertical access component handling and mesh bounds computation",
