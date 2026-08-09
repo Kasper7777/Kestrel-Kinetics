@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-09T13:14:11.668Z",
-  "commitCount": 2002,
+  "generatedAt": "2026-08-09T13:58:04.360Z",
+  "commitCount": 2004,
   "commits": [
+    {
+      "shortSha": "2da5e52",
+      "message": "feat: Implement pause-independent ticker for city setup gate arrival retries",
+      "author": "Kasper",
+      "date": "2026-08-09T13:56:11Z"
+    },
+    {
+      "shortSha": "b2e5a1a",
+      "message": "feat: Refactor surrender handling in ACBEnemy and related classes to use SetSurrendering method",
+      "author": "Kasper",
+      "date": "2026-08-09T13:40:27Z"
+    },
     {
       "shortSha": "e627a21",
       "message": "feat: Implement interior overflow placement for non-access Interior Floor tiles in GridManager",
