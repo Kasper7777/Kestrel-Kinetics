@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-09T22:48:40.116Z",
-  "commitCount": 2020,
+  "generatedAt": "2026-08-09T23:44:39.034Z",
+  "commitCount": 2021,
   "commits": [
+    {
+      "shortSha": "48bf221",
+      "message": "feat: Enhance NPC dialogue behavior with out-of-range reactions and speech bubble management",
+      "author": "Kasper",
+      "date": "2026-08-09T23:40:08Z"
+    },
     {
       "shortSha": "e2a82af",
       "message": "feat: Implement story NPC handling in subtitles and physics for pickups",
