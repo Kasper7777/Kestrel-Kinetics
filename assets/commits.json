@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-09T21:46:05.426Z",
-  "commitCount": 2018,
+  "generatedAt": "2026-08-09T22:48:40.116Z",
+  "commitCount": 2020,
   "commits": [
+    {
+      "shortSha": "e2a82af",
+      "message": "feat: Implement story NPC handling in subtitles and physics for pickups",
+      "author": "Kasper",
+      "date": "2026-08-09T22:24:33Z"
+    },
+    {
+      "shortSha": "fc8ae34",
+      "message": "feat: Add volume multiplier for story NPCs' Overtone voice to enhance audio clarity",
+      "author": "Kasper",
+      "date": "2026-08-09T22:08:45Z"
+    },
     {
       "shortSha": "36cb3e4",
       "message": "feat: Refactor subtitle color adjustment for improved readability with distance-based brightness",
