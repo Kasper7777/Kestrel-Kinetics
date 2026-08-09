@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-08-09T18:59:01.083Z",
-  "commitCount": 2008,
+  "generatedAt": "2026-08-09T19:47:06.943Z",
+  "commitCount": 2012,
   "commits": [
+    {
+      "shortSha": "ecb40ba",
+      "message": "feat: Add ClothingActor include to CBEnemy for clothing functionality",
+      "author": "Kasper",
+      "date": "2026-08-09T19:38:44Z"
+    },
+    {
+      "shortSha": "ffa7e6a",
+      "message": "feat: Add clothing pickup functionality for NPCs using UBoneBreakerComponent",
+      "author": "Kasper",
+      "date": "2026-08-09T19:37:06Z"
+    },
+    {
+      "shortSha": "6bfb6cd",
+      "message": "feat: Enhance CBStoryNPCComponent with talking animation variety and gift drop mechanics",
+      "author": "Kasper",
+      "date": "2026-08-09T19:28:25Z"
+    },
+    {
+      "shortSha": "1d046a0",
+      "message": "feat: Enhance CBStoryNPCComponent with talking animation support and improved animation handling",
+      "author": "Kasper",
+      "date": "2026-08-09T19:03:31Z"
+    },
     {
       "shortSha": "bd4e6da",
       "message": "feat: Implement story NPC behavior with spotting mechanics and animations",
