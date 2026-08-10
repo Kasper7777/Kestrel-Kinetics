@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-10T21:56:09.439Z",
-  "commitCount": 2039,
+  "generatedAt": "2026-08-10T22:55:11.283Z",
+  "commitCount": 2040,
   "commits": [
+    {
+      "shortSha": "eb1a651",
+      "message": "feat: Enhance destructible object component with impulse origin bias and directional impulse strength settings",
+      "author": "Kasper",
+      "date": "2026-08-10T22:07:24Z"
+    },
     {
       "shortSha": "a2fea59",
       "message": "feat: Update geometry collection convex hull generation to ensure proper collision handling for fractured and clustered objects",
