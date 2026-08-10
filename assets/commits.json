@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-10T17:07:06.039Z",
-  "commitCount": 2031,
+  "generatedAt": "2026-08-10T18:02:01.008Z",
+  "commitCount": 2032,
   "commits": [
+    {
+      "shortSha": "63f6cc9",
+      "message": "feat: Enhance destructible object component with shattering and material copying features",
+      "author": "Kasper",
+      "date": "2026-08-10T17:44:25Z"
+    },
     {
       "shortSha": "087a9f1",
       "message": "fix: Ensure proper weapon ownership and state when equipping from bag",
