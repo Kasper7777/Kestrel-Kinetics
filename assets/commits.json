@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-09T23:44:39.034Z",
-  "commitCount": 2021,
+  "generatedAt": "2026-08-10T02:32:21.752Z",
+  "commitCount": 2023,
   "commits": [
+    {
+      "shortSha": "6890d0f",
+      "message": "Add surrender dialogue lines and update assets for AI interactions",
+      "author": "Kasper",
+      "date": "2026-08-10T00:18:50Z"
+    },
+    {
+      "shortSha": "8f96640",
+      "message": "Add Cyber Bully Random Questions for dialogue interactions",
+      "author": "Kasper",
+      "date": "2026-08-10T00:12:32Z"
+    },
     {
       "shortSha": "48bf221",
       "message": "feat: Enhance NPC dialogue behavior with out-of-range reactions and speech bubble management",
