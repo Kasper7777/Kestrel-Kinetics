@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-08-10T20:01:47.682Z",
-  "commitCount": 2032,
+  "generatedAt": "2026-08-10T21:00:18.292Z",
+  "commitCount": 2036,
   "commits": [
+    {
+      "shortSha": "bd9d249",
+      "message": "feat: Update destructible object settings and enhance debris physics parameters",
+      "author": "Kasper",
+      "date": "2026-08-10T20:57:07Z"
+    },
+    {
+      "shortSha": "49e5807",
+      "message": "feat: Update destruction assets and remove default fracture settings in blueprint processing",
+      "author": "Kasper",
+      "date": "2026-08-10T20:31:43Z"
+    },
+    {
+      "shortSha": "b2fb62c",
+      "message": "feat: Enhance destructible object physics with adjustable damping and gravity settings",
+      "author": "Kasper",
+      "date": "2026-08-10T20:26:27Z"
+    },
+    {
+      "shortSha": "930593d",
+      "message": "feat: Update default game and engine configurations for logo splash and packaging settings",
+      "author": "Kasper",
+      "date": "2026-08-10T20:12:47Z"
+    },
     {
       "shortSha": "63f6cc9",
       "message": "feat: Enhance destructible object component with shattering and material copying features",
