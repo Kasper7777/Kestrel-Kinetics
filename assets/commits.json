@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-10T21:00:18.292Z",
-  "commitCount": 2036,
+  "generatedAt": "2026-08-10T21:56:09.439Z",
+  "commitCount": 2039,
   "commits": [
+    {
+      "shortSha": "a2fea59",
+      "message": "feat: Update geometry collection convex hull generation to ensure proper collision handling for fractured and clustered objects",
+      "author": "Kasper",
+      "date": "2026-08-10T21:50:50Z"
+    },
+    {
+      "shortSha": "9221612",
+      "message": "feat: Update destructible object behavior to ensure proper debris motion detection and root cluster crumbling",
+      "author": "Kasper",
+      "date": "2026-08-10T21:40:54Z"
+    },
+    {
+      "shortSha": "21ab7a9",
+      "message": "feat: Enhance destructible object physics with freeze and simulation duration settings",
+      "author": "Kasper",
+      "date": "2026-08-10T21:21:13Z"
+    },
     {
       "shortSha": "bd9d249",
       "message": "feat: Update destructible object settings and enhance debris physics parameters",
