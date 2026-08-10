@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-10T16:09:15.200Z",
-  "commitCount": 2029,
+  "generatedAt": "2026-08-10T17:07:06.039Z",
+  "commitCount": 2031,
   "commits": [
+    {
+      "shortSha": "087a9f1",
+      "message": "fix: Ensure proper weapon ownership and state when equipping from bag",
+      "author": "Kasper",
+      "date": "2026-08-10T16:49:27Z"
+    },
+    {
+      "shortSha": "344dbae",
+      "message": "feat: Update destruction assets and geometry collection handling for improved instance management and material usage",
+      "author": "Kasper",
+      "date": "2026-08-10T16:15:31Z"
+    },
     {
       "shortSha": "609c038",
       "message": "Refactor and enhance destruction assets and geometry collection handling",
