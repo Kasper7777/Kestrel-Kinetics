@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-08-10T13:41:20.196Z",
-  "commitCount": 2023,
+  "generatedAt": "2026-08-10T15:15:05.421Z",
+  "commitCount": 2029,
   "commits": [
+    {
+      "shortSha": "609c038",
+      "message": "Refactor and enhance destruction assets and geometry collection handling",
+      "author": "Kasper",
+      "date": "2026-08-10T15:02:10Z"
+    },
+    {
+      "shortSha": "525f168",
+      "message": "Refactor geometry collection cooking logic to prevent resource destruction during DDC copy",
+      "author": "Kasper",
+      "date": "2026-08-10T14:41:14Z"
+    },
+    {
+      "shortSha": "2f8457d",
+      "message": "fix: Disable auto-start server in project settings for improved control",
+      "author": "Kasper",
+      "date": "2026-08-10T14:24:28Z"
+    },
+    {
+      "shortSha": "e548a3e",
+      "message": "feat: Enhance geometry collection asset management by ensuring clean slate on regeneration and improving deletion handling",
+      "author": "Kasper",
+      "date": "2026-08-10T14:23:37Z"
+    },
+    {
+      "shortSha": "91c3afe",
+      "message": "feat: Improve fracture recipe handling with effective point spacing and collision sample adjustments",
+      "author": "Kasper",
+      "date": "2026-08-10T14:18:29Z"
+    },
+    {
+      "shortSha": "a46ccf9",
+      "message": "Add debug prints management tools and update various assets",
+      "author": "Kasper",
+      "date": "2026-08-10T13:42:51Z"
+    },
     {
       "shortSha": "6890d0f",
       "message": "Add surrender dialogue lines and update assets for AI interactions",
