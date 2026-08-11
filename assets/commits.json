@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-11T21:02:10.928Z",
-  "commitCount": 2052,
+  "generatedAt": "2026-08-11T22:03:02.642Z",
+  "commitCount": 2055,
   "commits": [
+    {
+      "shortSha": "eb67bf7",
+      "message": "feat: Update destructible object assets and enhance blueprint regeneration functionality",
+      "author": "Kasper",
+      "date": "2026-08-11T21:55:15Z"
+    },
+    {
+      "shortSha": "ef2d5e1",
+      "message": "feat: Enhance destructible object system with smoke effects and geometry scaling",
+      "author": "Kasper",
+      "date": "2026-08-11T21:41:23Z"
+    },
+    {
+      "shortSha": "26d15ee",
+      "message": "feat: Implement restore request handling for destructible objects during initialization",
+      "author": "Kasper",
+      "date": "2026-08-11T21:09:14Z"
+    },
     {
       "shortSha": "0402670",
       "message": "feat: Enhance destructible object behavior with improved break event handling and fracture control",
