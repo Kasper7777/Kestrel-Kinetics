@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-11T16:11:05.948Z",
-  "commitCount": 2040,
+  "generatedAt": "2026-08-11T17:11:05.939Z",
+  "commitCount": 2041,
   "commits": [
+    {
+      "shortSha": "a15c39d",
+      "message": "feat: Enhance destructible object component with new impulse parameters and impact velocity settings",
+      "author": "Kasper",
+      "date": "2026-08-11T16:55:11Z"
+    },
     {
       "shortSha": "eb1a651",
       "message": "feat: Enhance destructible object component with impulse origin bias and directional impulse strength settings",
