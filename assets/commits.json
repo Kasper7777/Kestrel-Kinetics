@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-08-11T19:17:51.429Z",
-  "commitCount": 2046,
+  "generatedAt": "2026-08-11T21:02:10.928Z",
+  "commitCount": 2052,
   "commits": [
+    {
+      "shortSha": "0402670",
+      "message": "feat: Enhance destructible object behavior with improved break event handling and fracture control",
+      "author": "Kasper",
+      "date": "2026-08-11T20:57:00Z"
+    },
+    {
+      "shortSha": "021cff9",
+      "message": "feat: Update destructible object handling with improved motion detection and recovery logic",
+      "author": "Kasper",
+      "date": "2026-08-11T20:33:56Z"
+    },
+    {
+      "shortSha": "61fa0bd",
+      "message": "feat: Enhance destruction handling with improved impulse application and recovery of missing collections",
+      "author": "Kasper",
+      "date": "2026-08-11T20:13:34Z"
+    },
+    {
+      "shortSha": "09b6ea2",
+      "message": "feat: Introduce unbreakable chunk functionality and enhance gravity application for destructible objects",
+      "author": "Kasper",
+      "date": "2026-08-11T20:05:00Z"
+    },
+    {
+      "shortSha": "1264fa2",
+      "message": "feat: Enhance chunk impact handling with flight time and impact delay properties",
+      "author": "Kasper",
+      "date": "2026-08-11T19:49:05Z"
+    },
+    {
+      "shortSha": "304d23f",
+      "message": "feat: Implement destruction persistence system for destructible objects",
+      "author": "Kasper",
+      "date": "2026-08-11T19:44:22Z"
+    },
     {
       "shortSha": "85a0122",
       "message": "feat: Update various wall and door assets for improved destructible functionality",
