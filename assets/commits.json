@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-11T22:03:02.642Z",
-  "commitCount": 2055,
+  "generatedAt": "2026-08-11T23:00:39.799Z",
+  "commitCount": 2057,
   "commits": [
+    {
+      "shortSha": "e371132",
+      "message": "feat: Enhance debris restoration logic to validate persistence round-trip and improve transform handling",
+      "author": "Kasper",
+      "date": "2026-08-11T22:27:39Z"
+    },
+    {
+      "shortSha": "bac4d3c",
+      "message": "feat: Enhance destructible object scaling logic to preserve authored transforms during destruction",
+      "author": "Kasper",
+      "date": "2026-08-11T22:11:02Z"
+    },
     {
       "shortSha": "eb67bf7",
       "message": "feat: Update destructible object assets and enhance blueprint regeneration functionality",
