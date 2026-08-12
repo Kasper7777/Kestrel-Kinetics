@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-12T21:00:47.984Z",
-  "commitCount": 2061,
+  "generatedAt": "2026-08-12T22:00:32.488Z",
+  "commitCount": 2063,
   "commits": [
+    {
+      "shortSha": "ac00ad3",
+      "message": "feat: Implement FindOrAdd method for UPunchAttackComponent and enhance NPC unarmed combat behavior",
+      "author": "Kasper",
+      "date": "2026-08-12T21:56:11Z"
+    },
+    {
+      "shortSha": "f0f982a",
+      "message": "Refactor unarmed combat behavior for NPCs",
+      "author": "Kasper",
+      "date": "2026-08-12T21:18:22Z"
+    },
     {
       "shortSha": "2dd4ad8",
       "message": "feat: Update unarmed combat exit mechanics and enhance debug message",
