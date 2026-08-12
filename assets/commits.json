@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-12T11:56:14.669Z",
-  "commitCount": 2058,
+  "generatedAt": "2026-08-12T13:43:48.871Z",
+  "commitCount": 2059,
   "commits": [
+    {
+      "shortSha": "e3b5d80",
+      "message": "feat: Implement unarmed combat mechanics including punches and kicks",
+      "author": "Kazber",
+      "date": "2026-08-12T13:22:08Z"
+    },
     {
       "shortSha": "aa078ef",
       "message": "feat: Update CB Report with new data and insights",
