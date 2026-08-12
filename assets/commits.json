@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-12T22:00:32.488Z",
-  "commitCount": 2063,
+  "generatedAt": "2026-08-12T22:59:19.558Z",
+  "commitCount": 2064,
   "commits": [
+    {
+      "shortSha": "723ed25",
+      "message": "feat: Add SetBravery and RandomizeBravery methods to ACBEnemy for improved NPC behavior",
+      "author": "Kasper",
+      "date": "2026-08-12T22:39:20Z"
+    },
     {
       "shortSha": "ac00ad3",
       "message": "feat: Implement FindOrAdd method for UPunchAttackComponent and enhance NPC unarmed combat behavior",
