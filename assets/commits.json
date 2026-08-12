@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-12T15:12:48.670Z",
-  "commitCount": 2059,
+  "generatedAt": "2026-08-12T16:07:45.825Z",
+  "commitCount": 2061,
   "commits": [
+    {
+      "shortSha": "2dd4ad8",
+      "message": "feat: Update unarmed combat exit mechanics and enhance debug message",
+      "author": "Kazber",
+      "date": "2026-08-12T15:47:20Z"
+    },
+    {
+      "shortSha": "55514bd",
+      "message": "feat: Enhance unarmed combat mechanics and animations",
+      "author": "Kazber",
+      "date": "2026-08-12T15:46:43Z"
+    },
     {
       "shortSha": "e3b5d80",
       "message": "feat: Implement unarmed combat mechanics including punches and kicks",
