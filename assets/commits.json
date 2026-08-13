@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-13T11:58:03.355Z",
-  "commitCount": 2067,
+  "generatedAt": "2026-08-13T13:44:55.197Z",
+  "commitCount": 2070,
   "commits": [
+    {
+      "shortSha": "f462241",
+      "message": "feat: Implement fight stance rotation for NPCs to enhance combat behavior",
+      "author": "Kasper",
+      "date": "2026-08-13T13:01:11Z"
+    },
+    {
+      "shortSha": "4558318",
+      "message": "feat: Rename FightingAttackAnimations to PunchAnimations and update related references across player and enemy classes",
+      "author": "Kasper",
+      "date": "2026-08-13T12:54:05Z"
+    },
+    {
+      "shortSha": "5a0a9a9",
+      "message": "Update character animations and enemy assets",
+      "author": "Kasper",
+      "date": "2026-08-13T12:25:34Z"
+    },
     {
       "shortSha": "95595df",
       "message": "feat: Enhance NPC targeting behavior to prevent non-combatants from attacking players and improve loading screen management",
