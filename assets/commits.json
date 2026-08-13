@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-08-13T19:18:01.376Z",
-  "commitCount": 2082,
+  "generatedAt": "2026-08-13T21:00:47.716Z",
+  "commitCount": 2086,
   "commits": [
+    {
+      "shortSha": "836e9ec",
+      "message": "feat: Implement structured readout for stats with label/value rows and section headings",
+      "author": "Kasper",
+      "date": "2026-08-13T20:24:13Z"
+    },
+    {
+      "shortSha": "2feef95",
+      "message": "feat: Add unarmed combat statistics tracking and UI integration",
+      "author": "Kasper",
+      "date": "2026-08-13T19:54:54Z"
+    },
+    {
+      "shortSha": "8232f9e",
+      "message": "chore: Update CB Report with new insights and findings",
+      "author": "Kazber",
+      "date": "2026-08-13T19:28:48Z"
+    },
+    {
+      "shortSha": "14d669a",
+      "message": "feat: Prevent NPCs from escalating to armed combat during unarmed fights and adjust fight stance walk speed for better movement dynamics",
+      "author": "Kasper",
+      "date": "2026-08-13T19:20:23Z"
+    },
     {
       "shortSha": "3124e1d",
       "message": "feat: Enhance enemy movement and fighting mechanics with rotation and speed restoration",
