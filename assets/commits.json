@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-13T15:12:51.531Z",
-  "commitCount": 2076,
+  "generatedAt": "2026-08-13T16:08:12.302Z",
+  "commitCount": 2077,
   "commits": [
+    {
+      "shortSha": "e6e1fe5",
+      "message": "feat: Prevent NPCs from abandoning fights to seek pickups when engaged in combat",
+      "author": "Kasper",
+      "date": "2026-08-13T15:14:09Z"
+    },
     {
       "shortSha": "d3112ff",
       "message": "feat: Enhance combat mechanics by preventing NPCs from seeking weapons mid-fight and adjusting attack damage values",
