@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-13T21:00:47.716Z",
-  "commitCount": 2086,
+  "generatedAt": "2026-08-13T22:01:03.303Z",
+  "commitCount": 2089,
   "commits": [
+    {
+      "shortSha": "8aa8095",
+      "message": "feat: Update AI behavior and stats readout functionality with new structures and auto-scroll support",
+      "author": "Kasper",
+      "date": "2026-08-13T22:00:17Z"
+    },
+    {
+      "shortSha": "87da0e3",
+      "message": "feat: Prevent NPCs from timing out during unarmed fights and improve fight reaction logic",
+      "author": "Kasper",
+      "date": "2026-08-13T21:43:17Z"
+    },
+    {
+      "shortSha": "6e47571",
+      "message": "feat: Enhance BullyStats readout with new widget and formatting options",
+      "author": "Kasper",
+      "date": "2026-08-13T21:09:48Z"
+    },
     {
       "shortSha": "836e9ec",
       "message": "feat: Implement structured readout for stats with label/value rows and section headings",
