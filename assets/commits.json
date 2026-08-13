@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-08-13T13:44:55.197Z",
-  "commitCount": 2070,
+  "generatedAt": "2026-08-13T15:12:51.531Z",
+  "commitCount": 2076,
   "commits": [
+    {
+      "shortSha": "d3112ff",
+      "message": "feat: Enhance combat mechanics by preventing NPCs from seeking weapons mid-fight and adjusting attack damage values",
+      "author": "Kasper",
+      "date": "2026-08-13T15:11:51Z"
+    },
+    {
+      "shortSha": "6812e11",
+      "message": "feat: Prevent NPCs from interrupting unarmed fights to scavenge for weapons",
+      "author": "Kasper",
+      "date": "2026-08-13T14:53:24Z"
+    },
+    {
+      "shortSha": "832094d",
+      "message": "feat: Implement photo cooldown mechanics for camera weapon to manage shot bursts",
+      "author": "Kasper",
+      "date": "2026-08-13T14:39:40Z"
+    },
+    {
+      "shortSha": "9dc12f2",
+      "message": "feat: Add combat synchronization tool to match NPCs' unarmed combat setup with the player",
+      "author": "Kasper",
+      "date": "2026-08-13T14:31:11Z"
+    },
+    {
+      "shortSha": "f4e0192",
+      "message": "Add hit reaction animations and mechanics for player and enemy characters",
+      "author": "Kasper",
+      "date": "2026-08-13T14:22:41Z"
+    },
+    {
+      "shortSha": "3635e4e",
+      "message": "feat: Implement mesh space rotation blending for fighting attack poses to improve animation layering",
+      "author": "Kasper",
+      "date": "2026-08-13T14:02:18Z"
+    },
     {
       "shortSha": "f462241",
       "message": "feat: Implement fight stance rotation for NPCs to enhance combat behavior",
