@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-13T17:10:02.055Z",
-  "commitCount": 2081,
+  "generatedAt": "2026-08-13T18:05:43.430Z",
+  "commitCount": 2082,
   "commits": [
+    {
+      "shortSha": "3124e1d",
+      "message": "feat: Enhance enemy movement and fighting mechanics with rotation and speed restoration",
+      "author": "Kasper",
+      "date": "2026-08-13T17:58:56Z"
+    },
     {
       "shortSha": "5274a49",
       "message": "feat: Add health fraction threshold for fist hits to switch between squib effects",
