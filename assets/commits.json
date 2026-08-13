@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-13T23:00:23.596Z",
-  "commitCount": 2090,
+  "generatedAt": "2026-08-13T23:56:41.247Z",
+  "commitCount": 2091,
   "commits": [
+    {
+      "shortSha": "6caac11",
+      "message": "feat: Update binary assets for Multiplayer Options, PersistantStats, and RunStats",
+      "author": "Kasper",
+      "date": "2026-08-13T23:41:56Z"
+    },
     {
       "shortSha": "6288dda",
       "message": "feat: Enhance BullyStatsSubsystem with Kardz and pet tracking features",
