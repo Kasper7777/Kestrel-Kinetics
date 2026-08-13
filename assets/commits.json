@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-13T10:20:13.760Z",
-  "commitCount": 2066,
+  "generatedAt": "2026-08-13T11:58:03.355Z",
+  "commitCount": 2067,
   "commits": [
+    {
+      "shortSha": "95595df",
+      "message": "feat: Enhance NPC targeting behavior to prevent non-combatants from attacking players and improve loading screen management",
+      "author": "Kasper",
+      "date": "2026-08-13T11:43:04Z"
+    },
     {
       "shortSha": "62698f0",
       "message": "feat: Remove lock-on mechanics and related input bindings from player character and controls",
