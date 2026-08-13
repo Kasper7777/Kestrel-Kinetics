@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-12T23:56:18.363Z",
-  "commitCount": 2064,
+  "generatedAt": "2026-08-13T02:44:44.663Z",
+  "commitCount": 2066,
   "commits": [
+    {
+      "shortSha": "62698f0",
+      "message": "feat: Remove lock-on mechanics and related input bindings from player character and controls",
+      "author": "Kasper",
+      "date": "2026-08-13T00:26:21Z"
+    },
+    {
+      "shortSha": "6719f13",
+      "message": "feat: Enhance unarmed combat mechanics by refining punch damage settings and bypassing armor for unarmed strikes",
+      "author": "Kasper",
+      "date": "2026-08-13T00:02:02Z"
+    },
     {
       "shortSha": "723ed25",
       "message": "feat: Add SetBravery and RandomizeBravery methods to ACBEnemy for improved NPC behavior",
