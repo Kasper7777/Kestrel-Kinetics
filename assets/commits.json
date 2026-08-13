@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-08-13T16:08:12.302Z",
-  "commitCount": 2077,
+  "generatedAt": "2026-08-13T17:10:02.055Z",
+  "commitCount": 2081,
   "commits": [
+    {
+      "shortSha": "5274a49",
+      "message": "feat: Add health fraction threshold for fist hits to switch between squib effects",
+      "author": "Kasper",
+      "date": "2026-08-13T17:07:50Z"
+    },
+    {
+      "shortSha": "3b2b4fb",
+      "message": "feat: Implement unified combatant status check to end fights based on conscience or health depletion",
+      "author": "Kasper",
+      "date": "2026-08-13T16:41:41Z"
+    },
+    {
+      "shortSha": "71e8c98",
+      "message": "feat: Implement shared footwork mechanics for unarmed combat to enhance NPC movement during fights",
+      "author": "Kasper",
+      "date": "2026-08-13T16:31:22Z"
+    },
+    {
+      "shortSha": "95d89c1",
+      "message": "Update assets and sounds for combat mechanics",
+      "author": "Kasper",
+      "date": "2026-08-13T16:16:54Z"
+    },
     {
       "shortSha": "e6e1fe5",
       "message": "feat: Prevent NPCs from abandoning fights to seek pickups when engaged in combat",
