@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-14T13:39:53.213Z",
-  "commitCount": 2094,
+  "generatedAt": "2026-08-14T15:06:02.029Z",
+  "commitCount": 2096,
   "commits": [
+    {
+      "shortSha": "8977b94",
+      "message": "feat: Enhance health bar attachment logic and improve fire effect synchronization in weapons",
+      "author": "Kasper",
+      "date": "2026-08-14T14:21:46Z"
+    },
+    {
+      "shortSha": "82e88e1",
+      "message": "feat: Improve voice prewarm handling and add diagnostics for city resource generation",
+      "author": "Kasper",
+      "date": "2026-08-14T13:52:52Z"
+    },
     {
       "shortSha": "0c08619",
       "message": "feat: Enhance civilian behavior with performance handling and banner/megaphone integration",
