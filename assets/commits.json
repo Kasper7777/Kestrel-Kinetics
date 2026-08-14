@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-14T11:55:16.501Z",
-  "commitCount": 2092,
+  "generatedAt": "2026-08-14T13:39:53.213Z",
+  "commitCount": 2094,
   "commits": [
+    {
+      "shortSha": "0c08619",
+      "message": "feat: Enhance civilian behavior with performance handling and banner/megaphone integration",
+      "author": "Kasper",
+      "date": "2026-08-14T13:02:06Z"
+    },
+    {
+      "shortSha": "df06806",
+      "message": "feat: Enhance save data management with HasSavedData and improved ClearSaveData logic",
+      "author": "Kasper",
+      "date": "2026-08-14T12:46:27Z"
+    },
     {
       "shortSha": "51001ac",
       "message": "feat: Improve armour pickup logic and enhance enemy death record tracking",
