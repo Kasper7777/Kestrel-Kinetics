@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-08-14T22:38:40.147Z",
-  "commitCount": 2104,
+  "generatedAt": "2026-08-14T23:35:31.175Z",
+  "commitCount": 2108,
   "commits": [
+    {
+      "shortSha": "df0b65a",
+      "message": "feat: Update interior floor tile assets and remove unused tiles",
+      "author": "Kasper",
+      "date": "2026-08-14T23:32:09Z"
+    },
+    {
+      "shortSha": "1743903",
+      "message": "Update interior floor tiles and wall paneling assets",
+      "author": "Kasper",
+      "date": "2026-08-14T23:20:40Z"
+    },
+    {
+      "shortSha": "38e0d95",
+      "message": "Update building materials and add new color assets",
+      "author": "Kasper",
+      "date": "2026-08-14T22:59:59Z"
+    },
+    {
+      "shortSha": "13e57ed",
+      "message": "feat: Add rug functionality to the Grid-Based City Builder",
+      "author": "Kasper",
+      "date": "2026-08-14T22:39:34Z"
+    },
     {
       "shortSha": "1f0e176",
       "message": "feat: Update wall panel assets and improve building finish logic for better alignment",
