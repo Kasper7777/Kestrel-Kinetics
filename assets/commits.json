@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-14T11:08:38.941Z",
-  "commitCount": 2091,
+  "generatedAt": "2026-08-14T11:55:16.501Z",
+  "commitCount": 2092,
   "commits": [
+    {
+      "shortSha": "51001ac",
+      "message": "feat: Improve armour pickup logic and enhance enemy death record tracking",
+      "author": "Kasper",
+      "date": "2026-08-14T11:47:21Z"
+    },
     {
       "shortSha": "6caac11",
       "message": "feat: Update binary assets for Multiplayer Options, PersistantStats, and RunStats",
