@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-16T11:32:52.065Z",
-  "commitCount": 2113,
+  "generatedAt": "2026-08-16T12:58:52.590Z",
+  "commitCount": 2115,
   "commits": [
+    {
+      "shortSha": "21cfd6e",
+      "message": "refactor: Simplify population rules documentation and improve clarity on distance bias and density scaling",
+      "author": "Kasper",
+      "date": "2026-08-16T12:03:30Z"
+    },
+    {
+      "shortSha": "9e365eb",
+      "message": "feat: Implement grudge targeting for NPCs and enhance population allocation logic",
+      "author": "Kasper",
+      "date": "2026-08-16T11:45:41Z"
+    },
     {
       "shortSha": "9f006b9",
       "message": "Refactor honour management and population allocation systems",
