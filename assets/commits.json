@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-16T15:33:52.853Z",
-  "commitCount": 2119,
+  "generatedAt": "2026-08-16T16:40:42.477Z",
+  "commitCount": 2120,
   "commits": [
+    {
+      "shortSha": "52d0c1c",
+      "message": "refactor: Improve loading screen logic to ensure accurate completion reporting and prevent premature finish",
+      "author": "Kasper",
+      "date": "2026-08-16T15:43:18Z"
+    },
     {
       "shortSha": "9183495",
       "message": "feat: Enhance loading screen behavior to ensure proper cover management and first paint reporting",
