@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-16T05:41:09.592Z",
-  "commitCount": 2109,
+  "generatedAt": "2026-08-16T06:57:26.632Z",
+  "commitCount": 2111,
   "commits": [
+    {
+      "shortSha": "94b1c43",
+      "message": "fix: Update details view handling and improve string table import methods",
+      "author": "Kasper",
+      "date": "2026-08-16T06:51:32Z"
+    },
+    {
+      "shortSha": "cce6796",
+      "message": "Add new animated CRT textures, meshes, and materials for retro scene",
+      "author": "Kasper",
+      "date": "2026-08-16T06:25:36Z"
+    },
     {
       "shortSha": "33f414c",
       "message": "feat: Add wall infill tile functionality to building floor tile spawning",
