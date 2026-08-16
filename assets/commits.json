@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-16T19:31:26.119Z",
-  "commitCount": 2122,
+  "generatedAt": "2026-08-16T20:36:12.640Z",
+  "commitCount": 2123,
   "commits": [
+    {
+      "shortSha": "8962d1b",
+      "message": "fix: Ensure story NPCs react to attacks during scripted events by aborting ongoing scenes",
+      "author": "Kasper",
+      "date": "2026-08-16T20:19:40Z"
+    },
     {
       "shortSha": "ebe2f03",
       "message": "feat: Implement story NPC behavior management to prevent interruptions during scripted events",
