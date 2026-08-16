@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-16T18:45:07.200Z",
-  "commitCount": 2121,
+  "generatedAt": "2026-08-16T19:31:26.119Z",
+  "commitCount": 2122,
   "commits": [
+    {
+      "shortSha": "ebe2f03",
+      "message": "feat: Implement story NPC behavior management to prevent interruptions during scripted events",
+      "author": "Kasper",
+      "date": "2026-08-16T19:07:52Z"
+    },
     {
       "shortSha": "ccb610d",
       "message": "fix: Adjust mesh component mobility to prevent transform issues during placement",
