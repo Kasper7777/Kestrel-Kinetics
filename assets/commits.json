@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-16T12:58:52.590Z",
-  "commitCount": 2115,
+  "generatedAt": "2026-08-16T13:43:36.991Z",
+  "commitCount": 2116,
   "commits": [
+    {
+      "shortSha": "d9649c4",
+      "message": "refactor: Enhance population rules documentation and improve density scaling logic",
+      "author": "Kasper",
+      "date": "2026-08-16T13:01:56Z"
+    },
     {
       "shortSha": "21cfd6e",
       "message": "refactor: Simplify population rules documentation and improve clarity on distance bias and density scaling",
