@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-16T14:36:28.300Z",
-  "commitCount": 2118,
+  "generatedAt": "2026-08-16T15:33:52.853Z",
+  "commitCount": 2119,
   "commits": [
+    {
+      "shortSha": "9183495",
+      "message": "feat: Enhance loading screen behavior to ensure proper cover management and first paint reporting",
+      "author": "Kasper",
+      "date": "2026-08-16T14:59:40Z"
+    },
     {
       "shortSha": "17b884d",
       "message": "refactor: Add FVTableHelper constructor to AGridManager for hot-reload support",
