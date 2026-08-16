@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-16T20:36:12.640Z",
-  "commitCount": 2123,
+  "generatedAt": "2026-08-16T21:33:03.181Z",
+  "commitCount": 2124,
   "commits": [
+    {
+      "shortSha": "c0988dc",
+      "message": "feat: Implement post-death voice management to prevent audio playback from corpses",
+      "author": "Kasper",
+      "date": "2026-08-16T21:15:32Z"
+    },
     {
       "shortSha": "8962d1b",
       "message": "fix: Ensure story NPCs react to attacks during scripted events by aborting ongoing scenes",
