@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-16T13:43:36.991Z",
-  "commitCount": 2116,
+  "generatedAt": "2026-08-16T14:36:28.300Z",
+  "commitCount": 2118,
   "commits": [
+    {
+      "shortSha": "17b884d",
+      "message": "refactor: Add FVTableHelper constructor to AGridManager for hot-reload support",
+      "author": "Kasper",
+      "date": "2026-08-16T14:06:56Z"
+    },
+    {
+      "shortSha": "363e507",
+      "message": "Add asynchronous city grid generation and build queue management",
+      "author": "Kasper",
+      "date": "2026-08-16T14:05:07Z"
+    },
     {
       "shortSha": "d9649c4",
       "message": "refactor: Enhance population rules documentation and improve density scaling logic",
