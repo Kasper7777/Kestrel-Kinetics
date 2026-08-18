@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-18T05:43:13.398Z",
-  "commitCount": 2124,
+  "generatedAt": "2026-08-18T07:02:21.534Z",
+  "commitCount": 2125,
   "commits": [
+    {
+      "shortSha": "454face",
+      "message": "feat: Enhance NPC representation with per-type icons and faction indicators on the map",
+      "author": "Kasper",
+      "date": "2026-08-18T06:51:39Z"
+    },
     {
       "shortSha": "c0988dc",
       "message": "feat: Implement post-death voice management to prevent audio playback from corpses",
