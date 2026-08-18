@@ -58,7 +58,7 @@
           <div class="hero-actions">
             <a class="button button-primary" href="https://kazber7.itch.io/prostack" target="_blank" rel="noopener">Buy on itch.io</a>
             <a class="button button-secondary" href="#features">Explore features</a>
-            <a class="button button-secondary" href="../#contact">Get support</a>
+            <a class="button button-secondary" href="#support">Get support</a>
           </div>
         </div>
         <aside class="status-panel" aria-label="App status">
@@ -136,37 +136,79 @@
         </div>
       </section>
 
-      <section class="press-band" id="support">
+      <section class="press-band contact-band" id="support">
         <div>
           <p class="eyebrow">Support &amp; purchase</p>
-          <h2>Quick facts</h2>
+          <h2>Program<wbr>Stack support</h2>
+          <p>Send support questions, bug reports or purchase enquiries through the form. Replies go to the address you provide.</p>
         </div>
-        <dl class="facts">
-          <div>
-            <dt>App</dt>
-            <dd>ProgramStack</dd>
-          </div>
-          <div>
-            <dt>Studio</dt>
-            <dd><a href="../">Kestrel Kinetics Research &amp; Technology</a></dd>
-          </div>
-          <div>
-            <dt>Type</dt>
-            <dd>Windows launcher and startup utility</dd>
-          </div>
-          <div>
-            <dt>Platform</dt>
-            <dd>Windows 10 and 11. Installer, portable build and a small build for the .NET 10 Desktop Runtime.</dd>
-          </div>
-          <div>
-            <dt>Store</dt>
-            <dd><a href="https://kazber7.itch.io/prostack" target="_blank" rel="noopener">Buy on itch.io</a></dd>
-          </div>
-          <div>
-            <dt>Support</dt>
-            <dd><a href="../#contact">Use the studio contact form and select ProgramStack</a></dd>
-          </div>
-        </dl>
+        <div class="contact-panel">
+          <form class="contact-form" action="/api/contact" method="post" data-contact-form data-ck="==ge4lEVlpXS4FEajNWNSJ1XqZlekZTZCVWWRRXOGJ0b4FEOZVDULBDMtZTaixWTJpGU3UUOzwUWQd1UzV3c4tGNYpWQl9CNyETMzADM1YjM1MDO5IDOxUTMvM3av9GaiV2dvkGch9SbvNmLkJ3bjNXak9yL6MHc0RHa">
+            <label class="form-field">
+              <span>Enquiry type</span>
+              <select name="type" required>
+                <option value="Support" selected>Support</option>
+                <option value="General enquiry">General enquiry</option>
+                <option value="Press or collaboration">Press or collaboration</option>
+              </select>
+            </label>
+            <label class="form-field">
+              <span>Software or project</span>
+              <select name="project" required>
+                <option value="ProgramStack" selected>ProgramStack</option>
+                <option value="Milenko Sketch">Milenko Sketch</option>
+                <option value="Cyber Bully">Cyber Bully</option>
+                <option value="Manic Monday's">Manic Monday's</option>
+              </select>
+            </label>
+            <label class="form-field">
+              <span>Name</span>
+              <input type="text" name="name" autocomplete="name" maxlength="80" required>
+            </label>
+            <label class="form-field">
+              <span>Your email</span>
+              <input type="email" name="email" autocomplete="email" maxlength="254" required>
+            </label>
+            <label class="form-field">
+              <span>Message</span>
+              <textarea name="message" rows="6" maxlength="3000" required></textarea>
+            </label>
+            <label class="contact-honeypot" aria-hidden="true">
+              <span>Website</span>
+              <input type="text" name="website" tabindex="-1" autocomplete="off">
+            </label>
+            <div class="contact-actions">
+              <button class="button button-primary" type="submit">Send message</button>
+              <p class="contact-status" data-contact-status role="status" aria-live="polite"></p>
+            </div>
+          </form>
+          <dl class="facts">
+            <div>
+              <dt>App</dt>
+              <dd>ProgramStack</dd>
+            </div>
+            <div>
+              <dt>Studio</dt>
+              <dd><a href="../">Kestrel Kinetics Research &amp; Technology</a></dd>
+            </div>
+            <div>
+              <dt>Type</dt>
+              <dd>Windows launcher and startup utility</dd>
+            </div>
+            <div>
+              <dt>Platform</dt>
+              <dd>Windows 10 and 11. Installer, portable build and a small build for the .NET 10 Desktop Runtime.</dd>
+            </div>
+            <div>
+              <dt>Store</dt>
+              <dd><a href="https://kazber7.itch.io/prostack" target="_blank" rel="noopener">Buy on itch.io</a></dd>
+            </div>
+            <div>
+              <dt>Support</dt>
+              <dd>Use the form on this page, or the <a href="../#contact">studio contact form</a>.</dd>
+            </div>
+          </dl>
+        </div>
       </section>
     </main>
 
