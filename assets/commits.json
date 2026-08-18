@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-18T18:54:28.509Z",
-  "commitCount": 2128,
+  "generatedAt": "2026-08-18T19:38:46.033Z",
+  "commitCount": 2129,
   "commits": [
+    {
+      "shortSha": "ab1aa70",
+      "message": "feat: Enhance road placement logic and add off-road rejection for NPC spawning",
+      "author": "Kasper",
+      "date": "2026-08-18T19:36:54Z"
+    },
     {
       "shortSha": "d4e0792",
       "message": "feat: Implement BullyMapFilterWidget and enhance map display options",
