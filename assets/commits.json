@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-18T07:02:21.534Z",
-  "commitCount": 2125,
+  "generatedAt": "2026-08-18T07:52:14.917Z",
+  "commitCount": 2126,
   "commits": [
+    {
+      "shortSha": "a515b33",
+      "message": "feat: Add NPC population planning for enemies and civilians in the game instance",
+      "author": "Kasper",
+      "date": "2026-08-18T07:13:36Z"
+    },
     {
       "shortSha": "454face",
       "message": "feat: Enhance NPC representation with per-type icons and faction indicators on the map",
