@@ -26,10 +26,20 @@
       </a>
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="../">Studio</a>
-        <a href="../cyber-bully/">Cyber Bully</a>
-        <a href="../manic-mondays/">Manic Monday's</a>
-        <a href="../milenko-sketch/">Milenko Sketch</a>
-        <a href="./">ProgramStack</a>
+        <div class="nav-group" data-nav-group>
+          <button class="nav-trigger" type="button" data-nav-trigger aria-expanded="false" aria-controls="nav-projects" aria-haspopup="true">
+            Apps &amp; Games
+            <span class="nav-caret" aria-hidden="true"></span>
+          </button>
+          <div class="nav-menu" id="nav-projects" data-nav-menu hidden>
+            <p class="nav-menu-heading">Games</p>
+            <a href="../cyber-bully/">Cyber Bully</a>
+            <a href="../manic-mondays/">Manic Monday's</a>
+            <p class="nav-menu-heading">Apps</p>
+            <a href="../milenko-sketch/">Milenko Sketch</a>
+            <a href="./" aria-current="page">ProgramStack</a>
+          </div>
+        </div>
         <a href="#features">Features</a>
         <a href="#support">Support</a>
       </nav>

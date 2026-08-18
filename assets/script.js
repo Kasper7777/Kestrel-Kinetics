@@ -1,5 +1,6 @@
 const header = document.querySelector("[data-header]");
 const year = document.querySelector("[data-year]");
+const navGroups = [...document.querySelectorAll("[data-nav-group]")];
 const commitSummary = document.querySelector("[data-commit-summary]");
 const commitStatus = document.querySelector("[data-commit-status]");
 const commitList = document.querySelector("[data-commit-list]");
@@ -35,6 +36,57 @@ let carouselIndex = 0;
 const syncHeader = () => {
   header?.classList.toggle("is-scrolled", window.scrollY > 12);
 };
+
+const setNavMenu = (group, open) => {
+  const trigger = group.querySelector("[data-nav-trigger]");
+  const menu = group.querySelector("[data-nav-menu]");
+
+  if (!trigger || !menu) {
+    return;
+  }
+
+  trigger.setAttribute("aria-expanded", String(open));
+  menu.hidden = !open;
+};
+
+const closeNavMenus = (except) => {
+  navGroups.forEach((group) => {
+    if (group !== except) {
+      setNavMenu(group, false);
+    }
+  });
+};
+
+navGroups.forEach((group) => {
+  const trigger = group.querySelector("[data-nav-trigger]");
+
+  trigger?.addEventListener("click", () => {
+    const open = trigger.getAttribute("aria-expanded") === "true";
+    closeNavMenus(group);
+    setNavMenu(group, !open);
+  });
+
+  group.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape") {
+      return;
+    }
+
+    setNavMenu(group, false);
+    trigger?.focus();
+  });
+});
+
+// A pointer or focus landing anywhere outside an open menu should close it.
+if (navGroups.length) {
+  document.addEventListener("pointerdown", (event) => {
+    closeNavMenus(navGroups.find((group) => group.contains(event.target)));
+  });
+
+  document.addEventListener("focusin", (event) => {
+    closeNavMenus(navGroups.find((group) => group.contains(event.target)));
+  });
+}
+
 
 const formatDate = (value) =>
   new Intl.DateTimeFormat(undefined, {

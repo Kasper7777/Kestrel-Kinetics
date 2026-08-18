@@ -142,6 +142,95 @@ img {
   transition: color 160ms ease;
 }
 
+.nav-group {
+  position: relative;
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.nav-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  transition: color 160ms ease;
+}
+
+.nav-trigger:hover,
+.nav-trigger:focus-visible,
+.nav-trigger[aria-expanded="true"] {
+  color: var(--accent);
+}
+
+.nav-caret {
+  width: 0.4rem;
+  height: 0.4rem;
+  flex: 0 0 auto;
+  border-right: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  transform: translateY(-0.1rem) rotate(45deg);
+  transition: transform 160ms ease;
+}
+
+.nav-trigger[aria-expanded="true"] .nav-caret {
+  transform: translateY(0.08rem) rotate(-135deg);
+}
+
+.nav-menu {
+  position: absolute;
+  top: calc(100% + 1rem);
+  right: 0;
+  z-index: 30;
+  display: grid;
+  min-width: 14rem;
+  padding: 0.9rem 0.65rem 0.75rem;
+  border: 1px solid var(--line-strong);
+  background: var(--panel-solid);
+  box-shadow: 0 20px 44px rgba(0, 0, 0, 0.58);
+}
+
+.nav-menu[hidden] {
+  display: none;
+}
+
+.nav-menu-heading {
+  margin: 0.9rem 0 0.35rem;
+  padding: 0 0.7rem;
+  color: var(--accent);
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+}
+
+.nav-menu-heading:first-child {
+  margin-top: 0;
+}
+
+.nav-menu a {
+  padding: 0.45rem 0.7rem;
+  border-left: 2px solid transparent;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.site-nav .nav-menu a:hover,
+.site-nav .nav-menu a:focus-visible {
+  border-left-color: var(--accent);
+  background: rgba(224, 108, 143, 0.08);
+  color: var(--accent);
+}
+
+.site-nav .nav-menu a[aria-current="page"] {
+  border-left-color: var(--line-strong);
+  color: var(--muted);
+}
+
 .social-link {
   display: inline-flex;
   flex: 0 0 auto;
@@ -1420,9 +1509,15 @@ dd {
 
   .site-nav {
     width: 100%;
+    flex-wrap: wrap;
     justify-content: flex-start;
-    overflow-x: auto;
+    row-gap: 0.5rem;
     padding-bottom: 0.1rem;
+  }
+
+  .nav-menu {
+    right: auto;
+    left: 0;
   }
 
   .split,
