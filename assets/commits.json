@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-18T17:40:49.590Z",
-  "commitCount": 2126,
+  "generatedAt": "2026-08-18T18:54:28.509Z",
+  "commitCount": 2128,
   "commits": [
+    {
+      "shortSha": "d4e0792",
+      "message": "feat: Implement BullyMapFilterWidget and enhance map display options",
+      "author": "Kasper",
+      "date": "2026-08-18T18:32:02Z"
+    },
+    {
+      "shortSha": "4c2da87",
+      "message": "feat: Improve NPC population planning by refining hostile and civilian counts in city resource subsystem",
+      "author": "Kasper",
+      "date": "2026-08-18T17:58:04Z"
+    },
     {
       "shortSha": "a515b33",
       "message": "feat: Add NPC population planning for enemies and civilians in the game instance",
