@@ -1,6 +1,6 @@
 # Kestrel Kinetics
 
-Static site for **Kestrel Kinetics Research & Technology**, with separate pages for **Cyber Bully: 502 Bad Gateway**, **Manic Monday's** and **Milenko Sketch**.
+Static site for **Kestrel Kinetics Research & Technology**, with separate pages for **Cyber Bully: 502 Bad Gateway**, **Manic Monday's**, **Milenko Sketch** and **ProgramStack**.
 
 ## Files
 
@@ -8,16 +8,19 @@ Static site for **Kestrel Kinetics Research & Technology**, with separate pages 
 - `cyber-bully/index.html` - Cyber Bully: 502 Bad Gateway game page.
 - `manic-mondays/index.html` - Manic Monday's game page.
 - `milenko-sketch/index.html` - Milenko Sketch app page.
+- `program-stack/index.html` - ProgramStack app page.
 - `assets/styles.css` - responsive site styling.
 - `assets/script.js` - small header/year enhancement.
 - `assets/images/studio/kestrel-logo.png` - Kestrel Kinetics logo.
 - `assets/images/cyber-bully/gallery/` - drop Cyber Bully screenshots or promo images here.
 - `assets/images/manic-mondays/` - Manic Monday's art and screenshots.
 - `assets/images/milenko-sketch/` - Milenko Sketch hero and screenshots.
+- `assets/images/program-stack/` - ProgramStack hero and screenshots.
 - `assets/gallery.json` - generated gallery manifest used by the Cyber Bully page.
 - `assets/commits.json` - generated Cyber Bully development log feed.
 - `assets/commits-manic-mondays.json` - generated Manic Monday's development log feed.
 - `assets/gallery-milenko-sketch.json` - generated Milenko Sketch gallery manifest.
+- `assets/gallery-program-stack.json` - generated ProgramStack gallery manifest.
 - `assets/icons/kestrel.ico` - site favicon.
 - `api/contact.js` - Vercel serverless contact endpoint.
 - `netlify/functions/contact.js` - Netlify serverless contact endpoint.
@@ -66,3 +69,7 @@ Add images to `assets/images/cyber-bully/gallery/` and push them to GitHub. The 
 ## Milenko Sketch Gallery
 
 Replace `assets/images/milenko-sketch/hero.png` when you have final page art. Add screenshots or promo images to `assets/images/milenko-sketch/gallery/` and push them to GitHub. The workflow rebuilds `assets/gallery-milenko-sketch.json`, and the Milenko Sketch page places the images automatically into the magazine-style visual section.
+
+## ProgramStack Gallery
+
+Replace `assets/images/program-stack/hero.png` when you have final page art. Add screenshots or promo images to `assets/images/program-stack/gallery/` and push them to GitHub. The workflow rebuilds `assets/gallery-program-stack.json`, and the ProgramStack page places the images automatically into the magazine-style visual section.

@@ -1,6 +1,6 @@
 const REQUIRED_ENV = ["DISCORD_WEBHOOK_URL"];
 const ENQUIRY_TYPES = ["General enquiry", "Support", "Press or collaboration"];
-const PROJECTS = ["Milenko Sketch", "Cyber Bully", "Manic Monday's"];
+const PROJECTS = ["Milenko Sketch", "ProgramStack", "Cyber Bully", "Manic Monday's"];
 const JSON_HEADERS = {
   "Cache-Control": "no-store",
   "Content-Type": "application/json; charset=utf-8",
