@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-08-18T15:49:33.898Z",
+  "imageCount": 4,
+  "images": [
+    {
+      "src": "assets/images/program-stack/gallery/01-stack-launch.png",
+      "alt": "ProgramStack 01 Stack Launch",
+      "title": "01 Stack Launch"
+    },
+    {
+      "src": "assets/images/program-stack/gallery/02-empty-stack.png",
+      "alt": "ProgramStack 02 Empty Stack",
+      "title": "02 Empty Stack"
+    },
+    {
+      "src": "assets/images/program-stack/gallery/03-program-editor.png",
+      "alt": "ProgramStack 03 Program Editor",
+      "title": "03 Program Editor"
+    },
+    {
+      "src": "assets/images/program-stack/gallery/04-settings.png",
+      "alt": "ProgramStack 04 Settings",
+      "title": "04 Settings"
+    }
+  ]
+}
