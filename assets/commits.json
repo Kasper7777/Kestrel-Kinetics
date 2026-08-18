@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-18T20:38:21.106Z",
-  "commitCount": 2129,
+  "generatedAt": "2026-08-18T21:36:06.653Z",
+  "commitCount": 2130,
   "commits": [
+    {
+      "shortSha": "194a751",
+      "message": "feat: Refine NPC blip sorting logic to prioritize hostiles and actionable civilians",
+      "author": "Kasper",
+      "date": "2026-08-18T20:45:08Z"
+    },
     {
       "shortSha": "ab1aa70",
       "message": "feat: Enhance road placement logic and add off-road rejection for NPC spawning",
