@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-19T14:51:32.971Z",
-  "commitCount": 2131,
+  "generatedAt": "2026-08-19T15:44:12.005Z",
+  "commitCount": 2133,
   "commits": [
+    {
+      "shortSha": "4e3ed87",
+      "message": "feat: Add RatAttractionRange to improve rat merging behavior and enhance NPC interactions",
+      "author": "Kasper",
+      "date": "2026-08-19T15:27:18Z"
+    },
+    {
+      "shortSha": "f55a14f",
+      "message": "feat: Enhance NPC interactions by ensuring Rat King spawns with a controller and improve item attachment logic for rats",
+      "author": "Kasper",
+      "date": "2026-08-19T15:11:32Z"
+    },
     {
       "shortSha": "92c4a3b",
       "message": "Add Rat King NPC and enhance animal interactions",
