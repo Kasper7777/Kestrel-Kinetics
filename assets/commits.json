@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-19T15:44:12.005Z",
-  "commitCount": 2133,
+  "generatedAt": "2026-08-19T16:45:03.156Z",
+  "commitCount": 2136,
   "commits": [
+    {
+      "shortSha": "90d2637",
+      "message": "feat: Enhance animal interactions with new notification methods for cats and rats, and improve animal population management",
+      "author": "Kasper",
+      "date": "2026-08-19T16:26:42Z"
+    },
+    {
+      "shortSha": "b60e112",
+      "message": "feat: Implement BullyMapLegendWidget for dynamic map legend display and add GetEffectiveRatsNestIcon method for consistent icon retrieval",
+      "author": "Kasper",
+      "date": "2026-08-19T15:54:47Z"
+    },
+    {
+      "shortSha": "4b314ee",
+      "message": "feat: Add rats nest feature with UI integration and map display options",
+      "author": "Kasper",
+      "date": "2026-08-19T15:49:53Z"
+    },
     {
       "shortSha": "4e3ed87",
       "message": "feat: Add RatAttractionRange to improve rat merging behavior and enhance NPC interactions",
