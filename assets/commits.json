@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-19T11:37:24.674Z",
-  "commitCount": 2130,
+  "generatedAt": "2026-08-19T13:06:50.925Z",
+  "commitCount": 2131,
   "commits": [
+    {
+      "shortSha": "92c4a3b",
+      "message": "Add Rat King NPC and enhance animal interactions",
+      "author": "Kasper",
+      "date": "2026-08-19T13:03:10Z"
+    },
     {
       "shortSha": "194a751",
       "message": "feat: Refine NPC blip sorting logic to prioritize hostiles and actionable civilians",
