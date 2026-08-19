@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-08-19T17:38:26.085Z",
-  "commitCount": 2137,
+  "generatedAt": "2026-08-19T18:51:20.540Z",
+  "commitCount": 2141,
   "commits": [
+    {
+      "shortSha": "fa7ab17",
+      "message": "feat: Implement hostile gate polling and state management with notifications for blocked exit attempts",
+      "author": "Kasper",
+      "date": "2026-08-19T18:47:04Z"
+    },
+    {
+      "shortSha": "0761c45",
+      "message": "feat: Implement hostile exit gate logic with dynamic state evaluation and player notifications",
+      "author": "Kasper",
+      "date": "2026-08-19T18:30:11Z"
+    },
+    {
+      "shortSha": "89976be",
+      "message": "feat: Implement debug NPC spawning controls and settings for development builds",
+      "author": "Kasper",
+      "date": "2026-08-19T18:02:21Z"
+    },
+    {
+      "shortSha": "cc51f86",
+      "message": "feat: Add hostile gate recheck mechanism and improve enemy counting logic to enhance player exit interactions",
+      "author": "Kasper",
+      "date": "2026-08-19T17:48:29Z"
+    },
     {
       "shortSha": "5255302",
       "message": "feat: Implement core ticker for layout retries in various UI widgets to ensure proper geometry handling",
