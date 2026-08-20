@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-20T19:43:43.247Z",
-  "commitCount": 2141,
+  "generatedAt": "2026-08-20T20:44:23.056Z",
+  "commitCount": 2143,
   "commits": [
+    {
+      "shortSha": "39609e7",
+      "message": "feat: Update UI handling for settings combo dropdowns to improve navigation and cancel behavior",
+      "author": "Kazber",
+      "date": "2026-08-20T20:08:33Z"
+    },
+    {
+      "shortSha": "a23050d",
+      "message": "Add debug options for special NPC spawns and refine civilian utility item handling",
+      "author": "Kazber",
+      "date": "2026-08-20T20:01:27Z"
+    },
     {
       "shortSha": "fa7ab17",
       "message": "feat: Implement hostile gate polling and state management with notifications for blocked exit attempts",
