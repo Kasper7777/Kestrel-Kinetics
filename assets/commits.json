@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-21T15:46:32.510Z",
-  "commitCount": 2151,
+  "generatedAt": "2026-08-21T16:49:52.073Z",
+  "commitCount": 2154,
   "commits": [
+    {
+      "shortSha": "79feec7",
+      "message": "Enhance navigation components and improve pathfinding logic",
+      "author": "Kazber",
+      "date": "2026-08-21T15:54:53Z"
+    },
+    {
+      "shortSha": "e26dc0c",
+      "message": "Refactor AI Navigation and Destruction Audio Systems",
+      "author": "Kazber",
+      "date": "2026-08-21T15:42:28Z"
+    },
+    {
+      "shortSha": "4ccb14d",
+      "message": "Enhance AI Navigation and Movement Logic",
+      "author": "Kazber",
+      "date": "2026-08-21T15:31:49Z"
+    },
     {
       "shortSha": "7dba798",
       "message": "Add navigation layer components for NPC movement and recovery",
