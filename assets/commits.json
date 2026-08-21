@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-21T11:39:02.458Z",
-  "commitCount": 2148,
+  "generatedAt": "2026-08-21T13:09:05.072Z",
+  "commitCount": 2150,
   "commits": [
+    {
+      "shortSha": "071d75a",
+      "message": "feat: Update terminology from \"Bag Blueprint\" to \"Bag Type\" for clarity in settings and logging",
+      "author": "Kazber",
+      "date": "2026-08-21T12:40:07Z"
+    },
+    {
+      "shortSha": "aa25144",
+      "message": "Enhance Debug Features and Item Persistence",
+      "author": "Kazber",
+      "date": "2026-08-21T12:30:22Z"
+    },
     {
       "shortSha": "4184beb",
       "message": "feat: Implement continue availability cache and UI visibility updates for title screen",
