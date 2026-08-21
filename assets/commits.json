@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-20T23:37:32.805Z",
-  "commitCount": 2143,
+  "generatedAt": "2026-08-21T01:55:52.050Z",
+  "commitCount": 2144,
   "commits": [
+    {
+      "shortSha": "065b9bd",
+      "message": "feat: Refactor settings UI layout to use wrap boxes for better responsiveness and add auto-wrapping labels",
+      "author": "Kazber",
+      "date": "2026-08-21T00:43:00Z"
+    },
     {
       "shortSha": "39609e7",
       "message": "feat: Update UI handling for settings combo dropdowns to improve navigation and cancel behavior",
