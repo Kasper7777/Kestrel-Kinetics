@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-21T08:55:57.289Z",
-  "commitCount": 2144,
+  "generatedAt": "2026-08-21T09:50:58.646Z",
+  "commitCount": 2147,
   "commits": [
+    {
+      "shortSha": "2793869",
+      "message": "Refactor checkpoint and save point disk mechanics",
+      "author": "Kazber",
+      "date": "2026-08-21T09:37:47Z"
+    },
+    {
+      "shortSha": "b9542b8",
+      "message": "feat: Implement debug features for bonded NPCs and animal sound events",
+      "author": "Kazber",
+      "date": "2026-08-21T09:10:03Z"
+    },
+    {
+      "shortSha": "59a850d",
+      "message": "feat: Introduce CBAnimalComponent for animal NPCs",
+      "author": "Kazber",
+      "date": "2026-08-21T08:54:42Z"
+    },
     {
       "shortSha": "065b9bd",
       "message": "feat: Refactor settings UI layout to use wrap boxes for better responsiveness and add auto-wrapping labels",
