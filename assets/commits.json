@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-21T14:52:14.410Z",
-  "commitCount": 2150,
+  "generatedAt": "2026-08-21T15:46:32.510Z",
+  "commitCount": 2151,
   "commits": [
+    {
+      "shortSha": "7dba798",
+      "message": "Add navigation layer components for NPC movement and recovery",
+      "author": "Kazber",
+      "date": "2026-08-21T15:21:07Z"
+    },
     {
       "shortSha": "071d75a",
       "message": "feat: Update terminology from \"Bag Blueprint\" to \"Bag Type\" for clarity in settings and logging",
