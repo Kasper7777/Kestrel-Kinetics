@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-21T20:39:00.891Z",
-  "commitCount": 2165,
+  "generatedAt": "2026-08-21T21:36:35.535Z",
+  "commitCount": 2168,
   "commits": [
+    {
+      "shortSha": "fbdba76",
+      "message": "feat(trainer battle): Add scene capture functionality for autonomous matches",
+      "author": "Kazber",
+      "date": "2026-08-21T21:17:35Z"
+    },
+    {
+      "shortSha": "391d62b",
+      "message": "feat(trainer battle): Implement trainer name display for autonomous matches",
+      "author": "Kazber",
+      "date": "2026-08-21T20:56:54Z"
+    },
+    {
+      "shortSha": "5d1aa5e",
+      "message": "Refactor TrainerBattleScreen for Two-Sided Presentation",
+      "author": "Kazber",
+      "date": "2026-08-21T20:42:52Z"
+    },
     {
       "shortSha": "79a14b9",
       "message": "feat(battle screen): Add NPC battle screen for enhanced spectator experience",
