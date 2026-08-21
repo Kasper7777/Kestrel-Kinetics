@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-21T19:35:40.539Z",
-  "commitCount": 2162,
+  "generatedAt": "2026-08-21T20:39:00.891Z",
+  "commitCount": 2165,
   "commits": [
+    {
+      "shortSha": "79a14b9",
+      "message": "feat(battle screen): Add NPC battle screen for enhanced spectator experience",
+      "author": "Kazber",
+      "date": "2026-08-21T20:27:56Z"
+    },
+    {
+      "shortSha": "de19c5f",
+      "message": "feat(grid lighting): Implement grid manager binding and lamp fault attachment",
+      "author": "Kazber",
+      "date": "2026-08-21T20:05:43Z"
+    },
+    {
+      "shortSha": "825ad17",
+      "message": "Add grid-based lighting system with customizable profiles and modifiers",
+      "author": "Kazber",
+      "date": "2026-08-21T19:57:10Z"
+    },
     {
       "shortSha": "07517a0",
       "message": "Remove deprecated RiderLink and RiderLogging modules",
