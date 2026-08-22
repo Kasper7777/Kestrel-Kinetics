@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-22T10:37:57.721Z",
-  "commitCount": 2169,
+  "generatedAt": "2026-08-22T11:33:30.929Z",
+  "commitCount": 2171,
   "commits": [
+    {
+      "shortSha": "38f8024",
+      "message": "feat: Add new key bindings for Lower Weapon and Melee actions",
+      "author": "Kazber",
+      "date": "2026-08-22T11:00:23Z"
+    },
+    {
+      "shortSha": "0d5043f",
+      "message": "feat: Introduce unified menu styling across Title, Settings, and Pause menus",
+      "author": "Kazber",
+      "date": "2026-08-22T10:38:11Z"
+    },
     {
       "shortSha": "a928dd3",
       "message": "feat: Enhance unarmed combat mechanics and trainer pet assignment",
