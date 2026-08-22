@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-22T09:39:52.933Z",
-  "commitCount": 2168,
+  "generatedAt": "2026-08-22T10:37:57.721Z",
+  "commitCount": 2169,
   "commits": [
+    {
+      "shortSha": "a928dd3",
+      "message": "feat: Enhance unarmed combat mechanics and trainer pet assignment",
+      "author": "Kazber",
+      "date": "2026-08-22T10:09:29Z"
+    },
     {
       "shortSha": "fbdba76",
       "message": "feat(trainer battle): Add scene capture functionality for autonomous matches",
