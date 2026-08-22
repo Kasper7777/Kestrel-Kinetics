@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-22T12:58:45.188Z",
-  "commitCount": 2172,
+  "generatedAt": "2026-08-22T13:43:09.333Z",
+  "commitCount": 2173,
   "commits": [
+    {
+      "shortSha": "a4b3dfe",
+      "message": "feat: Enhance material handling and precaching for destructible objects and city resources",
+      "author": "Kazber",
+      "date": "2026-08-22T13:13:37Z"
+    },
     {
       "shortSha": "c135d24",
       "message": "feat(boss test): Add functionality for boss test level travel and selection",
