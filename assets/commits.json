@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-23T15:34:57.964Z",
-  "commitCount": 2179,
+  "generatedAt": "2026-08-23T16:41:16.689Z",
+  "commitCount": 2181,
   "commits": [
+    {
+      "shortSha": "0bd9681",
+      "message": "Refactor Overtone Plugin Components and Introduce New Native Runtime",
+      "author": "Kazber",
+      "date": "2026-08-23T16:40:32Z"
+    },
+    {
+      "shortSha": "c92de98",
+      "message": "feat: Update upper layer generation settings and improve footprint handling",
+      "author": "Kazber",
+      "date": "2026-08-23T16:22:02Z"
+    },
     {
       "shortSha": "d6578b9",
       "message": "Add upper layer generation functionality and related tests",
