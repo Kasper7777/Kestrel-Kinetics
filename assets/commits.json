@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-24T15:54:28.002Z",
-  "commitCount": 2186,
+  "generatedAt": "2026-08-24T16:53:49.564Z",
+  "commitCount": 2187,
   "commits": [
+    {
+      "shortSha": "1f0f833",
+      "message": "Enhance Boss Components with Fight Summaries and Blockers",
+      "author": "Kazber",
+      "date": "2026-08-24T15:54:52Z"
+    },
     {
       "shortSha": "0d2ef45",
       "message": "feat: Enhance debug spawning logic for bosses and test bags in settings",
