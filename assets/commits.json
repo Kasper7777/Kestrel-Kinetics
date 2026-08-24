@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-24T18:57:39.652Z",
-  "commitCount": 2188,
+  "generatedAt": "2026-08-24T19:42:50.266Z",
+  "commitCount": 2189,
   "commits": [
+    {
+      "shortSha": "72291e9",
+      "message": "feat: Implement backpack system for bosses, including item storage and drop mechanics",
+      "author": "Kazber",
+      "date": "2026-08-24T19:36:36Z"
+    },
     {
       "shortSha": "6dfe853",
       "message": "feat: Add functionality for initiating duels with bosses and NPCs",
