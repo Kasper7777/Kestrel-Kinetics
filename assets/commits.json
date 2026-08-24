@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-24T17:45:08.436Z",
-  "commitCount": 2187,
+  "generatedAt": "2026-08-24T18:57:39.652Z",
+  "commitCount": 2188,
   "commits": [
+    {
+      "shortSha": "6dfe853",
+      "message": "feat: Add functionality for initiating duels with bosses and NPCs",
+      "author": "Kazber",
+      "date": "2026-08-24T18:37:24Z"
+    },
     {
       "shortSha": "1f0f833",
       "message": "Enhance Boss Components with Fight Summaries and Blockers",
