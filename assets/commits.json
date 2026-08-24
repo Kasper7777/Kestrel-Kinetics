@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-24T10:01:47.385Z",
-  "commitCount": 2185,
+  "generatedAt": "2026-08-24T10:51:51.569Z",
+  "commitCount": 2186,
   "commits": [
+    {
+      "shortSha": "0d2ef45",
+      "message": "feat: Enhance debug spawning logic for bosses and test bags in settings",
+      "author": "Kazber",
+      "date": "2026-08-24T10:44:29Z"
+    },
     {
       "shortSha": "6bb9884",
       "message": "Refactor GridBaseLayerGenerator and SMapVisualiserWidget",
