@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-25T11:41:25.806Z",
-  "commitCount": 2190,
+  "generatedAt": "2026-08-25T13:09:20.393Z",
+  "commitCount": 2191,
   "commits": [
+    {
+      "shortSha": "f1d12ef",
+      "message": "feat: Add blocking logic for duels based on nearby hostiles and enhance feedback for duel eligibility",
+      "author": "Kazber",
+      "date": "2026-08-25T11:52:18Z"
+    },
     {
       "shortSha": "9375088",
       "message": "Enhance BattleBot Component and Status Bar with Allegiance Features",
