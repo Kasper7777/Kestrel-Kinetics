@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-25T15:58:07.557Z",
-  "commitCount": 2195,
+  "generatedAt": "2026-08-25T16:53:13.265Z",
+  "commitCount": 2196,
   "commits": [
+    {
+      "shortSha": "12bc730",
+      "message": "Add building density and size controls to SMapVisualiserWidget",
+      "author": "Kazber",
+      "date": "2026-08-25T16:18:57Z"
+    },
     {
       "shortSha": "5559af3",
       "message": "feat: Add support for extra road connections in grid generation and visualizer",
