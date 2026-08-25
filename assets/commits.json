@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-25T14:01:47.875Z",
-  "commitCount": 2191,
+  "generatedAt": "2026-08-25T15:03:41.090Z",
+  "commitCount": 2193,
   "commits": [
+    {
+      "shortSha": "6d00d9a",
+      "message": "feat: Introduce road exit count configuration and update related generation logic",
+      "author": "Kazber",
+      "date": "2026-08-25T14:45:32Z"
+    },
+    {
+      "shortSha": "fc60fdb",
+      "message": "Refactor grid generation and boss combat behavior",
+      "author": "Kazber",
+      "date": "2026-08-25T14:30:09Z"
+    },
     {
       "shortSha": "f1d12ef",
       "message": "feat: Add blocking logic for duels based on nearby hostiles and enhance feedback for duel eligibility",
