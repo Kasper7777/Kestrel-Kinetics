@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-25T15:03:41.090Z",
-  "commitCount": 2193,
+  "generatedAt": "2026-08-25T15:58:07.557Z",
+  "commitCount": 2195,
   "commits": [
+    {
+      "shortSha": "5559af3",
+      "message": "feat: Add support for extra road connections in grid generation and visualizer",
+      "author": "Kazber",
+      "date": "2026-08-25T15:31:47Z"
+    },
+    {
+      "shortSha": "fa8e70b",
+      "message": "feat: Add resampling logic for neighbour edges and enhance building region size collection",
+      "author": "Kazber",
+      "date": "2026-08-25T15:04:00Z"
+    },
     {
       "shortSha": "6d00d9a",
       "message": "feat: Introduce road exit count configuration and update related generation logic",
