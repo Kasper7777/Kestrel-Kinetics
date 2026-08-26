@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-26T16:58:00.283Z",
-  "commitCount": 2202,
+  "generatedAt": "2026-08-26T19:16:31.613Z",
+  "commitCount": 2204,
   "commits": [
+    {
+      "shortSha": "a22c959",
+      "message": "Update road assets and add new destruction blueprints",
+      "author": "Kazber",
+      "date": "2026-08-26T17:46:36Z"
+    },
+    {
+      "shortSha": "8e6ab74",
+      "message": "Refactor grenade weapon mechanics and add fireball explosion feature",
+      "author": "Kazber",
+      "date": "2026-08-26T17:39:07Z"
+    },
     {
       "shortSha": "bb41c60",
       "message": "Add materials generation script and menu integration for character textures",
