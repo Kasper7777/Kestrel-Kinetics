@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-26T09:55:25.446Z",
-  "commitCount": 2196,
+  "generatedAt": "2026-08-26T10:50:18.539Z",
+  "commitCount": 2198,
   "commits": [
+    {
+      "shortSha": "257ebf6",
+      "message": "feat: Implement combat dialogue system for bosses with customizable lines and cooldowns",
+      "author": "Kazber",
+      "date": "2026-08-26T10:44:20Z"
+    },
+    {
+      "shortSha": "2c52f23",
+      "message": "feat: Enhance boss components with event handling and debug cycle reset",
+      "author": "Kazber",
+      "date": "2026-08-26T10:21:40Z"
+    },
     {
       "shortSha": "12bc730",
       "message": "Add building density and size controls to SMapVisualiserWidget",
