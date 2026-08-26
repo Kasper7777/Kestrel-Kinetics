@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-26T11:43:06.841Z",
-  "commitCount": 2198,
+  "generatedAt": "2026-08-26T13:14:33.486Z",
+  "commitCount": 2200,
   "commits": [
+    {
+      "shortSha": "6873cbb",
+      "message": "feat: Add option for bosses to speak lines aloud with audio playback",
+      "author": "Kazber",
+      "date": "2026-08-26T12:06:44Z"
+    },
+    {
+      "shortSha": "e21b6bb",
+      "message": "Refactor boss combat interactions and enhance duel mechanics",
+      "author": "Kazber",
+      "date": "2026-08-26T11:50:19Z"
+    },
     {
       "shortSha": "257ebf6",
       "message": "feat: Implement combat dialogue system for bosses with customizable lines and cooldowns",
