@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-26T14:03:03.287Z",
-  "commitCount": 2200,
+  "generatedAt": "2026-08-26T15:52:22.172Z",
+  "commitCount": 2202,
   "commits": [
+    {
+      "shortSha": "bb41c60",
+      "message": "Add materials generation script and menu integration for character textures",
+      "author": "Kazber",
+      "date": "2026-08-26T15:40:37Z"
+    },
+    {
+      "shortSha": "94f3084",
+      "message": "Add new assets and update configuration for Krill Boss",
+      "author": "Kazber",
+      "date": "2026-08-26T15:17:33Z"
+    },
     {
       "shortSha": "6873cbb",
       "message": "feat: Add option for bosses to speak lines aloud with audio playback",
