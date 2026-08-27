@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-27T03:17:16.903Z",
-  "commitCount": 2204,
+  "generatedAt": "2026-08-27T14:16:22.952Z",
+  "commitCount": 2207,
   "commits": [
+    {
+      "shortSha": "9993810",
+      "message": "Implement BoneBreaker damage handling for leaders and masters, enhancing damage attribution and impact tracking",
+      "author": "Kazber",
+      "date": "2026-08-27T11:54:41Z"
+    },
+    {
+      "shortSha": "3d8eece",
+      "message": "Enhance destructible object simulation by adding unsimulatable geometry tracking and improving collision preparation logic",
+      "author": "Kazber",
+      "date": "2026-08-27T11:14:47Z"
+    },
+    {
+      "shortSha": "8b219bf",
+      "message": "krill",
+      "author": "Kazber",
+      "date": "2026-08-27T10:53:40Z"
+    },
     {
       "shortSha": "a22c959",
       "message": "Update road assets and add new destruction blueprints",
