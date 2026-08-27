@@ -1,7 +1,49 @@
 {
-  "generatedAt": "2026-08-27T14:16:22.952Z",
-  "commitCount": 2207,
+  "generatedAt": "2026-08-27T23:48:06.982Z",
+  "commitCount": 2214,
   "commits": [
+    {
+      "shortSha": "4c70644",
+      "message": "Enhance Battle Bot component with side-allegiance checks and missile warning size scaling",
+      "author": "Kazber",
+      "date": "2026-08-27T20:23:08Z"
+    },
+    {
+      "shortSha": "dfe3143",
+      "message": "Enhance missile warning system with new ground impact marker and texture validation",
+      "author": "Kazber",
+      "date": "2026-08-27T19:51:24Z"
+    },
+    {
+      "shortSha": "29dec72",
+      "message": "Enhance Krill beam component functionality with instancing support and mesh resolution improvements",
+      "author": "Kazber",
+      "date": "2026-08-27T19:20:50Z"
+    },
+    {
+      "shortSha": "62f91a2",
+      "message": "Enhance Krill validation checks for rail dimensions and beam gantry height",
+      "author": "Kazber",
+      "date": "2026-08-27T19:04:09Z"
+    },
+    {
+      "shortSha": "4b68e29",
+      "message": "Enhance Rat King Boss Growth Mechanics with Bounce Animation",
+      "author": "Kazber",
+      "date": "2026-08-27T18:54:22Z"
+    },
+    {
+      "shortSha": "3bbd0c6",
+      "message": "Enhance Krill and Rat King components with new beam visualizations and AI controller integration",
+      "author": "Kazber",
+      "date": "2026-08-27T18:42:48Z"
+    },
+    {
+      "shortSha": "a4e3379",
+      "message": "Enhance Krill boss mechanics with missile target warning and fallback bot configurations",
+      "author": "Kazber",
+      "date": "2026-08-27T18:27:30Z"
+    },
     {
       "shortSha": "9993810",
       "message": "Implement BoneBreaker damage handling for leaders and masters, enhancing damage attribution and impact tracking",
