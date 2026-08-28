@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-27T23:48:06.982Z",
-  "commitCount": 2214,
+  "generatedAt": "2026-08-28T11:20:38.366Z",
+  "commitCount": 2215,
   "commits": [
+    {
+      "shortSha": "8f67a12",
+      "message": "Enhance boss defeat mechanics with level transition scheduling and validation",
+      "author": "Kazber",
+      "date": "2026-08-28T11:04:33Z"
+    },
     {
       "shortSha": "4c70644",
       "message": "Enhance Battle Bot component with side-allegiance checks and missile warning size scaling",
