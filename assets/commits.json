@@ -1,7 +1,85 @@
 {
-  "generatedAt": "2026-08-28T11:20:38.366Z",
-  "commitCount": 2215,
+  "generatedAt": "2026-08-28T22:16:56.870Z",
+  "commitCount": 2228,
   "commits": [
+    {
+      "shortSha": "08fe2d5",
+      "message": "feat: Refactor bullet decal logging for improved readability and maintainability",
+      "author": "Kazber",
+      "date": "2026-08-28T15:38:24Z"
+    },
+    {
+      "shortSha": "022c7df",
+      "message": "feat: Implement damage accumulation tracking and progress reporting for destructible objects",
+      "author": "Kazber",
+      "date": "2026-08-28T15:04:21Z"
+    },
+    {
+      "shortSha": "c3a2253",
+      "message": "feat: Add tests for root simulation validation in destructible objects",
+      "author": "Kazber",
+      "date": "2026-08-28T14:55:19Z"
+    },
+    {
+      "shortSha": "659eb21",
+      "message": "feat: Implement damage accumulation for destructible objects and add corresponding tests",
+      "author": "Kazber",
+      "date": "2026-08-28T14:50:43Z"
+    },
+    {
+      "shortSha": "a1d8a10",
+      "message": "refactor: Adjust world and blast damage scaling for improved destruction mechanics",
+      "author": "Kazber",
+      "date": "2026-08-28T14:25:28Z"
+    },
+    {
+      "shortSha": "805b7a9",
+      "message": "feat: Enhance world damage scaling and add warning for insufficient damage to break scenery",
+      "author": "Kazber",
+      "date": "2026-08-28T14:10:23Z"
+    },
+    {
+      "shortSha": "f7f9b99",
+      "message": "refactor: Update logging verbosity and improve health bar handling in boss components",
+      "author": "Kazber",
+      "date": "2026-08-28T14:04:48Z"
+    },
+    {
+      "shortSha": "90499f5",
+      "message": "refactor: Remove hardcoded dialogue lines from Krill boss component for better content management",
+      "author": "Kazber",
+      "date": "2026-08-28T13:50:18Z"
+    },
+    {
+      "shortSha": "4c9e101",
+      "message": "Update boss assets and level endings in Cyber Bully 5.8",
+      "author": "Kazber",
+      "date": "2026-08-28T13:39:03Z"
+    },
+    {
+      "shortSha": "b34fb0d",
+      "message": "feat: Implement boss status HUD and health bar visibility management",
+      "author": "Kazber",
+      "date": "2026-08-28T13:36:38Z"
+    },
+    {
+      "shortSha": "b01a798",
+      "message": "feat: Enhance CBDroneStrike functionality and add world damage mechanics",
+      "author": "Kazber",
+      "date": "2026-08-28T13:13:56Z"
+    },
+    {
+      "shortSha": "a9e25bf",
+      "message": "Enhance Krill boss functionality with improved death handling, speech integration, and blood squib application",
+      "author": "Kazber",
+      "date": "2026-08-28T13:02:18Z"
+    },
+    {
+      "shortSha": "35baf1b",
+      "message": "Enhance boss damage refusal mechanics for Kardz and Roulette bosses to prevent skipping critical duels",
+      "author": "Kazber",
+      "date": "2026-08-28T12:35:12Z"
+    },
     {
       "shortSha": "8f67a12",
       "message": "Enhance boss defeat mechanics with level transition scheduling and validation",
