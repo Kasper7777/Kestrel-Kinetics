@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-29T15:37:30.545Z",
-  "commitCount": 2228,
+  "generatedAt": "2026-08-29T19:23:52.050Z",
+  "commitCount": 2231,
   "commits": [
+    {
+      "shortSha": "30099e7",
+      "message": "feat: Update city fence and roof template assignment logic for proper blueprint compilation",
+      "author": "Kazber",
+      "date": "2026-08-29T19:04:31Z"
+    },
+    {
+      "shortSha": "04fe69b",
+      "message": "feat: Enhance City Builder with new residential and fence templates",
+      "author": "Kazber",
+      "date": "2026-08-29T16:07:19Z"
+    },
+    {
+      "shortSha": "13ef3a7",
+      "message": "Refactor grenade throw indicator and weapon components",
+      "author": "Kazber",
+      "date": "2026-08-29T15:29:35Z"
+    },
     {
       "shortSha": "08fe2d5",
       "message": "feat: Refactor bullet decal logging for improved readability and maintainability",
