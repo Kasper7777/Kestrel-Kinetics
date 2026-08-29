@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-29T19:23:52.050Z",
-  "commitCount": 2231,
+  "generatedAt": "2026-08-29T22:39:12.485Z",
+  "commitCount": 2233,
   "commits": [
+    {
+      "shortSha": "77628d2",
+      "message": "Refactor grid cell management and global variable handling",
+      "author": "Kazber",
+      "date": "2026-08-29T20:46:43Z"
+    },
+    {
+      "shortSha": "75ee554",
+      "message": "feat: Implement city cell global staging in EdgeTriggerActor and enhance roof cap logging in GridManager",
+      "author": "Kazber",
+      "date": "2026-08-29T20:34:01Z"
+    },
     {
       "shortSha": "30099e7",
       "message": "feat: Update city fence and roof template assignment logic for proper blueprint compilation",
