@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-08-30T06:39:46.310Z",
-  "commitCount": 2233,
+  "generatedAt": "2026-08-30T12:01:39.921Z",
+  "commitCount": 2237,
   "commits": [
+    {
+      "shortSha": "cf2f3d9",
+      "message": "Add Infinite Ammo Debug Feature and Quick Actions to Settings",
+      "author": "Kazber",
+      "date": "2026-08-30T11:50:07Z"
+    },
+    {
+      "shortSha": "fb0db56",
+      "message": "Update building roof caps and fence assets; enhance vertical scaling in city generation script",
+      "author": "Kazber",
+      "date": "2026-08-30T11:36:47Z"
+    },
+    {
+      "shortSha": "04fbcc3",
+      "message": "feat: Add survival check for spawned actors in GridManager and log results",
+      "author": "Kazber",
+      "date": "2026-08-30T11:23:53Z"
+    },
+    {
+      "shortSha": "128ae17",
+      "message": "feat: Update ground fence and roof cap probabilities for improved city layout generation",
+      "author": "Kazber",
+      "date": "2026-08-30T11:21:14Z"
+    },
     {
       "shortSha": "77628d2",
       "message": "Refactor grid cell management and global variable handling",
