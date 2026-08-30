@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-30T12:01:39.921Z",
-  "commitCount": 2237,
+  "generatedAt": "2026-08-30T12:51:44.529Z",
+  "commitCount": 2238,
   "commits": [
+    {
+      "shortSha": "e876317",
+      "message": "feat: Add debug options for God Mode and Infinite Ammo in game settings",
+      "author": "Kazber",
+      "date": "2026-08-30T12:26:06Z"
+    },
     {
       "shortSha": "cf2f3d9",
       "message": "Add Infinite Ammo Debug Feature and Quick Actions to Settings",
