@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-08-30T12:51:44.529Z",
-  "commitCount": 2238,
+  "generatedAt": "2026-08-30T17:27:31.900Z",
+  "commitCount": 2241,
   "commits": [
+    {
+      "shortSha": "82a7666",
+      "message": "feat: Enhance destructible object simulation logic and add city cell logging functionality",
+      "author": "Kazber",
+      "date": "2026-08-30T14:48:42Z"
+    },
+    {
+      "shortSha": "37c013a",
+      "message": "Add destruction warm-up and debug start cell functionality",
+      "author": "Kazber",
+      "date": "2026-08-30T14:20:18Z"
+    },
+    {
+      "shortSha": "aa4ad7a",
+      "message": "feat: Implement debug forced start cell functionality and enhance settings UI",
+      "author": "Kazber",
+      "date": "2026-08-30T13:55:43Z"
+    },
     {
       "shortSha": "e876317",
       "message": "feat: Add debug options for God Mode and Infinite Ammo in game settings",
