@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-31T13:44:24.101Z",
-  "commitCount": 2242,
+  "generatedAt": "2026-08-31T20:02:22.380Z",
+  "commitCount": 2244,
   "commits": [
+    {
+      "shortSha": "78bff93",
+      "message": "feat: Add city cell tagging for dropped armour and enhance actor destruction handling",
+      "author": "Kasper",
+      "date": "2026-08-31T19:41:20Z"
+    },
+    {
+      "shortSha": "a3a51ce",
+      "message": "Enhance destructible object recovery and implement in-place cell travel system",
+      "author": "Kasper",
+      "date": "2026-08-31T18:56:06Z"
+    },
     {
       "shortSha": "2bfbc4a",
       "message": "refactor: Rename parameters for clarity in CaptureGradeBaseline and related functions",
