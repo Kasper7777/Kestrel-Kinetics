@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-08-31T23:49:28.367Z",
-  "commitCount": 2247,
+  "generatedAt": "2026-09-01T05:04:17.774Z",
+  "commitCount": 2249,
   "commits": [
+    {
+      "shortSha": "a403513",
+      "message": "feat: Enhance SpawnFloorActors to enforce grid scale for roof caps and update documentation",
+      "author": "Kasper",
+      "date": "2026-09-01T01:38:26Z"
+    },
+    {
+      "shortSha": "b0c612e",
+      "message": "feat: Enhance grid cell management and add automated tests for start cell resolution and disarm behavior on death",
+      "author": "Kasper",
+      "date": "2026-09-01T01:31:18Z"
+    },
     {
       "shortSha": "ecc772c",
       "message": "feat: Implement effective cell texture extraction and update related functions for improved map generation",
