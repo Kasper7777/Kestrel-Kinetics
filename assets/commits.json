@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-09-01T18:28:22.945Z",
-  "commitCount": 2255,
+  "generatedAt": "2026-09-01T21:45:40.768Z",
+  "commitCount": 2258,
   "commits": [
+    {
+      "shortSha": "cf76a5f",
+      "message": "feat: Enhance debug test bag functionality with item removal and improved display",
+      "author": "Kasper",
+      "date": "2026-09-01T21:09:07Z"
+    },
+    {
+      "shortSha": "c25668f",
+      "message": "feat: Enhance focus management for UI elements to prevent sound overlap during navigation",
+      "author": "Kasper",
+      "date": "2026-09-01T19:47:59Z"
+    },
+    {
+      "shortSha": "cd8fa48",
+      "message": "feat: Improve weapon visibility update with weak references to prevent crashes",
+      "author": "Kasper",
+      "date": "2026-09-01T19:21:29Z"
+    },
     {
       "shortSha": "0a3e80c",
       "message": "Merge branch 'Multiplatform' of private source into Multiplatform",
