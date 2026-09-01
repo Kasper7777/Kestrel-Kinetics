@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-09-01T14:51:47.495Z",
-  "commitCount": 2251,
+  "generatedAt": "2026-09-01T18:28:22.945Z",
+  "commitCount": 2255,
   "commits": [
+    {
+      "shortSha": "0a3e80c",
+      "message": "Merge branch 'Multiplatform' of private source into Multiplatform",
+      "author": "Kasper",
+      "date": "2026-09-01T17:33:39Z"
+    },
+    {
+      "shortSha": "910d4ca",
+      "message": "feat: Enhance bonded group functionality with reunion tracking and player-led member records",
+      "author": "Kasper",
+      "date": "2026-09-01T17:33:35Z"
+    },
+    {
+      "shortSha": "02ca37d",
+      "message": "feat: Implement disarm functionality for debug start-cell override and add related tests",
+      "author": "Kazber",
+      "date": "2026-09-01T17:32:54Z"
+    },
+    {
+      "shortSha": "330db3e",
+      "message": "feat: Add support for exact pending target cell tracking and implement related tests",
+      "author": "Kazber",
+      "date": "2026-09-01T15:01:19Z"
+    },
     {
       "shortSha": "76fe415",
       "message": "Refactor bonded NPC interactions and enhance trail visuals",
