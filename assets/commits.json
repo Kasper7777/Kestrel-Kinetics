@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-01T10:03:55.309Z",
-  "commitCount": 2249,
+  "generatedAt": "2026-09-01T14:51:47.495Z",
+  "commitCount": 2251,
   "commits": [
+    {
+      "shortSha": "76fe415",
+      "message": "Refactor bonded NPC interactions and enhance trail visuals",
+      "author": "Kasper",
+      "date": "2026-09-01T12:27:24Z"
+    },
+    {
+      "shortSha": "0d5bcfa",
+      "message": "feat: Implement bonded-pair view with dashed trails for photographed civilians",
+      "author": "Kasper",
+      "date": "2026-09-01T11:48:06Z"
+    },
     {
       "shortSha": "a403513",
       "message": "feat: Enhance SpawnFloorActors to enforce grid scale for roof caps and update documentation",
