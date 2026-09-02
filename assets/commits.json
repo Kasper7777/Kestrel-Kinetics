@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-09-02T14:27:40.318Z",
-  "commitCount": 2266,
+  "generatedAt": "2026-09-02T18:40:16.131Z",
+  "commitCount": 2270,
   "commits": [
+    {
+      "shortSha": "3f054e9",
+      "message": "feat: Add new road assets including Large Road Simple BP and associated meshes",
+      "author": "Kasper",
+      "date": "2026-09-02T18:23:02Z"
+    },
+    {
+      "shortSha": "6567e8e",
+      "message": "Add road marking pack and associated assets",
+      "author": "Kasper",
+      "date": "2026-09-02T18:05:07Z"
+    },
+    {
+      "shortSha": "05df0a8",
+      "message": "feat: Add road marking decals and update painting logic in GridManager",
+      "author": "Kasper",
+      "date": "2026-09-02T16:53:17Z"
+    },
+    {
+      "shortSha": "e7d6b26",
+      "message": "Add road marking system to GridManager",
+      "author": "Kazber",
+      "date": "2026-09-02T15:36:36Z"
+    },
     {
       "shortSha": "7b4b048",
       "message": "feat: Enhance broken light component with technology rolling and improved lamp fault handling",
