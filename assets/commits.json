@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-09-02T09:35:24.602Z",
-  "commitCount": 2260,
+  "generatedAt": "2026-09-02T14:27:40.318Z",
+  "commitCount": 2266,
   "commits": [
+    {
+      "shortSha": "7b4b048",
+      "message": "feat: Enhance broken light component with technology rolling and improved lamp fault handling",
+      "author": "Kazber",
+      "date": "2026-09-02T14:15:01Z"
+    },
+    {
+      "shortSha": "5c26053",
+      "message": "chore: Update CB Report.pages with new content",
+      "author": "Kazber",
+      "date": "2026-09-02T14:03:46Z"
+    },
+    {
+      "shortSha": "1c64c08",
+      "message": "feat: Implement debug tools for bonded pair testing, including nearby placement and activation controls",
+      "author": "Kasper",
+      "date": "2026-09-02T12:03:59Z"
+    },
+    {
+      "shortSha": "5453f24",
+      "message": "Refactor enemy spawning and grid management logic",
+      "author": "Kasper",
+      "date": "2026-09-02T11:51:05Z"
+    },
+    {
+      "shortSha": "4b7c7fb",
+      "message": "feat: Enhance bonded NPC functionality with improved photo presentation and requeue mechanism for placement failures",
+      "author": "Kasper",
+      "date": "2026-09-02T11:24:27Z"
+    },
+    {
+      "shortSha": "d35ef3e",
+      "message": "feat: Enhance bonded NPC behavior and trail system for improved interaction and visibility",
+      "author": "Kasper",
+      "date": "2026-09-02T10:34:40Z"
+    },
     {
       "shortSha": "a116c1e",
       "message": "feat: Implement repair mechanism for bonded civilian vengeance records to prevent unintended hostilities",
