@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-09-02T18:40:16.131Z",
-  "commitCount": 2270,
+  "generatedAt": "2026-09-02T21:48:04.402Z",
+  "commitCount": 2276,
   "commits": [
+    {
+      "shortSha": "0871e7f",
+      "message": "feat: Add new road marking assets and update existing decal logic for improved road design",
+      "author": "Kasper",
+      "date": "2026-09-02T21:22:22Z"
+    },
+    {
+      "shortSha": "d470472",
+      "message": "feat: Enhance road crossing logic to handle width comparisons and give way rules",
+      "author": "Kasper",
+      "date": "2026-09-02T20:54:46Z"
+    },
+    {
+      "shortSha": "81bf364",
+      "message": "feat: Update road marking pack with new textures and enhanced logic for side curves",
+      "author": "Kasper",
+      "date": "2026-09-02T20:35:42Z"
+    },
+    {
+      "shortSha": "baaf328",
+      "message": "feat: Add give way and zebra crossing road markings, including assets and logic updates",
+      "author": "Kasper",
+      "date": "2026-09-02T20:14:49Z"
+    },
+    {
+      "shortSha": "f5fcd24",
+      "message": "feat: Add Dotted White Line road decal assets",
+      "author": "Kasper",
+      "date": "2026-09-02T19:07:49Z"
+    },
+    {
+      "shortSha": "6710085",
+      "message": "feat: Update road marking logic and enhance decal handling for junctions and bends",
+      "author": "Kasper",
+      "date": "2026-09-02T19:04:48Z"
+    },
     {
       "shortSha": "3f054e9",
       "message": "feat: Add new road assets including Large Road Simple BP and associated meshes",
