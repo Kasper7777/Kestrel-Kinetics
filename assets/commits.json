@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-09-01T21:45:40.768Z",
-  "commitCount": 2258,
+  "generatedAt": "2026-09-02T00:11:31.250Z",
+  "commitCount": 2259,
   "commits": [
+    {
+      "shortSha": "247c8ea",
+      "message": "feat: Implement bonded NPC vengeance system and photo management",
+      "author": "Kasper",
+      "date": "2026-09-01T22:19:47Z"
+    },
     {
       "shortSha": "cf76a5f",
       "message": "feat: Enhance debug test bag functionality with item removal and improved display",
