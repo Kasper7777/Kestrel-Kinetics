@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-09-02T21:48:04.402Z",
-  "commitCount": 2276,
+  "generatedAt": "2026-09-03T00:13:27.087Z",
+  "commitCount": 2281,
   "commits": [
+    {
+      "shortSha": "15e7427",
+      "message": "feat: Add console variable to control companion travel behavior during cell transitions",
+      "author": "Kasper",
+      "date": "2026-09-02T23:37:41Z"
+    },
+    {
+      "shortSha": "20e03fa",
+      "message": "feat: Implement companion travel logic to ensure co-combatants and bonded escorts follow the player during in-place cell transitions",
+      "author": "Kasper",
+      "date": "2026-09-02T23:25:52Z"
+    },
+    {
+      "shortSha": "cf5e5d7",
+      "message": "refactor: Change CachedKardzComponent and CachedTradingComponent to use weak pointers to prevent dangling references",
+      "author": "Kasper",
+      "date": "2026-09-02T23:06:45Z"
+    },
+    {
+      "shortSha": "fee9ee5",
+      "message": "feat: Implement HideTilesUnderRoadCrossings function to manage tile visibility under road crossings",
+      "author": "Kasper",
+      "date": "2026-09-02T22:48:44Z"
+    },
+    {
+      "shortSha": "1249985",
+      "message": "Refactor city builder tile variants and update related assets",
+      "author": "Kasper",
+      "date": "2026-09-02T22:37:08Z"
+    },
     {
       "shortSha": "0871e7f",
       "message": "feat: Add new road marking assets and update existing decal logic for improved road design",
