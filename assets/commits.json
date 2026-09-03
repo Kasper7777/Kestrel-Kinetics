@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-09-03T09:46:19.407Z",
-  "commitCount": 2281,
+  "generatedAt": "2026-09-03T14:32:37.925Z",
+  "commitCount": 2285,
   "commits": [
+    {
+      "shortSha": "979d54e",
+      "message": "feat: Add new Shape25 assets including uasset and PNG files for city building",
+      "author": "Kasper",
+      "date": "2026-09-03T14:28:06Z"
+    },
+    {
+      "shortSha": "2dcade7",
+      "message": "Refactor building cladding system and remove GameInstance dependency",
+      "author": "Kasper",
+      "date": "2026-09-03T14:18:30Z"
+    },
+    {
+      "shortSha": "f86ad72",
+      "message": "feat: Add new tree assets and textures for enhanced city building",
+      "author": "Kasper",
+      "date": "2026-09-03T12:28:52Z"
+    },
+    {
+      "shortSha": "8aef150",
+      "message": "Add road crossing functionality and associated decals",
+      "author": "Kasper",
+      "date": "2026-09-03T11:59:48Z"
+    },
     {
       "shortSha": "15e7427",
       "message": "feat: Add console variable to control companion travel behavior during cell transitions",
