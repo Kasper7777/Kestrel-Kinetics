@@ -1,7 +1,49 @@
 {
-  "generatedAt": "2026-09-03T14:32:37.925Z",
-  "commitCount": 2285,
+  "generatedAt": "2026-09-03T18:36:32.420Z",
+  "commitCount": 2292,
   "commits": [
+    {
+      "shortSha": "47f0856",
+      "message": "feat: Add functionality to remove decals on broken surfaces and implement related subsystem",
+      "author": "Kasper",
+      "date": "2026-09-03T18:30:56Z"
+    },
+    {
+      "shortSha": "cc6c51f",
+      "message": "feat: Update assets for phone box, post box, and traffic light",
+      "author": "Kasper",
+      "date": "2026-09-03T18:07:09Z"
+    },
+    {
+      "shortSha": "b45a1dd",
+      "message": "feat: Add traffic light and street furniture assets, enhance junction detection logic",
+      "author": "Kasper",
+      "date": "2026-09-03T17:54:38Z"
+    },
+    {
+      "shortSha": "d7519dd",
+      "message": "feat: Update road texture assets for improved visual quality",
+      "author": "Kasper",
+      "date": "2026-09-03T17:17:20Z"
+    },
+    {
+      "shortSha": "c2261f8",
+      "message": "Add street furniture and traffic light actors with associated types and textures",
+      "author": "Kasper",
+      "date": "2026-09-03T16:46:46Z"
+    },
+    {
+      "shortSha": "7c28f67",
+      "message": "feat: Add one-way arrow decal and enhance road marking functionality",
+      "author": "Kasper",
+      "date": "2026-09-03T16:02:23Z"
+    },
+    {
+      "shortSha": "8172d4b",
+      "message": "feat: Enhance road marking system with one-way arrow and even-width curve support",
+      "author": "Kasper",
+      "date": "2026-09-03T15:14:11Z"
+    },
     {
       "shortSha": "979d54e",
       "message": "feat: Add new Shape25 assets including uasset and PNG files for city building",
