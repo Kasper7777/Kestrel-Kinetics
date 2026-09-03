@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-03T18:36:32.420Z",
-  "commitCount": 2292,
+  "generatedAt": "2026-09-03T21:41:51.506Z",
+  "commitCount": 2294,
   "commits": [
+    {
+      "shortSha": "a374b6b",
+      "message": "feat: Enhance managed layout functionality for street furniture and traffic lights, adding control over component visibility and positioning",
+      "author": "Kasper",
+      "date": "2026-09-03T21:28:41Z"
+    },
+    {
+      "shortSha": "3e2eb53",
+      "message": "Add new assets for city builder including bins, poles, and traffic lights",
+      "author": "Kasper",
+      "date": "2026-09-03T20:11:35Z"
+    },
     {
       "shortSha": "47f0856",
       "message": "feat: Add functionality to remove decals on broken surfaces and implement related subsystem",
