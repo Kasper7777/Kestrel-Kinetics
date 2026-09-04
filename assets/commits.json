@@ -1,7 +1,55 @@
 {
-  "generatedAt": "2026-09-04T18:22:43.206Z",
-  "commitCount": 2301,
+  "generatedAt": "2026-09-04T21:26:47.182Z",
+  "commitCount": 2309,
   "commits": [
+    {
+      "shortSha": "104e9e2",
+      "message": "feat: Update road cross blueprint asset for improved functionality",
+      "author": "Kasper",
+      "date": "2026-09-04T19:41:22Z"
+    },
+    {
+      "shortSha": "00fe3e7",
+      "message": "feat: Add sign artwork synchronization tool and update sign actor logic",
+      "author": "Kasper",
+      "date": "2026-09-04T19:33:16Z"
+    },
+    {
+      "shortSha": "ea590b4",
+      "message": "feat: Add new city sign assets for enhanced visual diversity",
+      "author": "Kasper",
+      "date": "2026-09-04T19:17:25Z"
+    },
+    {
+      "shortSha": "ef8e090",
+      "message": "feat: Update city sign assets and improve material handling for enhanced realism",
+      "author": "Kasper",
+      "date": "2026-09-04T19:17:11Z"
+    },
+    {
+      "shortSha": "6d8d28c",
+      "message": "feat: Update city signs assets for improved visuals and realism",
+      "author": "Kasper",
+      "date": "2026-09-04T19:04:10Z"
+    },
+    {
+      "shortSha": "509161f",
+      "message": "signs",
+      "author": "Kasper",
+      "date": "2026-09-04T18:56:19Z"
+    },
+    {
+      "shortSha": "7732505",
+      "message": "feat: Add random yaw deviation for street furniture to enhance realism",
+      "author": "Kasper",
+      "date": "2026-09-04T18:28:40Z"
+    },
+    {
+      "shortSha": "7153cf9",
+      "message": "feat: Update utility pole and street light offset values and enhance documentation",
+      "author": "Kasper",
+      "date": "2026-09-04T18:23:15Z"
+    },
     {
       "shortSha": "c603670",
       "message": "feat: Add city sign functionality with materials, blueprints, and artwork table",
