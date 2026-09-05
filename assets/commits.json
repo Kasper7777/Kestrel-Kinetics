@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-09-05T12:41:32.547Z",
-  "commitCount": 2315,
+  "generatedAt": "2026-09-05T16:03:03.887Z",
+  "commitCount": 2318,
   "commits": [
+    {
+      "shortSha": "17ea40f",
+      "message": "Add advert layout and configuration system",
+      "author": "Kasper",
+      "date": "2026-09-05T14:23:04Z"
+    },
+    {
+      "shortSha": "2de5f02",
+      "message": "feat: Enhance advert screen component with dynamic poster formatting and styling options",
+      "author": "Kasper",
+      "date": "2026-09-05T13:11:32Z"
+    },
+    {
+      "shortSha": "5f32f6a",
+      "message": "feat: Add handling for unmountable wall props in grid placement logic",
+      "author": "Kasper",
+      "date": "2026-09-05T12:51:59Z"
+    },
     {
       "shortSha": "5db6a2f",
       "message": "feat: Implement map panning functionality in grid cell and visualizer widgets",
