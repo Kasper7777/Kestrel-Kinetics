@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-09-05T16:03:03.887Z",
-  "commitCount": 2318,
+  "generatedAt": "2026-09-05T18:15:59.755Z",
+  "commitCount": 2319,
   "commits": [
+    {
+      "shortSha": "36a50f3",
+      "message": "Add support for window openings and interior fittings in building elements",
+      "author": "Kasper",
+      "date": "2026-09-05T17:32:40Z"
+    },
     {
       "shortSha": "17ea40f",
       "message": "Add advert layout and configuration system",
