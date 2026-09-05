@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-09-04T21:26:47.182Z",
-  "commitCount": 2309,
+  "generatedAt": "2026-09-05T00:02:20.740Z",
+  "commitCount": 2312,
   "commits": [
+    {
+      "shortSha": "4d9271d",
+      "message": "feat: Implement landmark actor management and gear destruction for NPCs",
+      "author": "Kasper",
+      "date": "2026-09-04T23:53:30Z"
+    },
+    {
+      "shortSha": "e4ae585",
+      "message": "feat: Update utility pole asset for improved functionality",
+      "author": "Kasper",
+      "date": "2026-09-04T23:07:03Z"
+    },
+    {
+      "shortSha": "658e373",
+      "message": "feat: Add new utility pole features and improve cable pathing logic",
+      "author": "Kasper",
+      "date": "2026-09-04T22:52:17Z"
+    },
     {
       "shortSha": "104e9e2",
       "message": "feat: Update road cross blueprint asset for improved functionality",
