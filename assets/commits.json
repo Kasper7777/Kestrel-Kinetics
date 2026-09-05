@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-09-05T09:02:57.783Z",
-  "commitCount": 2312,
+  "generatedAt": "2026-09-05T12:41:32.547Z",
+  "commitCount": 2315,
   "commits": [
+    {
+      "shortSha": "5db6a2f",
+      "message": "feat: Implement map panning functionality in grid cell and visualizer widgets",
+      "author": "Kasper",
+      "date": "2026-09-05T11:59:05Z"
+    },
+    {
+      "shortSha": "8d7b4f6",
+      "message": "feat: Enhance grid cell functionality with right-click texture assignment and improved property editing for NPC management",
+      "author": "Kasper",
+      "date": "2026-09-05T11:43:05Z"
+    },
+    {
+      "shortSha": "b7e0f18",
+      "message": "feat: Implement NPC population limits and clamping logic across grid cells",
+      "author": "Kasper",
+      "date": "2026-09-05T11:23:59Z"
+    },
     {
       "shortSha": "4d9271d",
       "message": "feat: Implement landmark actor management and gear destruction for NPCs",
