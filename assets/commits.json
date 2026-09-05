@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-09-05T20:22:43.598Z",
-  "commitCount": 2319,
+  "generatedAt": "2026-09-05T22:53:07.392Z",
+  "commitCount": 2323,
   "commits": [
+    {
+      "shortSha": "a0f7fe2",
+      "message": "feat: Implement wall surface snapping for interior fittings in building elements",
+      "author": "Kasper",
+      "date": "2026-09-05T21:14:49Z"
+    },
+    {
+      "shortSha": "bb35e8e",
+      "message": "feat: Add wall surface snapping functionality to building element placements",
+      "author": "Kasper",
+      "date": "2026-09-05T20:42:07Z"
+    },
+    {
+      "shortSha": "69eab45",
+      "message": "Refactor window and doorway handling in city building elements",
+      "author": "Kasper",
+      "date": "2026-09-05T20:21:39Z"
+    },
+    {
+      "shortSha": "5cc183a",
+      "message": "Refactor city building assets and update opening fitting script",
+      "author": "Kasper",
+      "date": "2026-09-05T18:03:27Z"
+    },
     {
       "shortSha": "36a50f3",
       "message": "Add support for window openings and interior fittings in building elements",
