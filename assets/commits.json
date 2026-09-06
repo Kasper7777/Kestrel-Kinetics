@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-06T17:00:52.744Z",
-  "commitCount": 2329,
+  "generatedAt": "2026-09-06T19:09:06.233Z",
+  "commitCount": 2331,
   "commits": [
+    {
+      "shortSha": "90d207c",
+      "message": "feat: Update microwave and food assets with new binary data",
+      "author": "Kasper",
+      "date": "2026-09-06T17:33:53Z"
+    },
+    {
+      "shortSha": "d794ecf",
+      "message": "feat: Add 'crap' food item and enhance microwave functionality with smoke effects and failure handling",
+      "author": "Kasper",
+      "date": "2026-09-06T17:00:07Z"
+    },
     {
       "shortSha": "a72d78e",
       "message": "feat: Update health pickup logic to allow players to pick up food items regardless of health status",
