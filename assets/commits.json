@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-09-07T15:51:29.336Z",
-  "commitCount": 2334,
+  "generatedAt": "2026-09-07T19:56:27.811Z",
+  "commitCount": 2337,
   "commits": [
+    {
+      "shortSha": "8194f49",
+      "message": "feat: Update Grenade asset with new binary data",
+      "author": "Kasper",
+      "date": "2026-09-07T19:32:01Z"
+    },
+    {
+      "shortSha": "a4bc2f3",
+      "message": "feat: Implement ingredient scaling for microwave functionality and adjust release method",
+      "author": "Kasper",
+      "date": "2026-09-07T18:08:08Z"
+    },
+    {
+      "shortSha": "cc94376",
+      "message": "feat: Add microwave door functionality with swing mechanics and timers",
+      "author": "Kasper",
+      "date": "2026-09-07T17:38:20Z"
+    },
     {
       "shortSha": "ccfb1f8",
       "message": "Add fridge functionality and associated assets",
