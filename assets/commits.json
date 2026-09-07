@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-09-07T19:56:27.811Z",
-  "commitCount": 2337,
+  "generatedAt": "2026-09-07T22:49:10.095Z",
+  "commitCount": 2338,
   "commits": [
+    {
+      "shortSha": "4491018",
+      "message": "feat: Update asset compilation memory usage and improve logging levels across various modules",
+      "author": "Kasper",
+      "date": "2026-09-07T20:31:06Z"
+    },
     {
       "shortSha": "8194f49",
       "message": "feat: Update Grenade asset with new binary data",
