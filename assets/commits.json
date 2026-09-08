@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-09-08T15:06:58.929Z",
-  "commitCount": 2341,
+  "generatedAt": "2026-09-08T18:38:24.583Z",
+  "commitCount": 2346,
   "commits": [
+    {
+      "shortSha": "ccf06ce",
+      "message": "Refactor debug tools handling and UI interactions",
+      "author": "Kasper",
+      "date": "2026-09-08T18:33:12Z"
+    },
+    {
+      "shortSha": "8f7a8f9",
+      "message": "Add new interior furniture blueprints and enhance placement logic",
+      "author": "Kasper",
+      "date": "2026-09-08T17:24:42Z"
+    },
+    {
+      "shortSha": "4746bce",
+      "message": "feat: Implement ring companions for floor placeables, allowing chairs to be arranged around tables",
+      "author": "Kasper",
+      "date": "2026-09-08T16:25:51Z"
+    },
+    {
+      "shortSha": "ae9d41e",
+      "message": "Add layer auditing functionality to SMapVisualiserWidget",
+      "author": "Kasper",
+      "date": "2026-09-08T16:04:42Z"
+    },
+    {
+      "shortSha": "a8a444e",
+      "message": "Add CBTable and CBWardrobe classes for furniture interactions",
+      "author": "Kasper",
+      "date": "2026-09-08T15:14:31Z"
+    },
     {
       "shortSha": "74391c7",
       "message": "feat: Enhance pause menu functionality with button order management and focus handling",
