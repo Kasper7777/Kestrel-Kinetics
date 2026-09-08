@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-09-08T18:38:24.583Z",
-  "commitCount": 2346,
+  "generatedAt": "2026-09-08T21:49:54.409Z",
+  "commitCount": 2349,
   "commits": [
+    {
+      "shortSha": "e2011a9",
+      "message": "Enhance BoneBreakerComponent to improve clothing leader-pose handling and retry logic for NPCs",
+      "author": "Kasper",
+      "date": "2026-09-08T20:53:31Z"
+    },
+    {
+      "shortSha": "1459958",
+      "message": "Update debug unlock code for title screen to use UI navigation inputs and clarify instructions",
+      "author": "Kasper",
+      "date": "2026-09-08T20:15:27Z"
+    },
+    {
+      "shortSha": "d059ff0",
+      "message": "Enhance NPC spawning logic to prevent unintended respawn behavior and ensure consistent NPC roster across game sessions",
+      "author": "Kasper",
+      "date": "2026-09-08T19:48:01Z"
+    },
     {
       "shortSha": "ccf06ce",
       "message": "Refactor debug tools handling and UI interactions",
