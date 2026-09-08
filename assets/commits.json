@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-09-08T05:56:33.843Z",
-  "commitCount": 2338,
+  "generatedAt": "2026-09-08T11:14:59.090Z",
+  "commitCount": 2339,
   "commits": [
+    {
+      "shortSha": "e81c026",
+      "message": "feat: Disable auto-start server in project settings",
+      "author": "Kasper",
+      "date": "2026-09-08T09:30:38Z"
+    },
     {
       "shortSha": "4491018",
       "message": "feat: Update asset compilation memory usage and improve logging levels across various modules",
