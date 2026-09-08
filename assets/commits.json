@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-08T11:14:59.090Z",
-  "commitCount": 2339,
+  "generatedAt": "2026-09-08T15:06:58.929Z",
+  "commitCount": 2341,
   "commits": [
+    {
+      "shortSha": "74391c7",
+      "message": "feat: Enhance pause menu functionality with button order management and focus handling",
+      "author": "Kasper",
+      "date": "2026-09-08T12:45:04Z"
+    },
+    {
+      "shortSha": "22d5ed9",
+      "message": "feat: Implement performance mode settings and UI adjustments",
+      "author": "Kasper",
+      "date": "2026-09-08T12:08:35Z"
+    },
     {
       "shortSha": "e81c026",
       "message": "feat: Disable auto-start server in project settings",
