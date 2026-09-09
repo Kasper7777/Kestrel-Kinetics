@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-09-09T00:11:54.167Z",
-  "commitCount": 2351,
+  "generatedAt": "2026-09-09T04:38:29.321Z",
+  "commitCount": 2352,
   "commits": [
+    {
+      "shortSha": "bb698df",
+      "message": "Enhance dog behavior retargeting logic and add debug unlock functionality to title widget",
+      "author": "Kasper",
+      "date": "2026-09-09T01:35:41Z"
+    },
     {
       "shortSha": "1ab9ffd",
       "message": "Refactor debug unlock sequence and enhance NPC spawn placement",
