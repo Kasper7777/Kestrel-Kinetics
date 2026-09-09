@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-09-09T18:34:01.542Z",
-  "commitCount": 2357,
+  "generatedAt": "2026-09-09T21:40:50.537Z",
+  "commitCount": 2360,
   "commits": [
+    {
+      "shortSha": "7eda135",
+      "message": "Add fire and flaming shard effects to destructible objects",
+      "author": "Kasper",
+      "date": "2026-09-09T20:35:50Z"
+    },
+    {
+      "shortSha": "b65b91b",
+      "message": "feat: Add new particle effects and textures for Free Fire",
+      "author": "Kasper",
+      "date": "2026-09-09T19:44:31Z"
+    },
+    {
+      "shortSha": "4572d7b",
+      "message": "feat: Enhance AI Commander Behavior and Fallback Mechanisms",
+      "author": "Kasper",
+      "date": "2026-09-09T19:28:54Z"
+    },
     {
       "shortSha": "4581689",
       "message": "feat: Update logo assets and modify related image files",
