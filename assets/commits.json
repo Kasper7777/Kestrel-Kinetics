@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-08T21:49:54.409Z",
-  "commitCount": 2349,
+  "generatedAt": "2026-09-09T00:11:54.167Z",
+  "commitCount": 2351,
   "commits": [
+    {
+      "shortSha": "1ab9ffd",
+      "message": "Refactor debug unlock sequence and enhance NPC spawn placement",
+      "author": "Kasper",
+      "date": "2026-09-08T23:12:19Z"
+    },
+    {
+      "shortSha": "c4048f1",
+      "message": "Refactor BoneBreakerComponent to improve clothing leader-pose handling and remove retry logic; update GridManager to enhance layer support checks and prevent furniture placement issues.",
+      "author": "Kasper",
+      "date": "2026-09-08T21:58:11Z"
+    },
     {
       "shortSha": "e2011a9",
       "message": "Enhance BoneBreakerComponent to improve clothing leader-pose handling and retry logic for NPCs",
