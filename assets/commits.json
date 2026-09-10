@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-10T04:39:50.983Z",
-  "commitCount": 2368,
+  "generatedAt": "2026-09-10T09:41:13.053Z",
+  "commitCount": 2370,
   "commits": [
+    {
+      "shortSha": "34b9018",
+      "message": "feat: Add SpawnOneShotFire function and update fire spawning logic in various components",
+      "author": "Kasper",
+      "date": "2026-09-10T09:40:00Z"
+    },
+    {
+      "shortSha": "8c6a82c",
+      "message": "feat: Update multiple assets including StreetLamp, BP_FogWall, moon_int, TestLevel, trader_test, Title, and add new FlameThrower asset",
+      "author": "Kasper",
+      "date": "2026-09-10T09:12:54Z"
+    },
     {
       "shortSha": "392d422",
       "message": "feat: Move BurnComponent declaration to the end of CBEnemy and CBPlayerCharacter classes for proper memory layout",
