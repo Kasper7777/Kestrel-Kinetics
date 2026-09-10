@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-09-10T14:24:46.845Z",
-  "commitCount": 2377,
+  "generatedAt": "2026-09-10T18:25:45.332Z",
+  "commitCount": 2383,
   "commits": [
+    {
+      "shortSha": "e17b41d",
+      "message": "feat: Update gamepad input handling and add testing for combat actions",
+      "author": "Kasper",
+      "date": "2026-09-10T17:40:04Z"
+    },
+    {
+      "shortSha": "a73e8da",
+      "message": "Enhance material handling and debug reporting",
+      "author": "Kasper",
+      "date": "2026-09-10T16:52:22Z"
+    },
+    {
+      "shortSha": "faae389",
+      "message": "feat: Add game over widget and enhance burn component effects",
+      "author": "Kasper",
+      "date": "2026-09-10T15:59:16Z"
+    },
+    {
+      "shortSha": "4294927",
+      "message": "feat: Adjust flamethrower rotation offsets and update particle effect transform",
+      "author": "Kasper",
+      "date": "2026-09-10T15:17:46Z"
+    },
+    {
+      "shortSha": "f84a386",
+      "message": "Refactor damage squib spawning and enhance grenade mechanics",
+      "author": "Kasper",
+      "date": "2026-09-10T15:05:40Z"
+    },
+    {
+      "shortSha": "aca0680",
+      "message": "feat: Implement flamethrower grip adjustments and particle effect handling",
+      "author": "Kasper",
+      "date": "2026-09-10T14:28:20Z"
+    },
     {
       "shortSha": "6ef0390",
       "message": "feat: Update path assets and enhance city build queue functionality",
