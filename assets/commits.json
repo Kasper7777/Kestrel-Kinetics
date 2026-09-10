@@ -1,7 +1,49 @@
 {
-  "generatedAt": "2026-09-10T09:41:13.053Z",
-  "commitCount": 2370,
+  "generatedAt": "2026-09-10T14:24:46.845Z",
+  "commitCount": 2377,
   "commits": [
+    {
+      "shortSha": "6ef0390",
+      "message": "feat: Update path assets and enhance city build queue functionality",
+      "author": "Kasper",
+      "date": "2026-09-10T13:55:08Z"
+    },
+    {
+      "shortSha": "70dff55",
+      "message": "Enhance FPS Controls and Debug Reporting",
+      "author": "Kasper",
+      "date": "2026-09-10T13:49:03Z"
+    },
+    {
+      "shortSha": "ff05b1a",
+      "message": "feat(debug-report-worker): add initial implementation for handling debug reports",
+      "author": "Kasper",
+      "date": "2026-09-10T13:39:15Z"
+    },
+    {
+      "shortSha": "7d9bc43",
+      "message": "Add first-person view functionality and related tests",
+      "author": "Kasper",
+      "date": "2026-09-10T11:44:30Z"
+    },
+    {
+      "shortSha": "56aac3c",
+      "message": "feat: Enhance FPS camera handling and add text outline feature for button labels",
+      "author": "Kasper",
+      "date": "2026-09-10T10:34:37Z"
+    },
+    {
+      "shortSha": "d2ec025",
+      "message": "feat: Add flamethrower assets and enhance burn component with ticking logic",
+      "author": "Kasper",
+      "date": "2026-09-10T10:14:36Z"
+    },
+    {
+      "shortSha": "f32ce16",
+      "message": "feat: Enable ticking for CBGrenadeProjectile and implement detonation logic; add MapPointer asset",
+      "author": "Kasper",
+      "date": "2026-09-10T09:48:50Z"
+    },
     {
       "shortSha": "34b9018",
       "message": "feat: Add SpawnOneShotFire function and update fire spawning logic in various components",
