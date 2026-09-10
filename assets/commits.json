@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-09-10T18:25:45.332Z",
-  "commitCount": 2383,
+  "generatedAt": "2026-09-10T21:36:28.978Z",
+  "commitCount": 2389,
   "commits": [
+    {
+      "shortSha": "0a27d80",
+      "message": "feat: Enhance debug reporting and menu focus handling",
+      "author": "Kasper",
+      "date": "2026-09-10T20:55:16Z"
+    },
+    {
+      "shortSha": "1c0eb93",
+      "message": "feat: Add styling script for Extras menu in Unreal Editor",
+      "author": "Kasper",
+      "date": "2026-09-10T20:27:47Z"
+    },
+    {
+      "shortSha": "f6af600",
+      "message": "fix: Update WorkerURL format in configuration to ensure proper parsing and fallback handling",
+      "author": "Kasper",
+      "date": "2026-09-10T19:47:00Z"
+    },
+    {
+      "shortSha": "ad51b25",
+      "message": "feat: Add URL resolution for debug report endpoint and implement automated tests",
+      "author": "Kasper",
+      "date": "2026-09-10T19:46:48Z"
+    },
+    {
+      "shortSha": "b3849b4",
+      "message": "feat: Implement city loot density configuration and enhance loot spawning logic for interiors",
+      "author": "Kasper",
+      "date": "2026-09-10T19:06:22Z"
+    },
+    {
+      "shortSha": "51a7cdb",
+      "message": "feat: Enhance loot spawning system to support interior placements across multiple storeys",
+      "author": "Kasper",
+      "date": "2026-09-10T18:49:13Z"
+    },
     {
       "shortSha": "e17b41d",
       "message": "feat: Update gamepad input handling and add testing for combat actions",
