@@ -1,7 +1,55 @@
 {
-  "generatedAt": "2026-09-09T21:40:50.537Z",
-  "commitCount": 2360,
+  "generatedAt": "2026-09-10T00:12:53.274Z",
+  "commitCount": 2368,
   "commits": [
+    {
+      "shortSha": "392d422",
+      "message": "feat: Move BurnComponent declaration to the end of CBEnemy and CBPlayerCharacter classes for proper memory layout",
+      "author": "Kasper",
+      "date": "2026-09-09T23:45:24Z"
+    },
+    {
+      "shortSha": "c131b29",
+      "message": "Add flamethrower mechanics and related tests",
+      "author": "Kasper",
+      "date": "2026-09-09T23:08:15Z"
+    },
+    {
+      "shortSha": "2ddbbba",
+      "message": "feat: Remove unused trail effect and update comments for clarity in BullyFlamingShard",
+      "author": "Kasper",
+      "date": "2026-09-09T22:38:22Z"
+    },
+    {
+      "shortSha": "6906bab",
+      "message": "Add new visual effects and improve destruction mechanics",
+      "author": "Kasper",
+      "date": "2026-09-09T22:26:52Z"
+    },
+    {
+      "shortSha": "6cf81dc",
+      "message": "feat: Implement fire effect variants for enhanced visual diversity in destructible components",
+      "author": "Kasper",
+      "date": "2026-09-09T22:14:38Z"
+    },
+    {
+      "shortSha": "7b75730",
+      "message": "Add dust effects to Bully Destruction plugin",
+      "author": "Kasper",
+      "date": "2026-09-09T21:56:38Z"
+    },
+    {
+      "shortSha": "15a9d54",
+      "message": "feat: Add new dust and smoke effects assets for enhanced environmental visuals",
+      "author": "Kasper",
+      "date": "2026-09-09T21:47:35Z"
+    },
+    {
+      "shortSha": "9ddd076",
+      "message": "feat: Enhance fire effects with size variation and duration adjustments across destructible components",
+      "author": "Kasper",
+      "date": "2026-09-09T21:41:59Z"
+    },
     {
       "shortSha": "7eda135",
       "message": "Add fire and flaming shard effects to destructible objects",
