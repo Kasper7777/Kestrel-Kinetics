@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-10T21:36:28.978Z",
-  "commitCount": 2389,
+  "generatedAt": "2026-09-11T00:08:21.313Z",
+  "commitCount": 2391,
   "commits": [
+    {
+      "shortSha": "f7249ef",
+      "message": "feat: Implement trainer fire state handling to interrupt matches and prevent challenges",
+      "author": "Kasper",
+      "date": "2026-09-10T22:07:51Z"
+    },
+    {
+      "shortSha": "ac216a1",
+      "message": "Refactor CBTraderBarterWidget for improved layout and functionality",
+      "author": "Kasper",
+      "date": "2026-09-10T21:46:27Z"
+    },
     {
       "shortSha": "0a27d80",
       "message": "feat: Enhance debug reporting and menu focus handling",
