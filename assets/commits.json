@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-09-11T09:38:38.637Z",
-  "commitCount": 2391,
+  "generatedAt": "2026-09-11T14:24:26.041Z",
+  "commitCount": 2396,
   "commits": [
+    {
+      "shortSha": "fdaf3a4",
+      "message": "Add grid-based city builder features and tests",
+      "author": "Kasper",
+      "date": "2026-09-11T13:59:16Z"
+    },
+    {
+      "shortSha": "a1f2c16",
+      "message": "Add sublayer functionality and related tests to TerminalMapEditorWidget",
+      "author": "Kasper",
+      "date": "2026-09-11T13:26:57Z"
+    },
+    {
+      "shortSha": "c3b3d0b",
+      "message": "Add new files and improve NPC clothing handling",
+      "author": "Kasper",
+      "date": "2026-09-11T12:40:41Z"
+    },
+    {
+      "shortSha": "c6a94a3",
+      "message": "Add persistence opt-out for paperdolls and related tests",
+      "author": "Kasper",
+      "date": "2026-09-11T12:17:52Z"
+    },
+    {
+      "shortSha": "f550d00",
+      "message": "feat: Implement independent NPC quotas for initial population and travel",
+      "author": "Kasper",
+      "date": "2026-09-11T11:56:07Z"
+    },
     {
       "shortSha": "f7249ef",
       "message": "feat: Implement trainer fire state handling to interrupt matches and prevent challenges",
