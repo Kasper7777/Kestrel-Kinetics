@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-09-11T14:24:26.041Z",
-  "commitCount": 2396,
+  "generatedAt": "2026-09-11T18:30:20.199Z",
+  "commitCount": 2402,
   "commits": [
+    {
+      "shortSha": "bb4e39e",
+      "message": "refactor: Change log verbosity from Warning to Log in destruction processor and geometry collection generator",
+      "author": "Kasper",
+      "date": "2026-09-11T15:57:27Z"
+    },
+    {
+      "shortSha": "ecbe2a8",
+      "message": "feat: Update binary assets for GC_SubTile_Cube and Title map",
+      "author": "Kasper",
+      "date": "2026-09-11T15:38:29Z"
+    },
+    {
+      "shortSha": "079083d",
+      "message": "feat: Add new GC_SubTile_Cube asset for enhanced destruction mechanics",
+      "author": "Kasper",
+      "date": "2026-09-11T15:30:22Z"
+    },
+    {
+      "shortSha": "cf53a21",
+      "message": "Update grid sublayer implementation and documentation",
+      "author": "Kasper",
+      "date": "2026-09-11T15:18:01Z"
+    },
+    {
+      "shortSha": "f143efd",
+      "message": "feat: Update destruction processing to support inherited components and add tests",
+      "author": "Kasper",
+      "date": "2026-09-11T14:55:34Z"
+    },
+    {
+      "shortSha": "33ec3f7",
+      "message": "feat: Add indestructible sub-tile functionality and update related systems",
+      "author": "Kasper",
+      "date": "2026-09-11T14:30:36Z"
+    },
     {
       "shortSha": "fdaf3a4",
       "message": "Add grid-based city builder features and tests",
