@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-09-12T09:18:34.770Z",
-  "commitCount": 2411,
+  "generatedAt": "2026-09-12T13:35:43.993Z",
+  "commitCount": 2416,
   "commits": [
+    {
+      "shortSha": "a8a27a5",
+      "message": "feat: Add weapon attachments category to item categories in debug spawn",
+      "author": "Kazber",
+      "date": "2026-09-12T13:33:44Z"
+    },
+    {
+      "shortSha": "aba6bb1",
+      "message": "feat: Introduce landmine weapon with placement, detonation, and upward blast damage mechanics",
+      "author": "Kazber",
+      "date": "2026-09-12T13:25:31Z"
+    },
+    {
+      "shortSha": "0b298fb",
+      "message": "feat: Update tree assets with new binary files for enhanced environmental detail",
+      "author": "Kazber",
+      "date": "2026-09-12T13:02:05Z"
+    },
+    {
+      "shortSha": "cbdf5c1",
+      "message": "feat: Add new burnt tree texture assets for enhanced environmental detail",
+      "author": "Kazber",
+      "date": "2026-09-12T13:01:25Z"
+    },
+    {
+      "shortSha": "73add00",
+      "message": "feat: Implement asset size limiting for generated geometry collections and enhance UI visibility features",
+      "author": "Kazber",
+      "date": "2026-09-12T12:51:58Z"
+    },
     {
       "shortSha": "1de5265",
       "message": "feat: Enhance grid cell travel and pawn placement logic with new arrival readiness tests",
