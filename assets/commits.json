@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-09-12T00:16:17.590Z",
-  "commitCount": 2406,
+  "generatedAt": "2026-09-12T04:38:17.066Z",
+  "commitCount": 2409,
   "commits": [
+    {
+      "shortSha": "cf58f88",
+      "message": "feat: Add new burnt tree texture asset for enhanced environmental detail",
+      "author": "Kazber",
+      "date": "2026-09-12T00:50:41Z"
+    },
+    {
+      "shortSha": "f6b559d",
+      "message": "feat: Enhance NPC spawning logic with validated road placement and improve grid management for better NPC positioning",
+      "author": "Kazber",
+      "date": "2026-09-12T00:42:17Z"
+    },
+    {
+      "shortSha": "4821f5e",
+      "message": "feat: Update various asset files for cars and trees, including new static meshes and textures for improved visual fidelity",
+      "author": "Kazber",
+      "date": "2026-09-12T00:09:57Z"
+    },
     {
       "shortSha": "7c4b2f3",
       "message": "feat: Update BP_SubTile and GC_SubTile_Cube assets, remove Sub_Tile, and enhance documentation for improved functionality",
