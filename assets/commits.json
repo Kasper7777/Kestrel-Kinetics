@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-09-12T13:35:43.993Z",
-  "commitCount": 2416,
+  "generatedAt": "2026-09-12T17:07:32.369Z",
+  "commitCount": 2419,
   "commits": [
+    {
+      "shortSha": "6d02636",
+      "message": "feat: Revamp landmine weapon mechanics with improved arming and detonation logic, including sound effects and chain reaction capabilities",
+      "author": "Kazber",
+      "date": "2026-09-12T14:32:27Z"
+    },
+    {
+      "shortSha": "6543d01",
+      "message": "feat: Enhance landmine weapon functionality with damage detection and attachment installation",
+      "author": "Kazber",
+      "date": "2026-09-12T14:20:53Z"
+    },
+    {
+      "shortSha": "ff18a77",
+      "message": "Add item identity and ownership tracking features",
+      "author": "Kazber",
+      "date": "2026-09-12T14:06:33Z"
+    },
     {
       "shortSha": "a8a27a5",
       "message": "feat: Add weapon attachments category to item categories in debug spawn",
