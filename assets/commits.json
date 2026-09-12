@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-12T04:38:17.066Z",
-  "commitCount": 2409,
+  "generatedAt": "2026-09-12T09:18:34.770Z",
+  "commitCount": 2411,
   "commits": [
+    {
+      "shortSha": "1de5265",
+      "message": "feat: Enhance grid cell travel and pawn placement logic with new arrival readiness tests",
+      "author": "Kazber",
+      "date": "2026-09-12T08:12:15Z"
+    },
+    {
+      "shortSha": "e585a7b",
+      "message": "feat: Add burnt tree textures and enhance EdgeTriggerActor functionality with new tests",
+      "author": "Kazber",
+      "date": "2026-09-12T00:55:28Z"
+    },
     {
       "shortSha": "cf58f88",
       "message": "feat: Add new burnt tree texture asset for enhanced environmental detail",
