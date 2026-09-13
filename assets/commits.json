@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-09-13T18:10:58.426Z",
-  "commitCount": 2429,
+  "generatedAt": "2026-09-13T20:47:18.778Z",
+  "commitCount": 2434,
   "commits": [
+    {
+      "shortSha": "a7ecff6",
+      "message": "Implement performance cleanup for debris and bodies",
+      "author": "Kasper",
+      "date": "2026-09-13T20:28:52Z"
+    },
+    {
+      "shortSha": "cf65c4b",
+      "message": "feat: Implement pause menu integration for Kardz Album with UI updates and cooking settings",
+      "author": "Kasper",
+      "date": "2026-09-13T19:29:54Z"
+    },
+    {
+      "shortSha": "e20b32d",
+      "message": "feat: Update loot spawning logic and resource limits for improved gameplay balance",
+      "author": "Kasper",
+      "date": "2026-09-13T18:56:33Z"
+    },
+    {
+      "shortSha": "24791b5",
+      "message": "feat: Update CBGameInstanceMain.uasset with new binary changes",
+      "author": "Kasper",
+      "date": "2026-09-13T18:18:12Z"
+    },
+    {
+      "shortSha": "2ed383f",
+      "message": "Implement initial resource planning and testing for city resource distribution",
+      "author": "Kasper",
+      "date": "2026-09-13T18:18:00Z"
+    },
     {
       "shortSha": "fae88b0",
       "message": "feat: Enhance climbing mechanics with cover yield logic and additional tests",
