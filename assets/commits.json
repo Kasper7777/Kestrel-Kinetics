@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-09-14T12:48:39.837Z",
-  "commitCount": 2435,
+  "generatedAt": "2026-09-14T18:36:41.901Z",
+  "commitCount": 2436,
   "commits": [
+    {
+      "shortSha": "c8f6fe6",
+      "message": "Add Item Album feature with persistence and navigation tests",
+      "author": "Kasper",
+      "date": "2026-09-14T18:20:26Z"
+    },
     {
       "shortSha": "4caf83c",
       "message": "feat: Update arena height offsets and improve match cleanup logic; add startup tests for Kardz",
