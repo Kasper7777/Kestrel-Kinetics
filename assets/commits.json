@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-09-14T06:15:12.212Z",
-  "commitCount": 2434,
+  "generatedAt": "2026-09-14T12:48:39.837Z",
+  "commitCount": 2435,
   "commits": [
+    {
+      "shortSha": "4caf83c",
+      "message": "feat: Update arena height offsets and improve match cleanup logic; add startup tests for Kardz",
+      "author": "Kazber",
+      "date": "2026-09-14T09:52:19Z"
+    },
     {
       "shortSha": "a7ecff6",
       "message": "Implement performance cleanup for debris and bodies",
