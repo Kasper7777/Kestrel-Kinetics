@@ -1,7 +1,49 @@
 {
-  "generatedAt": "2026-09-15T07:42:03.347Z",
-  "commitCount": 2441,
+  "generatedAt": "2026-09-15T13:31:05.962Z",
+  "commitCount": 2448,
   "commits": [
+    {
+      "shortSha": "c30fcc5",
+      "message": "feat: Implement build information display with CBBuildInfoLibrary and CBBuildIdText components",
+      "author": "Kasper",
+      "date": "2026-09-15T13:26:32Z"
+    },
+    {
+      "shortSha": "93c27e9",
+      "message": "feat: Add dynamic overlay adjustments for helmet visor including brightness and scanline controls",
+      "author": "Kasper",
+      "date": "2026-09-15T13:05:09Z"
+    },
+    {
+      "shortSha": "cce5b58",
+      "message": "feat: Enhance helmet visor component with overlay library and logging improvements",
+      "author": "Kasper",
+      "date": "2026-09-15T12:50:57Z"
+    },
+    {
+      "shortSha": "1be2024",
+      "message": "Update armor assets and related files",
+      "author": "Kasper",
+      "date": "2026-09-15T12:06:05Z"
+    },
+    {
+      "shortSha": "af8a62a",
+      "message": "feat: Enhance helmet visor functionality with HUD updates and overlay support",
+      "author": "Kasper",
+      "date": "2026-09-15T11:54:59Z"
+    },
+    {
+      "shortSha": "ef838eb",
+      "message": "Add helmet visor functionality and loading screen improvements",
+      "author": "Kasper",
+      "date": "2026-09-15T11:25:27Z"
+    },
+    {
+      "shortSha": "d532dfc",
+      "message": "Enhance Pet Collection and Pause Menu Functionality",
+      "author": "Kasper",
+      "date": "2026-09-15T10:31:14Z"
+    },
     {
       "shortSha": "1501e0d",
       "message": "feat: Add HeldItemDisplay plugin to BattleBots.uplugin",
