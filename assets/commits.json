@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-09-15T13:31:05.962Z",
-  "commitCount": 2448,
+  "generatedAt": "2026-09-15T18:10:23.702Z",
+  "commitCount": 2454,
   "commits": [
+    {
+      "shortSha": "6143027",
+      "message": "feat: Add fisheye distortion controls and small screen readability adjustments to helmet visor",
+      "author": "Kasper",
+      "date": "2026-09-15T17:31:58Z"
+    },
+    {
+      "shortSha": "fe1f301",
+      "message": "feat: Enhance NPC population logic with minimum hostile NPCs and improve helmet visor adjustments",
+      "author": "Kasper",
+      "date": "2026-09-15T16:11:09Z"
+    },
+    {
+      "shortSha": "a074b06",
+      "message": "feat: Enhance commander surrender test with character mesh and weapon attachment adjustments",
+      "author": "Kasper",
+      "date": "2026-09-15T14:45:18Z"
+    },
+    {
+      "shortSha": "04b1862",
+      "message": "Add tests for commander surrender mechanics and refine NPC population logic",
+      "author": "Kasper",
+      "date": "2026-09-15T14:37:58Z"
+    },
+    {
+      "shortSha": "356f715",
+      "message": "feat: Update armor and player assets with new binary files for helmet gas mask and Zordon F2",
+      "author": "Kasper",
+      "date": "2026-09-15T13:47:08Z"
+    },
+    {
+      "shortSha": "6a383e6",
+      "message": "feat: Add non-faction helmet visor overlay support and related adjustments",
+      "author": "Kasper",
+      "date": "2026-09-15T13:40:53Z"
+    },
     {
       "shortSha": "c30fcc5",
       "message": "feat: Implement build information display with CBBuildInfoLibrary and CBBuildIdText components",
