@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-15T18:10:23.702Z",
-  "commitCount": 2454,
+  "generatedAt": "2026-09-15T21:18:15.808Z",
+  "commitCount": 2456,
   "commits": [
+    {
+      "shortSha": "82dd818",
+      "message": "feat: Enhance commander surrender mechanics and add fisheye distortion controls to helmet visor",
+      "author": "Kasper",
+      "date": "2026-09-15T19:55:35Z"
+    },
+    {
+      "shortSha": "c95880e",
+      "message": "Implement quiet window for level exits and enhance NPC interaction during barter sessions",
+      "author": "Kasper",
+      "date": "2026-09-15T18:18:07Z"
+    },
     {
       "shortSha": "6143027",
       "message": "feat: Add fisheye distortion controls and small screen readability adjustments to helmet visor",
