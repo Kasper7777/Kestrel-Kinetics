@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-09-16T00:17:02.789Z",
-  "commitCount": 2462,
+  "generatedAt": "2026-09-16T04:53:16.442Z",
+  "commitCount": 2463,
   "commits": [
+    {
+      "shortSha": "3489cc2",
+      "message": "feat: Update asset files for CBGameInstanceMain and CB_Player_Child to improve game functionality",
+      "author": "Kasper",
+      "date": "2026-09-16T00:22:58Z"
+    },
     {
       "shortSha": "8ed1ff1",
       "message": "Refactor logging macros from CB_GAMEPLAY_LOG to UE_LOG across multiple files for consistency and improved logging practices. Updated gameplay logs in UI, Weapons, and other components. Added new images to the project and updated gameplay logs documentation to emphasize null-safety for arguments in logging functions.",
