@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-16T18:53:16.186Z",
-  "commitCount": 2466,
+  "generatedAt": "2026-09-16T22:08:39.722Z",
+  "commitCount": 2468,
   "commits": [
+    {
+      "shortSha": "8e1854e",
+      "message": "feat: Refactor enemy terminology to soldiers across various components and add utility scripts for widget management",
+      "author": "Kasper",
+      "date": "2026-09-16T21:25:21Z"
+    },
+    {
+      "shortSha": "c528548",
+      "message": "feat: Enhance NPC population management by introducing fixed counts and updating visualizer controls for hostile NPCs",
+      "author": "Kasper",
+      "date": "2026-09-16T19:06:49Z"
+    },
     {
       "shortSha": "b80a52d",
       "message": "fix: Adjust DesiredSize for Cell Travel Widget to ensure proper layout and visual consistency",
