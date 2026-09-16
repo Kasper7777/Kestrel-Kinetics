@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-09-15T21:18:15.808Z",
-  "commitCount": 2456,
+  "generatedAt": "2026-09-16T00:17:02.789Z",
+  "commitCount": 2462,
   "commits": [
+    {
+      "shortSha": "8ed1ff1",
+      "message": "Refactor logging macros from CB_GAMEPLAY_LOG to UE_LOG across multiple files for consistency and improved logging practices. Updated gameplay logs in UI, Weapons, and other components. Added new images to the project and updated gameplay logs documentation to emphasize null-safety for arguments in logging functions.",
+      "author": "Kasper",
+      "date": "2026-09-15T23:51:58Z"
+    },
+    {
+      "shortSha": "4552e46",
+      "message": "feat: Add new image assets for Steam integration",
+      "author": "Kasper",
+      "date": "2026-09-15T23:30:50Z"
+    },
+    {
+      "shortSha": "9e10f6a",
+      "message": "Refactor logging in weapon classes to use CB_GAMEPLAY_LOG macro",
+      "author": "Kasper",
+      "date": "2026-09-15T22:45:30Z"
+    },
+    {
+      "shortSha": "cd53bc5",
+      "message": "feat: Enhance blood decal creation and loading screen persistence for continued gameplay",
+      "author": "Kasper",
+      "date": "2026-09-15T22:00:40Z"
+    },
+    {
+      "shortSha": "4ca6e70",
+      "message": "feat: Update Blueprint wiring for quit/continue functionality and improve player state handling",
+      "author": "Kasper",
+      "date": "2026-09-15T21:18:26Z"
+    },
+    {
+      "shortSha": "70f40cd",
+      "message": "Implement save point and checkpoint functionality improvements",
+      "author": "Kasper",
+      "date": "2026-09-15T21:06:04Z"
+    },
     {
       "shortSha": "82dd818",
       "message": "feat: Enhance commander surrender mechanics and add fisheye distortion controls to helmet visor",
