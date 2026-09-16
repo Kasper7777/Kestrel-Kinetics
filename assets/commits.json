@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-09-16T04:53:16.442Z",
-  "commitCount": 2463,
+  "generatedAt": "2026-09-16T09:55:29.821Z",
+  "commitCount": 2464,
   "commits": [
+    {
+      "shortSha": "56c70f7",
+      "message": "feat: Add DebugTravelToCell function for direct cell travel and improve DebugTravelToStartCell logic",
+      "author": "Kasper",
+      "date": "2026-09-16T07:29:23Z"
+    },
     {
       "shortSha": "3489cc2",
       "message": "feat: Update asset files for CBGameInstanceMain and CB_Player_Child to improve game functionality",
