@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-09-17T00:29:24.803Z",
-  "commitCount": 2470,
+  "generatedAt": "2026-09-17T06:07:51.871Z",
+  "commitCount": 2471,
   "commits": [
+    {
+      "shortSha": "d1d72cc",
+      "message": "feat: Add scripts to manage soldier population and conduct unattended PIE checks in TestLevel",
+      "author": "Kasper",
+      "date": "2026-09-17T00:32:31Z"
+    },
     {
       "shortSha": "f9f5e30",
       "message": "Implement Linked Story NPC System",
