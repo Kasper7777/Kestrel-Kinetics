@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-16T22:08:39.722Z",
-  "commitCount": 2468,
+  "generatedAt": "2026-09-17T00:29:24.803Z",
+  "commitCount": 2470,
   "commits": [
+    {
+      "shortSha": "f9f5e30",
+      "message": "Implement Linked Story NPC System",
+      "author": "Kasper",
+      "date": "2026-09-16T23:35:30Z"
+    },
+    {
+      "shortSha": "f4d8fca",
+      "message": "fix: Update key binding for Play Anyway button to use Virtual_Gamepad_Accept",
+      "author": "Kasper",
+      "date": "2026-09-16T22:23:27Z"
+    },
     {
       "shortSha": "8e1854e",
       "message": "feat: Refactor enemy terminology to soldiers across various components and add utility scripts for widget management",
