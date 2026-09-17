@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-09-17T11:38:14.523Z",
-  "commitCount": 2471,
+  "generatedAt": "2026-09-17T16:58:10.396Z",
+  "commitCount": 2472,
   "commits": [
+    {
+      "shortSha": "0aa2d6d",
+      "message": "Refactor climbing mechanics and enhance test coverage",
+      "author": "Kasper",
+      "date": "2026-09-17T15:27:32Z"
+    },
     {
       "shortSha": "d1d72cc",
       "message": "feat: Add scripts to manage soldier population and conduct unattended PIE checks in TestLevel",
