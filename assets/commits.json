@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-09-18T09:43:47.219Z",
-  "commitCount": 2477,
+  "generatedAt": "2026-09-18T14:30:04.374Z",
+  "commitCount": 2480,
   "commits": [
+    {
+      "shortSha": "327e89d",
+      "message": "feat(tutorial): add ResetCamera action and enhance camera control prompts for improved user experience",
+      "author": "Kazber",
+      "date": "2026-09-18T13:18:42Z"
+    },
+    {
+      "shortSha": "b9d87cd",
+      "message": "feat(camera): add mouse orbit functionality and sensitivity settings for improved control",
+      "author": "Kazber",
+      "date": "2026-09-18T12:54:55Z"
+    },
+    {
+      "shortSha": "87e6f0f",
+      "message": "feat(tutorial): add ZoomCamera action and enhance input prompt subsystem for device differentiation",
+      "author": "Kazber",
+      "date": "2026-09-18T12:43:22Z"
+    },
     {
       "shortSha": "fd46681",
       "message": "feat(tutorial): add LowerWeapon action and enhance tutorial hint system",
