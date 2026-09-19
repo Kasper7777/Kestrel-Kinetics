@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-09-19T20:36:59.658Z",
-  "commitCount": 2480,
+  "generatedAt": "2026-09-19T23:01:15.330Z",
+  "commitCount": 2481,
   "commits": [
+    {
+      "shortSha": "60a429c",
+      "message": "feat(camera): enhance camera control with dual shoulder input for orbiting and screen cycling",
+      "author": "Kasper",
+      "date": "2026-09-19T21:17:05Z"
+    },
     {
       "shortSha": "327e89d",
       "message": "feat(tutorial): add ResetCamera action and enhance camera control prompts for improved user experience",
