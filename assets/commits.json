@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-09-22T22:06:32.182Z",
-  "commitCount": 2481,
+  "generatedAt": "2026-09-23T00:29:46.532Z",
+  "commitCount": 2484,
   "commits": [
+    {
+      "shortSha": "b2ebcaa",
+      "message": "feat(map): implement live map refresh and exploration tracking in BullyMapWidget",
+      "author": "Kasper",
+      "date": "2026-09-22T22:37:52Z"
+    },
+    {
+      "shortSha": "1968442",
+      "message": "feat(tests): initialize world actors in camera control test for accurate player visibility checks",
+      "author": "Kasper",
+      "date": "2026-09-22T22:28:55Z"
+    },
+    {
+      "shortSha": "1f6238a",
+      "message": "feat(tutorial): separate camera orbit actions for horizontal and vertical controls with updated prompts",
+      "author": "Kasper",
+      "date": "2026-09-22T22:22:48Z"
+    },
     {
       "shortSha": "60a429c",
       "message": "feat(camera): enhance camera control with dual shoulder input for orbiting and screen cycling",
