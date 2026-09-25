@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-09-25T18:34:26.940Z",
-  "commitCount": 2488,
+  "generatedAt": "2026-09-25T22:18:04.133Z",
+  "commitCount": 2491,
   "commits": [
+    {
+      "shortSha": "969a57f",
+      "message": "Enhance character capture functionality and update runtime diagnostics",
+      "author": "Kasper",
+      "date": "2026-09-25T20:32:27Z"
+    },
+    {
+      "shortSha": "3de9d67",
+      "message": "Refactor NPC System scripts and enhance functionality",
+      "author": "Kasper",
+      "date": "2026-09-25T20:30:38Z"
+    },
+    {
+      "shortSha": "8343e5f",
+      "message": "Add scripts for NPC system research and data collection",
+      "author": "Kasper",
+      "date": "2026-09-25T20:28:15Z"
+    },
     {
       "shortSha": "ceb30b7",
       "message": "Refactor code structure for improved readability and maintainability",
