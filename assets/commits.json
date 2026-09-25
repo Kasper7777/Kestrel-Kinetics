@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-09-25T07:45:14.294Z",
-  "commitCount": 2484,
+  "generatedAt": "2026-09-25T13:44:19.985Z",
+  "commitCount": 2485,
   "commits": [
+    {
+      "shortSha": "7750d1c",
+      "message": "Refactor code structure for improved readability and maintainability",
+      "author": "Kasper",
+      "date": "2026-09-25T09:40:29Z"
+    },
     {
       "shortSha": "b2ebcaa",
       "message": "feat(map): implement live map refresh and exploration tracking in BullyMapWidget",
