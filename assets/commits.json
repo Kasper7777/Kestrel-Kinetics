@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-09-26T17:08:24.588Z",
-  "commitCount": 2514,
+  "generatedAt": "2026-09-26T19:49:52.421Z",
+  "commitCount": 2517,
   "commits": [
+    {
+      "shortSha": "009cdf1",
+      "message": "Update interior generation data and paper for DiGRA 2027 submission",
+      "author": "Kasper",
+      "date": "2026-09-26T17:47:36Z"
+    },
+    {
+      "shortSha": "0f6b096",
+      "message": "Refactor procedural interior generation paper: update title, abstract, and introduction; add detailed methodology and results for four techniques; enhance discussion on trade-offs and application to open-world games.",
+      "author": "Kasper",
+      "date": "2026-09-26T16:07:38Z"
+    },
+    {
+      "shortSha": "4cb1521",
+      "message": "Enhance Interior Lab Plugin and Research Documentation",
+      "author": "Kasper",
+      "date": "2026-09-26T15:50:19Z"
+    },
     {
       "shortSha": "1a0f5c0",
       "message": "up",
