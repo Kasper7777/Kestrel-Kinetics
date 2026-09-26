@@ -1,7 +1,55 @@
 {
-  "generatedAt": "2026-09-26T13:02:57.441Z",
-  "commitCount": 2506,
+  "generatedAt": "2026-09-26T17:08:24.588Z",
+  "commitCount": 2514,
   "commits": [
+    {
+      "shortSha": "1a0f5c0",
+      "message": "up",
+      "author": "Kasper",
+      "date": "2026-09-26T15:21:58Z"
+    },
+    {
+      "shortSha": "510dd51",
+      "message": "lkkk",
+      "author": "Kasper",
+      "date": "2026-09-26T15:21:12Z"
+    },
+    {
+      "shortSha": "36fc9bb",
+      "message": "l",
+      "author": "Kasper",
+      "date": "2026-09-26T15:20:07Z"
+    },
+    {
+      "shortSha": "63e9f09",
+      "message": "Add Marson 2010 paper and update references; enhance Plan.md",
+      "author": "Kasper",
+      "date": "2026-09-26T14:15:43Z"
+    },
+    {
+      "shortSha": "f95cee4",
+      "message": "Add initial research materials for DiGRA paper on procedural building interiors",
+      "author": "Kasper",
+      "date": "2026-09-26T13:53:13Z"
+    },
+    {
+      "shortSha": "ec04131",
+      "message": "Add evidence reproduction script and supplementary evidence packages",
+      "author": "Kasper",
+      "date": "2026-09-26T03:49:18Z"
+    },
+    {
+      "shortSha": "cfe8839",
+      "message": "Add declaration of interests, conflict of interest statements, and supplementary files",
+      "author": "Kasper",
+      "date": "2026-09-26T03:15:17Z"
+    },
+    {
+      "shortSha": "71bd413",
+      "message": "Update author details, cover letter, and title page for submission",
+      "author": "Kasper",
+      "date": "2026-09-26T02:36:35Z"
+    },
     {
       "shortSha": "ba93e07",
       "message": "Add local review release files and update references in HTML and JSON",
