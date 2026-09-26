@@ -1,7 +1,97 @@
 {
-  "generatedAt": "2026-09-26T01:31:24.137Z",
-  "commitCount": 2491,
+  "generatedAt": "2026-09-26T07:38:20.777Z",
+  "commitCount": 2506,
   "commits": [
+    {
+      "shortSha": "ba93e07",
+      "message": "Add local review release files and update references in HTML and JSON",
+      "author": "Kasper",
+      "date": "2026-09-26T02:18:07Z"
+    },
+    {
+      "shortSha": "830a079",
+      "message": "Update release information and fix references in HTML and JSON files",
+      "author": "Kasper",
+      "date": "2026-09-26T02:17:42Z"
+    },
+    {
+      "shortSha": "c825dc1",
+      "message": "Refactor runtime section logging and update title page timestamp",
+      "author": "Kasper",
+      "date": "2026-09-26T02:13:15Z"
+    },
+    {
+      "shortSha": "564fd99",
+      "message": "Refine LaTeX captions and comments in outcome analysis scripts; update XeTeX log timestamp",
+      "author": "Kasper",
+      "date": "2026-09-26T02:09:47Z"
+    },
+    {
+      "shortSha": "6b62fae",
+      "message": "Update analysis results and logs with new timestamps and content adjustments",
+      "author": "Kasper",
+      "date": "2026-09-26T02:03:22Z"
+    },
+    {
+      "shortSha": "8999504",
+      "message": "Update title page log and PDF for NPC System submission",
+      "author": "Kasper",
+      "date": "2026-09-26T01:54:52Z"
+    },
+    {
+      "shortSha": "5a7d245",
+      "message": "Refactor outcome and runtime reporting in NPC system",
+      "author": "Kasper",
+      "date": "2026-09-26T01:50:44Z"
+    },
+    {
+      "shortSha": "86c028b",
+      "message": "update",
+      "author": "Kasper",
+      "date": "2026-09-26T01:37:42Z"
+    },
+    {
+      "shortSha": "6f2e8d6",
+      "message": "update",
+      "author": "Kasper",
+      "date": "2026-09-26T01:37:06Z"
+    },
+    {
+      "shortSha": "f1b83ee",
+      "message": "Refactor NPC system scripts and enhance evidence reproduction",
+      "author": "Kasper",
+      "date": "2026-09-26T00:23:13Z"
+    },
+    {
+      "shortSha": "07d719a",
+      "message": "Add NPC persistence, population, and test support scripts",
+      "author": "Kasper",
+      "date": "2026-09-25T23:32:54Z"
+    },
+    {
+      "shortSha": "7ca6689",
+      "message": "Add script to reproduce evidence and update release information",
+      "author": "Kasper",
+      "date": "2026-09-25T22:05:26Z"
+    },
+    {
+      "shortSha": "5073782",
+      "message": "Add evidence reproduction script and update release metadata",
+      "author": "Kasper",
+      "date": "2026-09-25T22:02:35Z"
+    },
+    {
+      "shortSha": "d5736ae",
+      "message": "Refactor NPC system documentation and submission materials",
+      "author": "Kasper",
+      "date": "2026-09-25T22:00:48Z"
+    },
+    {
+      "shortSha": "987993b",
+      "message": "Implement various scripts for NPC system enhancements and literature documentation",
+      "author": "Kasper",
+      "date": "2026-09-25T21:28:52Z"
+    },
     {
       "shortSha": "969a57f",
       "message": "Enhance character capture functionality and update runtime diagnostics",
