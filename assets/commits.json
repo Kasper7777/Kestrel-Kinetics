@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-10-04T15:20:33.578Z",
-  "commitCount": 2537,
+  "generatedAt": "2026-10-04T19:36:25.929Z",
+  "commitCount": 2542,
   "commits": [
+    {
+      "shortSha": "d826821",
+      "message": "Ignore oversize NPC_Navigation research artifacts",
+      "author": "Kasper",
+      "date": "2026-10-04T16:40:18Z"
+    },
+    {
+      "shortSha": "24b66cf",
+      "message": "llll",
+      "author": "Kasper",
+      "date": "2026-10-04T16:17:55Z"
+    },
+    {
+      "shortSha": "ad2a484",
+      "message": "hhh",
+      "author": "Kasper",
+      "date": "2026-10-04T14:44:49Z"
+    },
+    {
+      "shortSha": "4572f69",
+      "message": "kkkk",
+      "author": "Kasper",
+      "date": "2026-10-04T14:30:28Z"
+    },
+    {
+      "shortSha": "90be374",
+      "message": "gggg",
+      "author": "Kasper",
+      "date": "2026-10-04T13:06:21Z"
+    },
     {
       "shortSha": "3525b6b",
       "message": "hhhi",
