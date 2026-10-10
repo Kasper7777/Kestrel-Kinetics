@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-10-10T17:50:32.844Z",
-  "commitCount": 2574,
+  "generatedAt": "2026-10-10T21:40:34.399Z",
+  "commitCount": 2577,
   "commits": [
+    {
+      "shortSha": "ed79ea4",
+      "message": "Add new experiment data and figures for grip experiment on 20261010",
+      "author": "Kasper",
+      "date": "2026-10-10T21:28:48Z"
+    },
+    {
+      "shortSha": "4ffe2b3",
+      "message": "Add new experiment data and figures for grip experiment on 20261010",
+      "author": "Kasper",
+      "date": "2026-10-10T21:08:13Z"
+    },
+    {
+      "shortSha": "cfae804",
+      "message": "Add new figures and update paper content for grip research",
+      "author": "Kasper",
+      "date": "2026-10-10T21:07:24Z"
+    },
     {
       "shortSha": "1ba49c7",
       "message": "momo",
