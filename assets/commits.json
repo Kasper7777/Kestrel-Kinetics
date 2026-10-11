@@ -1,7 +1,79 @@
 {
-  "generatedAt": "2026-10-11T07:10:08.807Z",
-  "commitCount": 2580,
+  "generatedAt": "2026-10-11T14:01:11.735Z",
+  "commitCount": 2592,
   "commits": [
+    {
+      "shortSha": "bf14051",
+      "message": "Save latest grip geometry and signed-field test updates",
+      "author": "Kasper",
+      "date": "2026-10-11T12:55:09Z"
+    },
+    {
+      "shortSha": "554db82",
+      "message": "Preserve grip snapshot through incremental upload",
+      "author": "Kasper",
+      "date": "2026-10-11T12:43:45Z"
+    },
+    {
+      "shortSha": "37d1b6e",
+      "message": "Prepare grip snapshot upload (batch 7/7)",
+      "author": "Kasper",
+      "date": "2026-10-11T12:39:23Z"
+    },
+    {
+      "shortSha": "bbecd0d",
+      "message": "Prepare grip snapshot upload (batch 6/7)",
+      "author": "Kasper",
+      "date": "2026-10-11T12:39:23Z"
+    },
+    {
+      "shortSha": "9ae9584",
+      "message": "Prepare grip snapshot upload (batch 5/7)",
+      "author": "Kasper",
+      "date": "2026-10-11T12:39:22Z"
+    },
+    {
+      "shortSha": "4508733",
+      "message": "Prepare grip snapshot upload (batch 4/7)",
+      "author": "Kasper",
+      "date": "2026-10-11T12:39:22Z"
+    },
+    {
+      "shortSha": "4ba1351",
+      "message": "Prepare grip snapshot upload (batch 3/7)",
+      "author": "Kasper",
+      "date": "2026-10-11T12:39:21Z"
+    },
+    {
+      "shortSha": "a0228bb",
+      "message": "Prepare grip snapshot upload (batch 2/7)",
+      "author": "Kasper",
+      "date": "2026-10-11T12:39:21Z"
+    },
+    {
+      "shortSha": "c93c5bd",
+      "message": "Prepare grip snapshot upload (batch 1/7)",
+      "author": "Kasper",
+      "date": "2026-10-11T12:39:20Z"
+    },
+    {
+      "shortSha": "8e53a70",
+      "message": "Add two-thread configurations to grip timing experiments",
+      "author": "Kasper",
+      "date": "2026-10-11T12:28:56Z"
+    },
+    {
+      "shortSha": "28cb7b8",
+      "message": "Refine CGAG algorithm and performance metrics in research paper",
+      "author": "Kasper",
+      "date": "2026-10-11T12:25:57Z"
+    },
+    {
+      "shortSha": "0ebe9e0",
+      "message": "Update grip solver, experiment captures, and research paper",
+      "author": "Kasper",
+      "date": "2026-10-11T12:25:02Z"
+    },
     {
       "shortSha": "5675ee1",
       "message": "Add new pistol images for various angles and models",
