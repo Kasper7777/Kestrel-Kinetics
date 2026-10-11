@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-10-10T21:40:34.399Z",
-  "commitCount": 2577,
+  "generatedAt": "2026-10-11T00:59:33.011Z",
+  "commitCount": 2580,
   "commits": [
+    {
+      "shortSha": "5675ee1",
+      "message": "Add new pistol images for various angles and models",
+      "author": "Kasper",
+      "date": "2026-10-10T23:56:55Z"
+    },
+    {
+      "shortSha": "58ac49c",
+      "message": "Refactor qualitative figure and results sections for clarity and consistency",
+      "author": "Kasper",
+      "date": "2026-10-10T23:34:18Z"
+    },
+    {
+      "shortSha": "50dd541",
+      "message": "Add new images and update research paper content",
+      "author": "Kasper",
+      "date": "2026-10-10T23:03:11Z"
+    },
     {
       "shortSha": "ed79ea4",
       "message": "Add new experiment data and figures for grip experiment on 20261010",
