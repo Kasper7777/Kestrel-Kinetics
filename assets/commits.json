@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-10-17T19:21:55.092Z",
-  "commitCount": 2614,
+  "generatedAt": "2026-10-17T22:16:17.674Z",
+  "commitCount": 2617,
   "commits": [
+    {
+      "shortSha": "11a388f",
+      "message": "Reorder include statements in EnemyMakerSpawner.cpp for consistency",
+      "author": "Kasper",
+      "date": "2026-10-17T21:58:13Z"
+    },
+    {
+      "shortSha": "a059172",
+      "message": "Refine documentation and improve clarity in main_ijcat.ttt; update references in refs.bib; adjust log timestamps and output sizes in supplement_ijcat.log and supplement_ijcat.pdf; enhance explanations in supplement_ijcat.tex regarding gameplay mechanics and error tolerances.",
+      "author": "Kasper",
+      "date": "2026-10-17T21:32:03Z"
+    },
+    {
+      "shortSha": "b012898",
+      "message": "kkk",
+      "author": "Kasper",
+      "date": "2026-10-17T20:40:21Z"
+    },
     {
       "shortSha": "c3df681",
       "message": "Merge branch 'Multiplatform' of private source into Multiplatform",
