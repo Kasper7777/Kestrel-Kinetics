@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-10-19T13:07:20.138Z",
-  "commitCount": 2617,
+  "generatedAt": "2026-10-19T19:18:53.738Z",
+  "commitCount": 2623,
   "commits": [
+    {
+      "shortSha": "4212fe5",
+      "message": "Keep raw climb run frames and engine logs out of git",
+      "author": "Kasper",
+      "date": "2026-10-19T17:41:01Z"
+    },
+    {
+      "shortSha": "1f935ca",
+      "message": "Physical climbing: reference-guided executor and reach work",
+      "author": "Kasper",
+      "date": "2026-10-19T17:37:36Z"
+    },
+    {
+      "shortSha": "9496a22",
+      "message": "Save latest physical climbing source and experiment results",
+      "author": "Kasper",
+      "date": "2026-10-18T19:29:18Z"
+    },
+    {
+      "shortSha": "853cd3c",
+      "message": "Update physical climbing experiments and local project settings",
+      "author": "Kasper",
+      "date": "2026-10-18T19:25:22Z"
+    },
+    {
+      "shortSha": "314587e",
+      "message": "Add physical climbing implementation and research assets",
+      "author": "Kasper",
+      "date": "2026-10-18T19:20:25Z"
+    },
+    {
+      "shortSha": "20e9dc0",
+      "message": "hhhhj",
+      "author": "Kasper",
+      "date": "2026-10-18T16:14:28Z"
+    },
     {
       "shortSha": "11a388f",
       "message": "Reorder include statements in EnemyMakerSpawner.cpp for consistency",
