@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-10-22T10:08:26.595Z",
-  "commitCount": 2626,
+  "generatedAt": "2026-10-22T15:15:02.853Z",
+  "commitCount": 2632,
   "commits": [
+    {
+      "shortSha": "d39a8f1",
+      "message": "Update supplementary materials and tables for Paper_IJCAT",
+      "author": "Kasper",
+      "date": "2026-10-22T15:10:48Z"
+    },
+    {
+      "shortSha": "4d5c768",
+      "message": "Add confirmation macros and update supplementary materials",
+      "author": "Kasper",
+      "date": "2026-10-22T13:32:56Z"
+    },
+    {
+      "shortSha": "6a8b431",
+      "message": "Refactor supplementary materials and update evaluation tables",
+      "author": "Kasper",
+      "date": "2026-10-22T12:24:56Z"
+    },
+    {
+      "shortSha": "0fbf12d",
+      "message": "Add supplementary material and update tables for ESCAPE and CLIMB evaluations",
+      "author": "Kasper",
+      "date": "2026-10-22T11:20:19Z"
+    },
+    {
+      "shortSha": "51104f7",
+      "message": "Update revision macros and tables for clarity and accuracy",
+      "author": "Kasper",
+      "date": "2026-10-22T11:08:52Z"
+    },
+    {
+      "shortSha": "469433a",
+      "message": "Add new evaluation conditions to e3_conditions.tex",
+      "author": "Kasper",
+      "date": "2026-10-22T10:13:44Z"
+    },
     {
       "shortSha": "a2f0978",
       "message": "Add new macros for climbing data and introduce collapse outcomes table",
