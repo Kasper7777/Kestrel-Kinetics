@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-10-22T04:39:25.504Z",
-  "commitCount": 2625,
+  "generatedAt": "2026-10-22T10:08:26.595Z",
+  "commitCount": 2626,
   "commits": [
+    {
+      "shortSha": "a2f0978",
+      "message": "Add new macros for climbing data and introduce collapse outcomes table",
+      "author": "Kasper",
+      "date": "2026-10-22T09:25:05Z"
+    },
     {
       "shortSha": "ed513ee",
       "message": "aaa",
