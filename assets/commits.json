@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-10-25T16:12:28.403Z",
-  "commitCount": 2635,
+  "generatedAt": "2026-10-25T19:01:22.680Z",
+  "commitCount": 2636,
   "commits": [
+    {
+      "shortSha": "cecb978",
+      "message": "Add new tables for evaluation results and hypotheses in Paper_IJCAT",
+      "author": "Kasper",
+      "date": "2026-10-25T18:26:29Z"
+    },
     {
       "shortSha": "c5238a9",
       "message": "Update supplementary materials for Paper_IJCAT",
