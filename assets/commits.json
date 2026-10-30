@@ -1,7 +1,211 @@
 {
-  "generatedAt": "2026-10-30T01:56:37.817Z",
-  "commitCount": 2640,
+  "generatedAt": "2026-10-30T08:35:53.617Z",
+  "commitCount": 2674,
   "commits": [
+    {
+      "shortSha": "c276b68",
+      "message": "Capture completed grounding results and generation logs",
+      "author": "Kasper",
+      "date": "2026-10-30T02:20:20Z"
+    },
+    {
+      "shortSha": "4f56ce8",
+      "message": "Finalize batched upload of project and research assets",
+      "author": "Kasper",
+      "date": "2026-10-30T02:17:03Z"
+    },
+    {
+      "shortSha": "d3968b3",
+      "message": "Update grounded outputs, supplementary scripts, and paper contents",
+      "author": "Kasper",
+      "date": "2026-10-30T02:07:45Z"
+    },
+    {
+      "shortSha": "c8d4ca0",
+      "message": "Capture final generated ablation outputs and local tool settings",
+      "author": "Kasper",
+      "date": "2026-10-30T01:44:24Z"
+    },
+    {
+      "shortSha": "5ed9261",
+      "message": "Temporary transfer batch 19/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:32Z"
+    },
+    {
+      "shortSha": "529cd23",
+      "message": "Temporary transfer batch 20/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:32Z"
+    },
+    {
+      "shortSha": "71fd2da",
+      "message": "Temporary transfer batch 21/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:32Z"
+    },
+    {
+      "shortSha": "382e02f",
+      "message": "Temporary transfer batch 22/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:32Z"
+    },
+    {
+      "shortSha": "df3c428",
+      "message": "Temporary transfer batch 23/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:32Z"
+    },
+    {
+      "shortSha": "d94f5c3",
+      "message": "Temporary transfer batch 24/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:32Z"
+    },
+    {
+      "shortSha": "798a8a7",
+      "message": "Temporary transfer batch 25/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:32Z"
+    },
+    {
+      "shortSha": "9f079ab",
+      "message": "Temporary transfer batch 11/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:31Z"
+    },
+    {
+      "shortSha": "a3812a3",
+      "message": "Temporary transfer batch 12/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:31Z"
+    },
+    {
+      "shortSha": "2b4e0fc",
+      "message": "Temporary transfer batch 13/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:31Z"
+    },
+    {
+      "shortSha": "943d564",
+      "message": "Temporary transfer batch 14/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:31Z"
+    },
+    {
+      "shortSha": "b598f34",
+      "message": "Temporary transfer batch 15/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:31Z"
+    },
+    {
+      "shortSha": "fca36e1",
+      "message": "Temporary transfer batch 16/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:31Z"
+    },
+    {
+      "shortSha": "c45eb31",
+      "message": "Temporary transfer batch 17/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:31Z"
+    },
+    {
+      "shortSha": "d498a83",
+      "message": "Temporary transfer batch 18/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:31Z"
+    },
+    {
+      "shortSha": "fc96911",
+      "message": "Temporary transfer batch 3/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:30Z"
+    },
+    {
+      "shortSha": "436364c",
+      "message": "Temporary transfer batch 4/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:30Z"
+    },
+    {
+      "shortSha": "44a1556",
+      "message": "Temporary transfer batch 5/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:30Z"
+    },
+    {
+      "shortSha": "16fc053",
+      "message": "Temporary transfer batch 6/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:30Z"
+    },
+    {
+      "shortSha": "efcb0fa",
+      "message": "Temporary transfer batch 7/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:30Z"
+    },
+    {
+      "shortSha": "c2ffcff",
+      "message": "Temporary transfer batch 8/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:30Z"
+    },
+    {
+      "shortSha": "bf7e656",
+      "message": "Temporary transfer batch 9/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:30Z"
+    },
+    {
+      "shortSha": "e8f0b50",
+      "message": "Temporary transfer batch 10/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:30Z"
+    },
+    {
+      "shortSha": "030ed42",
+      "message": "Temporary transfer batch 1/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:29Z"
+    },
+    {
+      "shortSha": "4fdbdf1",
+      "message": "Temporary transfer batch 2/25",
+      "author": "Kasper",
+      "date": "2026-10-30T01:29:29Z"
+    },
+    {
+      "shortSha": "ce68b9b",
+      "message": "Update dog rig, quadruped datasets, and research revisions",
+      "author": "Kasper",
+      "date": "2026-10-30T01:27:12Z"
+    },
+    {
+      "shortSha": "872081a",
+      "message": "Capture latest generated quadruped data and local settings",
+      "author": "Kasper",
+      "date": "2026-10-30T00:04:41Z"
+    },
+    {
+      "shortSha": "fbddff6",
+      "message": "Add neural dog controller and update quadruped research",
+      "author": "Kasper",
+      "date": "2026-10-30T00:04:05Z"
+    },
+    {
+      "shortSha": "f684328",
+      "message": "Update quadruped animations, experiments, and research submission",
+      "author": "Kasper",
+      "date": "2026-10-29T22:01:17Z"
+    },
+    {
+      "shortSha": "957a093",
+      "message": "aaaa",
+      "author": "Kasper",
+      "date": "2026-10-29T16:00:07Z"
+    },
     {
       "shortSha": "18433e9",
       "message": "aaaa",
