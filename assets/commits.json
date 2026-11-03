@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-11-03T17:50:08.520Z",
-  "commitCount": 2680,
+  "generatedAt": "2026-11-03T23:18:14.376Z",
+  "commitCount": 2683,
   "commits": [
+    {
+      "shortSha": "8a2c845",
+      "message": "Refine main.tex, results_m1.tex, conclusion.tex, design.tex, and discussion.tex for clarity and precision; update supplementary.log timestamp; add reproducibility zip file.",
+      "author": "Kasper",
+      "date": "2026-11-03T22:55:31Z"
+    },
+    {
+      "shortSha": "3f7ae06",
+      "message": "Add perception analysis and supplementary materials for quadruped motion study",
+      "author": "Kasper",
+      "date": "2026-11-03T22:29:06Z"
+    },
+    {
+      "shortSha": "e89c362",
+      "message": "Add macros and tables for gait measures and round 14 analysis",
+      "author": "Kasper",
+      "date": "2026-11-03T21:26:31Z"
+    },
     {
       "shortSha": "51e01c1",
       "message": "Update quadruped research and remove obsolete experiment data",
